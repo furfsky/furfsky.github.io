@@ -19,7 +19,10 @@ const data = {
       `this isn't ending into a furry porn discord we swear`,
       `if you're looking for porn, this is the wrong discord server`,
       `<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">join discord server here</a>`,
-      `${fetch("https://discordapp.com/api/guilds/356230556738125824/widget.json")}`
+      `reload for another message`,
+      `Winner of 2020 best pack award.`,
+      `<h2>big text</h2>`
+    //   `${fetch("https://discordapp.com/api/guilds/356230556738125824/widget.json")}`
     ],
   },
   artists: [

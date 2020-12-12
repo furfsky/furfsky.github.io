@@ -9,7 +9,7 @@ header {
 section {
   background: #1c1d31;
   margin: 0;
-  height: 100vh;
+  height: 50vh;
   padding: 25px;
 }
 h1 {
@@ -28,6 +28,14 @@ header > h1 {
   margin: 0;
   color: #fbcc6c;
 }
+header > .downloadButtons {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width:100%;
+}
 img {
   user-drag: none;
   user-select: none;
@@ -44,10 +52,16 @@ img {
   transform: translate(-50%, -60%);
 }
 .downloadButton{
-    display: inline-block;
+    font-size:25px;
     border-radius: 25px;
-    color:white;
+    color:white ;
     background:#c65df0;
     padding:10px;
     text-align:center;
+    margin:25px;
+    display:inline-block;
+}
+.downloadButton > a{
+    color:white;
+    text-decoration: none;
 }
