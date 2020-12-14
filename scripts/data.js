@@ -1,6 +1,6 @@
 const data = {
   header: {
-    image: "/assets/logo.gif",
+    image: "assets/logo.gif",
     subtitle: [
       `Furfsky+ but its reborn`,
       `bottem text`,
@@ -114,10 +114,10 @@ let navbar = document.createElement("nav")
 navbar.innerHTML = `
 <ul>
  <li>
-  <a href="/"><img src="/assets/navbar/home.png" /></a>
+  <a href="/"><img src="assets/navbar/home.png" /></a>
  </li>
  <li>
-  <a href="/downloads/"><img src="/assets/navbar/downloads.png" /></a>
+  <a href="/downloads/"><img src="assets/navbar/downloads.png" /></a>
  </li>
 </ul>
 `
