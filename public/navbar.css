@@ -1,0 +1,27 @@
+nav ul {
+  width: 100%;
+  list-style-type: none;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 20px
+}
+nav ul li a img {
+  position: relative;
+  top: -3px;
+  height: 60px;
+}
+nav ul li a:hover > img {
+  filter: hue-rotate(90deg);
+  top: 0px;
+}
+nav ul li a {
+  display: block;
+}
+nav{
+    height:10%;
+}

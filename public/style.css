@@ -1,16 +1,10 @@
 header {
   background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(28, 29, 49, 1) 90%),
-    url(assets/banner.png) no-repeat;
+    url(/assets/banner.png) no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100%;
   text-align: center;
-}
-section {
-  background: #1c1d31;
-  margin: 0;
-  height: 50vh;
-  padding: 25px;
 }
 h1 {
   margin: 0;
@@ -20,16 +14,18 @@ p {
   margin: 0;
   color: #c87333;
 }
-header > h1 {
+header > #headerSubtitle {
   position: absolute;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family:"Minecraft";
   margin: 0;
   color: #fbcc6c;
 }
 header > .downloadButtons {
   position: absolute;
+  font-family:"Minecraft";
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -47,9 +43,9 @@ img {
 #logo {
   position: absolute;
   width: 40%;
-  top: 40%;
+  top: 35%;
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -50%);
 }
 .downloadButton {
   font-size: 25px;
@@ -70,6 +66,9 @@ img {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.socials > a{
+    color:#ffffff00
 }
 svg {
   fill: #fbcc6c;
