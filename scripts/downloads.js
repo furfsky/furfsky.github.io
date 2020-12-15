@@ -8,9 +8,9 @@ data.downloads.forEach((download) => {
   text.className = "downloadText";
   text.innerHTML = `${download.version} - ${download.name}`;
   FLButton.className = "downloadButton";
-  FLButton.innerHTML = `<a href="${download.fileFull.toString()}" download>v1.0.0 Latest Full</a>`;
+  FLButton.innerHTML = `<a href="${download.fileFull.toString()}" download>${download.version} Full</a>`;
   OVButton.className = "downloadButton";
-  OVButton.innerHTML = `${download.version} Overlay`;
+  OVButton.innerHTML = `<a href="${download.fileOverlay.toString()}" download>${download.version} Overlay</a>`;
   wrapper.className = "downloadButtons";
   wrapper.appendChild(text);
   wrapper.appendChild(FLButton);

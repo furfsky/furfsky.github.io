@@ -27,7 +27,7 @@ const data = {
       `website by voxal`,
       `boost the server for a cool role`,
       `Furfsky never dies`,
-      `<span contenteditable="true">you can edit this text</span>`,
+      `<p contenteditable="true">you can edit this text</p>`,
       `life is short like my pp -Swaftworth`,
     ],
   },
@@ -170,10 +170,22 @@ navbar.innerHTML = `
   <a>
     <img 
     src="/assets/navbar/gallery.png" 
+    onmouseover="this.src='/assets/navbar/gallery_pressed.png'"
+    onmouseout="this.src='/assets/navbar/gallery.png'"
     class="disabled-tab"
     />
   </a>
  </li>
+ <li>
+   <a>
+     <img 
+     src="/assets/navbar/credits.png" 
+     onmouseover="this.src='/assets/navbar/credits_pressed.png'"
+     onmouseout="this.src='/assets/navbar/credits.png'"
+     class="disabled-tab"
+     />
+  </a>
+</li>
 </ul>
 `;
 document.body.insertBefore(navbar, document.body.firstChild);
