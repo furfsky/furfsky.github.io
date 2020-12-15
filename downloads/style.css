@@ -6,10 +6,43 @@ header {
   width: 100%;
   text-align: center;
 }
+
 #logo {
   position: absolute;
   width: 40%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+#downloadContainer {
+  background: #1c1d31;
+  color:white;
+}
+.downloadButtons {
+  font-family: "Minecraft";
+  text-align: center;
+}
+.downloadButton {
+  font-size: 25px;
+  border-radius: 50px;
+  color: white;
+  background: #c65df0;
+  padding: 10px;
+  text-align: center;
+  margin: 25px;
+  display: inline-block;
+  border: 5px solid #662e96;
+}
+.downloadButton:hover {
+  color: white;
+  background: #662e96;
+  border: 5px solid #c65df0;
+}
+.downloadButton > a {
+  color: white;
+  text-decoration: none;
+}
+.downloadText {
+  text-align: center;
+  margin:0;
 }

@@ -19,13 +19,13 @@ header > #headerSubtitle {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family:"Minecraft";
+  font-family: "Minecraft";
   margin: 0;
   color: #fbcc6c;
 }
 header > .downloadButtons {
   position: absolute;
-  font-family:"Minecraft";
+  font-family: "Minecraft";
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -58,6 +58,11 @@ img {
   display: inline-block;
   border: 5px solid #662e96;
 }
+.downloadButton:hover {
+  color: white;
+  background: #662e96;
+  border: 5px solid #c65df0;
+}
 .downloadButton > a {
   color: white;
   text-decoration: none;
@@ -67,13 +72,16 @@ img {
   bottom: 0;
   right: 0;
 }
-.socials > a{
-    color:#ffffff00
+.socials > a {
+  color: #ffffff00;
 }
 svg {
   fill: #fbcc6c;
-  transition:200ms
+  transition: 200ms;
 }
 svg:hover {
   fill: #c87333;
+}
+body {
+  overflow: hidden;
 }

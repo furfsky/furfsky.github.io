@@ -6,7 +6,6 @@ const data = {
       `bottem text`,
       `The second era of Furfsky+`,
       `undefined`,
-      `Better than packsHQ`,
       `"ill kill you." -sai`,
       `i wanted free vbucks :(`,
       `"porn is fine, roblox isnt" -furryeboy`,
@@ -37,16 +36,16 @@ const data = {
       version: "v1.0.0",
       name: "FULL RELEASE",
       fileFull:
-        "files/v1.0.0/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lFL §8§l[§71.0.0§8§l].zip",
+        "/files/v1.0.0/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lFL §8§l[§71.0.0§8§l].zip",
       fileOverlay:
-        "files/v1.0.0/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lOV §8§l[§71.0.0§8§l].zip",
+        "/files/v1.0.0/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lOV §8§l[§71.0.0§8§l].zip",
     },
     {
       version: "v0.2.0",
-      name: "",
-      fileFull: "files/v0.2.0/§6Furf§5Sky §eReborn §8§lFL [§70.2.0.§8§l].zip",
+      name: " F7 and Jacob Events",
+      fileFull: "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lFL [§70.2.0.§8§l].zip",
       fileOverlay:
-        "files/v0.2.0/§6Furf§5Sky §eReborn §8§lOV [§70.2.0.§8§l].zip",
+        "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lOV [§70.2.0.§8§l].zip",
     },
   ],
   credits: [
@@ -121,7 +120,7 @@ const data = {
     {
       name: "parakeetiscool",
       role: "Head Moderator",
-      quote: "",
+      quote: "you wet tubesock",
     },
     {
       name: "SeBook",
