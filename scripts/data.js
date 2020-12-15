@@ -1,6 +1,6 @@
 const data = {
   header: {
-    image: "assets/logo.gif",
+    image: "",
     subtitle: [
       `Furfsky+ but its reborn`,
       `bottem text`,
@@ -28,43 +28,49 @@ const data = {
       `website by voxal`,
       `boost the server for a cool role`,
       `Furfsky never dies`,
-      `<p contenteditable="true">you can edit this text</p>`,
-
-      //   `${fetch("https://discordapp.com/api/guilds/356230556738125824/widget.json")}`
+      `<span contenteditable="true">you can edit this text</span>`,
+      `life is short like my pp -Swaftworth`,
     ],
-  }, //make it possible to add more sections
-  /**
-   * @template
-   *{
-   *  version:"vX.X.X",
-   *  fileFull:"files/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lFL §8§l[§7X.X.X§8§l].zip",
-   *  fileOverlay:"files/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lOV §8§l[§7X.X.X§8§l].zip"
-   *}
-   */
+  },
   downloads: [
     {
       version: "v1.0.0",
+      name: "FULL RELEASE",
       fileFull:
-        "files/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lFL §8§l[§71.0.0§8§l].zip",
+        "files/v1.0.0/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lFL §8§l[§71.0.0§8§l].zip",
       fileOverlay:
-        "files/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lOV §8§l[§71.0.0§8§l].zip",
+        "files/v1.0.0/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lOV §8§l[§71.0.0§8§l].zip",
+    },
+    {
+      version: "v0.2.0",
+      name: "",
+      fileFull: "files/v0.2.0/§6Furf§5Sky §eReborn §8§lFL [§70.2.0.§8§l].zip",
+      fileOverlay:
+        "files/v0.2.0/§6Furf§5Sky §eReborn §8§lOV [§70.2.0.§8§l].zip",
     },
   ],
   credits: [
     {
+      name: "FurryEboy",
+      link: "https://www.youtube.com/channel/UC2GO6UL1OEC0Lk35bhMtNRQ",
+      role: "Manager",
+      quote: "porn is fine, roblox isn't",
+    },
+    {
       name: "Saikage",
       link: "https://hypixel.net/members/3250921/",
+      role: "Head Artist",
+      quote: "mmmf fuck me daddy uwu",
+    },
+    {
+      name: "SoshJam",
+      link: "https://hypixel.net/members/1196292/",
       role: "Head Artist",
     },
     {
       name: "iDevil4Hell",
       link: "https://hypixel.net/members/3639006/",
       role: "Retired Artist",
-    },
-    {
-      name: "SoshJam",
-      link: "https://hypixel.net/members/1196292/",
-      role: "Head Artist",
     },
     {
       name: "xOticz_",
@@ -80,6 +86,7 @@ const data = {
       name: "PcArte01",
       link: "https://hypixel.net/members/3394976/",
       role: "Artist",
+      quote: "your toes will be pulled tonight",
     },
     {
       name: "PigTurtle",
@@ -105,20 +112,72 @@ const data = {
       link: "https://hypixel.net/members/3925718/",
       role: "Artist",
     },
+    {
+      name: "voxal",
+      link: "https://vooxal.github.io", // update this bitch, its so old and bad
+      role: "Website Developer",
+      quote: "ugh pain, everything is pain",
+    },
+    {
+      name: "parakeetiscool",
+      role: "Head Moderator",
+      quote: "",
+    },
+    {
+      name: "SeBook",
+      link: "https://www.youtube.com/channel/UCFeGrtZbI6miqtdWiph_D3Q",
+      role: "Moderator",
+      quote: "sebook is the best mod",
+    },
+    {
+      name: "Festive_bread",
+      role: "Moderator",
+    },
+    {
+      name: "Wea",
+      role: "Moderator",
+    },
+    {
+      name: "Festive_Pig",
+      role: "Moderator",
+    },
   ],
 };
 
 //inject navbar
-let navbar = document.createElement("nav")
-//make this custom depending on page cause 
+let navbar = document.createElement("nav");
+
 navbar.innerHTML = `
 <ul>
  <li>
-  <a href="./"><img src="./assets/navbar/home.png" /></a>
+  <a href="/">
+    <img 
+    src="/assets/navbar/home.png" 
+    onmouseover="this.src='/assets/navbar/home_pressed.png'"
+    onmouseout="this.src='/assets/navbar/home.png'"
+    />
+  </a>
  </li>
  <li>
-  <a href="./downloads/"><img src="./assets/navbar/downloads.png" /></a>
+  <a href="/downloads/">
+    <img 
+    src="/assets/navbar/downloads.png" 
+    onmouseover="this.src='/assets/navbar/downloads_pressed.png'"
+    onmouseout="this.src='/assets/navbar/downloads.png'"
+    />
+  </a>
+ </li>
+ <li>
+  <a>
+    <img 
+    src="/assets/navbar/gallery.png" 
+    class="disabled-tab"
+    />
+  </a>
  </li>
 </ul>
-`
+`;
 document.body.insertBefore(navbar, document.body.firstChild);
+//meta tags
+
+document.head.append();

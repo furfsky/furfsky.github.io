@@ -16,12 +16,14 @@ nav ul li a img {
   height: 60px;
 }
 nav ul li a:hover > img {
-  filter: hue-rotate(90deg);
-  top: 0px;
+  top: -3px;
 }
 nav ul li a {
   display: block;
 }
 nav{
     height:10%;
+}
+.disabled-tab{
+  filter: grayscale(100%);
 }
