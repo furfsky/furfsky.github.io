@@ -110,14 +110,14 @@ const data = {
 
 //inject navbar
 let navbar = document.createElement("nav")
-
+//make this custom depending on page cause 
 navbar.innerHTML = `
 <ul>
  <li>
-  <a href="/"><img src="assets/navbar/home.png" /></a>
+  <a href="./"><img src="./assets/navbar/home.png" /></a>
  </li>
  <li>
-  <a href="/downloads/"><img src="assets/navbar/downloads.png" /></a>
+  <a href="./downloads/"><img src="./assets/navbar/downloads.png" /></a>
  </li>
 </ul>
 `
