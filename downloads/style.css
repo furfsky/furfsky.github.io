@@ -17,9 +17,10 @@ header {
 #downloadContainer {
   background: #1c1d31;
   color:white;
+  font-family: "Minecraft";
 }
 .downloadButtons {
-  font-family: "Minecraft";
+
   text-align: center;
 }
 .downloadButton {

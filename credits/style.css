@@ -13,3 +13,18 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+#credits {
+  background: #1c1d31;
+  color: white;
+  font-family: "Minecraft";
+  text-align: center;
+}
+#credits > div {
+  display: inline-block;
+  margin:20px;
+}
+#credits > div > a{
+    color:white;
+    text-decoration: none;
+}
+

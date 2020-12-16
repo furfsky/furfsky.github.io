@@ -97,7 +97,7 @@ const data = {
       role: "Artist",
     },
     {
-      name: "Perpillow_",
+      name: "Perpillow",
       link: "https://hypixel.net/members/1631725/",
       role: "Artist",
     },
@@ -131,10 +131,12 @@ const data = {
     {
       name: "Festive_bread",
       role: "Moderator",
+      quote:"if you do not like bread your existence in the fourth dimension is illegal"
     },
     {
-      name: "Wea",
+      name: "tea",
       role: "Moderator",
+      quote: "imagine not wanting fatfuck's opinion",
     },
     {
       name: "Festive_Pig",
@@ -172,6 +174,7 @@ navbar.innerHTML = `
     src="/assets/navbar/gallery.png" 
     onmouseover="this.src='/assets/navbar/gallery_pressed.png'"
     onmouseout="this.src='/assets/navbar/gallery.png'"
+    onclick="alert('Under Construction!')"
     class="disabled-tab"
     />
   </a>
@@ -182,6 +185,7 @@ navbar.innerHTML = `
      src="/assets/navbar/credits.png" 
      onmouseover="this.src='/assets/navbar/credits_pressed.png'"
      onmouseout="this.src='/assets/navbar/credits.png'"
+     onclick="alert('Under Construction!')"
      class="disabled-tab"
      />
   </a>
