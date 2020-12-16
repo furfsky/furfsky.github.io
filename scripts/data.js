@@ -48,6 +48,13 @@ const data = {
         "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lOV [§70.2.0.§8§l].zip",
     },
   ],
+  creditColors: {
+    "Head Artist": "#ffc0cb",
+    Artist: "#b19cd9",
+    "Head Moderator": "#4b8b3b",
+    Moderator: "#17d44a",
+    "Website Developer":"#ffff00"
+  },
   credits: [
     {
       name: "FurryEboy",
@@ -80,6 +87,7 @@ const data = {
       name: "duckiscool69",
       link: "https://hypixel.net/members/2880572/",
       role: "Artist",
+      quote: "i support racism",
     },
     {
       name: "PcArte01",
@@ -129,9 +137,9 @@ const data = {
       quote: "sebook is the best mod",
     },
     {
-      name: "Festive_bread",
+      name: "Toasted_Breaad",
       role: "Moderator",
-      quote:"if you do not like bread your existence in the fourth dimension is illegal"
+      quote: "if you do not like bread you shoudn't exist",
     },
     {
       name: "tea",
@@ -141,6 +149,7 @@ const data = {
     {
       name: "Festive_Pig",
       role: "Moderator",
+      quote: "reeee",
     },
   ],
 };
@@ -185,7 +194,6 @@ navbar.innerHTML = `
      src="/assets/navbar/credits.png" 
      onmouseover="this.src='/assets/navbar/credits_pressed.png'"
      onmouseout="this.src='/assets/navbar/credits.png'"
-     onclick="alert('This Page is in beta. Please give feedback in #website-comments')"
      />
   </a>
 </li>
