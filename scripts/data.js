@@ -180,13 +180,12 @@ navbar.innerHTML = `
   </a>
  </li>
  <li>
-   <a>
+   <a href="/credits/">
      <img 
      src="/assets/navbar/credits.png" 
      onmouseover="this.src='/assets/navbar/credits_pressed.png'"
      onmouseout="this.src='/assets/navbar/credits.png'"
-     onclick="alert('Under Construction!')"
-     class="disabled-tab"
+     onclick="alert('This Page is in beta. Please give feedback in #website-comments')"
      />
   </a>
 </li>
