@@ -53,7 +53,8 @@ const data = {
     Artist: "#b19cd9",
     "Head Moderator": "#4b8b3b",
     Moderator: "#17d44a",
-    "Website Developer":"#ffff00"
+    "Website Developer": "#ffff00",
+    "Pack Contributor": "#00b0b0",
   },
   credits: [
     {
@@ -82,6 +83,7 @@ const data = {
       name: "xOticz_",
       link: "https://hypixel.net/members/3230375/",
       role: "Artist",
+      quote: "shut up I thought u were still in the basement",
     },
     {
       name: "duckiscool69",
@@ -118,6 +120,12 @@ const data = {
       name: "Skeletony",
       link: "https://hypixel.net/members/3925718/",
       role: "Artist",
+      quote: "bootleg sans",
+    },
+    {
+      name: "ThatOneRandomDiscordAccount",
+      role: "Artist",
+      quote: "Dollar Store Skeletony: now with uncreativivity",
     },
     {
       name: "voxal",
@@ -150,6 +158,35 @@ const data = {
       name: "Festive_Pig",
       role: "Moderator",
       quote: "reeee",
+    },
+    {
+      name: "SausageDog359",
+      role: "Pack Contributor",
+    },
+    {
+      name: "D43DALUS",
+      role: "Pack Contributor",
+      quote: "Did it in 13 messages.",
+    },
+    {
+      name: "DTRW191",
+      role: "Pack Contributor",
+    },
+    {
+      name: "Edna Mode",
+      role: "Pack Contributor",
+    },
+    {
+      name: "MyPancakes",
+      role: "Pack Contributor",
+    },
+    {
+      name: "TomEngMaster",
+      role: "Pack Contributor",
+    },
+    {
+      name: "mali komrade",
+      role: "Pack Contributor",
     },
   ],
 };
