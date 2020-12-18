@@ -55,6 +55,7 @@ const data = {
     Moderator: "#17d44a",
     "Website Developer": "#ffff00",
     "Pack Contributor": "#00b0b0",
+    "Discord Contributor":"#aa0000"
   },
   credits: [
     {
@@ -187,6 +188,15 @@ const data = {
     {
       name: "mali komrade",
       role: "Pack Contributor",
+    },
+    {
+      name: "MasterMiner4647",
+      role: "Discord Contributor",
+      quote: "the other quotes aren't family friendly, but mine is",
+    },
+    {
+      name: "gbonk",
+      role: "Discord Contributor",
     },
   ],
 };
