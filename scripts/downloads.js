@@ -7,7 +7,9 @@
     let FLButton = document.createElement("div");
     let OVButton = document.createElement("div");
     text.className = "downloadText";
-    text.innerHTML = `${download.version} - ${download.name}`;
+    text.innerHTML = `${download.version} ${
+      download.name ? `- ${download.name}` : ""
+    }`;
     FLButton.className = "downloadButton";
     FLButton.innerHTML = `<a href="${download.fileFull.toString()}" download>${
       download.version

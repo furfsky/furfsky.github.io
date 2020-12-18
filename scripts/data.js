@@ -17,7 +17,9 @@ const data = {
       `"hitler is cringe lmao" - joseph stalin, 1942`,
       `"This pack is trash" - a bald idiot`,
       `this isn't ending into a furry porn discord we swear`,
-      `if you're looking for porn, this is the wrong discord server`,
+      `if you're looking for porn, this is the ${
+        Math.random() > 0.5 ? "wrong" : "right"
+      } discord server`,
       `<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">join discord server here</a>`,
       `reload for another message`,
       `Winner of 2020 best pack award.`,
@@ -29,9 +31,53 @@ const data = {
       `Furfsky never dies`,
       `<p contenteditable="true">you can edit this text</p>`,
       `life is short like my pp -Swaftworth`,
+      `who needs packs hq anyways -Perpillow`,
+      `god i just hate reality`,
+      `We have a lot of e-girls here`,
+      `why does the discord server exist`,
+      `can you all come up with something more original than PORN -FurryEBoy`,
+      `I purchased a baby clown from the Russian terrorist black market.`,
+      `I don’t support furry rights, but I do support this server`,
+      `FurfSky 2 - now with less porn`,
+      `Sai is ${Math.random() > 0.5 ? "attractive" : "ugly"}`,
+      `even more cursed than the original!`,
+      `"For Furries by Furries"`,
+      `Furfsky reborn - now with more shit, just worse.`,
+      `Now with 56% more shitposting!`,
+      `“Is this the United Airlines costumer service center?”`,
+      `He stomped on his fruit loops and thus became a cereal killer.`,
+      `" You can murder kids, because there's a point in murdering kids,
+      But lying, There's no reason to lie, Only bad people lie. Killing Children is okay though".
+      -Technoblade September 30th, 2014`,
+      `why do they call it oven if you oven the cold food of out hot eat the food`,
+      `Help im locked in a data center`,
+      `what`,
+      `Now works with Wynncraft!`,
+      `i can smell your fear through the screen`,
+      `I am within 100 meters and rapidly approaching -parakeetiscool`,
+      `we will steal your ip and sell it to china`,
+      `we will steal your china and sell it to ip`,
+      `i haven't left my house since furf posted on the forums!`,
+      `i havent left my house, tyler refuses to let me out!`,
+      `help, im locked in the basement`,
+      `i havent left my house pls help me i'm hungry`,
+      `fuck`,
+      `Is this illegal?`,
+      `sai is epic (jk)`,
+      `Our scientists have confirmed that the colour of eggs is gay`,
+      `<span style="font-size:50px">https://discord.com/channels/771187253937438762/772844452116824106/789595450306592798</span>`,
+      `furryegirl`,
+      `furryeboy AR racing simulator`,
     ],
   },
   downloads: [
+    {
+      version: "v1.1.0",
+      fileFull:
+        "/files/v1.1.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.1.0§8§l].zip",
+      fileOverlay:
+        "/files/v1.1.0/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.1.0§8§l].zip",
+    },
     {
       version: "v1.0.0",
       name: "FULL RELEASE",
@@ -55,7 +101,7 @@ const data = {
     Moderator: "#17d44a",
     "Website Developer": "#ffff00",
     "Pack Contributor": "#00b0b0",
-    "Discord Contributor":"#aa0000"
+    "Discord Contributor": "#aa0000",
   },
   credits: [
     {
