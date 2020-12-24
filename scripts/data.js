@@ -98,6 +98,13 @@ const data = {
       `Lets get youtube rank guys! 7/30000`,
       `furf good hq bad`,
       `Lua gets AN EASY F TIER FROM ME`,
+      `🇫​🇺​🇷​🇫​🇸​🇰​🇾 🇷​🇪​🇧​🇴​🇷​🇳`,
+      `Fuck SeBook.`,
+      `i captured this site in my basement`,
+      `who doesn't enjoy a scrumptious load of a table for breakfast`,
+      `Who needs love when you have FurfSky Reborn!`,
+      `God is a woman`,
+      ``,
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1"  draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
     ],
@@ -184,7 +191,7 @@ const data = {
     {
       name: "resanityyy",
       link: "https://hypixel.net/members/1296806/",
-      role: "Artist",
+      role: "Retired Artist",
     },
     {
       name: "Perpillow",
