@@ -104,7 +104,19 @@ const data = {
       `who doesn't enjoy a scrumptious load of a table for breakfast`,
       `Who needs love when you have FurfSky Reborn!`,
       `God is a woman`,
-      ``,
+      `The texture pack Dream used to be "lucky"! Many RNGesus drops guaranteed!`,
+      `welcome back to PEDOFILE GAMING`,
+      `bill nye the science guy`,
+      `No furries allowed`,
+      `Princessai i simp for`,
+      `I miss the old Skyblock days. But my aim is getting better! *plays laugh track*`,
+      `<span tabindex="-1" role="button" style="
+      border-radius: 3px;
+      padding: 0 2px;
+      font-weight: 500;
+      color: #7289da;
+      background: rgba(114,137,218,.1);
+      position: relative;">@everyone</span>`,
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1"  draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
     ],
@@ -137,7 +149,7 @@ const data = {
     Manager: "#ffa500",
     "Head Artist": "#ffc0cb",
     Artist: "#b19cd9",
-    "Head Moderator": "#4b8b3b",
+    "Admin": "#4b8b3b",
     Moderator: "#17d44a",
     "Website Developer": "#ffff00",
     "Pack Contributor": "#00b0b0",
@@ -222,13 +234,13 @@ const data = {
     },
     {
       name: "parakeetiscool",
-      role: "Head Moderator",
+      role: "Admin",
       quote: "you wet tubesock",
     },
     {
       name: "SeBook",
       link: "https://www.youtube.com/channel/UCFeGrtZbI6miqtdWiph_D3Q",
-      role: "Moderator",
+      role: "Admin",
       quote: "sebook is the best mod",
     },
     {
@@ -281,8 +293,9 @@ const data = {
       quote: "the other quotes aren't family friendly, but mine is",
     },
     {
-      name: "gbonk",
+      name: "Gonk",
       role: "Discord Contributor",
+      quote: "you miss 100% of the shots you don't take",
     },
   ],
 };
