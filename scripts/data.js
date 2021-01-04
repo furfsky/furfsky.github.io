@@ -227,6 +227,11 @@ const data = {
       quote: "Dollar Store Skeletony: now with uncreativivity",
     },
     {
+      name: "tea",
+      role: "Trial Artist",
+      quote: "imagine not wanting fatfuck's opinion",
+    },
+    {
       name: "voxal",
       link: "https://vooxal.github.io", // update this bitch, its so old and bad
       role: "Website Developer",
@@ -241,18 +246,14 @@ const data = {
       name: "SeBook",
       link: "https://www.youtube.com/channel/UCFeGrtZbI6miqtdWiph_D3Q",
       role: "Admin",
-      quote: "sebook is the best mod",
+      quote: "sebook is the best admin",
     },
     {
       name: "Toasted_Breaad",
       role: "Moderator",
       quote: "if you do not like bread you shoudn't exist",
     },
-    {
-      name: "tea",
-      role: "Moderator",
-      quote: "imagine not wanting fatfuck's opinion",
-    },
+
     {
       name: "Festive_Pig",
       role: "Moderator",
