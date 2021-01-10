@@ -117,6 +117,10 @@ const data = {
       color: #7289da;
       background: rgba(114,137,218,.1);
       position: relative;">@everyone</span>`,
+      `sebook should be demoted`,
+      `pings make your quote less likely to be added >:(`,
+      `ban sebook - literally everyone but sebook`,
+      `This discord is going to hell`,
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1"  draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
     ],
@@ -149,7 +153,7 @@ const data = {
     Manager: "#ffa500",
     "Head Artist": "#ffc0cb",
     Artist: "#b19cd9",
-    "Admin": "#4b8b3b",
+    Admin: "#4b8b3b",
     Moderator: "#17d44a",
     "Website Developer": "#ffff00",
     "Pack Contributor": "#00b0b0",
@@ -283,6 +287,7 @@ const data = {
     {
       name: "TomEngMaster",
       role: "Pack Contributor",
+      quote: "download neu mod nerds",
     },
     {
       name: "mali komrade",
