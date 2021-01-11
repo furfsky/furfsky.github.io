@@ -1,3 +1,4 @@
+let metersAway = Math.floor(Math.random() * 300);
 const data = {
   header: {
     image: "",
@@ -54,7 +55,6 @@ const data = {
       `what`,
       `Now works with Wynncraft!`,
       `i can smell your fear through the screen`,
-      `I am within 100 meters and rapidly approaching -parakeetiscool`,
       `we will steal your ip and sell it to china`,
       `we will steal your china and sell it to ip`,
       `i haven't left my house since furf posted on the forums!`,
@@ -121,6 +121,17 @@ const data = {
       `pings make your quote less likely to be added >:(`,
       `ban sebook - literally everyone but sebook`,
       `This discord is going to hell`,
+      `thanks i ${Math.random() > 0.5 ? "hait" : "hate"} it`,
+      `${setInterval(() => {
+        const quote = document.getElementById("headerSubtitle");
+        if (metersAway > 0) {
+          quote.innerHTML = `I am within ${metersAway} meters and rapidly approaching -parakeetiscool`;
+          metersAway--;
+        }
+        else if(metersAway <= 0){
+          quote.innerHTML = "Knock knock, I'm at your door."
+        }
+      },100)}`,
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1"  draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
     ],
