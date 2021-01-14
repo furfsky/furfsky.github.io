@@ -122,16 +122,18 @@ const data = {
       `ban sebook - literally everyone but sebook`,
       `This discord is going to hell`,
       `thanks i ${Math.random() > 0.5 ? "hait" : "hate"} it`,
-      `${setInterval(() => {
-        const quote = document.getElementById("headerSubtitle");
-        if (metersAway > 0) {
-          quote.innerHTML = `I am within ${metersAway} meters and rapidly approaching -parakeetiscool`;
-          metersAway--;
-        }
-        else if(metersAway <= 0){
-          quote.innerHTML = "Knock knock, I'm at your door."
-        }
-      },100)}`,
+      () => {
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          if (metersAway > 0) {
+            quote.innerHTML = `I am within ${metersAway} meters and rapidly approaching -parakeetiscool`;
+            metersAway--;
+          } else if (metersAway <= 0) {
+            quote.innerHTML = "Knock knock, I'm at your door.";
+            clearInterval(interval);
+          }
+        }, 100);
+      },
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1"  draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
     ],
@@ -240,6 +242,11 @@ const data = {
       name: "ThatOneRandomDiscordAccount",
       role: "Artist",
       quote: "Dollar Store Skeletony: now with uncreativivity",
+    },
+    {
+      name: "Motor",
+      role: "Artist",
+      quote: "Master at Shitposting",
     },
     {
       name: "tea",
