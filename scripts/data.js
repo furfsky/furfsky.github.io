@@ -240,7 +240,7 @@ const data = {
     },
     {
       name: "ThatOneRandomDiscordAccount",
-      role: "Artist",
+      role: "Retired Artist",
       quote: "Dollar Store Skeletony: now with uncreativivity",
     },
     {
@@ -275,9 +275,12 @@ const data = {
       role: "Moderator",
       quote: "if you do not like bread you shoudn't exist",
     },
-
     {
-      name: "Festive_Pig",
+      name:"InfinityRing",
+      role:"Moderator",
+    },
+    {
+      name: "pig",
       role: "Moderator",
       quote: "reeee",
     },
