@@ -309,7 +309,7 @@ const data = {
     {
       name: "DTRW191",
       role: "Pack Contributor",
-      quote: "My friend gave me an AOTE will knockback on it later >:(",
+      quote: "Lost my Ult Wise 5 AOTE but still have my melons👌",
     },
     {
       name: "Edna Mode",
