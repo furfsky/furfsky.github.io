@@ -310,7 +310,7 @@ const data = {
     {
       name: "DTRW191",
       role: "Pack Contributor",
-      quote: "My friend gave me an AOTE will knockback on it later >:(",
+      quote: "Lost my Ult Wise 5 AOTE but still have my melons👌",
     },
     {
       name: "Edna Mode",
@@ -336,7 +336,7 @@ const data = {
     },
     {
       name: "Gonk",
-      role: "Discord Contributor",
+      role: "Moderator",
       quote: "you miss 100% of the shots you don't take",
     },
   ],
