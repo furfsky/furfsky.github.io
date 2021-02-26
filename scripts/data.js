@@ -265,7 +265,9 @@ const data = {
     },
     {
       name: "Erymanthus",
+      link: "https://www.reddit.com/user/RayDeeUx/",
       role: "Trial Artist",
+      quote: "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
       name: "voxal",
