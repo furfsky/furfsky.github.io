@@ -335,7 +335,7 @@ const data = {
     },
     {
       name: "Gonk",
-      role: "Discord Contributor",
+      role: "Moderator",
       quote: "you miss 100% of the shots you don't take",
     },
   ],
