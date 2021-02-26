@@ -145,7 +145,7 @@ const data = {
         "/files/v1.2.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.2§8§l].zip",
       fileOverlay:
         "/files/v1.2.0/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
-      changelog:"",
+      changelog: "",
     },
 
     {
@@ -175,6 +175,7 @@ const data = {
     Manager: "#ffa500",
     "Head Artist": "#ffc0cb",
     Artist: "#b19cd9",
+    "Retired Artist": "#7d6e99",
     Admin: "#4b8b3b",
     Moderator: "#17d44a",
     "Website Developer": "#ffff00",
@@ -197,7 +198,7 @@ const data = {
     {
       name: "SoshJam",
       link: "https://hypixel.net/members/1196292/",
-      role: "Head Artist",
+      role: "Retired Artist",
     },
     {
       name: "iDevil4Hell",
