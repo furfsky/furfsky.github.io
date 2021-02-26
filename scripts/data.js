@@ -140,6 +140,15 @@ const data = {
   },
   downloads: [
     {
+      version: "v1.2.2",
+      fileFull:
+        "/files/v1.2.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.2§8§l].zip",
+      fileOverlay:
+        "/files/v1.2.0/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
+      changelog:"",
+    },
+
+    {
       version: "v1.1.0",
       fileFull:
         "/files/v1.1.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.1.0§8§l].zip",
@@ -182,7 +191,7 @@ const data = {
     {
       name: "Saikage",
       link: "https://hypixel.net/members/3250921/",
-      role: "Head Artist",
+      role: "Retired Artist",
       quote: "mmmf fuck me daddy uwu",
     },
     {
@@ -250,8 +259,12 @@ const data = {
     },
     {
       name: "tea",
-      role: "Trial Artist",
+      role: "Artist",
       quote: "imagine not wanting fatfuck's opinion",
+    },
+    {
+      name: "Erymanthus",
+      role: "Trial Artist",
     },
     {
       name: "voxal",
@@ -267,8 +280,8 @@ const data = {
     {
       name: "SeBook",
       link: "https://www.youtube.com/channel/UCFeGrtZbI6miqtdWiph_D3Q",
-      role: "Admin",
-      quote: "sebook is the best admin",
+      role: "Shit",
+      quote: "sebook is the best peice of shit",
     },
     {
       name: "Toasted_Breaad",
@@ -276,8 +289,8 @@ const data = {
       quote: "if you do not like bread you shoudn't exist",
     },
     {
-      name:"InfinityRing",
-      role:"Moderator",
+      name: "InfinityRing",
+      role: "Retired Staff",
     },
     {
       name: "pig",
@@ -296,6 +309,7 @@ const data = {
     {
       name: "DTRW191",
       role: "Pack Contributor",
+      quote: "My friend gave me an AOTE will knockback on it later >:(",
     },
     {
       name: "Edna Mode",
