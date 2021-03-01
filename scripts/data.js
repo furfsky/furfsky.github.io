@@ -141,15 +141,16 @@ const data = {
   downloads: [
     {
       version: "v1.2.2",
+      name: "Dwarven Mines"
       fileFull:
         "/files/v1.2.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.2§8§l].zip",
       fileOverlay:
         "/files/v1.2.0/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
-      changelog: "",
     },
 
     {
       version: "v1.1.0",
+      name: "Tweaks"
       fileFull:
         "/files/v1.1.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.1.0§8§l].zip",
       fileOverlay:
