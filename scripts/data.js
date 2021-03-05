@@ -3,6 +3,7 @@ const data = {
   header: {
     image: "",
     subtitle: [
+      `when voxal denies you pr. nooooooooooooooooooo`,
       `Furfsky+ but its reborn`,
       `bottem text`,
       `The second era of Furfsky+`,
@@ -225,7 +226,7 @@ const data = {
     },
     {
       name: "PigTurtle",
-      role: "Artist",
+      role: "Retired Artist",
     },
     {
       name: "resanityyy",
@@ -250,7 +251,7 @@ const data = {
     },
     {
       name: "ThatOneRandomDiscordAccount",
-      role: "Retired Artist",
+      role: "Artist",
       quote: "Dollar Store Skeletony: now with uncreativivity",
     },
     {
@@ -313,11 +314,6 @@ const data = {
       role: "Pack Contributor",
     },
     {
-      name: "D43DALUS",
-      role: "Pack Contributor",
-      quote: "Did it in 13 messages.",
-    },
-    {
       name: "DTRW191",
       role: "Pack Contributor",
       quote: "Lost my Ult Wise 5 AOTE but still have my melons👌",
@@ -341,7 +337,7 @@ const data = {
     },
     {
       name: "MasterMiner4647",
-      role: "Discord Contributor",
+      role: "Pack Contributor",
       quote: "the other quotes aren't family friendly, but mine is",
     },
   ],
