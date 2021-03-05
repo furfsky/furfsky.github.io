@@ -1,4 +1,5 @@
 let metersAway = Math.floor(Math.random() * 300);
+let quotesArrIndex = 0;
 const data = {
   header: {
     image: "",
@@ -122,6 +123,17 @@ const data = {
       `ban sebook - literally everyone but sebook`,
       `This discord is going to hell`,
       `thanks i ${Math.random() > 0.5 ? "hait" : "hate"} it`,
+      () => {
+        let secondIntervalVar = setInterval(() => {
+          const quoteTwo = document.getElementById("headerSubtitle");
+          const quotesArr = ["time to add 100 more quotes *cries in pain* -voxal", "dwai i can help -erymanthus", "okai lets see how many you can port over -voxal", "*two hours later*", "jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear -erymanthus"];
+          if (quotesArrIndex < quotesArr.length)
+          {
+            quoteTwo.innerHTML = quotesArr[quotesArrIndex];
+            quotesArrIndex++;
+          }
+        }, 1000);
+      },
       () => {
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
@@ -291,8 +303,8 @@ const data = {
     {
       name: "SeBook",
       link: "https://www.youtube.com/channel/UCFeGrtZbI6miqtdWiph_D3Q",
-      role: "Moderator",
-      quote: "sebook is the best peice of shit",
+      role: "Retired Staff",
+      quote: "sebook was the best peice of shit",
     },
     {
       name: "Toasted_Breaad",
