@@ -276,14 +276,22 @@ const data = {
       quote: "ugh pain, everything is pain",
     },
     {
-      name: "parakeetiscool",
+      name: "D43DALUS",
+      role: "Trial Artist",
+    },
+    {
+      name: "Smolegit",
+      role: "Trial Artist",
+    },
+    {
+      name: "pig",
       role: "Admin",
-      quote: "you wet tubesock",
+      quote: "reeee",
     },
     {
       name: "SeBook",
       link: "https://www.youtube.com/channel/UCFeGrtZbI6miqtdWiph_D3Q",
-      role: "Shit",
+      role: "Moderator",
       quote: "sebook is the best peice of shit",
     },
     {
@@ -292,13 +300,13 @@ const data = {
       quote: "if you do not like bread you shoudn't exist",
     },
     {
-      name: "InfinityRing",
-      role: "Retired Staff",
+      name: "Gonk",
+      role: "Moderator",
+      quote: "you miss 100% of the shots you don't take",
     },
     {
-      name: "pig",
-      role: "Moderator",
-      quote: "reeee",
+      name: "InfinityRing",
+      role: "Event Helper",
     },
     {
       name: "SausageDog359",
@@ -335,11 +343,6 @@ const data = {
       name: "MasterMiner4647",
       role: "Discord Contributor",
       quote: "the other quotes aren't family friendly, but mine is",
-    },
-    {
-      name: "Gonk",
-      role: "Moderator",
-      quote: "you miss 100% of the shots you don't take",
     },
   ],
 };
