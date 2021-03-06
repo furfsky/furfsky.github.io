@@ -148,6 +148,9 @@ const data = {
             quotes.innerHTML = quotesArrTwo[quotesArrIndexTwo];
             quoteIndex++;
           }
+          if(quoteIndex => quotes.length){
+            clearInterval(interval);
+          }
         }, 3500);
       },
       () => {
@@ -165,7 +168,9 @@ const quote = document.getElementById("headerSubtitle");
             quote.innerHTML = quotes[quoteIndex];
             quoteIndex++;
           }
-          if 
+          if(quoteIndex => quotes.length){
+            clearInterval(interval);
+          }
         }, 2123);
       },
       () => {
