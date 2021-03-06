@@ -137,33 +137,35 @@ const data = {
       `Due to extensive research, the second coming of Christ cannot do an ollie. However, you can do an ollie double X triple balooga extreme if you download the pack.`,
       `<span style="color: #FFAA00;";>RARE DROP!</span> <span style="color: #FFFFFF";>Carrot</span> <span style="color: #55FFFF";>(+300% Magic Find!)</span>`,
       () => {
-        let thirdIntervalVar = setInterval(() => {
-          const quoteThree = document.getElementById("headerSubtitle");
-          const quotesArrTwo = [
+        let interval = setInterval(() => {
+          let quoteIndex = 0;
+          const quote = document.getElementById("headerSubtitle");
+          const quotes = [
             "When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful —CarbonSmasher",
             "Actually, quantum mechanics forbids this. —Temp"];
-          if (quotesArrIndexTwo < quotesArrTwo.length)
+          if (quoteIndex < quotes.length)
           {
-            quoteThree.innerHTML = quotesArrTwo[quotesArrIndexTwo];
-            quotesArrIndexTwo++;
+            quotes.innerHTML = quotesArrTwo[quotesArrIndexTwo];
+            quoteIndex++;
           }
         }, 3500);
       },
       () => {
-        let secondIntervalVar = setInterval(() => {
-          const quoteTwo = document.getElementById("headerSubtitle");
-          const quotesArrOne = [
+        let interval = setInterval(() => {
+                    let quoteIndex = 0;
+const quote = document.getElementById("headerSubtitle");
+          const quotes = [
             "time to add 100 more quotes *cries in pain* -voxal",
             "dwai i can help -erymanthus", 
             "okai lets see how many you can port over -voxal", 
             "*two hours later*", 
             "jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear -erymanthus"];
-          quotesArrIndexOne++;
-          if (quotesArrIndexOne < quotesArrOne.length)
-          {
-            quoteTwo.innerHTML = quotesArrOne[quotesArrIndexOne];
-            quotesArrIndexOne++;
+          quoteIndex++;
+          if (quoteIndex < quotes.length) {
+            quote.innerHTML = quotes[quoteIndex];
+            quoteIndex++;
           }
+          if 
         }, 2123);
       },
       () => {
