@@ -1,6 +1,4 @@
 let metersAway = Math.floor(Math.random() * 300);
-let quotesArrIndexOne = 0;
-let quotesArrIndexTwo = 0;
 const data = {
   header: {
     image: "",
@@ -139,6 +137,7 @@ const data = {
       `Due to extensive research, the second coming of Christ cannot do an ollie. However, you can do an ollie double X triple balooga extreme if you download the pack.`,
       `<span style="color: #FFAA00;";>RARE DROP!</span> <span style="color: #FFFFFF";>Carrot</span> <span style="color: #55FFFF";>(+300% Magic Find!)</span>`,
       () => {
+        let quotesArrIndexTwo = 0;
         let intervalTwo = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
           const quotesArrTwo = [
@@ -155,14 +154,15 @@ const data = {
         }, 3500);
       },
       () => {
+        let quotesArrIndexOne = 0;
         let intervalOne = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
           const quotesArrOne = [
-            "time to add 100 more quotes *cries in pain* -voxal",
-            "dwai i can help -erymanthus", 
-            "okai lets see how many you can port over -voxal", 
+            "voxal: time to add 100 more quotes<br>*cries in pain*",
+            "erymanthus: dwai i can help", 
+            "voxal: okai lets see how many you can port over", 
             "*two hours later*", 
-            "jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear -erymanthus"];
+            "erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
           if (quotesArrIndexOne < quotesArrOne.length) {
             quote.innerHTML = quotesArrOne[quotesArrIndexOne];
             quotesArrIndexOne++;
