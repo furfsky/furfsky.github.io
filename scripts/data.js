@@ -122,6 +122,56 @@ const data = {
       `ban sebook - literally everyone but sebook`,
       `This discord is going to hell`,
       `thanks i ${Math.random() > 0.5 ? "hait" : "hate"} it`,
+      `"how much dick do i have to suck for cool guy role" -sai in phq server`,
+      `made possible by wix`,
+      `A titanium ore spawned nearby!<br>Wait, never mind. That was just bird shit.`,
+      `😱 5 STAR DREAM HEAD IS INSANE FOR FLOOR 3 OMG WTFA FASJDHASBDGAS —xOticz_`,
+      `i dont want to be a furfsky reborn artist, i just want to be happy`,
+      `i want to be less depresed and have a girlfriend. also a life.`,
+      `there is no meme download this pack`,
+      `thats it, im done, im muting this page, everytime i read a quote here my brain dies by tiniest percentage -pig`,
+      `9/10 would f3+t again`,
+      `Shadow Fury shits on Livid Dagger —genesis`,
+      `do not go into motor's garage<br>WORST MISTAKE OF MY LIFE`,
+      `"Have a nice day", they say.<br>"I’m going to commit vehicular manslaughter", I say.<br>—Strxfe`,
+      `Due to extensive research, the second coming of Christ cannot do an ollie. However, you can do an ollie double X triple balooga extreme if you download the pack.`,
+      `<span style="color: #FFAA00;";>RARE DROP!</span> <span style="color: #FFFFFF";>Carrot</span> <span style="color: #55FFFF";>(+300% Magic Find!)</span>`,
+      () => {
+        let quoteIndex = 0;
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          const quotes = [
+            "When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful —CarbonSmasher",
+            "Actually, quantum mechanics forbids this. —Temp"];
+          if (quoteIndex < quotes.length)
+          {
+            quote.innerHTML = quotes[quoteIndex];
+            quoteIndex++;
+          }
+          if(quoteIndex > quotes.length){
+            clearInterval(interval);
+          }
+        }, 3500);
+      },
+      () => {
+        let quoteIndex = 0;
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          const quotes = [
+            "voxal: time to add 100 more quotes<br>*cries in pain*",
+            "erymanthus: dwai i can help", 
+            "voxal: okai lets see how many you can port over", 
+            "*two hours later*", 
+            "erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
+          if (quoteIndex < quotes.length) {
+            quote.innerHTML = quotes[quoteIndex];
+            quoteIndex++;
+          }
+          if(quoteIndex > quotes.length){
+            clearInterval(interval);
+          }
+        }, 2123);
+      },
       () => {
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
