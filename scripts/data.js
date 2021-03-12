@@ -240,6 +240,11 @@ const data = {
       quote: "porn is fine, roblox isn't",
     },
     {
+      name: "GenesiS",
+      role: "Head Artist",
+      quote: "Shadow fury shits on Livid Dagger",
+    },
+    {
       name: "Saikage",
       link: "https://hypixel.net/members/3250921/",
       role: "Retired Artist",
@@ -251,7 +256,7 @@ const data = {
       role: "Retired Artist",
     },
     {
-      name: "iDevil4Hell",
+      name: "iDevil4Hell/Thanatos",
       link: "https://hypixel.net/members/3639006/",
       role: "Retired Artist",
     },
@@ -275,7 +280,7 @@ const data = {
     },
     {
       name: "PigTurtle",
-      role: "Artist",
+      role: "Retired Artist",
     },
     {
       name: "resanityyy",
@@ -300,7 +305,7 @@ const data = {
     },
     {
       name: "ThatOneRandomDiscordAccount",
-      role: "Retired Artist",
+      role: "Artist",
       quote: "Dollar Store Skeletony: now with uncreativivity",
     },
     {
@@ -320,12 +325,6 @@ const data = {
       quote: "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
-      name: "voxal",
-      link: "https://vooxal.github.io", // update this bitch, its so old and bad
-      role: "Website Developer",
-      quote: "ugh pain, everything is pain",
-    },
-    {
       name: "D43DALUS",
       role: "Artist",
       quote: "Did it in 13 messages.",
@@ -334,6 +333,12 @@ const data = {
       name: "Smolegit",
       role: "Artist",
       quote: "Lotta true crime",
+    },
+    {
+      name: "voxal",
+      link: "https://vooxal.github.io", // update this bitch, its so old and bad
+      role: "Website Developer",
+      quote: "ugh pain, everything is pain",
     },
     {
       name: "pig",
