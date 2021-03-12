@@ -137,38 +137,38 @@ const data = {
       `Due to extensive research, the second coming of Christ cannot do an ollie. However, you can do an ollie double X triple balooga extreme if you download the pack.`,
       `<span style="color: #FFAA00;";>RARE DROP!</span> <span style="color: #FFFFFF";>Carrot</span> <span style="color: #55FFFF";>(+300% Magic Find!)</span>`,
       () => {
-        let quotesArrIndexTwo = 0;
-        let intervalTwo = setInterval(() => {
+        let quoteIndex = 0;
+        let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
-          const quotesArrTwo = [
+          const quotes = [
             "When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful —CarbonSmasher",
             "Actually, quantum mechanics forbids this. —Temp"];
-          if (quotesArrIndexTwo < quotesArrTwo.length)
+          if (quoteIndex < quotes.length)
           {
-            quote.innerHTML = quotesArrTwo[quotesArrIndexTwo];
-            quotesArrIndexTwo++;
+            quote.innerHTML = quotes[quoteIndex];
+            quoteIndex++;
           }
-          if(quotesArrIndexTwo > quotesArrTwo.length){
-            clearInterval(intervalTwo);
+          if(quoteIndex > quotes.length){
+            clearInterval(interval);
           }
         }, 3500);
       },
       () => {
-        let quotesArrIndexOne = 0;
-        let intervalOne = setInterval(() => {
+        let quoteIndex = 0;
+        let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
-          const quotesArrOne = [
+          const quotes = [
             "voxal: time to add 100 more quotes<br>*cries in pain*",
             "erymanthus: dwai i can help", 
             "voxal: okai lets see how many you can port over", 
             "*two hours later*", 
             "erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
-          if (quotesArrIndexOne < quotesArrOne.length) {
-            quote.innerHTML = quotesArrOne[quotesArrIndexOne];
-            quotesArrIndexOne++;
+          if (quoteIndex < quotes.length) {
+            quote.innerHTML = quotes[quoteIndex];
+            quoteIndex++;
           }
-          if(quotesArrIndexOne > quotesArrOne.length){
-            clearInterval(intervalOne);
+          if(quoteIndex > quotes.length){
+            clearInterval(interval);
           }
         }, 2123);
       },
