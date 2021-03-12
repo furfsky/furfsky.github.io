@@ -288,7 +288,7 @@ const data = {
       role: "Artist",
     },
     {
-      name: "TrashAtNames",
+      name: "TrashAtNames/BlockBusterCF",
       link: "https://hypixel.net/members/2765236/",
       role: "Artist",
     },
@@ -327,11 +327,13 @@ const data = {
     },
     {
       name: "D43DALUS",
-      role: "Trial Artist",
+      role: "Artist",
+      quote: "Did it in 13 messages.",
     },
     {
       name: "Smolegit",
-      role: "Trial Artist",
+      role: "Artist",
+      quote: "Lotta true crime",
     },
     {
       name: "pig",
@@ -339,9 +341,14 @@ const data = {
       quote: "reeee",
     },
     {
+      name: "parakeetiscool",
+      role: "Admin",
+      quote: "you wet tubesock",
+    },
+    {
       name: "SeBook",
       link: "https://www.youtube.com/channel/UCFeGrtZbI6miqtdWiph_D3Q",
-      role: "Moderator",
+      role: "Retired Moderator",
       quote: "sebook is the best peice of shit",
     },
     {
@@ -361,11 +368,6 @@ const data = {
     {
       name: "SausageDog359",
       role: "Pack Contributor",
-    },
-    {
-      name: "D43DALUS",
-      role: "Pack Contributor",
-      quote: "Did it in 13 messages.",
     },
     {
       name: "DTRW191",
