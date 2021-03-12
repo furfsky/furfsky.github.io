@@ -1,4 +1,3 @@
-let metersAway = Math.floor(Math.random() * 300);
 const data = {
   header: {
     image: "",
@@ -136,13 +135,57 @@ const data = {
       `"Have a nice day", they say.<br>"I’m going to commit vehicular manslaughter", I say.<br>—Strxfe`,
       `Due to extensive research, the second coming of Christ cannot do an ollie. However, you can do an ollie double X triple balooga extreme if you download the pack.`,
       `<span style="color: #FFAA00;";>RARE DROP!</span> <span style="color: #FFFFFF";>Carrot</span> <span style="color: #55FFFF";>(+300% Magic Find!)</span>`,
+      `your wifi password is probably along the lines of "170sb45ltngX3331458tdq314w".<br>now go download the pack.`,
+      `so we gave an aimbot a paintbrush`,
+      `imagine if the 10kth server member was furf himself coming in to flip us off —erymanthus`,
+      `sell your soul to tyler for free fortnite vbucks`,
+      `The website creator is actually an ai designed by the cia to track weebs that play skyblock and exterminate them`,
+      `What if you wanted to go to heaven, but God said<br><span style='color:#FF5555;'>Couldn't warp you! Try again later!</span> <span style="color:#AAAAAA;">${Math.random() > 0.5 ? '(NO_DESTINATION_FOUND)' : '(SERVERS_DID_NOT_ACCEPT)' }</span>`,
+      `After using this pack, I started getting SO many more matches on tinder`,
+      `If energy can't be destroyed, and atoms are energy, then yes your honor, she was in fact of age`,
+      `fuck everyone who pings voxal`,
+      `download neu mod nerds —tomengmaster`,
+      `electron microscopes are incapable of sensing color due to their operational nature, so color would have to be added in post -Temp`,
+      `Now I've learned my
+      ${Math.random() > 0.5 ?
+        `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" draggable="false" style="wdith:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/787004872444739624.png?v=1" draggable="false" style="wdith:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/787004862356389909.png?v=1" draggable="false" style="wdith:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/787004897735475220.png?v=1" draggable="false" style="wdith:32px; height:32px;">` :
+        `<img src="https://cdn.discordapp.com/emojis/804803417259507752.png?v=1" draggable="false" style="wdith:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/804803405012533268.png?v=1" draggable="false" style="wdith:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/804803384187158559.png?v=1" draggable="false" style="wdith:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/804803429264392213.png?v=1" draggable="false" style="wdith:32px; height:32px;">`}
+      , next time ${Math.random() > 0.5 ? `please don't sing with me!` : `won't you sing with me?`}`,
+      () => {
+        let numOs = Math.floor(Math.random() * 30);
+        let oCounter = 1;
+        let quoteBoo = "<span style='color:#FF55FF;'>Boo</span>";
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          if (oCounter < numOs)
+          {
+            quoteBoo += "<span style='color:#FF55FF;'>o</span>";
+            quote.innerHTML = quoteBoo;
+            oCounter++;
+            console.log(quoteBoo);
+          }
+          if(oCounter >= numOs){
+            quoteBoo += "<span style='color:#FF55FF;'>p!</span>";
+            console.log("e");
+            quote.innerHTML = quoteBoo;
+            clearInterval(interval);
+          }
+        }, 100);
+      },
       () => {
         let quoteIndex = 0;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
           const quotes = [
-            "When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful —CarbonSmasher",
-            "Actually, quantum mechanics forbids this. —Temp"];
+            "...a conversation about quantum mechanics, by CarbonSmasher and Temp.",
+            "CarbonSmasher: When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful.",
+            "Temp: Actually, quantum mechanics forbids this."];
           if (quoteIndex < quotes.length)
           {
             quote.innerHTML = quotes[quoteIndex];
@@ -158,11 +201,12 @@ const data = {
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
           const quotes = [
+            "...a story on how a nap led to changes on the site",
             "voxal: time to add 100 more quotes<br>*cries in pain*",
-            "erymanthus: dwai i can help", 
+            "Erymanthus: dwai i can help", 
             "voxal: okai lets see how many you can port over", 
             "*two hours later*", 
-            "erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
+            "Erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
           if (quoteIndex < quotes.length) {
             quote.innerHTML = quotes[quoteIndex];
             quoteIndex++;
@@ -173,6 +217,42 @@ const data = {
         }, 2123);
       },
       () => {
+        let quoteIndex = 0;
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          const quotes = [
+            "...a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>, because Motor doesn't know how to go to vacation properly.",
+            "Discord Ghosting<br><br>By MotorGorilla<br>March 10, 2021",
+            "I will be out of the office beginning Wednesday, March 10th, at 6:46:48 (E.S.T.), and will return on Sunday, March 14th, at 3:47 (Hawaiian-Aleutian Standard Time).",
+            "During that period, I will have limited access to Discord. Meaning that I will have full access to Discord. I will continue to read my Discord as though I were sitting in my office, but I will be \"out\" of the office. Meaning there will be no difference. Also, I will probably be in the office a bunch.", 
+            "I will have sporadic access to my cell phone. This is either because I am doing whatever business I have to attend to during my surprise vacation, or, more likely, because I am lying on my couch, staring at my cell phone and willing myself not to check it for at least fifteen minutes.", 
+            "I will have extremely limited access to pay phones. I forgot to bring quarters, and the last calling card I owned expired before I was born. Also, most pay phones are now public urinals.", 
+            "I will have standard access to Discord PMs. I’m not really sure where they are at these days, but if you send one I’m sure Discord admins will find me.",
+            "I will be checking my \"snail mail\" in, quite frankly, never. Such is the 21st century, and I use Discord, as mentioned earlier.",
+            "I will have almost zero access to carrier pigeons. This is less a function of my vacation and more a function of the year I was born. Hell, do those things still <span style='font-style: italic;'>exist</span>?",
+            "I will NOT be checking my landline, which is a can attached to a string, because <span style='font-style: italic;'>what the fuck? Who still uses landlines?</span>",
+            "I will have only intermittent access to Skyblock. If you desperately need to show me your giveaway prize pool, please print a copy and mail it to:<br><br><span style='font-style: italic;'>I’m on Vacation</span><br><span style='font-style: italic;'>Attn: MotorGorilla</span><br><span style='font-style: italic;'>c/o: /visit MotorGorilla</span>",
+            "I will have erratic access to Discord server giveaway channels. Should you enter \"200M SKYBLOCK GIVEAWAY\", you may see my user name briefly, then it may disappear, as though I had seen your user name and fled the chat room.<br>Wrong. It has to do with the surprise vacation I’m on.",
+            "I will have fitful access to my memories. That is why I may ignore you when you pass me on the street and yell, \"<span style='font-style: italic;'>Hey, Motor! It’s me, one of your artists!</span>\"<br>Again, this relates to a memory problem and has nothing to do with the 200 million coins I'm running away from the authorities with.",
+            "While on vacation, I will not be doing that thing where I wish someone a happy birthday by having some random ghost pinging me. My assistant will be doing that for me. Unfortunately, they're also \"out of the office\", so the middleman will be Clyde.<br>Happy birthday.",
+            "I will have no access to my homework. A judge ruled that I should be “on vacation” from them.<br><small>(Spoiler: I was the judge.)</small><br><br>And I will have constant access to Spotify. That is less informative and more of a brag.",
+            "Finally, I’m sure this goes without saying, but if you’re really rich or really famous, I am instantly available 24/7. Just spam ping me.",
+            "The rest of you, please do not respond to this message, or Discord will force it into my cell phone's push notifications—on a par with my fragrun bot getting banned and every time sai pulls an \"accidental\" <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>@everyone</span>.",
+            "All my best,<br>xoxo,<br>The M-Man ♦",
+            "<span style='font-style: italic;'>Published in the <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#alpha-updates</span> channel in the <a href='https://discord.gg/fsr' style='color:#fbcc6c; text-decoration: none;'>FurfSky Reborn Discord server</span></span>.",
+            "<span style='font-style: italic;'>MotorGorilla, a veteran artist for FurfSky Reborn, compiles the countless assets from other artists in the server. His memoir, “My Online Persona: Snoopy,” will be published whenever he stops procrastinating in general.</span>",
+            "This has been a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>."];
+          if (quoteIndex < quotes.length) {
+            quote.innerHTML = quotes[quoteIndex];
+            quoteIndex++;
+          }
+          if(quoteIndex > quotes.length){
+            clearInterval(interval);
+          }
+        }, 9500);
+      },
+      () => {
+        let metersAway = Math.floor(Math.random() * 300);
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
           if (metersAway > 0) {
