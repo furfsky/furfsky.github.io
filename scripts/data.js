@@ -140,11 +140,25 @@ const data = {
   },
   downloads: [
     {
+      version: "v1.2.4",
+      fileFull:
+        "/files/v.1.2.4/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
+      fileOverlay:
+        "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
+    },
+    {
+      version: "v1.2.3",
+      fileFull:
+        "/files/v.1.2.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
+      fileOverlay:
+        "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
+    },
+    {
       version: "v1.2.2",
       fileFull:
-        "/files/v1.2.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.2§8§l].zip",
+        "/files/v1.2.2/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.2§8§l].zip",
       fileOverlay:
-        "/files/v1.2.0/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
+        "/files/v1.2.2/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
       changelog: "",
     },
 
@@ -267,7 +281,8 @@ const data = {
       name: "Erymanthus",
       link: "https://www.reddit.com/user/RayDeeUx/",
       role: "Artist",
-      quote: "hey, you could pour soup in my lap and i'll probably apologize to you!",
+      quote:
+        "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
       name: "voxal",
