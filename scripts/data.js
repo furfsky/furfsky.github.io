@@ -142,13 +142,13 @@ const data = {
           const quote = document.getElementById("headerSubtitle");
           const quotes = [
             "When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful —CarbonSmasher",
-            "Actually, quantum mechanics forbids this. —Temp"];
-          if (quoteIndex < quotes.length)
-          {
+            "Actually, quantum mechanics forbids this. —Temp",
+          ];
+          if (quoteIndex < quotes.length) {
             quote.innerHTML = quotes[quoteIndex];
             quoteIndex++;
           }
-          if(quoteIndex > quotes.length){
+          if (quoteIndex > quotes.length) {
             clearInterval(interval);
           }
         }, 3500);
@@ -159,15 +159,16 @@ const data = {
           const quote = document.getElementById("headerSubtitle");
           const quotes = [
             "voxal: time to add 100 more quotes<br>*cries in pain*",
-            "erymanthus: dwai i can help", 
-            "voxal: okai lets see how many you can port over", 
-            "*two hours later*", 
-            "erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
+            "erymanthus: dwai i can help",
+            "voxal: okai lets see how many you can port over",
+            "*two hours later*",
+            "erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear",
+          ];
           if (quoteIndex < quotes.length) {
             quote.innerHTML = quotes[quoteIndex];
             quoteIndex++;
           }
-          if(quoteIndex > quotes.length){
+          if (quoteIndex > quotes.length) {
             clearInterval(interval);
           }
         }, 2123);
@@ -335,9 +336,9 @@ const data = {
         "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
-      name:"D43DALUS",
-      role:"Artist",
-      quote:"He keeps duplicating"
+      name: "D43DALUS",
+      role: "Artist",
+      quote: "He keeps duplicating",
     },
     {
       name: "voxal",
@@ -348,6 +349,8 @@ const data = {
     {
       name: "D43DALUS",
       role: "Trial Artist",
+      quote:
+        "I've just done CTRL + C, CTRL + V everytime I'm slightly successful",
     },
     {
       name: "Smolegit",
