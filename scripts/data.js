@@ -192,16 +192,16 @@ const data = {
     {
       version: "v1.2.4",
       fileFull:
-        "/files/v.1.2.4/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
+        "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.4§8§l].zip",
       fileOverlay:
-        "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
+        "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.4§8§l].zip",
     },
     {
       version: "v1.2.3",
       fileFull:
-        "/files/v.1.2.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
+        "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
       fileOverlay:
-        "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
+        "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.3§8§l].zip",
     },
     {
       version: "v1.2.2",
