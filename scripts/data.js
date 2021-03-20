@@ -335,6 +335,11 @@ const data = {
         "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
+      name:"D43DALUS",
+      role:"Artist",
+      quote:"He keeps duplicating"
+    },
+    {
       name: "voxal",
       link: "https://vooxal.github.io", // update this bitch, its so old and bad
       role: "Website Developer",
