@@ -297,7 +297,6 @@ const data = {
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1"  draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
     ],
-    ],
   },
   downloads: [
     {
