@@ -183,7 +183,6 @@ const data = {
             quoteBoo += "<span style='color:#FF55FF;'>o</span>";
             quote.innerHTML = quoteBoo;
             oCounter++;
-            console.log(quoteBoo);
           }
           if(oCounter >= numOs){
             quoteBoo += "<span style='color:#FF55FF;'>p!</span>";
@@ -194,12 +193,12 @@ const data = {
       },
       () => {
         let quoteIndex = 0;
-        const quote = document.getElementById("headerSubtitle");
-        const quotes = 
-          [ "...a conversation about quantum mechanics, by CarbonSmasher and Temp.",
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          const quotes = [
+            "...a conversation about quantum mechanics, by CarbonSmasher and Temp.",
             "CarbonSmasher: When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful.",
             "Temp: Actually, quantum mechanics forbids this."];
-        let interval = setInterval((() => {
           if (quoteIndex < quotes.length)
           {
             quote.innerHTML = quotes[quoteIndex];
@@ -208,20 +207,19 @@ const data = {
           if(quoteIndex > quotes.length){
             clearInterval(interval);
           }
-        })(), 3500);
+        }, 3500);
       },
       () => {
         let quoteIndex = 0;
-        const quote = document.getElementById("headerSubtitle");
-        const quotes = [
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          const quotes = [
             "...a story on how a nap led to changes on the site",
             "voxal: time to add 100 more quotes<br>*cries in pain*",
             "Erymanthus: dwai i can help", 
             "voxal: okai lets see how many you can port over", 
             "*two hours later*", 
             "Erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
-        let interval = setInterval((() => {
-
           if (quoteIndex < quotes.length) {
             quote.innerHTML = quotes[quoteIndex];
             quoteIndex++;
@@ -229,12 +227,13 @@ const data = {
           if(quoteIndex > quotes.length){
             clearInterval(interval);
           }
-        })(), 2123);
+        }, 2123);
       },
       () => {
         let quoteIndex = 0;
-        const quote = document.getElementById("headerSubtitle");
-        const quotes = [
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          const quotes = [
             "...a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>, because Motor doesn't know how to go to vacation properly.",
             "Discord Ghosting<br><br>By MotorGorilla<br>March 10, 2021",
             "I will be out of the office beginning Wednesday, March 10th, at 6:46:48 (E.S.T.), and will return on Sunday, March 14th, at 3:47 (Hawaiian-Aleutian Standard Time).",
@@ -256,16 +255,14 @@ const data = {
             "<span style='font-style: italic;'>Published in the <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#alpha-updates</span> channel in the <a href='https://discord.gg/fsr' style='color:#fbcc6c; text-decoration: none;'>FurfSky Reborn Discord server</span></span>.",
             "<span style='font-style: italic;'>MotorGorilla, a veteran artist for FurfSky Reborn, compiles the countless assets from other artists in the server. His memoir, “My Online Persona: Snoopy,” will be published whenever he stops procrastinating in general.</span>",
             "This has been a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>."];
-         
-        let interval = setInterval((() => {
-        if (quoteIndex < quotes.length) {
+          if (quoteIndex < quotes.length) {
             quote.innerHTML = quotes[quoteIndex];
             quoteIndex++;
           }
           if(quoteIndex > quotes.length){
             clearInterval(interval);
           }
-        })(), 9500);
+        }, 9500);
       },
       () => {
         let metersAway = Math.floor(Math.random() * 300);
@@ -291,6 +288,8 @@ const data = {
             impostorQuote += impostorArray[impostorIndex];
             quote.innerHTML = impostorQuote;
             impostorIndex++;
+          } else if (impostorIndex >= impostorArray.length) {
+            clearInterval(interval);
           }
         }, 75);
       },
