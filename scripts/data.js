@@ -12,6 +12,7 @@ const data = {
       `sai is cringe`,
       `"i support racism" - duckiscool`,
       `your toes will be pulled tonight  -pcart`,
+      `sex is good sex is life literally -pcart`,
       `𝒥𝒶𝓂 𝒶 𝑀𝒶𝓃 𝑜𝒻 𝐹𝑜𝓇𝓉𝓊𝓃𝑒, 𝒶𝓃𝒹 𝒥 𝓂𝓊𝓈𝓉 𝓈𝑒𝑒𝓀 𝓂𝓎 𝐹𝑜𝓇𝓉𝓊𝓃𝑒
       －𝐻𝑒𝓃𝓇𝓎 Æ𝓋𝑒𝓇𝒾𝑒𝓈, 𝟣𝟫𝟫𝟦`,
       `"hitler is cringe lmao" - joseph stalin, 1942`,
@@ -133,7 +134,6 @@ const data = {
       `do not go into motor's garage<br>WORST MISTAKE OF MY LIFE`,
       `"Have a nice day", they say.<br>"I’m going to commit vehicular manslaughter", I say.<br>—Strxfe`,
       `Due to extensive research, the second coming of Christ cannot do an ollie. However, you can do an ollie double X triple balooga extreme if you download the pack.`,
-      `<span style="color: #FFAA00;";>RARE DROP!</span> <span style="color: #FFFFFF";>Carrot</span> <span style="color: #55FFFF";>(+300% Magic Find!)</span>`,`your wifi password is probably along the lines of "170sb45ltngX3331458tdq314w".<br>now go download the pack.`,
       `<span style="color: #FFAA00;";>RARE DROP!</span> <span style="color: #FFFFFF";>Carrot</span> <span style="color: #55FFFF";>(+300% Magic Find!)</span>`,
       `your wifi password is probably along the lines of "170sb45ltngX3331458tdq314w".<br>now go download the pack.`,
       `so we gave an aimbot a paintbrush`,
@@ -146,6 +146,27 @@ const data = {
       `fuck everyone who pings voxal`,
       `download neu mod nerds —tomengmaster`,
       `electron microscopes are incapable of sensing color due to their operational nature, so color would have to be added in post -Temp`,
+      `The lego man sits in the lego brick house. Is the house made of flesh, or is he made of house? He screams, for he does not know.`,
+      `can this entire photo (stolen from hellcastle + furryeboy server) be a quote -erymanthus`,
+      `add what erymanthus said as a quote, but dont include the image -furryeboy`,
+      `BEWARE PCART01: he will secks you`,
+      `BEWARE GOOSE: he will hijack your plane`,
+      `can someone tell me in a week that my belle delphine onlyfans subscription will run out thanks`,
+      `Gallery arriving in 2025`,
+      `Using FurfSky Reborn does not give any disallowed advantages on Hypixel. However, you can get sex 1000x easier by downloading this pack.`,
+      `epicly failed to embed PHQ's corpse into the grave`,
+      `aHR0cHM6Ly9ncmFoYW1saW5laGFuLnN1YnN0YWNrLmNvbS9wL3NvbWV0aGluZy1yb3R0ZW4tYXQtdGhlLWhlYXJ0LW9m`,
+      `you know for sure that reddit is slowly trying to outdo discord by letting pedophiles roam free in their very administrative offices`,
+      `<span style="color: #FF5555;";>☠ LGenes1S was killed by Skeleton Soldier and became a ghost.</span>`,
+      `<span style="color: #FF5555;";>☠ LGenes1S was killed by Skeleton Master and became a ghost.</span>`,
+      `<span style="color: #FF5555;";>☠ LGenes1S was killed by Fels and became a ghost.</span>`,
+      `<span style="color: #FF5555;";>☠ LGenes1S was killed by Bigfoot and became a ghost.</span>`,
+      `<span style="color: #FF5555;";>☠ LGenes1S was killed by Withermancer and became a ghost.</span>`,
+      `<span style="color: #FF5555;";>☠ LGenes1S was killed by Terracotta and became a ghost.</span>`,
+      `<span style="color: #FF5555;";>☠ LGenes1S was killed by Sadan and became a ghost.</span>`,
+      `<span style="color: #FF5555;";>☠ LGenes1S was killed by Frozen Adventurer and became a ghost.</span>`,
+      `<span style="color: #FF5555;";>☠ LGenes1S died to a trap and became a ghost.</span>`,
+      `WHY THE FUCK DOES IT HAVE TO BE SO HARD TO GET A COVID-19 VACCINATION?<br>I'M JUST TRYING TO GET MY FIRST DOSE OF PFIZER, FOR FUCK'S SAKE!<br><br>FUCKING HELL, I HAVE A BETTER CHANCE OF GETTING A NECRON'S HANDLE AT THIS POINT.`,
       `Now I've learned my
       ${Math.random() > 0.5 ?
         `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" draggable="false" style="wdith:32px; height:32px;">
@@ -293,8 +314,9 @@ const data = {
           }
         }, 75);
       },
-      `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1"  draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/attachments/789592044984860672/825779017558130697/image0.png" draggable="false">``,
     ],
   },
   downloads: [
@@ -348,6 +370,7 @@ const data = {
     Manager: "#ffa500",
     "Head Artist": "#ffc0cb",
     Artist: "#b19cd9",
+    "Trial Artist": "#7b6d97",
     "Retired Artist": "#7d6e99",
     Admin: "#4b8b3b",
     Moderator: "#17d44a",
@@ -399,7 +422,7 @@ const data = {
       name: "PcArt01",
       link: "https://hypixel.net/members/3394976/",
       role: "Artist",
-      quote: "your toes will be pulled tonight",
+      quote: "sex is good sex is life literally",
     },
     {
       name: "PigTurtle",
@@ -451,7 +474,7 @@ const data = {
     {
       name: "D43DALUS",
       role: "Artist",
-      quote: "Did it in 13 messages.",
+      quote: "I'm built not born, it's an analytical advantage.",
     },
     {
       name: "Smolegit",
@@ -498,6 +521,7 @@ const data = {
     {
       name: "InfinityRing",
       role: "Event Helper",
+      quote: "Trash at Bedwars.",
     },
     {
       name: "SausageDog359",
@@ -524,6 +548,11 @@ const data = {
     {
       name: "mali komrade",
       role: "Pack Contributor",
+    },
+    {
+      name: "TheMeerkaT",
+      role: "Pack Contributor",
+      quote: "at least you didn't get yourself to design the whole sea creature guide",
     },
     {
       name: "MasterMiner4647",
