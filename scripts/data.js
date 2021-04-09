@@ -1,4 +1,3 @@
-let metersAway = Math.floor(Math.random() * 300);
 const data = {
   header: {
     image: "",
@@ -98,21 +97,6 @@ const data = {
       `Lets get youtube rank guys! 7/30000`,
       `furf good hq bad`,
       `Lua gets AN EASY F TIER FROM ME`,
-      `
-     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" draggable="false" style="wdith:32px; height:32px;"> 
-     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="wdith:32px; height:32px;">
-     `,
       `Fuck SeBook.`,
       `i captured this site in my basement`,
       `who doesn't enjoy a scrumptious load of a table for breakfast`,
@@ -150,6 +134,8 @@ const data = {
       `"Have a nice day", they say.<br>"I’m going to commit vehicular manslaughter", I say.<br>—Strxfe`,
       `Due to extensive research, the second coming of Christ cannot do an ollie. However, you can do an ollie double X triple balooga extreme if you download the pack.`,
       `<span style="color: #FFAA00;";>RARE DROP!</span> <span style="color: #FFFFFF";>Carrot</span> <span style="color: #55FFFF";>(+300% Magic Find!)</span>`,`your wifi password is probably along the lines of "170sb45ltngX3331458tdq314w".<br>now go download the pack.`,
+      `<span style="color: #FFAA00;";>RARE DROP!</span> <span style="color: #FFFFFF";>Carrot</span> <span style="color: #55FFFF";>(+300% Magic Find!)</span>`,
+      `your wifi password is probably along the lines of "170sb45ltngX3331458tdq314w".<br>now go download the pack.`,
       `so we gave an aimbot a paintbrush`,
       `imagine if the 10kth server member was furf himself coming in to flip us off —erymanthus`,
       `sell your soul to tyler for free fortnite vbucks`,
@@ -171,6 +157,21 @@ const data = {
         <img src="https://cdn.discordapp.com/emojis/804803384187158559.png?v=1" draggable="false" style="wdith:32px; height:32px;">
         <img src="https://cdn.discordapp.com/emojis/804803429264392213.png?v=1" draggable="false" style="wdith:32px; height:32px;">`}
       , next time ${Math.random() > 0.5 ? `please don't sing with me!` : `won't you sing with me?`}`,
+      `
+     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" draggable="false" style="wdith:32px; height:32px;"> 
+     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="wdith:32px; height:32px;">
+     `,
       () => {
         let numOs = Math.floor(Math.random() * 30);
         let oCounter = 1;
@@ -186,7 +187,6 @@ const data = {
           }
           if(oCounter >= numOs){
             quoteBoo += "<span style='color:#FF55FF;'>p!</span>";
-            console.log("e");
             quote.innerHTML = quoteBoo;
             clearInterval(interval);
           }
@@ -194,12 +194,12 @@ const data = {
       },
       () => {
         let quoteIndex = 0;
-        let interval = setInterval(() => {
-          const quote = document.getElementById("headerSubtitle");
-          const quotes = [
-            "...a conversation about quantum mechanics, by CarbonSmasher and Temp.",
+        const quote = document.getElementById("headerSubtitle");
+        const quotes = 
+          [ "...a conversation about quantum mechanics, by CarbonSmasher and Temp.",
             "CarbonSmasher: When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful.",
             "Temp: Actually, quantum mechanics forbids this."];
+        let interval = setInterval((() => {
           if (quoteIndex < quotes.length)
           {
             quote.innerHTML = quotes[quoteIndex];
@@ -208,19 +208,20 @@ const data = {
           if(quoteIndex > quotes.length){
             clearInterval(interval);
           }
-        }, 3500);
+        })(), 3500);
       },
       () => {
         let quoteIndex = 0;
-        let interval = setInterval(() => {
-          const quote = document.getElementById("headerSubtitle");
-          const quotes = [
+        const quote = document.getElementById("headerSubtitle");
+        const quotes = [
             "...a story on how a nap led to changes on the site",
             "voxal: time to add 100 more quotes<br>*cries in pain*",
             "Erymanthus: dwai i can help", 
             "voxal: okai lets see how many you can port over", 
             "*two hours later*", 
             "Erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
+        let interval = setInterval((() => {
+
           if (quoteIndex < quotes.length) {
             quote.innerHTML = quotes[quoteIndex];
             quoteIndex++;
@@ -228,13 +229,12 @@ const data = {
           if(quoteIndex > quotes.length){
             clearInterval(interval);
           }
-        }, 2123);
+        })(), 2123);
       },
       () => {
         let quoteIndex = 0;
-        let interval = setInterval(() => {
-          const quote = document.getElementById("headerSubtitle");
-          const quotes = [
+        const quote = document.getElementById("headerSubtitle");
+        const quotes = [
             "...a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>, because Motor doesn't know how to go to vacation properly.",
             "Discord Ghosting<br><br>By MotorGorilla<br>March 10, 2021",
             "I will be out of the office beginning Wednesday, March 10th, at 6:46:48 (E.S.T.), and will return on Sunday, March 14th, at 3:47 (Hawaiian-Aleutian Standard Time).",
@@ -256,14 +256,16 @@ const data = {
             "<span style='font-style: italic;'>Published in the <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#alpha-updates</span> channel in the <a href='https://discord.gg/fsr' style='color:#fbcc6c; text-decoration: none;'>FurfSky Reborn Discord server</span></span>.",
             "<span style='font-style: italic;'>MotorGorilla, a veteran artist for FurfSky Reborn, compiles the countless assets from other artists in the server. His memoir, “My Online Persona: Snoopy,” will be published whenever he stops procrastinating in general.</span>",
             "This has been a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>."];
-          if (quoteIndex < quotes.length) {
+         
+        let interval = setInterval((() => {
+        if (quoteIndex < quotes.length) {
             quote.innerHTML = quotes[quoteIndex];
             quoteIndex++;
           }
           if(quoteIndex > quotes.length){
             clearInterval(interval);
           }
-        }, 9500);
+        })(), 9500);
       },
       () => {
         let metersAway = Math.floor(Math.random() * 300);
@@ -277,6 +279,20 @@ const data = {
             clearInterval(interval);
           }
         }, 100);
+      },
+      () => {
+        let impostorArray = ["u","/","i","s","n","o","t","t","h","e","i","m","p","o","s","t","e","r"," ","w","a","s"," ","t","h","e"," ","I","m","p","o","s","t","o","r",".",];
+        let impostorIndex = 0;
+        let impostorQuote = "";
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          if (impostorIndex < impostorArray.length)
+          {
+            impostorQuote += impostorArray[impostorIndex];
+            quote.innerHTML = impostorQuote;
+            impostorIndex++;
+          }
+        }, 75);
       },
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1"  draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
