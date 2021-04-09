@@ -98,7 +98,21 @@ const data = {
       `Lets get youtube rank guys! 7/30000`,
       `furf good hq bad`,
       `Lua gets AN EASY F TIER FROM ME`,
-      `🇫​🇺​🇷​🇫​🇸​🇰​🇾 🇷​🇪​🇧​🇴​🇷​🇳`,
+      `
+     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" draggable="false" style="wdith:32px; height:32px;"> 
+     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="wdith:32px; height:32px;">
+     `,
       `Fuck SeBook.`,
       `i captured this site in my basement`,
       `who doesn't enjoy a scrumptious load of a table for breakfast`,
