@@ -142,13 +142,13 @@ const data = {
           const quote = document.getElementById("headerSubtitle");
           const quotes = [
             "When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful —CarbonSmasher",
-            "Actually, quantum mechanics forbids this. —Temp"];
-          if (quoteIndex < quotes.length)
-          {
+            "Actually, quantum mechanics forbids this. —Temp",
+          ];
+          if (quoteIndex < quotes.length) {
             quote.innerHTML = quotes[quoteIndex];
             quoteIndex++;
           }
-          if(quoteIndex > quotes.length){
+          if (quoteIndex > quotes.length) {
             clearInterval(interval);
           }
         }, 3500);
@@ -159,15 +159,16 @@ const data = {
           const quote = document.getElementById("headerSubtitle");
           const quotes = [
             "voxal: time to add 100 more quotes<br>*cries in pain*",
-            "erymanthus: dwai i can help", 
-            "voxal: okai lets see how many you can port over", 
-            "*two hours later*", 
-            "erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
+            "erymanthus: dwai i can help",
+            "voxal: okai lets see how many you can port over",
+            "*two hours later*",
+            "erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear",
+          ];
           if (quoteIndex < quotes.length) {
             quote.innerHTML = quotes[quoteIndex];
             quoteIndex++;
           }
-          if(quoteIndex > quotes.length){
+          if (quoteIndex > quotes.length) {
             clearInterval(interval);
           }
         }, 2123);
@@ -190,11 +191,25 @@ const data = {
   },
   downloads: [
     {
+      version: "v1.2.4",
+      fileFull:
+        "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.4§8§l].zip",
+      fileOverlay:
+        "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.4§8§l].zip",
+    },
+    {
+      version: "v1.2.3",
+      fileFull:
+        "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
+      fileOverlay:
+        "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.3§8§l].zip",
+    },
+    {
       version: "v1.2.2",
       fileFull:
-        "/files/v1.2.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.2§8§l].zip",
+        "/files/v1.2.2/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.2§8§l].zip",
       fileOverlay:
-        "/files/v1.2.0/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
+        "/files/v1.2.2/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
       changelog: "",
     },
 
@@ -269,11 +284,11 @@ const data = {
     {
       name: "duckiscool69",
       link: "https://hypixel.net/members/2880572/",
-      role: "Artist",
+      role: "Retired Artist",
       quote: "i support racism",
     },
     {
-      name: "PcArte01",
+      name: "PcArt01",
       link: "https://hypixel.net/members/3394976/",
       role: "Artist",
       quote: "your toes will be pulled tonight",
@@ -291,6 +306,7 @@ const data = {
       name: "Perpillow",
       link: "https://hypixel.net/members/1631725/",
       role: "Artist",
+      quote: "i banned ery by accident",
     },
     {
       name: "TrashAtNames/BlockBusterCF",
@@ -333,6 +349,11 @@ const data = {
       name: "Smolegit",
       role: "Artist",
       quote: "Lotta true crime",
+    },
+    {
+      name: "goog",
+      role: "Trial Artist",
+      quote: "those are uhh... a lot of channels... you got there.",
     },
     {
       name: "voxal",
