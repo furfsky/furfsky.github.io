@@ -388,8 +388,13 @@ const data = {
       quote: "porn is fine, roblox isn't",
     },
     {
-      name: "GenesiS",
+      name: "D43DALUS",
       role: "Head Artist",
+      quote: "I'm built not born, it's an analytical advantage.",
+    },
+    {
+      name: "GenesiS",
+      role: "Artist",
       quote: "Shadow fury shits on Livid Dagger",
     },
     {
@@ -472,11 +477,6 @@ const data = {
       link: "https://www.reddit.com/user/RayDeeUx/",
       role: "Artist",
       quote: "hey, you could pour soup in my lap and i'll probably apologize to you!",
-    },
-    {
-      name: "D43DALUS",
-      role: "Artist",
-      quote: "I'm built not born, it's an analytical advantage.",
     },
     {
       name: "Smolegit",
