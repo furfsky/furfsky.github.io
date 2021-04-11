@@ -155,6 +155,7 @@ const data = {
       `Gallery arriving in 2025`,
       `Using FurfSky Reborn does not give any disallowed advantages on Hypixel. However, you can get sex 1000x easier by downloading this pack.`,
       `epicly failed to embed PHQ's corpse into the grave`,
+      `<a href="https://discord.gg/fsr">join discord server here</a>`,
       `<span style="font-size:25px">aHR0cHM6Ly9ncmFoYW1saW5laGFuLnN1YnN0YWNrLmNvbS9wL3NvbWV0aGluZy1yb3R0ZW4tYXQtdGhlLWhlYXJ0LW9m</span>`,
       `hihowareyouimdeadbutnotreallythatsjustmynameinaselectgroupofserversjesusifeelenergizeditsthecocaineisntit`,
       `<span style="font-size:2px">I summon thee, lord of darkness and the embodiment of all suffering, from the depths of the underworld. Your holy form looks down upon all those who oppose you. Your power over the forces of evil and shadow are limited only by the fear of your enemies. How beautiful you are, glistening with blood and malice, your eyes filled with the urge to kill. You are a true villain. Rise, for you are the master. The Master of the Wicked.</span>`,
@@ -324,7 +325,7 @@ const data = {
   downloads: [
     {
       version: "v1.2.5",
-      name: "T5 Revs, Spider's Den items, loose ends",
+      name: "T5 Revs + Spider's Den items",
       fileFull:
         "/files/v1.2.5/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.5§8§l].zip",
       fileOverlay:
@@ -332,7 +333,7 @@ const data = {
     },
     {
       version: "v1.2.4",
-      name: "Wither Swords Redux + tweaks",
+      name: "Wither Swords Redux",
       fileFull:
         "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.4§8§l].zip",
       fileOverlay:
@@ -340,7 +341,7 @@ const data = {
     },
     {
       version: "v1.2.3",
-      name: "Mod UIs, loose ends, and bug fixes",
+      name: "Mod UIs",
       fileFull:
         "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
       fileOverlay:
@@ -466,8 +467,8 @@ const data = {
     {
       name: "Skeletony",
       link: "https://hypixel.net/members/3925718/",
-      role: "Artist",
-      quote: "bootleg sans",
+      role: "Retired Artist",
+      quote: "bootleg sans. also check out wab",
     },
     {
       name: "ThatOneRandomDiscordAccount",
