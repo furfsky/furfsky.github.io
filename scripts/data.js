@@ -324,6 +324,7 @@ const data = {
   downloads: [
     {
       version: "v1.2.5",
+      name: "T5 Revs, Spider's Den items, loose ends",
       fileFull:
         "/files/v1.2.5/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.5§8§l].zip",
       fileOverlay:
@@ -331,6 +332,7 @@ const data = {
     },
     {
       version: "v1.2.4",
+      name: "Wither Swords Redux + tweaks",
       fileFull:
         "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.4§8§l].zip",
       fileOverlay:
@@ -338,6 +340,7 @@ const data = {
     },
     {
       version: "v1.2.3",
+      name: "Mod UIs, loose ends, and bug fixes",
       fileFull:
         "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
       fileOverlay:
@@ -345,6 +348,7 @@ const data = {
     },
     {
       version: "v1.2.2",
+      name: "Dwarven Mines and Internal Rewrite",
       fileFull:
         "/files/v1.2.2/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.2§8§l].zip",
       fileOverlay:
@@ -354,6 +358,7 @@ const data = {
 
     {
       version: "v1.1.0",
+      name: "sai was too lazy to give it a title",
       fileFull:
         "/files/v1.1.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.1.0§8§l].zip",
       fileOverlay:
@@ -377,7 +382,7 @@ const data = {
   ],
   creditColors: {
     Manager: "#ffa500",
-    "Head Artist": "#ffc0cb",
+    "Head Artist": "#00ffc6",
     Artist: "#b19cd9",
     "Trial Artist": "#7b6d97",
     "Retired Artist": "#7d6e99",
