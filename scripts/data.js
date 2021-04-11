@@ -343,7 +343,7 @@ const data = {
     },
     {
       version: "v1.2.3",
-      name: "Mod UIs",
+      name: "Mod UIs (Yes, 99% of the SB mods you can name are textured here)",
       fileFull:
         "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
       fileOverlay:
@@ -391,6 +391,8 @@ const data = {
     "Retired Artist": "#7d6e99",
     Admin: "#4b8b3b",
     Moderator: "#17d44a",
+    "Retired Moderator": "#7d6e99",
+    "Event Helper": "#554dca",
     "Website Developer": "#ffff00",
     "Pack Contributor": "#00b0b0",
     "Discord Contributor": "#aa0000",
