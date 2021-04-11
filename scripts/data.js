@@ -334,6 +334,14 @@ const data = {
         "/files/v1.2.5/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.5§8§l].zip",
     },
     {
+      version: "v1.69",
+      name: "April Fools!",
+      fileFull:
+        "/files/v1.69/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.69§8§l].zip",
+      fileOverlay:
+        "/files/v1.69/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.69§8§l].zip",
+    },
+    {
       version: "v1.2.4",
       name: "Wither Swords Redux",
       fileFull:
