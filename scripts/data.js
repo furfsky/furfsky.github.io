@@ -13,8 +13,7 @@ const data = {
       `"i support racism"<br>-duckiscool`,
       `your toes will be pulled tonight<br>-pcart`,
       `sex is good sex is life literally<br>-pcart`,
-      `𝒥𝒶𝓂 𝒶 𝑀𝒶𝓃 𝑜𝒻 𝐹𝑜𝓇𝓉𝓊𝓃𝑒, 𝒶𝓃𝒹 𝒥 𝓂𝓊𝓈𝓉 𝓈𝑒𝑒𝓀 𝓂𝓎 𝐹𝑜𝓇𝓉𝓊𝓃𝑒
-      －𝐻𝑒𝓃𝓇𝓎 Æ𝓋𝑒𝓇𝒾𝑒𝓈, 𝟣𝟫𝟫𝟦`,
+      `𝒥𝒶𝓂 𝒶 𝑀𝒶𝓃 𝑜𝒻 𝐹𝑜𝓇𝓉𝓊𝓃𝑒, 𝒶𝓃𝒹 𝒥 𝓂𝓊𝓈𝓉 𝓈𝑒𝑒𝓀 𝓂𝓎 𝐹𝑜𝓇𝓉𝓊𝓃𝑒<br>－𝐻𝑒𝓃𝓇𝓎 Æ𝓋𝑒𝓇𝒾𝑒𝓈, 𝟣𝟫𝟫𝟦`,
       `"hitler is cringe lmao"<br>-joseph stalin, 1942`,
       `"This pack is trash"<br>-a bald idiot`,
       `this isn't ending into a furry porn discord we swear`,
@@ -410,7 +409,7 @@ const data = {
   },
   credits: [
     {
-      name: "FurryEboy",
+      name: "FurryEBoy",
       link: "https://www.youtube.com/channel/UC2GO6UL1OEC0Lk35bhMtNRQ",
       role: "Manager",
       quote: "porn is fine, roblox isn't",
@@ -621,7 +620,7 @@ navbar.innerHTML = `
     src="/assets/navbar/gallery.png" 
     onmouseover="this.src='/assets/navbar/gallery_pressed.png'"
     onmouseout="this.src='/assets/navbar/gallery.png'"
-    onclick="alert('Under Construction!')"
+    onclick="alert('Under construction–gallery coming in 2025.')"
     class="disabled-tab"
     />
   </a>
