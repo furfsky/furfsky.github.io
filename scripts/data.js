@@ -9,6 +9,7 @@ const data = {
       `"ill kill you."<br>-sai`,
       `i wanted free vbucks :(`,
       `"porn is fine, roblox isnt"<br>-furryeboy`,
+      `"light geometry can die in a hole."<br>-smolegit`,
       `sai is cringe`,
       `"i support racism"<br>-duckiscool`,
       `your toes will be pulled tonight<br>-pcart`,
@@ -511,7 +512,7 @@ const data = {
     {
       name: "Smolegit",
       role: "Artist",
-      quote: "Lotta true crime",
+      quote: "light geometry can die in a hole.",
     },
     {
       name: "goog",
