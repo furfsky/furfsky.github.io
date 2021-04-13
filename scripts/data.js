@@ -171,6 +171,9 @@ const data = {
       `<span style="color: #FF5555;";>☠ LGenes1S was killed by Frozen Adventurer and became a ghost.</span>`,
       `<span style="color: #FF5555;";>☠ LGenes1S died to a trap and became a ghost.</span>`,
       `WHY THE FUCK DOES IT HAVE TO BE SO HARD TO GET A COVID-19 VACCINATION?<br>I'M JUST TRYING TO GET MY FIRST DOSE OF PFIZER, FOR FUCK'S SAKE!<br><br>FUCKING HELL, I HAVE A BETTER CHANCE OF GETTING A NECRON'S HANDLE AT THIS POINT.`,
+      `For legal purposes, the FurfSky Reborn Discord does not condone bestiality, consenting or otherwise.`,
+      `Any unlicensed distribution of beta textures is punishable by at least, but not limited to, 3 months of penal labor and kneecapitation.`,
+      `Check <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#pack-faq</span> and <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#mod-ui-faq</span> first, or die.`,
       `Now I've learned my
       ${Math.random() > 0.5 ?
         `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" draggable="false" style="wdith:32px; height:32px;">
