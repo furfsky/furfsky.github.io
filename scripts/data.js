@@ -588,7 +588,7 @@ const data = {
     {
       name: "MyPancakes",
       role: "Pack Contributor",
-      qu9ote: "sometimes i question why artists that are as good as the people here are making art for mc",
+      quote: "sometimes i question why artists that are as good as the people here are making art for mc",
     },
     {
       name: "TomEngMaster",
