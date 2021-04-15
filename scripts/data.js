@@ -333,7 +333,7 @@ const data = {
   downloads: [
     {
       version: "v1.2.6",
-      name: "La Résistance",
+      name: "La Resistance",
       fileFull:
         "/files/v1.2.6/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.6§8§l].zip",
       fileOverlay:
