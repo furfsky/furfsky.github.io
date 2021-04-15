@@ -332,6 +332,14 @@ const data = {
   },
   downloads: [
     {
+      version: "v1.2.6",
+      name: "La Résistance",
+      fileFull:
+        "/files/v1.2.6/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.6§8§l].zip",
+      fileOverlay:
+        "/files/v1.2.6/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.6§8§l].zip",
+    },
+    {
       version: "v1.2.5",
       name: "T5 Revs + Spider's Den items",
       fileFull:
