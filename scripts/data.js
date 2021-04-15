@@ -72,6 +72,8 @@ const data = {
       `oh no`,
       `the pack that smiles back`,
       `FSR stands for Furry Sucks Rectum`,
+      `“<i>Remember, life is what you make of it. Even if you are feeling down, you will get back up, Even though you did something bad, things will get better. Just because you came on your nice shoes in the bathroom at school, probably nobody will notice.</i>“<br>-Shrek’s Mom`,
+      `"<i>Title of your sex tape.</i>"<br>-Jake Peralta`,
       `I regret joining`,
       `If you are trash go cry to Fortnite you loser<br>-Sun Tzu, Art of war`,
       `this is the worst thing to happen to humanity`,
@@ -140,6 +142,7 @@ const data = {
       `your wifi password is probably along the lines of "170sb45ltngX3331458tdq314w".<br>now go download the pack.`,
       `so we gave an aimbot a paintbrush`,
       `imagine if the 10kth server member was furf himself coming in to flip us off<br>—erymanthus`,
+      `sometimes i question why artists that are as good as the people here are making art for mc<br>—MyPancakes`,
       `sell your soul to tyler for free fortnite vbucks`,
       `The website creator is actually an ai designed by the cia to track weebs that play skyblock and exterminate them`,
       `What if you wanted to go to heaven, but God said<br><span style='color:#FF5555;'>Couldn't warp you! Try again later!</span> <span style="color:#AAAAAA;">${Math.random() > 0.5 ? '(NO_DESTINATION_FOUND)' : '(SERVERS_DID_NOT_ACCEPT)' }</span>`,
@@ -473,11 +476,13 @@ const data = {
     {
       name: "PigTurtle",
       role: "Retired Artist",
+      quote: "it's not acting anymore, now it's being run by a microwave",
     },
     {
       name: "resanityyy",
       link: "https://hypixel.net/members/1296806/",
       role: "Retired Artist",
+      quote: "gargage",
     },
     {
       name: "Perpillow",
@@ -489,6 +494,7 @@ const data = {
       name: "TrashAtNames/BlockBusterCF",
       link: "https://hypixel.net/members/2765236/",
       role: "Artist",
+      quote: "i live under a rock when it comes to optifine updates apparently",
     },
     {
       name: "Skeletony",
@@ -567,6 +573,7 @@ const data = {
     {
       name: "SausageDog359",
       role: "Pack Contributor",
+      quote: "i eat an unknown amount of meat",
     },
     {
       name: "DTRW191",
@@ -576,10 +583,12 @@ const data = {
     {
       name: "Edna Mode",
       role: "Pack Contributor",
+      quote: "damn that's hot.",
     },
     {
       name: "MyPancakes",
       role: "Pack Contributor",
+      qu9ote: "sometimes i question why artists that are as good as the people here are making art for mc",
     },
     {
       name: "TomEngMaster",
@@ -589,6 +598,7 @@ const data = {
     {
       name: "mali komrade",
       role: "Pack Contributor",
+      quote: "sup gamers",
     },
     {
       name: "TheMeerkaT",
