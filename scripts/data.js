@@ -162,7 +162,7 @@ const data = {
       `epicly failed to embed PHQ's corpse into the grave`,
       `<a href="https://discord.gg/fsr">join discord server here</a>`,
       `<span style="font-size:25px">aHR0cHM6Ly9ncmFoYW1saW5laGFuLnN1YnN0YWNrLmNvbS9wL3NvbWV0aGluZy1yb3R0ZW4tYXQtdGhlLWhlYXJ0LW9m</span>`,
-      `hihowareyouimdeadbutnotreallythatsjustmynameinaselectgroupofserversjesusifeelenergizeditsthecocaineisntit`,
+      `<span style="font-size:12px">hihowareyouimdeadbutnotreallythatsjustmynameinaselectgroupofserversjesusifeelenergizeditsthecocaineisntit</span>`,
       `<span style="font-size:2px">I summon thee, lord of darkness and the embodiment of all suffering, from the depths of the underworld. Your holy form looks down upon all those who oppose you. Your power over the forces of evil and shadow are limited only by the fear of your enemies. How beautiful you are, glistening with blood and malice, your eyes filled with the urge to kill. You are a true villain. Rise, for you are the master. The Master of the Wicked.</span>`,
       `you know for sure that reddit is slowly trying to outdo discord by letting pedophiles roam free in their very administrative offices`,
       `<span style="color: #FF5555;";>☠ LGenes1S was killed by Skeleton Soldier and became a ghost.</span>`,
@@ -178,31 +178,36 @@ const data = {
       `For legal purposes, the FurfSky Reborn Discord does not condone bestiality, consenting or otherwise.`,
       `Any unlicensed distribution of beta textures is punishable by at least, but not limited to, 3 months of penal labor and kneecapitation.`,
       `Check <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#pack-faq</span> and <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#mod-ui-faq</span> first, or die.`,
+      `<img src="https://ptb.discord.com/assets/2d16214bcc74dd1546a35d3d6f15abec.svg" draggable="false" style="width:32px; height:32px;"> SHIT HAPPENS. | macOS Big Sur on MacBook Pro Late 2019 16" (i9-9880H @ 2.30GHz, Radeon Pro 5500M @ 2048x1280, 16GB RAM)`,
+      `"SHIT HAPPENS."<br>-Tom Holland`,
+      `Made by <span style="color: #FF5555;";>[</span><span style="color: #FFFFFF;";>YOUTUBE</span><span style="color: #FF5555;";>]</span> <span style="color: #FF5555;";>FurryEBoy</span> and his team of artists!`,
+      `Type <span style="color: #AAAAAA;";>/killdante</span> in chat to make the fight last longer!`,
+      `please stop using <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#make-a-website-quote</span> as <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#general</span> with a 15 minute cooldown ;-;`,
       `Now I've learned my
       ${Math.random() > 0.5 ?
-        `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" draggable="false" style="wdith:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/787004872444739624.png?v=1" draggable="false" style="wdith:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/787004862356389909.png?v=1" draggable="false" style="wdith:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/787004897735475220.png?v=1" draggable="false" style="wdith:32px; height:32px;">` :
-        `<img src="https://cdn.discordapp.com/emojis/804803417259507752.png?v=1" draggable="false" style="wdith:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/804803405012533268.png?v=1" draggable="false" style="wdith:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/804803384187158559.png?v=1" draggable="false" style="wdith:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/804803429264392213.png?v=1" draggable="false" style="wdith:32px; height:32px;">`}
+        `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" draggable="false" style="width:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/787004872444739624.png?v=1" draggable="false" style="width:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/787004862356389909.png?v=1" draggable="false" style="width:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/787004897735475220.png?v=1" draggable="false" style="width:32px; height:32px;">` :
+        `<img src="https://cdn.discordapp.com/emojis/804803417259507752.png?v=1" draggable="false" style="width:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/804803405012533268.png?v=1" draggable="false" style="width:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/804803384187158559.png?v=1" draggable="false" style="width:32px; height:32px;">
+        <img src="https://cdn.discordapp.com/emojis/804803429264392213.png?v=1" draggable="false" style="width:32px; height:32px;">`}
       , next time ${Math.random() > 0.5 ? `please don't sing with me!` : `won't you sing with me?`}`,
       `
-     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" draggable="false" style="wdith:32px; height:32px;"> 
-     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="wdith:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="wdith:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" draggable="false" style="width:32px; height:32px;"> 
+     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
+     <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="width:32px; height:32px;">
      `,
       () => {
         let numOs = Math.floor(Math.random() * 30);
