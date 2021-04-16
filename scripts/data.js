@@ -1,3 +1,4 @@
+const date = new Date();
 const data = {
   header: {
     image: "",
@@ -23,7 +24,7 @@ const data = {
       } discord server`,
       `<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">join discord server here</a>`,
       `reload for another message`,
-      `Winner of 2020 best pack award.`,
+      `Winner of ${String(date.getYear() + 1900)} best pack award.`,
       `<h2>big text</h2>`,
       `Yet another skyblock pack`,
       `please stop posting furry images.`,
