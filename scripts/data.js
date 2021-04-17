@@ -187,7 +187,7 @@ const data = {
       `"Every time someone steps up and says who they are, the world becomes a better, more interesting place."<br>-Captain Holt`,
       `if you get killed what happens to all your debt`,
       `noice`,
-      `life's a party and i'm the piñata`,
+      `life's a party and i'm the pinata`,
       `what is the bandwidth on the wifi here we have much <i>content</i> to stream`,
       `A place where everybody knows your name is hell.`,
       `yippie kayak other buckets`,
