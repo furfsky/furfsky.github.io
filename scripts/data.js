@@ -266,6 +266,27 @@ const data = {
         }, 100);
       },
       () => {
+        let numCools = Math.floor((Math.random() * (30 - 10)) + 10);
+        let coolCounter = 1;
+        let quoteBoo = `"cool `;
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          if(coolCounter >= numCools+1){
+            quoteBoo += `<br>-Jake Peralta`;
+            clearInterval(interval);
+          }
+          if (coolCounter < numCools)
+          {
+            quoteBoo += `cool `;
+          }
+          if(coolCounter == numCools){
+            quoteBoo += `cool"`;
+          }
+          quote.innerHTML = quoteBoo;
+          coolCounter++;
+        }, 85);
+      },
+      () => {
         let quoteIndex = 0;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
