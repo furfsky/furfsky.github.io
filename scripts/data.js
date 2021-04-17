@@ -580,7 +580,7 @@ const data = {
     {
       name: "tea",
       role: "Artist",
-      quote: "imagine not wanting fatfuck's opinion",
+      quote: "i will murder every axolotl in a 100 km radius",
     },
     {
       name: "Erymanthus",
