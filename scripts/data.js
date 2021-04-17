@@ -491,11 +491,13 @@ const data = {
       name: "SoshJam",
       link: "https://hypixel.net/members/1196292/",
       role: "Retired Artist",
+      quote: "would you say it looks like a wireless vibrator",
     },
     {
       name: "iDevil4Hell/Thanatos",
       link: "https://hypixel.net/members/3639006/",
       role: "Retired Artist",
+      quote: "Try not to cringe! [FSR Edition] (Gone wrong, absolutely failed)",
     },
     {
       name: "xOticz_",
