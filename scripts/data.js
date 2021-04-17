@@ -183,7 +183,7 @@ const data = {
       `"urmom"<br>-tea`,
       `:pog:`,
       `tra la laaa`,
-      `"looks like im about to break the law"<br>-phq stans wondering where their mod uis are, as well as jake peralta`,
+      `"looks like im about to break the law"<br>-phq mains wondering where their mod uis are, as well as jake peralta`,
       `"hey, you could pour soup in my lap and i'll probably apologize to you!"<br>-erymanthus and john mulaney`,
       `so the hospital called and diagnosed you with stage five dumbass for not downloading the pack`,
       `<span style="color: #FF5555;";>Time</span><span style="color: #FFFFFF;";>Deo</span> approved!<br>(he has not, tyler lied.)`,
