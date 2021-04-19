@@ -9,12 +9,9 @@ const data = {
       `undefined`,
       `"ill kill you."<br>-sai`,
       `i wanted free vbucks :(`,
-      `"porn is fine, roblox isnt"<br>-furryeboy`,
       `"light geometry can die in a hole."<br>-smolegit`,
       `sai is cringe`,
-      `"i support racism"<br>-duckiscool`,
       `your toes will be pulled tonight<br>-pcart`,
-      `sex is good sex is life literally<br>-pcart`,
       `𝒥𝒶𝓂 𝒶 𝑀𝒶𝓃 𝑜𝒻 𝐹𝑜𝓇𝓉𝓊𝓃𝑒, 𝒶𝓃𝒹 𝒥 𝓂𝓊𝓈𝓉 𝓈𝑒𝑒𝓀 𝓂𝓎 𝐹𝑜𝓇𝓉𝓊𝓃𝑒<br>－𝐻𝑒𝓃𝓇𝓎 Æ𝓋𝑒𝓇𝒾𝑒𝓈, 𝟣𝟫𝟫𝟦`,
       `"hitler is cringe lmao"<br>-joseph stalin, 1942`,
       `"This pack is trash"<br>-a bald idiot`,
@@ -48,9 +45,7 @@ const data = {
       `Now with 56% more shitposting!`,
       `“Is this the United Airlines costumer service center?”`,
       `He stomped on his fruit loops and thus became a cereal killer.`,
-      `" You can murder kids, because there's a point in murdering kids,
-      But lying, There's no reason to lie, Only bad people lie. Killing Children is okay though".
-      <br>-Technoblade September 30th, 2014`,
+      `"<i>You can murder kids, because there's a point in murdering kids,<br>But lying, There's no reason to lie, Only bad people lie. Killing Children is okay though".<br>-Technoblade September 30th, 2014`,
       `why do they call it oven if you oven the cold food of out hot eat the food`,
       `Help im locked in a data center`,
       `what`,
@@ -65,16 +60,13 @@ const data = {
       `fuck`,
       `Is this illegal?`,
       `sai is epic (jk)`,
-      `Our scientists have confirmed that the colour of eggs is gay`,
       `<span style="font-size:50px">https://discord.com/channels/771187253937438762/772844452116824106/789595450306592798</span>`,
       `furryegirl`,
       `furryeboy AR racing simulator`,
       `The furrier the better<br>-Penguin`,
       `oh no`,
       `the pack that smiles back`,
-      `FSR stands for Furry Sucks Rectum`,
       `“<i>Remember, life is what you make of it. Even if you are feeling down, you will get back up, Even though you did something bad, things will get better. Just because you came on your nice shoes in the bathroom at school, probably nobody will notice.</i>“<br>-Shrek’s Mom`,
-      `"<i>Title of your sex tape.</i>"<br>-Jake Peralta`,
       `I regret joining`,
       `If you are trash go cry to Fortnite you loser<br>-Sun Tzu, Art of war`,
       `this is the worst thing to happen to humanity`,
@@ -93,10 +85,6 @@ const data = {
       `I will turn you and your family into raisins<br>-xOticz`,
       `The Discord channel this insanly-funny-website-quote was createt, has an insably long slow mode, so it's pain when you get another good idea afert you send another one.`,
       `🙃🔫`,
-      `voxal, suck my dick<br>-SeBook`,
-      `wanna commit genocide<br>-SeBook`,
-      `voxal, i am gay<br>-SeBook`,
-      `my pp small<br>-voxal`,
       `yikes, I love it<br>-SulamiWizard`,
       `THATS CONK CREAT BABEY!!!!!!!<br>-FurryEboy`,
       `Lets get youtube rank guys! 7/30000`,
@@ -113,19 +101,13 @@ const data = {
       `No furries allowed`,
       `Princessai i simp for`,
       `I miss the old Skyblock days. But my aim is getting better! *plays laugh track*`,
-      `<span tabindex="-1" role="button" style="
-      border-radius: 3px;
-      padding: 0 2px;
-      font-weight: 500;
-      color: #7289da;
-      background: rgba(114,137,218,.1);
-      position: relative;">@everyone</span>`,
+      `<span tabindex="-1" role="button" style="border-radius: 3px; padding: 0 2px; font-weight: 500; color: #7289da; background: rgba(114,137,218,.1); position: relative;">@everyone</span>`,
+      `<span tabindex="-1" role="button" style="border-radius: 3px; padding: 0 2px; font-weight: 500; color: #7289da; background: rgba(114,137,218,.1); position: relative;">@here</span>`,
       `sebook should be demoted`,
       `pings make your quote less likely to be added >:(`,
       `ban sebook<br>-literally everyone but sebook`,
       `This discord is going to hell`,
       `thanks i ${Math.random() > 0.5 ? "hait" : "hate"} it`,
-      `"how much dick do i have to suck for cool guy role"<br>-sai, in the phq server`,
       `made possible by wix`,
       `A titanium ore spawned nearby!<br>Wait, never mind. That was just bird shit.`,
       `😱 5 STAR DREAM HEAD IS INSANE FOR FLOOR 3 OMG WTFA FASJDHASBDGAS<br>—xOticz_`,
@@ -139,13 +121,12 @@ const data = {
       `"Have a nice day", they say.<br>"I’m going to commit vehicular manslaughter", I say.<br>—Strxfe`,
       `Due to extensive research, the second coming of Christ cannot do an ollie. However, you can do an ollie double X triple balooga extreme if you download the pack.`,
       `<span style="color: #FFAA00;";>RARE DROP!</span> <span style="color: #FFFFFF";>Carrot</span> <span style="color: #55FFFF";>(+300% Magic Find!)</span>`,
-      `<span style="font-size:3px;";>moulberry bush man is swag man with big pp and huge brain he is like the god of the gods and he has gaming skin and stuff he plays with 1000iq and is like omg moulberry moment i sometimes wonder what is a moulberry is it berry or is a it a moul or maybe its a moulberry i guess we will never know and like moul is like omg MOUL its very cool and swag he has like huge balls and stuff too and he's like super funny and shit too he also has cool australian accent like my life without moulberry wud be incomplete i need moulberry in my life he's god he's life he's moulberry but he's not a blueberry if he was a blueberry it wouldve been cooler since like blueberries are cooler but it is what it is he has 46203 simps already and that number grows everyday and i wonder if one day he will have 100 thousands simps i mean knowning moulberry he probably will but then again ppl are dumb and they dont understand the power of the berry and havent joined the server like why are you why do u you even live i question this all day long and sometimes i think that i might be too obsessed with moulberry but then i realize you can never be too upset by the berry himself it gives me the will to live moulberry is the reason im still here the day moulberry leaves my life i will commit die i can not live without the moulberry and his big pp.</span>`,
       `your wifi password is probably along the lines of "170sb45ltngX3331458tdq314w".<br>now go download the pack.`,
       `so we gave an aimbot a paintbrush`,
       `imagine if the 10kth server member was furf himself coming in to flip us off<br>—erymanthus`,
       `sometimes i question why artists that are as good as the people here are making art for mc<br>—MyPancakes`,
       `sell your soul to tyler for free fortnite vbucks`,
-      `The website creator is actually an ai designed by the cia to track weebs that play skyblock and exterminate them`,
+      `the website creator is actually an ai designed by the cia to track weebs that play skyblock and exterminate them`,
       `What if you wanted to go to heaven, but God said<br><span style='color:#FF5555;'>Couldn't warp you! Try again later!</span> <span style="color:#AAAAAA;">${Math.random() > 0.5 ? '(NO_DESTINATION_FOUND)' : '(SERVERS_DID_NOT_ACCEPT)' }</span>`,
       `After using this pack, I started getting SO many more matches on tinder`,
       `If energy can't be destroyed, and atoms are energy, then yes your honor, she was in fact of age`,
@@ -155,11 +136,10 @@ const data = {
       `The lego man sits in the lego brick house. Is the house made of flesh, or is he made of house? He screams, for he does not know.`,
       `can this entire photo (stolen from hellcastle + furryeboy server) be a quote<br>-erymanthus`,
       `add what erymanthus said as a quote, but dont include the image<br>-furryeboy`,
-      `BEWARE PCART01: he will secks you`,
       `BEWARE GOOSE: he will hijack your plane`,
       `can someone tell me in a week that my belle delphine onlyfans subscription will run out thanks`,
       `Gallery arriving in 2025`,
-      `Using FurfSky Reborn does not give any disallowed advantages on Hypixel. However, you can get sex 1000x easier by downloading this pack.`,
+      `Using FurfSky Reborn does not give any disallowed advantages on Hypixel. However, you can get scammed 1000x harder by downloading this pack.`,
       `epicly failed to embed PHQ's corpse into the grave`,
       `<a href="https://discord.gg/fsr">join discord server here</a>`,
       `<span style="font-size:25px">aHR0cHM6Ly9ncmFoYW1saW5laGFuLnN1YnN0YWNrLmNvbS9wL3NvbWV0aGluZy1yb3R0ZW4tYXQtdGhlLWhlYXJ0LW9m</span>`,
@@ -219,7 +199,7 @@ const data = {
       `I ate a shoebox.`,
       `goog`,
       `#winning`,
-      `Hhnz get der flammenwerfer!`,
+      `hanz get der flammenwerfer!`,
       `If I had a dollar for every time they redid the wither swords I could bribe the FSR team to demote TORDA`,
       `^ make sure to check if this says FurSfky Rebron`,
       `WHY THE FUCK DOES IT HAVE TO BE SO HARD TO GET A COVID-19 VACCINATION?<br>I'M JUST TRYING TO GET MY FIRST DOSE OF PFIZER, FOR FUCK'S SAKE!<br><br>FUCKING HELL, I HAVE A BETTER CHANCE OF GETTING A NECRON'S HANDLE AT THIS POINT.`,
@@ -239,7 +219,7 @@ const data = {
       `i guess i just dont care what other people think of me`,
       `"<i>Just because you wanna do something doesn't mean you get to do it.<br>Life is chaos, success is completely arbitrary, and confidence is everything.</i>"<br>-Gina Linetti`,
       `hot damn!`,
-      `<i>We protest you calling us "little kids".<br>We prefer to be called "vertically-impaired pre-adults".</i><br>-Yakko Warner`,
+      `<i>We protest you calling us "little kids".<br>We prefer to be called "vertically-impaired pre-adults".</i><br>-fsr team (but Yakko Warner said it first)`,
       `I'm going to slice your Achilles' tendons, peel off your fingernails, and stick knitting needles in your eyes.`,
       `Instructions unclear; the captive's Achilles' tendons have been needled, fingernails sliced, and eyes peeled.`,
       `this is exhausting i just want to go back to my container of goo and go to sleep`,
@@ -390,10 +370,10 @@ const data = {
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
           if (metersAway > 0) {
-            quote.innerHTML = `I am within ${metersAway} meters and rapidly approaching -parakeetiscool`;
+            quote.innerHTML = `I am within ${metersAway} meters and rapidly approaching<br>-parakeetiscool`;
             metersAway--;
           } else if (metersAway <= 0) {
-            quote.innerHTML = "Knock knock, I'm at your door.";
+            quote.innerHTML = "Knock knock, I'm at your door.<br>-parakeetiscool";
             clearInterval(interval);
           }
         }, 100);
@@ -517,7 +497,6 @@ const data = {
       name: "FurryEBoy",
       link: "https://www.youtube.com/channel/UC2GO6UL1OEC0Lk35bhMtNRQ",
       role: "Manager",
-      quote: "porn is fine, roblox isn't",
     },
     {
       name: "D43DALUS",
@@ -533,13 +512,11 @@ const data = {
       name: "Saikage",
       link: "https://hypixel.net/members/3250921/",
       role: "Retired Artist",
-      quote: "mmmf fuck me daddy uwu",
     },
     {
       name: "SoshJam",
       link: "https://hypixel.net/members/1196292/",
       role: "Retired Artist",
-      quote: "would you say it looks like a wireless vibrator",
     },
     {
       name: "iDevil4Hell/Thanatos",
@@ -557,13 +534,12 @@ const data = {
       name: "duckiscool69",
       link: "https://hypixel.net/members/2880572/",
       role: "Retired Artist",
-      quote: "i support racism",
     },
     {
       name: "PcArt01",
       link: "https://hypixel.net/members/3394976/",
       role: "Artist",
-      quote: "sex is good sex is life literally",
+      quote: "your toes will be pulled tonight",
     },
     {
       name: "PigTurtle",
