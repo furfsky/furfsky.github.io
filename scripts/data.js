@@ -28,7 +28,7 @@ const data = {
       `<h2>big text</h2>`,
       `Yet another skyblock pack`,
       `please stop posting furry images.`,
-      `website by voxal`,
+      `website by voxal<br><small>(and for now, maintained by erymanthus)</small>`,
       `boost the server for a cool role`,
       `Furfsky never dies`,
       `<p contenteditable="true">you can edit this text</p>`,
