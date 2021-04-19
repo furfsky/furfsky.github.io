@@ -218,6 +218,9 @@ const data = {
       `hey uh, we need to borrow your valkyrie, to, uh, make sure that our texture pack works`,
       `I ate a shoebox.`,
       `goog`,
+      `#winning`,
+      `Hhnz get der flammenwerfer!`,
+      `If I had a dollar for every time they redid the wither swords I could bribe the FSR team to demote TORDA`,
       `^ make sure to check if this says FurSfky Rebron`,
       `WHY THE FUCK DOES IT HAVE TO BE SO HARD TO GET A COVID-19 VACCINATION?<br>I'M JUST TRYING TO GET MY FIRST DOSE OF PFIZER, FOR FUCK'S SAKE!<br><br>FUCKING HELL, I HAVE A BETTER CHANCE OF GETTING A NECRON'S HANDLE AT THIS POINT.`,
       `For legal purposes, the FurfSky Reborn Discord does not condone bestiality, consenting or otherwise.`,
@@ -228,6 +231,7 @@ const data = {
       `Made by <span style="color: #FF5555;";>[</span><span style="color: #FFFFFF;";>YOUTUBE</span><span style="color: #FF5555;";>]</span> <span style="color: #FF5555;";>FurryEBoy</span> and his team of artists!`,
       `Type <span style="color: #AAAAAA;";>/killdante</span> in chat to make the fight last longer!`,
       `eat butt you ding dongs`,
+      `Better get some corticosteroids to treat that laryngeal fracture.`,
       `holy motherforking shirtballs`,
       `If I was a man with a coherent brain, I would have gotten full Shadow Assassin and Livid Dagger, but no. I just have full Superior Dragon Armor and an overly maxed Shadow Fury.`,
       `keep it in your pants please<br><small>(and yes you should reasonably know what we mean by "it")</small>`,
@@ -241,6 +245,7 @@ const data = {
       `this is exhausting i just want to go back to my container of goo and go to sleep`,
       `stop refreshing the page, please. these random quotes were meant to be fun tidbits you notice for a fleeting moment before you download the latest version of the pack, not for you to get a funny screenshot. save that job for erymanthus and voxal<br>thanks :D`,
       `please stop using <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#make-a-website-quote</span> as <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#general</span> with a 15 minute cooldown ;-;`,
+      `<span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#admin-furry-stash</span> is not a real chat room, and is just a rumor falsely spread by server members.`,
       `Now I've learned my
       ${Math.random() > 0.5 ?
         `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" draggable="false" style="width:32px; height:32px;">
@@ -410,6 +415,7 @@ const data = {
         }, 75);
       },
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/821913465941524480.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/817106472424177706.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/825078817265287239.gif?v=1" draggable="false">`,
