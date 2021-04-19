@@ -74,6 +74,7 @@ const data = {
       `If I drop soap on the ground, is the soap dirty, or am I utterly screwed?`,
       `doodoo woohoo`,
       `it do be like that`,
+      `<span style="font-size:3px;";>moulberry bush man is swag man with big pp and huge brain he is like the god of the gods and he has gaming skin and stuff he plays with 1000iq and is like omg moulberry moment i sometimes wonder what is a moulberry is it berry or is a it a moul or maybe its a moulberry i guess we will never know and like moul is like omg MOUL its very cool and swag he has like huge balls and stuff too and he's like super funny and shit too he also has cool australian accent like my life without moulberry wud be incomplete i need moulberry in my life he's god he's life he's moulberry but he's not a blueberry if he was a blueberry it wouldve been cooler since like blueberries are cooler but it is what it is he has 46203 simps already and that number grows everyday and i wonder if one day he will have 100 thousands simps i mean knowning moulberry he probably will but then again ppl are dumb and they dont understand the power of the berry and havent joined the server like why are you why do u you even live i question this all day long and sometimes i think that i might be too obsessed with moulberry but then i realize you can never be too upset by the berry himself it gives me the will to live moulberry is the reason im still here the day moulberry leaves my life i will commit die i can not live without the moulberry and his big pp.</span>`,
       `furf is into mice`,
       `<a href="https://kick-sai.glitch.me/">#kicksai</a>`,
       `I will turn you and your family into raisins<br>-xOticz`,
@@ -489,6 +490,7 @@ const data = {
       name: "FurryEBoy",
       link: "https://www.youtube.com/channel/UC2GO6UL1OEC0Lk35bhMtNRQ",
       role: "Manager",
+      quote: "no fun allowed!",
     },
     {
       name: "D43DALUS",
@@ -504,11 +506,13 @@ const data = {
       name: "Saikage",
       link: "https://hypixel.net/members/3250921/",
       role: "Retired Artist",
+      quote: "who the fuck even",
     },
     {
       name: "SoshJam",
       link: "https://hypixel.net/members/1196292/",
       role: "Retired Artist",
+      quote: "you want me to have a dinky little 5x5 image for a legendary item?",
     },
     {
       name: "iDevil4Hell/Thanatos",
@@ -526,6 +530,7 @@ const data = {
       name: "duckiscool69",
       link: "https://hypixel.net/members/2880572/",
       role: "Retired Artist",
+      quote: "imagine playing skyblock",
     },
     {
       name: "PcArt01",
