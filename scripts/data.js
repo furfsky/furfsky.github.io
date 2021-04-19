@@ -591,7 +591,7 @@ const data = {
     {
       name: "Smolegit",
       role: "Artist",
-      quote: "light geometry can die in a hole.",
+      quote: "Reject Resolutions",
     },
     {
       name: "goog",
