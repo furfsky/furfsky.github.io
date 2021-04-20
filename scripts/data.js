@@ -18,6 +18,7 @@ const data = {
       `<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">join discord server here</a>`,
       `reload for another message`,
       `Winner of ${String(date.getYear() + 1900)} best pack award.`,
+      `${String(Math.floor((((new Date(date.getTime())) - (new Date('October 30, 2020 00:00:00'))) / 1000) / 86400))} days since Perfect Armor hasn't had a texture`,
       `<h2>big text</h2>`,
       `Yet another skyblock pack`,
       `please stop posting furry images.`,
