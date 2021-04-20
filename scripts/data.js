@@ -482,10 +482,10 @@ const data = {
     Manager: "#ffa500",
     "Head Artist": "#00ffc6",
     Artist: "#b19cd9",
-    "Trial Artist": "#7b6d97",
+    "Trial Artist": "#6a5d82",
     "Retired Artist": "#7d6e99",
     Admin: "#4b8b3b",
-    "Artist | Website Helper": "#67dadd",
+    "Artist & Website Helper": "#67dadd",
     Moderator: "#17d44a",
     "Retired Moderator": "#7d6e99",
     "Event Helper": "#554dca",
@@ -593,7 +593,7 @@ const data = {
     {
       name: "Erymanthus",
       link: "https://www.reddit.com/user/RayDeeUx/",
-      role: "Artist | Website Helper",
+      role: "Artist & Website Helper",
       quote: "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
