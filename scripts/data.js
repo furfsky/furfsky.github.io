@@ -594,8 +594,18 @@ const data = {
     },
     {
       name: "goog",
-      role: "Trial Artist",
+      role: "Artist",
       quote: "those are uhh... a lot of channels... you got there.",
+    },
+    {
+      name: "Zetkut",
+      role: "Artist",
+      quote: "amongos",
+    },
+    {
+      name: "Ropes",
+      role: "Trial Artist",
+      quote: "wtf Is Cluster shading Wha",
     },
     {
       name: "voxal",
@@ -613,12 +623,14 @@ const data = {
       role: "Admin",
       quote: "you wet tubesock",
     },
+    /*
     {
       name: "SeBook",
       link: "https://www.youtube.com/channel/UCFeGrtZbI6miqtdWiph_D3Q",
       role: "Retired Moderator",
       quote: "sebook is the best peice of shit",
     },
+    */
     {
       name: "Toasted_Breaad",
       role: "Moderator",
@@ -628,6 +640,16 @@ const data = {
       name: "Gonk",
       role: "Moderator",
       quote: "you miss 100% of the shots you don't take",
+    },
+    {
+      name: "HellCastle",
+      role: "Moderator",
+      quote: "hi guys what do you think about having to make like 10 variants of each item if there was an armor/sword dying update",
+    },
+    {
+      name: "Nan",
+      role: "Moderator",
+      quote: "fire being in a server is a pretty important requirement for someone in that server to use fire",
     },
     {
       name: "InfinityRing",
