@@ -7,10 +7,8 @@ const data = {
       `bottem text`,
       `The second era of Furfsky+`,
       `undefined`,
-      `"ill kill you."<br>-sai`,
       `i wanted free vbucks :(`,
       `"light geometry can die in a hole."<br>-smolegit`,
-      `sai is cringe`,
       `your toes will be pulled tonight<br>-pcart`,
       `𝒥𝒶𝓂 𝒶 𝑀𝒶𝓃 𝑜𝒻 𝐹𝑜𝓇𝓉𝓊𝓃𝑒, 𝒶𝓃𝒹 𝒥 𝓂𝓊𝓈𝓉 𝓈𝑒𝑒𝓀 𝓂𝓎 𝐹𝑜𝓇𝓉𝓊𝓃𝑒<br>－𝐻𝑒𝓃𝓇𝓎 Æ𝓋𝑒𝓇𝒾𝑒𝓈, 𝟣𝟫𝟫𝟦`,
       `"This pack is trash"<br>-a bald idiot`,
@@ -31,7 +29,6 @@ const data = {
       `why does the discord server exist`,
       `I purchased a baby clown from the Russian terrorist black market.`,
       `I don’t support furry rights, but I do support this server`,
-      `Sai is ${Math.random() > 0.5 ? "attractive" : "ugly"}`,
       `even more cursed than the original!`,
       `"For Furries by Furries"`,
       `Furfsky reborn - now with more shit, just worse.`,
@@ -52,7 +49,6 @@ const data = {
       `i havent left my house pls help me i'm hungry`,
       `fuck`,
       `Is this illegal?`,
-      `sai is epic (jk)`,
       `<span style="font-size:50px">https://discord.com/channels/771187253937438762/772844452116824106/789595450306592798</span>`,
       `furryegirl`,
       `furryeboy AR racing simulator`,
@@ -75,7 +71,6 @@ const data = {
       `it do be like that`,
       `<span style="font-size:3px;";>moulberry bush man is swag man with big pp and huge brain he is like the god of the gods and he has gaming skin and stuff he plays with 1000iq and is like omg moulberry moment i sometimes wonder what is a moulberry is it berry or is a it a moul or maybe its a moulberry i guess we will never know and like moul is like omg MOUL its very cool and swag he has like huge balls and stuff too and he's like super funny and shit too he also has cool australian accent like my life without moulberry wud be incomplete i need moulberry in my life he's god he's life he's moulberry but he's not a blueberry if he was a blueberry it wouldve been cooler since like blueberries are cooler but it is what it is he has 46203 simps already and that number grows everyday and i wonder if one day he will have 100 thousands simps i mean knowning moulberry he probably will but then again ppl are dumb and they dont understand the power of the berry and havent joined the server like why are you why do u you even live i question this all day long and sometimes i think that i might be too obsessed with moulberry but then i realize you can never be too upset by the berry himself it gives me the will to live moulberry is the reason im still here the day moulberry leaves my life i will commit die i can not live without the moulberry and his big pp.</span>`,
       `furf is into mice`,
-      `<a href="https://kick-sai.glitch.me/">#kicksai</a>`,
       `I will turn you and your family into raisins<br>-xOticz`,
       `The Discord channel this insanly-funny-website-quote was createt, has an insably long slow mode, so it's pain when you get another good idea afert you send another one.`,
       `🙃🔫`,
@@ -92,7 +87,6 @@ const data = {
       `The texture pack Dream used to be "lucky"! Many RNGesus drops guaranteed!`,
       `bill nye the science guy`,
       `No furries allowed`,
-      `Princessai i simp for`,
       `I miss the old Skyblock days. But my aim is getting better! *plays laugh track*`,
       `<span tabindex="-1" role="button" style="border-radius: 3px; padding: 0 2px; font-weight: 500; color: #7289da; background: rgba(114,137,218,.1); position: relative;">@everyone</span>`,
       `<span tabindex="-1" role="button" style="border-radius: 3px; padding: 0 2px; font-weight: 500; color: #7289da; background: rgba(114,137,218,.1); position: relative;">@here</span>`,
@@ -168,7 +162,6 @@ const data = {
       `so the hospital called and diagnosed you with stage five dumbass for not downloading the pack`,
       `<span style="color: #FF5555;";>Time</span><span style="color: #FFFFFF;";>Deo</span> approved!<br>(he has not, tyler lied.)`,
       `<span style="color: #FFAA00;";>Furf</span><span style="color: #AA00AA;";>Sky+</span>, but its <span style="color: #FFAA00;";>Reborn</span> <span style="color: #FFFFFF;";>:o</span>`,
-      `<span style="color: #FFFF55;";>saikage has left the game</span>`,
       `Now with 100% less +'s`,
       `:(<br>-Juniper`,
       `FSR GOBLIN ARMOR<br><br>BOTTOM TEXT`,
@@ -348,7 +341,7 @@ const data = {
             "While on vacation, I will not be doing that thing where I wish someone a happy birthday by having some random ghost pinging me. My assistant will be doing that for me. Unfortunately, they're also \"out of the office\", so the middleman will be Clyde.<br>Happy birthday.",
             "I will have no access to my homework. A judge ruled that I should be “on vacation” from them.<br><small>(Spoiler: I was the judge.)</small><br><br>And I will have constant access to Spotify. That is less informative and more of a brag.",
             "Finally, I’m sure this goes without saying, but if you’re really rich or really famous, I am instantly available 24/7. Just spam ping me.",
-            "The rest of you, please do not respond to this message, or Discord will force it into my cell phone's push notifications—on a par with my fragrun bot getting banned and every time sai pulls an \"accidental\" <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>@everyone</span>.",
+            "The rest of you, please do not respond to this message, or Discord will force it into my cell phone's push notifications—on a par with my fragrun bot getting banned and every time some nerd pulls an \"accidental\" <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>@everyone</span>.",
             "All my best,<br>xoxo,<br>The M-Man ♦",
             "<span style='font-style: italic;'>Published in the <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#alpha-updates</span> channel in the <a href='https://discord.gg/fsr' style='color:#fbcc6c; text-decoration: none;'>FurfSky Reborn Discord server</span></span>.",
             "<span style='font-style: italic;'>MotorGorilla, a veteran artist for FurfSky Reborn, compiles the countless assets from other artists in the server. His memoir, “My Online Persona: Snoopy,” will be published whenever he stops procrastinating in general.</span>",
@@ -453,7 +446,7 @@ const data = {
 
     {
       version: "v1.1.0",
-      name: "sai was too lazy to give it a title",
+      name: "someone was too lazy to give it a title",
       fileFull:
         "/files/v1.1.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.1.0§8§l].zip",
       fileOverlay:
@@ -507,12 +500,13 @@ const data = {
       role: "Artist",
       quote: "Shadow fury shits on Livid Dagger",
     },
-    {
+    /* {
       name: "Saikage",
       link: "https://hypixel.net/members/3250921/",
       role: "Retired Artist",
       quote: "who the fuck even",
     },
+    */
     {
       name: "SoshJam",
       link: "https://hypixel.net/members/1196292/",
