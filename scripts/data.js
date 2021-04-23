@@ -600,7 +600,7 @@ const data = {
     {
       name: "Zetkut",
       role: "Artist",
-      quote: "amongos",
+      quote: "spain without the s",
     },
     {
       name: "Ropes",
