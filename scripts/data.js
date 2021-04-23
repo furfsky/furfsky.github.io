@@ -649,7 +649,7 @@ const data = {
     {
       name: "Nan",
       role: "Moderator",
-      quote: "fire being in a server is a pretty important requirement for someone in that server to use fire",
+      quote: "blub blub",
     },
     {
       name: "InfinityRing",
