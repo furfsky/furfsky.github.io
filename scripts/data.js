@@ -644,7 +644,7 @@ const data = {
     {
       name: "HellCastle",
       role: "Moderator",
-      quote: "hi guys what do you think about having to make like 10 variants of each item if there was an armor/sword dying update",
+      quote: "They have turned me into a furry. help",
     },
     {
       name: "Nan",
