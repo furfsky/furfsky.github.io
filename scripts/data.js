@@ -649,7 +649,7 @@ const data = {
     {
       name: "Nan",
       role: "Moderator",
-      quote: "blub blub",
+      quote: "blub blub 🦈",
     },
     {
       name: "InfinityRing",
