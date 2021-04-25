@@ -528,7 +528,7 @@ const data = {
     {
       name: "duckiscool69",
       link: "https://hypixel.net/members/2880572/",
-      role: "Retired Artist",
+      role: "Artist",
       quote: "imagine playing skyblock",
     },
     {
