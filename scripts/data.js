@@ -482,6 +482,7 @@ const data = {
     Admin: "#4b8b3b",
     "Artist & Website Helper": "#67dadd",
     Moderator: "#17d44a",
+    Helper: "#3498db",
     "Retired Moderator": "#7d6e99",
     "Event Helper": "#554dca",
     "Website Developer": "#ffff00",
@@ -610,7 +611,7 @@ const data = {
     {
       name: "Ropes",
       role: "Trial Artist",
-      quote: "wtf Is Cluster shading Wha",
+      quote: "yup ! I hate furfsky 🙂",
     },
     {
       name: "voxal",
@@ -657,6 +658,16 @@ const data = {
       quote: "blub blub 🦈",
     },
     {
+      name: "Suker",
+      role: "Helper",
+      quote: "do or do not there is no try",
+    },
+    {
+      name: "NameWasntTaken",
+      role: "Helper",
+      quote: "help why is it so dark",
+    },
+    {
       name: "InfinityRing",
       role: "Event Helper",
       quote: "Trash at Bedwars.",
@@ -669,7 +680,7 @@ const data = {
     {
       name: "DTRW191",
       role: "Pack Contributor",
-      quote: "Lost my Ult Wise 5 AOTE but still have my melons👌",
+      quote: "Lost my Ult Wise 5 AOTE but still have my melons 👌",
     },
     {
       name: "Edna Mode",
