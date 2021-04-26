@@ -211,6 +211,7 @@ const data = {
       `hot damn!`,
       `<i>We protest you calling us "little kids".<br>We prefer to be called "vertically-impaired pre-adults".</i><br>-fsr team (but Yakko Warner said it first)`,
       `I'm going to slice your Achilles' tendons, peel off your fingernails, and stick knitting needles in your eyes.`,
+      `<span style="font-size:4px;";>Bassicly for those player who are using neu etc almost everything. Is banable which makes u play it easy like neu ah etc profit no profit dungeon overlay solvers and now the shaders etc if they allow us to see which we would not ban like dungeon overlay etc so I would recommend using lunar client and badlion cuz of they have what is allowed yeah dungeon map potion effects etc allowed but just use lunar or badlion cuz everything there matches the rules of server me personally use lunar client used to use neu etc which I could get ban I never got kicked earlier but might watchdog never saw it and now I don't wanna get ban tell me if I'm wrong</span>`,
       `Instructions unclear; the captive's Achilles' tendons have been needled, fingernails sliced, and eyes peeled.`,
       `this is exhausting i just want to go back to my container of goo and go to sleep`,
       `stop refreshing the page, please. these random quotes were meant to be fun tidbits you notice for a fleeting moment before you download the latest version of the pack, not for you to get a funny screenshot. save that job for erymanthus and voxal<br>thanks :D`,
