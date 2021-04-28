@@ -675,7 +675,7 @@ const data = {
     {
       name: "SausageDog359",
       role: "Pack Contributor",
-      quote: "i eat an unknown amount of meat",
+      quote: "i like toast",
     },
     {
       name: "DTRW191",
@@ -706,6 +706,11 @@ const data = {
       name: "TheMeerkaT",
       role: "Pack Contributor",
       quote: "at least you didn't get yourself to design the whole sea creature guide",
+    },
+    {
+      name: "Hasnu",
+      role: "Pack Contributor",
+      quote: "#FSRGangOnTop",
     },
     {
       name: "MasterMiner4647",
