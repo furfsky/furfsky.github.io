@@ -720,6 +720,11 @@ const data = {
       role: "Pack Contributor",
       quote: "#FSRGangOnTop",
     },
+     {
+      name: "ThatGravyBoat",
+      role: "Pack Contributor",
+      quote: "I use MS paint for my pixel art",
+    },
     {
       name: "MasterMiner4647",
       role: "Discord Contributor",
