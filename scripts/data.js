@@ -248,6 +248,14 @@ const data = {
      <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="width:32px; height:32px;">
      `,
       () => {
+        document.body.style = "filter:blur(1px)";
+        document.getElementById("headerSubtitle").innerHTML = "looks like your vision isn't the best!";
+      },
+      () => {
+        document.body.style = "filter:grayscale(80%)";
+        document.getElementById("headerSubtitle").innerHTML = "look mom, im emo";
+      },
+      () => {
         let numOs = Math.floor(Math.random() * 30);
         let oCounter = 1;
         let quoteBoo = "<span style='color:#FF55FF;'>Boo</span>";
