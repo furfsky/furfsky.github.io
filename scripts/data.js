@@ -252,6 +252,10 @@ const data = {
         document.getElementById("headerSubtitle").innerHTML = "looks like your vision isn't the best!";
       },
       () => {
+        document.body.style = "filter:grayscale(80%)";
+        document.getElementById("headerSubtitle").innerHTML = "look mom, im emo";
+      },
+      () => {
         let numOs = Math.floor(Math.random() * 30);
         let oCounter = 1;
         let quoteBoo = "<span style='color:#FF55FF;'>Boo</span>";
