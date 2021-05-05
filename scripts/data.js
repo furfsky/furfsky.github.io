@@ -711,6 +711,11 @@ const data = {
       quote: "sup gamers",
     },
     {
+      name: "Bestower",
+      role: "Pack Contributor",
+      quote: "me when no wither googles texture",
+    },
+    {
       name: "TheMeerkaT",
       role: "Pack Contributor",
       quote: "at least you didn't get yourself to design the whole sea creature guide",
