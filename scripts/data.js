@@ -256,46 +256,6 @@ const data = {
         document.getElementById("headerSubtitle").innerHTML = "look mom, im emo";
       },
       () => {
-        let numOs = Math.floor(Math.random() * 30);
-        let oCounter = 1;
-        let quoteBoo = "<span style='color:#FF55FF;'>Boo</span>";
-        let interval = setInterval(() => {
-          const quote = document.getElementById("headerSubtitle");
-          if (oCounter < numOs)
-          {
-            quoteBoo += "<span style='color:#FF55FF;'>o</span>";
-            quote.innerHTML = quoteBoo;
-            oCounter++;
-          }
-          if(oCounter >= numOs){
-            quoteBoo += "<span style='color:#FF55FF;'>p!</span>";
-            quote.innerHTML = quoteBoo;
-            clearInterval(interval);
-          }
-        }, 100);
-      },
-      () => {
-        let numCools = Math.floor((Math.random() * (30 - 10)) + 10);
-        let coolCounter = 1;
-        let quoteBoo = `"cool `;
-        let interval = setInterval(() => {
-          const quote = document.getElementById("headerSubtitle");
-          if(coolCounter >= numCools+1){
-            quoteBoo += `<br>-Jake Peralta`;
-            clearInterval(interval);
-          }
-          if (coolCounter < numCools)
-          {
-            quoteBoo += `cool `;
-          }
-          if(coolCounter == numCools){
-            quoteBoo += `cool"`;
-          }
-          quote.innerHTML = quoteBoo;
-          coolCounter++;
-        }, 85);
-      },
-      () => {
         let quoteIndex = 0;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
@@ -369,6 +329,29 @@ const data = {
         }, 9500);
       },
       () => {
+        let quoteIndex = 0;
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          const quotes = [
+            `...there is an impersonator amongst goog (an FSR artist) and two server members (Temp and zburger).<br><br>How will things play out?`,
+            `<span style="font-size:18px">goog: I may happen to have an connected feeling with others usually conveyed with the function of a proximity chat voice channel, or a simple chat mechanic that the individual with the particular wavelength of visible light most close to the wavelength of red, is acting or preforming in ways that are suspicious, or ominous, discretely moving around unlike other partners in this spaceship, I recommend we take immediate action and remove the impostor of the crew from the spaceship, therefore winning the game and going home to our families.</span>`,
+            `<span style="font-size:18px">Temp: If I may counteract this recommendation, it was observable to multiple members of our community including myself that an individual identified to be of identical color to yourself was capable of opening and closing a basic ventilation cover. Given the average quantifiable intelligence measured of our ship's pre-incidental crew, it must be concluded therefore that you are the disreputable individual who continues to plague our turn based activities. I plan to subsequently use this information to put forth a motion for your ejection from this hallowed spacecraft.</span>`,
+            `<span style="font-size:18px">zburger: That is a significant point you have set forward upon our plate of meaningful discussion. However, I dispute your claim of the goose partaking in dubious activities, which may include clambering inside the ventilation shafts of our oddly large spacecraft. I understand your concerns about the goose character, but I, for one, have not viewed any aforementioned activities that you are indicting him of.</span>`,
+            `<span style="font-size:18px">goog: Your counter argument is flawed in the sense that my argument is based on the general cliche, but you have walked on my trap. You may have not noticed but I have seen you, Mr. Red, murder the innocents of the ship. This hateful crime should be taken to court but I suggest you take the safe route and let the crew eject you from the ship, terminating your life.</span>`,
+            `<span style="font-size:18px">Temp: If it is believed by the group that my continued presence does not advance the interests of our crew, then so be it, but I would defend my integrity and necessity to the ship's continued function to the last.</span>`,
+            `<span style="font-size:18px">zburger: We will send your astronaut figure out of the ejection bay of our spacecraft, but you will be deemed heroic and necessary to our victory of this mission. It has been an honor serving along side you on our ship, and we will be pleasured if you would continue your functions as an otherworldly spirit.</span>`,
+            `<span style="font-size:18px">goog: haha stinky baby</span>`,
+            `<span style="font-size:18px">Bread: what the hell happened here?</span>`];
+          if (quoteIndex < quotes.length) {
+            quote.innerHTML = quotes[quoteIndex];
+            quoteIndex++;
+          }
+          if(quoteIndex > quotes.length){
+            clearInterval(interval);
+          }
+        }, 10000);
+      },
+      () => {
         let metersAway = Math.floor(Math.random() * 300);
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
@@ -380,6 +363,46 @@ const data = {
             clearInterval(interval);
           }
         }, 100);
+      },
+      () => {
+        let numOs = Math.floor(Math.random() * 30);
+        let oCounter = 1;
+        let quoteBoo = "<span style='color:#FF55FF;'>Boo</span>";
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          if (oCounter < numOs)
+          {
+            quoteBoo += "<span style='color:#FF55FF;'>o</span>";
+            quote.innerHTML = quoteBoo;
+            oCounter++;
+          }
+          if(oCounter >= numOs){
+            quoteBoo += "<span style='color:#FF55FF;'>p!</span>";
+            quote.innerHTML = quoteBoo;
+            clearInterval(interval);
+          }
+        }, 100);
+      },
+      () => {
+        let numCools = Math.floor((Math.random() * (30 - 10)) + 10);
+        let coolCounter = 1;
+        let quoteBoo = `"cool `;
+        let interval = setInterval(() => {
+          const quote = document.getElementById("headerSubtitle");
+          if(coolCounter >= numCools+1){
+            quoteBoo += `<br>-Jake Peralta`;
+            clearInterval(interval);
+          }
+          if (coolCounter < numCools)
+          {
+            quoteBoo += `cool `;
+          }
+          if(coolCounter == numCools){
+            quoteBoo += `cool"`;
+          }
+          quote.innerHTML = quoteBoo;
+          coolCounter++;
+        }, 85);
       },
       () => {
         let impostorArray = ["u","/","i","s","n","o","t","t","h","e","i","m","p","o","s","t","e","r"," ","w","a","s"," ","t","h","e"," ","I","m","p","o","s","t","o","r",".",];
