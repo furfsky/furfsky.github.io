@@ -169,7 +169,7 @@ const data = {
       `Now with 100% less +'s`,
       `:(<br>-Juniper`,
       `FSR GOBLIN ARMOR<br><br>BOTTOM TEXT`,
-      `${Math.random() > 0.5 ? "sbe" : "jed"} is bad`,
+      `${Math.random() > 0.5 ? "JustEnoughDungeons" : "jed"} is bad`,
       `404 unoriginality not found`,
       `the pack timedeo uses if he were sweatier`,
       `A man is not a financial plan.`,
