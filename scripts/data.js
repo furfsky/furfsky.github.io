@@ -48,6 +48,7 @@ const data = {
       `help, im locked in the basement`,
       `i havent left my house pls help me i'm hungry`,
       `fuck`,
+      `Think, Tyler!<br><br>You're asking for this site's quotes to consist entirely of FSR Discord inside jokes!<br>Why do you think I started adding quotes from TV Shows?`,
       `Is this illegal?`,
       `<span style="font-size:50px">https://discord.com/channels/771187253937438762/772844452116824106/789595450306592798</span>`,
       `furryegirl`,
