@@ -10,6 +10,8 @@
   full.innerHTML = `${data.downloads[0].version} Full (Latest)`;
   overlay.href = data.downloads[0].fileOverlay;
   overlay.innerText = `${data.downloads[0].version} Overlay (Latest)`;
+  overlayPlus.href = data.downloads[0].fileOverlayPlus;
+  overlayPlus.innerText = `${data.downloads[0].version} Overlay+ (Latest)`;
   console.log(`
     Hi.
     
