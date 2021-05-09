@@ -6,6 +6,7 @@
     let wrapper = document.createElement("section");
     let FLButton = document.createElement("div");
     let OVButton = document.createElement("div");
+    let OVPButton = document.createElement("div");
     text.className = "downloadText";
     text.innerHTML = `${download.version} ${
       download.name ? `- ${download.name}` : ""
@@ -18,10 +19,15 @@
     OVButton.innerHTML = `<a href="${download.fileOverlay.toString()}" download>${
       download.version
     } Overlay</a>`;
+    OVPButton.className = "downloadButton";
+    OVPButton.innerHTML = `<a href="${download.fileOverlayPlus.toString()}" download>${
+      download.version
+    } Overlay+</a>`;
     wrapper.className = "downloadButtons";
     wrapper.appendChild(text);
     wrapper.appendChild(FLButton);
     wrapper.appendChild(OVButton);
+    wrapper.appendChild(OVPButton);
     container.appendChild(wrapper);
   });
 })();
