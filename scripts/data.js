@@ -467,9 +467,7 @@ const data = {
       fileFull:
         "/files/v1.2.6/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.6§8§l].zip",
       fileOverlay:
-        "/files/v1.2.6/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.6§8§l].zip",
-      fileOverlayPlus:
-        "/files/v1.2.6/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.6§8§l].zip",
+        "/files/v1.2.6/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.6§8§l].zip"
     },
     {
       version: "v1.2.5",
@@ -477,9 +475,7 @@ const data = {
       fileFull:
         "/files/v1.2.5/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.5§8§l].zip",
       fileOverlay:
-        "/files/v1.2.5/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.5§8§l].zip",
-      fileOverlayPlus:
-        "/files/v1.2.5/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.5§8§l].zip",
+        "/files/v1.2.5/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.5§8§l].zip"
     },
     {
       version: "v1.69",
@@ -487,8 +483,6 @@ const data = {
       fileFull:
         "/files/v1.69/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.69§8§l].zip",
       fileOverlay:
-        "/files/v1.69/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.69§8§l].zip",
-      fileOverlayPlus:
         "/files/v1.69/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.69§8§l].zip",
     },
     {
@@ -498,8 +492,6 @@ const data = {
         "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.4§8§l].zip",
       fileOverlay:
         "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.4§8§l].zip",
-      fileOverlayPlus:
-        "/files/v1.2.4/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.4§8§l].zip",
     },
     {
       version: "v1.2.3",
@@ -508,8 +500,6 @@ const data = {
         "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
       fileOverlay:
         "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.3§8§l].zip",
-      fileOverlayPlus:
-        "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.3§8§l].zip",
     },
     {
       version: "v1.2.2",
@@ -517,8 +507,6 @@ const data = {
       fileFull:
         "/files/v1.2.2/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.2§8§l].zip",
       fileOverlay:
-        "/files/v1.2.2/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
-      fileOverlayPlus:
         "/files/v1.2.2/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
     },
 
@@ -529,8 +517,6 @@ const data = {
         "/files/v1.1.0/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.1.0§8§l].zip",
       fileOverlay:
         "/files/v1.1.0/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.1.0§8§l].zip",
-      fileOverlayPlus:
-        "/files/v1.1.0/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.1.0§8§l].zip",
     },
     {
       version: "v1.0.0",
@@ -539,8 +525,6 @@ const data = {
         "/files/v1.0.0/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lFL §8§l[§71.0.0§8§l].zip",
       fileOverlay:
         "/files/v1.0.0/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lOV §8§l[§71.0.0§8§l].zip",
-      fileOverlayPlus:
-        "/files/v1.0.0/§r§lFurfSky §c§lR§6§le§e§lb§a§lo§9§lr§d§ln §8§lOV §8§l[§71.0.0§8§l].zip",
     },
     {
       version: "v0.2.0",
@@ -548,8 +532,6 @@ const data = {
       fileFull:
         "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lFL [§70.2.0.§8§l].zip",
       fileOverlay:
-        "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lOV [§70.2.0.§8§l].zip",
-      fileOverlayPlus:
         "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lOV [§70.2.0.§8§l].zip",
     },
   ],

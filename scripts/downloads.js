@@ -12,22 +12,26 @@
       download.name ? `- ${download.name}` : ""
     }`;
     FLButton.className = "downloadButton";
-    FLButton.innerHTML = `<a href="${download.fileFull.toString()}" download>${
-      download.version
-    } Full</a>`;
+    if (download.fileFull)
+      FLButton.innerHTML = `<a href="${download.fileFull.toString()}" download>${
+        download.version
+      } Full</a>`;
     OVButton.className = "downloadButton";
-    OVButton.innerHTML = `<a href="${download.fileOverlay.toString()}" download>${
-      download.version
-    } Overlay</a>`;
+    if (download.fileOverlay)
+      OVButton.innerHTML = `<a href="${download.fileOverlay.toString()}" download>${
+        download.version
+      } Overlay</a>`;
     OVPButton.className = "downloadButton";
-    OVPButton.innerHTML = `<a href="${download.fileOverlayPlus.toString()}" download>${
-      download.version
-    } Overlay+</a>`;
+    if (download.fileOverlayPlus)
+      OVPButton.innerHTML = `<a href="${download.fileOverlayPlus.toString()}" download>${
+        download.version
+      } Overlay+</a>`;
     wrapper.className = "downloadButtons";
     wrapper.appendChild(text);
-    wrapper.appendChild(FLButton);
-    wrapper.appendChild(OVButton);
-    wrapper.appendChild(OVPButton);
+
+    if (download.fileFull) wrapper.appendChild(FLButton);
+    if (download.fileOverlay) wrapper.appendChild(OVButton);
+    if (download.fileOverlayPlus) wrapper.appendChild(OVPButton);
     container.appendChild(wrapper);
   });
 })();
