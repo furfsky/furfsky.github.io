@@ -452,6 +452,14 @@ const data = {
   },
   downloads: [
     {
+      version: "v1.3",
+      name: "The Update that Textured Everything*",
+      fileFull:
+        "/files/v1.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.3§8§l].zip",
+      fileOverlay:
+        "/files/v1.3/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.3§8§l].zip",
+    },
+    {
       version: "v1.2.6",
       name: "La Resistance",
       fileFull:
