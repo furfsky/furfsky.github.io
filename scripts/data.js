@@ -676,6 +676,11 @@ const data = {
       quote: "yup ! I hate furfsky 🙂",
     },
     {
+      name: "Hexafish",
+      role: "Trial Artist",
+      quote: "petition to remove the liver dragger's texture from fsr because you should never use it",
+    },
+    {
       name: "voxal",
       link: "https://vooxal.github.io", // update this bitch, its so old and bad
       role: "Website Developer",
