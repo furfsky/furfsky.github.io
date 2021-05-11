@@ -9,5 +9,6 @@ const tabs = {
 };
 
 const switchTab = (tabName) => {
-  const tabby = document.getElementById("tabby")
+  const tabby = document.getElementById("tabby");
+  tabby.src = tabs[tabName];
 };

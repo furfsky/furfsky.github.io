@@ -844,13 +844,11 @@ navbar.innerHTML = `
   </a>
  </li>
  <li>
-  <a>
+  <a href="/gallery/">
     <img 
     src="/assets/navbar/gallery.png" 
     onmouseover="this.src='/assets/navbar/gallery_pressed.png'"
     onmouseout="this.src='/assets/navbar/gallery.png'"
-    onclick="alert('Under construction–gallery coming in 2025.')"
-    class="disabled-tab"
     />
   </a>
  </li>
