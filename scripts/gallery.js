@@ -1,9 +1,5 @@
-class Carousel {
-  constructor(dataSet, element) {
-    this.data = dataSet;
-    this.element = document.getElementById(element);
-    for (const i in this.data) {
-      let slide = document.createElement("div");
-    }
-  }
+const tabs = {
+  armor: "/assets/gallery/armor/armor.png",
+  swords: "/assets/gallery/swords/swords.png",
+  bows:"/assets/gallery/bows/bows.png"
 }

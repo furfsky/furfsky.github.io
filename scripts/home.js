@@ -1,13 +1,14 @@
 (() => {
-  let entry =
-    data.header.subtitle[
-      Math.floor(Math.random() * data.header.subtitle.length)
-    ];
   if (typeof entry == "string") {
-    document.getElementById("headerSubtitle").innerHTML = entry;
+    document.getElementById("headerSubtitle").innerHTML =
+      data.header.subtitle[
+        Math.floor(Math.random() * data.header.subtitle.length)
+      ];
   }
   if (typeof entry == "function") {
-    entry();
+    data.header.subtitle[
+      Math.floor(Math.random() * data.header.subtitle.length)
+    ]();
   }
   if (
     entry ===
@@ -16,7 +17,7 @@
     document.getElementById(
       "headerSubtitle"
     ).innerHTML = `There are currently ${data.header.subtitle.length} quotes (including this one) on the site. Reload to see if your submission was one of them!`;
-  }
+  } // Was going to use a promise for this but ok
   //if (Math.random() < 0.01) {document.getElementById("logo").src = "assets/logo.gif";} else {document.getElementById("logo").src = "assets/amongus.gif";}
   let full = document.getElementById("fullLink");
   let overlay = document.getElementById("overlayLink");
