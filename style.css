@@ -42,7 +42,7 @@ img {
 }
 #logo {
   position: absolute;
-  width: 35%;
+  width: 30em;
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);

@@ -9,5 +9,5 @@ const tabs = {
 };
 
 const switchTab = (tabName) => {
-  const tabby = document.getElementById("")
+  const tabby = document.getElementById("tabby")
 };

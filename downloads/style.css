@@ -9,7 +9,7 @@ header {
 
 #logo {
   position: absolute;
-  width: 40%;
+  width: 40em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
