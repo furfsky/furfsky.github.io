@@ -12,7 +12,7 @@ h1 {
 }
 p {
   margin: 0;
-  color: #c87333;
+  color: inherit;
 }
 header > #headerSubtitle {
   position: absolute;
@@ -48,24 +48,23 @@ img {
   transform: translate(-50%, -50%);
 }
 .downloadButton {
+  transition: all 200ms ease-out;
   font-size: 25px;
-  border-radius: 50px;
-  color: white;
-  background: #c65df0;
+  color: #f6cb75;
+  /* border-radius: 15px; */
+  background: #444a71;
   padding: 10px;
   text-align: center;
   margin: 25px;
   display: inline-block;
-  border: 5px solid #662e96;
+  border: 5px solid #c0713f;
+  /* border: 5px solid #662e96; */
 }
 .downloadButton:hover {
-  color: white;
-  background: #662e96;
-  border: 5px solid #c65df0;
-}
-.downloadButton > a {
-  color: white;
-  text-decoration: none;
+  transform: scale(1.25);
+  color: #d48af1; 
+  background: #444a71;
+  border: 5px solid #683d8d;
 }
 .socials {
   position: absolute;

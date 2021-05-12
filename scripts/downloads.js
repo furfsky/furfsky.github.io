@@ -33,5 +33,5 @@
     if (download.fileOverlay) wrapper.appendChild(OVButton);
     if (download.fileOverlayPlus) wrapper.appendChild(OVPButton);
     container.appendChild(wrapper);
-  });
+  }); //FIXME, move the a tag outside, so restructure this
 })();
