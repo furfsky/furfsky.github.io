@@ -722,7 +722,7 @@ const data = {
       quote: "petition to remove the liver dragger's texture from fsr because you should never use it",
     },
     {
-      name: "Derp",
+      name: "derpium",
       role: "Trial Artist",
       quote: "speep fart",
     },
