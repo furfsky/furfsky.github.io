@@ -18,7 +18,7 @@
     }</h3>
     ${credit.role}
     <br>
-    <i>${credit.quote || "Too wuss to have a quote"}</i>
+    <i>${credit.quote || "is not \"quote\" there yet"}</i>
     <br>
   <a>
     `;
