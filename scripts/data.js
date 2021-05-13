@@ -583,7 +583,7 @@ const data = {
     "Trial Artist": "#6a5d82",
     "Retired Artist": "#7d6e99",
     Admin: "#4b8b3b",
-    "Artist & Website Helper": "#67dadd",
+    "Artist & Website Maintainer": "#67dadd",
     Moderator: "#17d44a",
     Helper: "#3498db",
     "Retired Moderator": "#7d6e99",
@@ -693,7 +693,7 @@ const data = {
     {
       name: "Erymanthus",
       link: "https://www.reddit.com/user/RayDeeUx/",
-      role: "Artist & Website Helper",
+      role: "Artist & Website Maintainer",
       quote: "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
@@ -720,6 +720,11 @@ const data = {
       name: "Hexafish",
       role: "Trial Artist",
       quote: "petition to remove the liver dragger's texture from fsr because you should never use it",
+    },
+    {
+      name: "Derp",
+      role: "Trial Artist",
+      quote: "speep fart",
     },
     {
       name: "voxal",
