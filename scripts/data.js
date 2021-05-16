@@ -731,6 +731,11 @@ const data = {
       quote: "speep fart",
     },
     {
+      name: "Glenz",
+      role: "Trial Artist",
+      quote: "Chroma HUD/UIs hurts my soul",
+    },
+    {
       name: "voxal",
       link: "https://vooxal.github.io", // update this bitch, its so old and bad
       role: "Website Developer",
@@ -776,12 +781,12 @@ const data = {
     },
     {
       name: "Suker",
-      role: "Helper",
+      role: "Moderator",
       quote: "do or do not there is no try",
     },
     {
       name: "NameWasntTaken",
-      role: "Helper",
+      role: "Moderator",
       quote: "help why is it so dark",
     },
     {
