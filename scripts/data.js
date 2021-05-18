@@ -713,11 +713,6 @@ const data = {
       quote: "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
-      name: "Smolegit",
-      role: "Artist",
-      quote: "Reject Resolutions",
-    },
-    {
       name: "goog",
       role: "Artist",
       quote: "those are uhh... a lot of channels... you got there.",
@@ -780,6 +775,11 @@ const data = {
       name: "Gonk",
       role: "Moderator",
       quote: "you miss 100% of the shots you don't take",
+    },
+    {
+      name: "Smolegit",
+      role: "Moderator",
+      quote: "Reject Resolutions",
     },
     {
       name: "HellCastle",
