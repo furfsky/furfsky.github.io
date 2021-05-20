@@ -177,7 +177,6 @@ const data = {
       `A man is not a financial plan.`,
       `If I had spent more time studying and less time watching anime, maybe my mother would be here with me!<br>-Scarf`,
       `zoo wee mama`,
-      ``,
       `goog was here uwu`,
       `Live from New York, it's Saturday Night!`,
       `"Ooh, self burn! Those are rare!"<br>-Jake Peralta`,
