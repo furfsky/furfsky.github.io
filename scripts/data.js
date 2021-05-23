@@ -209,6 +209,7 @@ const data = {
       `update optifine, get patcher, stop using badlion or lunar, enable custom items, remove orange's animations, play in 1.8.9, <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#pack-faq</span>, <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#mod-ui-faq</span>, terrain animations, no i will not change an original furfsky texture`,
       `Stop begging for shit in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#skyblock</span>.<br>It's not funny, nor does it help anyone.`,
       `goog`,
+      `also try snowfault 16x!`,
       `[THIS QUOTE WAS REDACTED BY THE LOCAL AUTHORITIES]`,
       `FlexPack! The only pack you'll ever need!<br>Now that's a lot of damage!`,
       `Made for that lowpixel groundblock whatsitsname`,
@@ -320,7 +321,7 @@ const data = {
       `enderman slayer soon? :pog:`,
       `i mine all day i mine all night<br>i mine non-stop 'til those diamonds are in sight`,
       `yo, there is a fridge on mid`,
-      `Also try SkyCrypt!`,
+      `Also visit SkyCrypt!`,
       `AY CARAMBA DONDE ESTA LA BIBLIOTECA`,
       `ay caramba donde esta la biblioteca`,
       `live from lebanon and/or the uk it's hellcastle and furryeboy`,
@@ -828,6 +829,11 @@ const data = {
       role: "Admin",
       quote: "you wet tubesock",
     },
+    {
+      name: "HellCastle",
+      role: "Admin",
+      quote: "They have turned me into a furry. help",
+    },
     /*
     {
       name: "SeBook",
@@ -850,11 +856,6 @@ const data = {
       name: "Smolegit",
       role: "Moderator",
       quote: "Reject Resolutions",
-    },
-    {
-      name: "HellCastle",
-      role: "Moderator",
-      quote: "They have turned me into a furry. help",
     },
     {
       name: "Nan",
