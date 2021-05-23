@@ -6,7 +6,7 @@ header {
   width: 100%;
   text-align: center;
 }
-header > #headerSubtitle {
+#headerSubtitle {
   position: absolute;
   top: 25%;
   left: 50%;
