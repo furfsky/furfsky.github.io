@@ -26,6 +26,8 @@ const data = {
       `Furfsky never dies`,
       `<p contenteditable="true">you can edit this text</p>`,
       `who needs packs hq anyways<br>-Perpillow`,
+      `the only cookies allowed on this website are booster cookies`,
+      `did you do your experiments yet?`,
       `god i just hate reality`,
       `We have a lot of e-girls here`,
       `why does the discord server exist`,
