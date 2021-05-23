@@ -6,15 +6,6 @@ header {
   width: 100%;
   text-align: center;
 }
-#headerSubtitle {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: "Minecraft";
-  margin: 0;
-  color: #fbcc6c;
-}
 #logo {
   position: absolute;
   width: 25em;
