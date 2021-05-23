@@ -309,6 +309,7 @@ const data = {
       `to get the golden ball reforge stone bring a sea emperor to jake and get 600k coins`,
       `the golden ball requires mining 30 and is not worth anyone's time or effort`,
       `always stay hydrated`,
+      `your bobux delivery just arrived`,
       `Women fear me. Fish fear me. Men tear their eyes away from me as I walk. No beast dare make a sound in my presence. I am alone.`,
       `lowpixel groundblock`,
       `i'm proud of tyler man, he still has not fell into the void`,
