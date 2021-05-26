@@ -345,6 +345,8 @@ const data = {
       `Also visit SkyCrypt!`,
       `AY CARAMBA DONDE ESTA LA BIBLIOTECA`,
       `ay caramba donde esta la biblioteca`,
+      `gzdfhbklkogdfhpgfjkopnimmghfjpoml,ngfhompl,nfghmopl,nfgmop`,
+      `tomengmaster: ery ttt me <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" width="32" height="32"><br>erymanthus:you want me to toss tomatoes towards you?`,
       `live from lebanon and/or the uk it's hellcastle and furryeboy`,
       `If I had a dollar for every time they redid the wither swords I could bribe the FSR team to demote TORDA`,
       `^ make sure to check if this says FurSfky Rebron`,
