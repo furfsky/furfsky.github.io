@@ -206,6 +206,7 @@ const data = {
       `<span style="color: #555555;">We have so much brain deficiency, it rolls over the integer bit limit and becomes a brain surplus.</span>`,
       `microwaves are just concentrate chernobyl cubes`,
       `what's a canada`,
+      `CarbonSmasher: When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful.<br>Temp: Actually, quantum mechanics forbids this.`,
       `the earth is not flat, it's a rectangular prism`,
       `"Doom music makes me want to tell the IRS that I won't pay taxes."<br>-HellCastle`,
       `shut up motor no one cares that you "backpacked for 20 miles uwu"`,
@@ -289,6 +290,9 @@ const data = {
       `<span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>discord.gg/fsr</span>`,
       `Among Us`,
       `amogus`,
+      `${Math.random() > 0.5 ? "us" : "me"}<br>-juniper<br><small>(no, not the geometry dash youtuber)</small>`,
+      `she's in love with the concept`,
+      `I identify as a FUCKING THREAT.`,
       `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">`,
       `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">`,
       `♫ no matter how hard you try,<br>you can't stop me now ♫`,
@@ -346,7 +350,13 @@ const data = {
       `AY CARAMBA DONDE ESTA LA BIBLIOTECA`,
       `ay caramba donde esta la biblioteca`,
       `gzdfhbklkogdfhpgfjkopnimmghfjpoml,ngfhompl,nfghmopl,nfgmop`,
-      `tomengmaster: ery ttt me <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" width="32" height="32"><br>erymanthus:you want me to toss tomatoes towards you?`,
+      `tomengmaster: ery ttt me <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" width="32" height="32"><br>erymanthus: you want me to toss tomatoes towards you?`,
+      `fire tictactoe <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>@Erymanthus | u/RayDeeUx</span>`,
+      `goodbye,<br><br><code style="font-size:24px;">damage = (5 + weapon damage + strength / 5) x (1 + strength / 100) x (1 + crit damage / 100) x (1 + additive multiplier / 100)</code>`,
+      `<code style="font-size:24px;">damage = (5 + weapon damage) x (1 + strength / 100) x (1 + crit damage / 100) x (1 + additive multiplier / 100)</code><br><br>is pure shit.`,
+      `<code>"Aiming becomes Dragon Tracer and only works on dragons."</code><br><br>Hey, Minikloon. Have you forgotten that the AHN exists?`,
+      `pinecones`,
+      `dear omniman,<br><br>no one likes you.<br><br>goodbye.`,
       `live from lebanon and/or the uk it's hellcastle and furryeboy`,
       `If I had a dollar for every time they redid the wither swords I could bribe the FSR team to demote TORDA`,
       `^ make sure to check if this says FurSfky Rebron`,
@@ -419,24 +429,6 @@ const data = {
       () => {
         document.body.style = "filter:grayscale(80%)";
         document.getElementById("headerSubtitle").innerHTML = "look mom, im emo";
-      },
-      () => {
-        let quoteIndex = 0;
-        let interval = setInterval(() => {
-          const quote = document.getElementById("headerSubtitle");
-          const quotes = [
-            "...a conversation about quantum mechanics, by CarbonSmasher and Temp.",
-            "CarbonSmasher: When you are feeling down, just remember, quantum mechanics say that in some reality, there is a version of you that is successful.",
-            "Temp: Actually, quantum mechanics forbids this."];
-          if (quoteIndex < quotes.length)
-          {
-            quote.innerHTML = quotes[quoteIndex];
-            quoteIndex++;
-          }
-          if(quoteIndex > quotes.length){
-            clearInterval(interval);
-          }
-        }, 3500);
       },
       () => {
         let quoteIndex = 0;
