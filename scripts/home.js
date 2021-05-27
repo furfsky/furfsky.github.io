@@ -17,7 +17,7 @@
       "headerSubtitle"
     ).innerHTML = `There are currently ${data.header.subtitle.length} quotes (including this one) on the site. Reload to see if your submission was one of them!`;
   } // Was going to use a promise for this but ok
-  //if (Math.random() < 0.01) {document.getElementById("logo").src = "assets/logo.gif";} else {document.getElementById("logo").src = "assets/amongus.gif";}
+  if (Math.random() < 0.01) {document.getElementById("logo").src = "assets/logos/logo.gif";} else {document.getElementById("logo").src = "assets/logos/motor.png";document.getElementById("headerSubtitle").innerHTML=`"perfection"<br>-motor`;}
   let full = document.getElementById("fullLink");
   let overlay = document.getElementById("overlayLink");
   let overlayPlus = document.getElementById("overlayPlusLink");
