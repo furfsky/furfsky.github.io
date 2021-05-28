@@ -198,6 +198,7 @@ const data = {
       `If I had spent more time studying and less time watching anime, maybe my mother would be here with me!<br>-Scarf`,
       `zoo wee mama`,
       `goog was here uwu`,
+      `i do and they dont`,
       `...she asked as if she cared.`,
       `Live from New York, it's Saturday Night!`,
       `"Ooh, self burn! Those are rare!"<br>-Jake Peralta`,
