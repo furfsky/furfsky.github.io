@@ -441,7 +441,7 @@ const data = {
       () => {
         let quoteIndex = -1;
         const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.`;
+        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
         const quotes = [
           "voxal: time to add 100 more quotes<br>*cries in pain*",
           "Erymanthus: dwai i can help", 
@@ -460,7 +460,7 @@ const data = {
       () => {
         let quoteIndex = -1;
         const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.<br>If you're on mobile, get good.`;
+        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
         const quotes = [
           "Here's a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>, because Motor doesn't know how to go to vacation properly.",
           "Discord Ghosting<br><br>By MotorGorilla<br>March 10, 2021",
@@ -495,7 +495,7 @@ const data = {
       () => {
         let quoteIndex = -1;
         const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.`;
+        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
         const quotes = [
           `There is an impersonator amongst goog (an FSR artist) and two server members (Temp and zburger).<br><br>How will things play out?<br>Press the right arrow key and see.`,
           `<span style="font-size:18px">goog: I may happen to have an connected feeling with others usually conveyed with the function of a proximity chat voice channel, or a simple chat mechanic that the individual with the particular wavelength of visible light most close to the wavelength of red, is acting or preforming in ways that are suspicious, or ominous, discretely moving around unlike other partners in this spaceship, I recommend we take immediate action and remove the impostor of the crew from the spaceship, therefore winning the game and going home to our families.</span>`,
