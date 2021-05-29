@@ -593,8 +593,6 @@ const data = {
           const quote = document.getElementById("headerSubtitle");
           counter++;
           if(counter!=-2){quote.innerHTML = `<span style="color:#${formattingCodeColors[counter % 7]}">Le c</span><span style="color:#${formattingCodeColors[(counter+1) % 7]}">hro</span><span style="color:#${formattingCodeColors[(counter+2) % 7]}">ma t</span><span style="color:#${formattingCodeColors[(counter+3) % 7]}">ext</span><span style="color:#${formattingCodeColors[(counter+4) % 7]}">! Po<span style="color:#${formattingCodeColors[(counter+5) % 7]}">gge</span><span style="color:#${formattingCodeColors[(counter+6) % 7]}">rs!</span>`;}
-          console.log(counter);
-          console.log(formattingCodeColors[counter%7])
         }, 50);
       },
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
