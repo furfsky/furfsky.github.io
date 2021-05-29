@@ -823,7 +823,7 @@ const data = {
     },
     {
       name: "Hexafish",
-      role: "Trial Artist",
+      role: "Artist",
       quote: "petition to remove the liver dragger's texture from fsr because you should never use it",
     },
     {
