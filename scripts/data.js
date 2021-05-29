@@ -586,6 +586,17 @@ const data = {
           }
         }, 75);
       },
+      () => {
+        let counter = -1;
+        setInterval(() => {
+          const formattingCodeColors = [`FF5555`, `FFAA00`, `FFFF55`, `55FF55`, `55FFFF`, `FF55FF`, `AA00AA`];
+          const quote = document.getElementById("headerSubtitle");
+          counter++;
+          if(counter!=-2){quote.innerHTML = `<span style="color:#${formattingCodeColors[counter % 7]}">Le c</span><span style="color:#${formattingCodeColors[(counter+1) % 7]}">hro</span><span style="color:#${formattingCodeColors[(counter+2) % 7]}">ma t</span><span style="color:#${formattingCodeColors[(counter+3) % 7]}">ext</span><span style="color:#${formattingCodeColors[(counter+4) % 7]}">! Po<span style="color:#${formattingCodeColors[(counter+5) % 7]}">gge</span><span style="color:#${formattingCodeColors[(counter+6) % 7]}">rs!</span>`;}
+          console.log(counter);
+          console.log(formattingCodeColors[counter%7])
+        }, 50);
+      },
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/821913465941524480.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/834947827532300328.gif?v=1" draggable="false">`,
