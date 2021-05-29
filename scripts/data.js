@@ -256,6 +256,7 @@ const data = {
       `how do you do fellow kids`,
       `¯\\_(ツ)_/¯`,
       `(╯°□°) ╯︵ ┻━┻`,
+      `<i>cheese</i><br>-SausageDog359`,
       `bone apple tea`,
       `what did the fox say?`,
       `now playing: darude sandstorm`,
@@ -295,6 +296,7 @@ const data = {
       `<span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>discord.gg/fsr</span>`,
       `Among Us`,
       `amogus`,
+      `<a href="https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U">listen to creatures of habit</a>`,
       `${Math.random() > 0.5 ? "us" : "me"}<br>-juniper<br><small>(no, not the geometry dash youtuber)</small>`,
       `she's in love with the concept`,
       `I identify as a FUCKING THREAT.`,
@@ -877,8 +879,9 @@ const data = {
     },
     {
       name: "Smolegit",
+      link: "https://twitter.com/smolegit1",
       role: "Moderator",
-      quote: "Reject Resolutions",
+      quote: "<a href="https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U">listen to creatures of habit</a>",
     },
     {
       name: "Nan",
