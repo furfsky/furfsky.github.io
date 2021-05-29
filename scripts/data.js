@@ -389,6 +389,7 @@ const data = {
       `i guess i just dont care what other people think of me`,
       `"<i>Just because you wanna do something doesn't mean you get to do it.<br>Life is chaos, success is completely arbitrary, and confidence is everything.</i>"<br>-Gina Linetti`,
       `hot damn!`,
+      `; vs <span style="font-family: Trebuchet MS;">;</span><br><br>Which one is the English semicolon?<br><br><small>(Credits to MisterCheezeCake for uncovering this gem.)`,
       `<i>We protest you calling us "little kids".<br>We prefer to be called "vertically-impaired pre-adults".</i><br>-fsr team (but Yakko Warner said it first)`,
       `I'm going to slice your Achilles' tendons, peel off your fingernails, and stick knitting needles in your eyes.`,
       `<span style="font-size:4px;">Bassicly for those player who are using neu etc almost everything. Is banable which makes u play it easy like neu ah etc profit no profit dungeon overlay solvers and now the shaders etc if they allow us to see which we would not ban like dungeon overlay etc so I would recommend using lunar client and badlion cuz of they have what is allowed yeah dungeon map potion effects etc allowed but just use lunar or badlion cuz everything there matches the rules of server me personally use lunar client used to use neu etc which I could get ban I never got kicked earlier but might watchdog never saw it and now I don't wanna get ban tell me if I'm wrong</span>`,
@@ -438,82 +439,81 @@ const data = {
         document.getElementById("headerSubtitle").innerHTML = "look mom, im emo";
       },
       () => {
-        let quoteIndex = 0;
-        let interval = setInterval(() => {
-          const quote = document.getElementById("headerSubtitle");
-          const quotes = [
-            "...a story on how a nap led to changes on the site",
-            "voxal: time to add 100 more quotes<br>*cries in pain*",
-            "Erymanthus: dwai i can help", 
-            "voxal: okai lets see how many you can port over", 
-            "*two hours later*", 
-            "Erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
-          if (quoteIndex < quotes.length) {
-            quote.innerHTML = quotes[quoteIndex];
-            quoteIndex++;
-          }
-          if(quoteIndex > quotes.length){
-            clearInterval(interval);
-          }
-        }, 2123);
+        let quoteIndex = -1;
+        const quote = document.getElementById("headerSubtitle");
+        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.`;
+        const quotes = [
+          "voxal: time to add 100 more quotes<br>*cries in pain*",
+          "Erymanthus: dwai i can help", 
+          "voxal: okai lets see how many you can port over", 
+          "*two hours later*", 
+          "Erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
+        function keyPressed(event){
+          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
+          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this "convo".<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
+          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this "convo".<br>Press the right arrow key to go back.`;}
+          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
+          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
+        }
+        window.addEventListener("keyup", keyPressed);
       },
       () => {
-        let quoteIndex = 0;
-        let interval = setInterval(() => {
-          const quote = document.getElementById("headerSubtitle");
-          const quotes = [
-            "...a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>, because Motor doesn't know how to go to vacation properly.",
-            "Discord Ghosting<br><br>By MotorGorilla<br>March 10, 2021",
-            "I will be out of the office beginning Wednesday, March 10th, at 6:46:48 (E.S.T.), and will return on Sunday, March 14th, at 3:47 (Hawaiian-Aleutian Standard Time).",
-            "During that period, I will have limited access to Discord. Meaning that I will have full access to Discord. I will continue to read my Discord as though I were sitting in my office, but I will be \"out\" of the office. Meaning there will be no difference. Also, I will probably be in the office a bunch.", 
-            "I will have sporadic access to my cell phone. This is either because I am doing whatever business I have to attend to during my surprise vacation, or, more likely, because I am lying on my couch, staring at my cell phone and willing myself not to check it for at least fifteen minutes.", 
-            "I will have extremely limited access to pay phones. I forgot to bring quarters, and the last calling card I owned expired before I was born. Also, most pay phones are now public urinals.", 
-            "I will have standard access to Discord PMs. I’m not really sure where they are at these days, but if you send one I’m sure Discord admins will find me.",
-            "I will be checking my \"snail mail\" in, quite frankly, never. Such is the 21st century, and I use Discord, as mentioned earlier.",
-            "I will have almost zero access to carrier pigeons. This is less a function of my vacation and more a function of the year I was born. Hell, do those things still <span style='font-style: italic;'>exist</span>?",
-            "I will NOT be checking my landline, which is a can attached to a string, because <span style='font-style: italic;'>what the fuck? Who still uses landlines?</span>",
-            "I will have only intermittent access to Skyblock. If you desperately need to show me your giveaway prize pool, please print a copy and mail it to:<br><br><span style='font-style: italic;'>I’m on Vacation</span><br><span style='font-style: italic;'>Attn: MotorGorilla</span><br><span style='font-style: italic;'>c/o: /visit MotorGorilla</span>",
-            "I will have erratic access to Discord server giveaway channels. Should you enter \"200M SKYBLOCK GIVEAWAY\", you may see my user name briefly, then it may disappear, as though I had seen your user name and fled the chat room.<br>Wrong. It has to do with the surprise vacation I’m on.",
-            "I will have fitful access to my memories. That is why I may ignore you when you pass me on the street and yell, \"<span style='font-style: italic;'>Hey, Motor! It’s me, one of your artists!</span>\"<br>Again, this relates to a memory problem and has nothing to do with the 200 million coins I'm running away from the authorities with.",
-            "While on vacation, I will not be doing that thing where I wish someone a happy birthday by having some random ghost pinging me. My assistant will be doing that for me. Unfortunately, they're also \"out of the office\", so the middleman will be Clyde.<br>Happy birthday.",
-            "I will have no access to my homework. A judge ruled that I should be “on vacation” from them.<br><small>(Spoiler: I was the judge.)</small><br><br>And I will have constant access to Spotify. That is less informative and more of a brag.",
-            "Finally, I’m sure this goes without saying, but if you’re really rich or really famous, I am instantly available 24/7. Just spam ping me.",
-            "The rest of you, please do not respond to this message, or Discord will force it into my cell phone's push notifications—on a par with my fragrun bot getting banned and every time some nerd pulls an \"accidental\" <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>@everyone</span>.",
-            "All my best,<br>xoxo,<br>The M-Man ♦",
-            "<span style='font-style: italic;'>Published in the <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#alpha-updates</span> channel in the <a href='https://discord.gg/fsr' style='color:#fbcc6c; text-decoration: none;'>FurfSky Reborn Discord server</span></span>.",
-            "<span style='font-style: italic;'>MotorGorilla, a veteran artist for FurfSky Reborn, compiles the countless assets from other artists in the server. His memoir, “My Online Persona: Snoopy,” will be published whenever he stops procrastinating in general.</span>",
-            "This has been a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>."];
-          if (quoteIndex < quotes.length) {
-            quote.innerHTML = quotes[quoteIndex];
-            quoteIndex++;
-          }
-          if(quoteIndex > quotes.length){
-            clearInterval(interval);
-          }
-        }, 9500);
+        let quoteIndex = -1;
+        const quote = document.getElementById("headerSubtitle");
+        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.<br>If you're on mobile, get good.`;
+        const quotes = [
+          "Here's a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>, because Motor doesn't know how to go to vacation properly.",
+          "Discord Ghosting<br><br>By MotorGorilla<br>March 10, 2021",
+          "I will be out of the office beginning Wednesday, March 10th, at 6:46:48 (E.S.T.), and will return on Sunday, March 14th, at 3:47 (Hawaiian-Aleutian Standard Time).",
+          "During that period, I will have limited access to Discord. Meaning that I will have full access to Discord. I will continue to read my Discord as though I were sitting in my office, but I will be \"out\" of the office. Meaning there will be no difference. Also, I will probably be in the office a bunch.", 
+          "I will have sporadic access to my cell phone. This is either because I am doing whatever business I have to attend to during my surprise vacation, or, more likely, because I am lying on my couch, staring at my cell phone and willing myself not to check it for at least fifteen minutes.", 
+          "I will have extremely limited access to pay phones. I forgot to bring quarters, and the last calling card I owned expired before I was born. Also, most pay phones are now public urinals.", 
+          "I will have standard access to Discord PMs. I’m not really sure where they are at these days, but if you send one I’m sure Discord admins will find me.",
+          "I will be checking my \"snail mail\" in, quite frankly, never. Such is the 21st century, and I use Discord, as mentioned earlier.",
+          "I will have almost zero access to carrier pigeons. This is less a function of my vacation and more a function of the year I was born. Hell, do those things still <span style='font-style: italic;'>exist</span>?",
+          "I will NOT be checking my landline, which is a can attached to a string, because <span style='font-style: italic;'>what the fuck? Who still uses landlines?</span>",
+          "I will have only intermittent access to Skyblock. If you desperately need to show me your giveaway prize pool, please print a copy and mail it to:<br><br><span style='font-style: italic;'>I’m on Vacation</span><br><span style='font-style: italic;'>Attn: MotorGorilla</span><br><span style='font-style: italic;'>c/o: /visit MotorGorilla</span>",
+          "I will have erratic access to Discord server giveaway channels. Should you enter \"200M SKYBLOCK GIVEAWAY\", you may see my user name briefly, then it may disappear, as though I had seen your user name and fled the chat room.<br>Wrong. It has to do with the surprise vacation I’m on.",
+          "I will have fitful access to my memories. That is why I may ignore you when you pass me on the street and yell, \"<span style='font-style: italic;'>Hey, Motor! It’s me, one of your artists!</span>\"<br>Again, this relates to a memory problem and has nothing to do with the 200 million coins I'm running away from the authorities with.",
+          "While on vacation, I will not be doing that thing where I wish someone a happy birthday by having some random ghost pinging me. My assistant will be doing that for me. Unfortunately, they're also \"out of the office\", so the middleman will be Clyde.<br>Happy birthday.",
+          "I will have no access to my homework. A judge ruled that I should be “on vacation” from them.<br><small>(Spoiler: I was the judge.)</small><br><br>And I will have constant access to Spotify. That is less informative and more of a brag.",
+          "Finally, I’m sure this goes without saying, but if you’re really rich or really famous, I am instantly available 24/7. Just spam ping me.",
+          "The rest of you, please do not respond to this message, or Discord will force it into my cell phone's push notifications—on a par with my fragrun bot getting banned and every time some nerd pulls an \"accidental\" <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>@everyone</span>.",
+          "All my best,<br>xoxo,<br>The M-Man ♦",
+          "<span style='font-style: italic;'>Published in the <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#alpha-updates</span> channel in the <a href='https://discord.gg/fsr' style='color:#fbcc6c; text-decoration: none;'>FurfSky Reborn Discord server</span></span>.",
+          "<span style='font-style: italic;'>MotorGorilla, a veteran artist for FurfSky Reborn, compiles the countless assets from other artists in the server. His memoir, “My Online Persona: Snoopy,” will be published whenever he stops procrastinating in general.</span>",
+          "This has been a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>."];
+        function keyPressed(event){
+          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
+          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this "convo".<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
+          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this "convo".<br>Press the right arrow key to go back.`;}
+          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
+          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
+        }
+        window.addEventListener("keyup", keyPressed);
       },
       () => {
-        let quoteIndex = 0;
-        let interval = setInterval(() => {
-          const quote = document.getElementById("headerSubtitle");
-          const quotes = [
-            `...there is an impersonator amongst goog (an FSR artist) and two server members (Temp and zburger).<br><br>How will things play out?`,
-            `<span style="font-size:18px">goog: I may happen to have an connected feeling with others usually conveyed with the function of a proximity chat voice channel, or a simple chat mechanic that the individual with the particular wavelength of visible light most close to the wavelength of red, is acting or preforming in ways that are suspicious, or ominous, discretely moving around unlike other partners in this spaceship, I recommend we take immediate action and remove the impostor of the crew from the spaceship, therefore winning the game and going home to our families.</span>`,
-            `<span style="font-size:18px">Temp: If I may counteract this recommendation, it was observable to multiple members of our community including myself that an individual identified to be of identical color to yourself was capable of opening and closing a basic ventilation cover. Given the average quantifiable intelligence measured of our ship's pre-incidental crew, it must be concluded therefore that you are the disreputable individual who continues to plague our turn based activities. I plan to subsequently use this information to put forth a motion for your ejection from this hallowed spacecraft.</span>`,
-            `<span style="font-size:18px">zburger: That is a significant point you have set forward upon our plate of meaningful discussion. However, I dispute your claim of the goose partaking in dubious activities, which may include clambering inside the ventilation shafts of our oddly large spacecraft. I understand your concerns about the goose character, but I, for one, have not viewed any aforementioned activities that you are indicting him of.</span>`,
-            `<span style="font-size:18px">goog: Your counter argument is flawed in the sense that my argument is based on the general cliche, but you have walked on my trap. You may have not noticed but I have seen you, Mr. Red, murder the innocents of the ship. This hateful crime should be taken to court but I suggest you take the safe route and let the crew eject you from the ship, terminating your life.</span>`,
-            `<span style="font-size:18px">Temp: If it is believed by the group that my continued presence does not advance the interests of our crew, then so be it, but I would defend my integrity and necessity to the ship's continued function to the last.</span>`,
-            `<span style="font-size:18px">zburger: We will send your astronaut figure out of the ejection bay of our spacecraft, but you will be deemed heroic and necessary to our victory of this mission. It has been an honor serving along side you on our ship, and we will be pleasured if you would continue your functions as an otherworldly spirit.</span>`,
-            `<span style="font-size:18px">goog: haha stinky baby</span>`,
-            `<span style="font-size:18px">Bread: what the hell happened here?</span>`];
-          if (quoteIndex < quotes.length) {
-            quote.innerHTML = quotes[quoteIndex];
-            quoteIndex++;
-          }
-          if(quoteIndex > quotes.length){
-            clearInterval(interval);
-          }
-        }, 10000);
+        let quoteIndex = -1;
+        const quote = document.getElementById("headerSubtitle");
+        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.`;
+        const quotes = [
+          `There is an impersonator amongst goog (an FSR artist) and two server members (Temp and zburger).<br><br>How will things play out?<br>Press the right arrow key and see.`,
+          `<span style="font-size:18px">goog: I may happen to have an connected feeling with others usually conveyed with the function of a proximity chat voice channel, or a simple chat mechanic that the individual with the particular wavelength of visible light most close to the wavelength of red, is acting or preforming in ways that are suspicious, or ominous, discretely moving around unlike other partners in this spaceship, I recommend we take immediate action and remove the impostor of the crew from the spaceship, therefore winning the game and going home to our families.</span>`,
+          `<span style="font-size:18px">Temp: If I may counteract this recommendation, it was observable to multiple members of our community including myself that an individual identified to be of identical color to yourself was capable of opening and closing a basic ventilation cover. Given the average quantifiable intelligence measured of our ship's pre-incidental crew, it must be concluded therefore that you are the disreputable individual who continues to plague our turn based activities. I plan to subsequently use this information to put forth a motion for your ejection from this hallowed spacecraft.</span>`,
+          `<span style="font-size:18px">zburger: That is a significant point you have set forward upon our plate of meaningful discussion. However, I dispute your claim of the goose partaking in dubious activities, which may include clambering inside the ventilation shafts of our oddly large spacecraft. I understand your concerns about the goose character, but I, for one, have not viewed any aforementioned activities that you are indicting him of.</span>`,
+          `<span style="font-size:18px">goog: Your counter argument is flawed in the sense that my argument is based on the general cliche, but you have walked on my trap. You may have not noticed but I have seen you, Mr. Red, murder the innocents of the ship. This hateful crime should be taken to court but I suggest you take the safe route and let the crew eject you from the ship, terminating your life.</span>`,
+          `<span style="font-size:18px">Temp: If it is believed by the group that my continued presence does not advance the interests of our crew, then so be it, but I would defend my integrity and necessity to the ship's continued function to the last.</span>`,
+          `<span style="font-size:18px">zburger: We will send your astronaut figure out of the ejection bay of our spacecraft, but you will be deemed heroic and necessary to our victory of this mission. It has been an honor serving along side you on our ship, and we will be pleasured if you would continue your functions as an otherworldly spirit.</span>`,
+          `<span style="font-size:18px">goog: haha stinky baby</span>`,
+          `<span style="font-size:18px">Bread: what the hell happened here?</span>`];
+        function keyPressed(event){
+          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
+          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this "convo".<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
+          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this "convo".<br>Press the right arrow key to go back.`;}
+          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
+          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
+        }
+        window.addEventListener("keyup", keyPressed);
       },
       () => {
         let metersAway = Math.floor(Math.random() * 300);
