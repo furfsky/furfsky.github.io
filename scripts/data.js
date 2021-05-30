@@ -354,6 +354,8 @@ const data = {
       `bsiciut`,
       `i hope that every chip bag you open rips down the middle`,
       `h nnndahnnhnhjnnhjnjnj`,
+      `Stay tuned for the next update, releasing soon™️©️®`,
+      `We tried and somehow it worked`,
       `furfsky reborn will now be using textures from pixilart.com to reduce the workload on the artist team :)`,
       `Now containing 25% less Soylent Green™!`,
       `o7`,
@@ -540,6 +542,125 @@ const data = {
           if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
           else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this "convo".<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
           else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this "convo".<br>Press the right arrow key to go back.`;}
+          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
+          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
+        }
+        window.addEventListener("keyup", keyPressed);
+      },
+      () => {
+        let quoteIndex = -1;
+        const quote = document.getElementById("headerSubtitle");
+        quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
+        const quotes = [
+          "We're no strangers to love",
+          "You know the rules and so do I", 
+          "A full commitment's what I'm thinking of",
+          "You wouldn't get this from any other guy", 
+          `I just wanna tell you how I'm feeling`,
+          `Gotta make you understand`,
+          'Never gonna give you up',
+          'Never gonna let you down',
+          'Never gonna run around and desert you',
+          'Never gonna make you cry',
+          'Never gonna say goodbye',
+          'Never gonna tell a lie and hurt you',
+          "We've known each other for so long",
+          "Your heart's been aching, but",
+          "You're too shy to say it",
+          "Inside, we both know what's been going on",
+          "We know the game and we're gonna play it",
+          `And if you ask me how I'm feeling`,
+          `Don't tell me you're too blind to see`,
+          'Never gonna give you up',
+          'Never gonna let you down',
+          'Never gonna run around and desert you',
+          'Never gonna make you cry',
+          'Never gonna say goodbye',
+          'Never gonna tell a lie and hurt you',
+          'Never gonna give you up',
+          'Never gonna let you down',
+          'Never gonna run around and desert you',
+          'Never gonna make you cry',
+          'Never gonna say goodbye',
+          'Never gonna tell a lie and hurt you',
+          "(Ooh, give you up)",
+          "(Ooh, give you up) [x2]",
+          "Never gonna give, never gonna give<br><small>(Give you up)</small>",
+          "Never gonna give, never gonna give<br><small>(Give you up)</small> [x2]",
+          "We've known each other for so long",
+          "Your heart's been aching, but",
+          "You're too shy to say it",
+          "Inside, we both know what's been going on",
+          "We know the game and we're gonna play it",
+          `I just wanna tell you how I'm feeling`,
+          `Gotta make you understand`,
+          'Never gonna give you up',
+          'Never gonna let you down',
+          'Never gonna run around and desert you',
+          'Never gonna make you cry',
+          'Never gonna say goodbye',
+          'Never gonna tell a lie and hurt you',
+          'Never gonna give you up',
+          'Never gonna let you down',
+          'Never gonna run around and desert you',
+          'Never gonna make you cry',
+          'Never gonna say goodbye',
+          'Never gonna tell a lie and hurt you',
+          'Never gonna give you up',
+          'Never gonna let you down',
+          'Never gonna run around and desert you',
+          'Never gonna make you cry',
+          'Never gonna say goodbye',
+          'Never gonna tell a lie and hurt you',
+        ];
+        function keyPressed(event){
+          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
+          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
+          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning.<br>Press the right arrow key to go back.`;}
+          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
+          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
+        }
+        window.addEventListener("keyup", keyPressed);
+      },
+      () => {
+        let quoteIndex = -1;
+        const quote = document.getElementById("headerSubtitle");
+        quote.innerHTML = `Right arrow key to start the copypasta.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
+        const quotes = [
+          `Red sus.`,
+          `Red suuuus.`,
+          `I said red, sus, hahahahaha.`,
+          `Why arent you laughing?`,
+          `I just made a reference to the popular video game "Among Us"!`,
+          `How can you not laugh at it?`,
+          `<h3>Emergency meeting!</h3>`,
+          `Guys, this here guy doesnt laugh at my funny Among Us memes!`,
+          `Let's beat him to death!`,
+          `Dead body reported!`,
+          `Skip! Skip!`,
+          `Vote blue!`,
+          `Blue was not an impostor.`,
+          `Among us in a nutshell hahahaha.`,
+          `What?!`,
+          `You're still not laughing your ass off?`,
+          `I made SEVERAL funny references to Among Us and YOU STILL AREN'T LAUGHING??!!!`,
+          `Bruh.`,
+          `Ya hear that?`,
+          `Wooooooosh.`,
+          `What's "wooooooosh"?`,
+          `Oh, nothing.`,
+          `Just the sound of a joke flying over your head.`,
+          `What's that?`,
+          `You think I'm annoying?`,
+          `Kinda sus, bro.`,
+          `Hahahaha!`,
+          `Anyway, yea, gotta go do tasks.`,
+          `Hahahaha!`,
+        ];
+        function keyPressed(event){
+          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
+          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this copypasta.<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
+          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this copypasta.<br>Press the right arrow key to go back.`;}
           else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
           else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
         }
