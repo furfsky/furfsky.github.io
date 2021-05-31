@@ -24,6 +24,7 @@ const data = {
       `Pretend inferiority and encourage his arrogance.<br>–Sun Tzu`,
       `B99S5E17`,
       `Furfsky never dies`,
+      `"i realised i haven't blinked in like half an hour and now blinking feels uncomfortable"<br>-goog`,
       `<p contenteditable="true">you can edit this text</p>`,
       `i do love buying birth certificates from the black market<br>-goog`,
       `who needs packs hq anyways<br>-Perpillow`,
