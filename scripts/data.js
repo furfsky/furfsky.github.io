@@ -114,6 +114,8 @@ const data = {
       `<span style="color: #FFAA00;">RARE DROP!</span> <span style="color: #FFFFFF">Carrot</span> <span style="color: #55FFFF">(+300% Magic Find!)</span>`,
       `your wifi password is probably along the lines of "170sb45ltngX3331458tdq314w".<br>now go download the pack.`,
       `so we gave an aimbot a paintbrush`,
+      `ix`,
+      `"help why are people boning me"<br><br>-Moulberry, concerned about people throwing Bonemerangs at him`,
       `imagine if the 10kth server member was furf himself coming in to flip us off<br>—erymanthus`,
       `sometimes i question why artists that are as good as the people here are making art for mc<br>—MyPancakes`,
       `sell your soul to tyler for free fortnite vbucks`,
@@ -662,6 +664,94 @@ const data = {
           if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
           else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this copypasta.<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
           else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this copypasta.<br>Press the right arrow key to go back.`;}
+          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
+          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
+        }
+        window.addEventListener("keyup", keyPressed);
+      },
+      () => {
+        let quoteIndex = -1;
+        const quote = document.getElementById("headerSubtitle");
+        quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
+        const quotes = [
+          `How to Lose Weight in 4 Easy Steps`,
+          `Step one: No beer.<br><br>Every time you drink a beer, it's like eating seven slices of bread. That's a lot of unnecessary carbs.`,
+          `Step two: Portion control.<br><br>When eating out at a restaurant, cut your meal in half and ask for a takeout container to save the rest for later.`,
+          `Step three...`,
+          `Have your heart broken.`,
+          `And not just broken, but shattered...`,
+          `...by a girl who never loved you and never will.`,
+          `Try to get your shit together and join a gym. Start going to the gym regularly and even though you don't know that much about exercise and you're way too weak to do pretty much anything but lift five pound weights with the old people, do it until your sweat makes a puddle on the floor.`,
+          `Then go home and go to bed.<br><br>And the next day, do it again.<br>And then again.<br>And then again.`,
+          `Then go to work and listen to stories of your ex-girlfriend fucking around with gross and terrible people.<br>Stories from your coworker friends who think they're doing you a favor.`,
+          `Pretend that it doesn't bother you.`,
+          `Pretend that being forced to see your ex at work <i>every day</i> isn't fucking killing you.`,
+          `Pretend that everything's fine.`,
+          `Go to the gym and make more puddles of sweat.<br>Buy books.<br>Learn about different muscle groups and how they work together.`,
+          `Plan out your week of meals.<br><br><small>Try to forget her.</small>`,
+          `Back to the gym, more puddles of sweat.<br><br><small>(You're a piece of shit.)</small>`,
+          `<small>(You are a piece of shit.)</small>`,
+          `<small>(You. Are a piece. Of shit.)</small>`,
+          `*beat*`,
+          `After the gym one night, go all the way up to the top of the parking garage and walk all the way to the back.`,
+          `Look out of the lights of the skyscrapers of downtown, and think about how every single one of those office lights represents a person.<br>Try to imagine how they feel... what they're doing.`,
+          `Then realize that most of those lights are probably shining into offices with no one in them.`,
+          `Realize you're alone...<br>that you're staring at...<br>no one.`,
+          `<small>Become cripplingly depressed and try to locate your car.</small>`,
+          `Go to sleep. Go back to work. Go to the gym. Sweat.`,
+          `Freak the fuck out on your ex.<br><br><small>The next day, apologize.</small>`,
+          `One day, she wears the necklace you bought her and tells you that she got it<br>"from someone really special".`,
+          `That night, you discover that Slayer's "Angel of Death" might be the perfect song to do squats to.`,
+          `*shave beard*`,
+          `Start to make friends at the gym.<br>You used to look down on bro nods and fist bumps, but since that's how gym rats communicate, that's become the language you speak most often.`,
+          `Max and you spot each other on Wednesdays, Vinny and you spot each other on Fridays.<br><br>It's important not to forget that you're a piece of shit.`,
+          `Work, gym, food, sleep. Over and over<br>More fist bumps, more sweat puddles.`,
+          `Your body changes slowly, then all at once.<br>You hit your goal weight, pick a new one, then hit it again.<br>You go out and buy new clothes.`,
+          `You recieve wave after wave of compliments.<br><br><small>Your ex tells you that she's seeing someone else.</small>`,
+          `<small>...fucking bullshit...</small>`,
+          `<small>...piece of-</small>`,
+          `That night, you go to the gym. You run farther and lift more than you thought your body was capable of.`,
+          `You go home and eat a single chicken breast and steamed vegetables.<br>You go to sleep.<br>You dream of a bottomless black puddle.`,
+          `<small>No...<br>*swipes left*</small>`,
+          `<small>...no...<br>*swipes left again*</small>`,
+          `<small>...no.<br>*swipes left one last time*</small>`,
+          `There's a girl you see a lot at the gym who always does these weird leg exercises you've never seen before.`,
+          `You make it a point not to look at her, because you're overly worried about looking creepy-like that guy in the blue shirt who never wears underwear and always hangs around the lat pulldown machine.`,
+          `But you notice this girl is always at the gym when you are, and seems to always choose the bench next to you.<br><br>You turn up the Slayer and concentrate on making your puddles bigger.`,
+          `At work your ex parades her new boyfriend around, flatly ignoring you the entire time.<br><br>He's taller than you, in better shape than you, and significantly better looking than you.`,
+          `[ ... ]`,
+          `<small>...fucking bullshit...</small>`,
+          `That night you benchpress double your body weight.<br>You sneak a photo of yourself in the mirror and email it to yourself with the subject heading "You are a warrior."`,
+          `<small>The next day you are more disgusted with yourself than you've ever been and you delete it immediately.</small>`,
+          `You make puddle after puddle after puddle and eat single chicken breasts and work and sleep.<br>Over and over and over and over and over and over...`,
+          `...and then something different happens.`,
+          `A night comes when you're not the last person in the gym.`,
+          `It's you and the girl who does the weird leg exercises.`,
+          `You end up walking out at the same time.`,
+          `Her name is Melissa and she works close by.`,
+          `She asks you out to dinner on Friday, promising it'll be healthy.`,
+          `The leg exercises are pivoting curtsy lunges.`,
+          `You start seeing Melissa a lot, both inside the gym and out.<br>You add a couple of cheat days to your week.<br>You start getting a lot less sleep.`,
+          `Your ex calls you late at night but you don't answer.`,
+          `One night you're walking Melissa to her car and she says she wants to show you something special.`,
+          `You both stand there in the dark, looking out over the lights of downtown.`,
+          `"Isn't it pretty," she says, "with all those lights?"`,
+          `You tell her that you think it is, but it also makes you feel sad.<br>"All those lights mean nothing, they're just shining into cold lonely offices with nobody in them."`,
+          `But Melissa tells you that each light <i>is</i> an empty office, but they're only empty because the people have all gone home for the day.<br>"Each one's a person who's at home, happy with the one they love."`,
+          `You look at her and the lights, and she smiles.`,
+          `Something in your chest expands.`,
+          `Late one Sunday afternoon, you're writing out your rent check and realize it's been exactly a year since you started working out.`,
+          `You think of all those miles you've run...<br>those pounds you've lifted...<br>and chicken you've eaten...<br>and puddles you've made...<br>and it doesn't seem that bad.`,
+          `You realize that it's not about hitting a goal weight or lifting weights.`,
+          `It's about waiting, being patient, and trusting that life will slowly inch along, and things will get better.`,
+          `After all, change takes time...`,
+          `...but time is all it takes.`,
+          `Step four: No fruit juice.<br>Too much sugar.`,
+        ];
+        function keyPressed(event){
+          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
+          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
+          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning.<br>Press the right arrow key to go back.`;}
           else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
           else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
         }
