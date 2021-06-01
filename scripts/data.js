@@ -465,7 +465,7 @@ const data = {
       `Winner of ${String(date.getYear() + 1900)} best pack award.`,
       `${String(Math.abs(Math.floor((((new Date('November 04, 2041 13:15:17')) - (new Date(date.getTime()))) / 1000) / 86400)))} days left before the pack can legally get turnt`,
       `for ${String(Math.abs(Math.floor((((new Date('July 04, 2019 14:04:00')) - (new Date('April 17, 2020 22:11:00'))) / 1000) / 86400)))} days, furf slaved away at assets, only to give up ${String(Math.abs(Math.floor((((new Date(date.getTime())) - (new Date('April 17, 2020 22:11:00'))) / 1000) / 86400)))} days ago.<br>now we have to clean up the table scraps.`,
-      `${String(Math.abs(Math.floor((((new Date(date.getTime())) - (new Date('October 28, 2021 21:52:00'))) / 1000) / 86400)))} days since the artists have touched grass`,
+      `${String(Math.abs(Math.floor((((new Date(date.getTime())) - (new Date('October 28, 2020 21:52:00'))) / 1000) / 86400)))} days since the artists have touched grass`,
       `the artists have had ${Math.random() > 0.5 ? "aesprite" : "photoshop"} open for ${String(Math.abs(Math.floor((((new Date(date.getTime())) - (new Date('May 8, 2021 00:00:00'))) / 1000) / 86400)))} days without breaks<br>now boost the server to give them a little more motivation to keep going`,
       `we know that it's been ${String(Math.abs(Math.floor((((new Date(date.getTime())) - (new Date('October 30, 2020 00:00:00'))) / 1000) / 86400)))} days since ${Math.random() > 0.5 ? "diver's armor" : "mastiff armor"} hasn't had a texture, stop pestering us about it in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#feedback</span> pls ;-;`,
       () => {
