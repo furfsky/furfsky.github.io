@@ -24,6 +24,9 @@ const data = {
       `Pretend inferiority and encourage his arrogance.<br>–Sun Tzu`,
       `B99S5E17`,
       `Furfsky never dies`,
+      `skyblock nerds apps are open btw`,
+      `we're trying to get an ssl cert for https support please stop pestering us`,
+      `Avocados 🥑 from Mexico 🇲🇽`,
       `"i realised i haven't blinked in like half an hour and now blinking feels uncomfortable"<br>-goog`,
       `<p contenteditable="true">you can edit this text</p>`,
       `i do love buying birth certificates from the black market<br>-goog`,
@@ -231,6 +234,8 @@ const data = {
       `<span style="font-size:12px;">SkyBlock Modification Announcement - JustEnoughDungeons (JED) | By [ADMIN] Fr0z3n — Community Manager<br>Hello everyone, // It has recently come to our attention that the SkyBlock modification JustEnoughDungeons (JED) is potentially being used for malicious purposes in order to put the accounts of those using it at risk of being hacked. // Due to the account security risks, and in order to keep you all safe from being potentially hacked, we've decided to block this modification from being used on the server. This is for your own safety. If you are currently using this modification, we would highly recommend that you remove it immediately and change your Minecraft password after doing so.Thank you for your understanding, and stay safe out there!</span>`,
       `hey uh, we need to borrow your valkyrie, to, uh, make sure that our texture pack works`,
       `I ate a shoebox.`,
+      ``,
+      `it's one thing to complain about how the logo's been colored for pride month, but to criticize its mere <u>existence</u> shows <i>your</i> true colors.`,
       `umhh uhhm uh uh um um uh uhhm`,
       `gradient, no hueshift, bad colors, no contrast, too much contrast, bad anim, mixels, spiky outline, thick outline, bad shading, confusing light geometry, use a palette`,
       `update optifine, get patcher, stop using badlion or lunar, enable custom items, remove orange's animations, play in 1.8.9, <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#pack-faq</span>, <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#mod-ui-faq</span>, terrain animations, no i will not change an original furfsky texture`,
@@ -769,6 +774,22 @@ const data = {
           if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
           else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this "apology".<br>Press the left arrow key to go back, or "R" to start the "apology" again.`;}
           else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this "apology".<br>Press the right arrow key to go back.`;}
+          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
+          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
+        }
+        window.addEventListener("keyup", keyPressed);
+      },
+      () => {
+        let quoteIndex = -1;
+        const quote = document.getElementById("headerSubtitle");
+        quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
+        const quotes = [
+          `you've been had lol`
+        ];
+        function keyPressed(event){
+          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
+          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start again.`;}
+          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning.<br>Press the right arrow key to go back.`;}
           else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
           else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
         }
