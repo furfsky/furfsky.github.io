@@ -523,8 +523,8 @@ const data = {
           "This has been a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>."];
         function keyPressed(event){
           if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
-          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this "convo".<br>Press the left arrow key to go back, or "R" to start again.`;}
-          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this "convo".<br>Press the right arrow key to go back.`;}
+          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start again.`;}
+          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning.<br>Press the right arrow key to go back.`;}
           else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
           else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
         }
@@ -621,7 +621,7 @@ const data = {
         ];
         function keyPressed(event){
           if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
-          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
+          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start again.`;}
           else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning.<br>Press the right arrow key to go back.`;}
           else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
           else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
