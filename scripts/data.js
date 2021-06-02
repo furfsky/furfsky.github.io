@@ -1019,7 +1019,7 @@ const data = {
     {
       name: "iDevil4Hell/Thanatos",
       link: "https://hypixel.net/members/3639006/",
-      role: "Retired Artist",
+      role: "Artist",
       quote: "Try not to cringe! [FSR Edition] (Gone wrong, absolutely failed)",
     },
     {
