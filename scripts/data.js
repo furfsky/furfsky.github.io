@@ -1,4 +1,36 @@
 const date = new Date();
+const pressToMoveQuotes = (quotes) => {
+  let quoteIndex = -1;
+  const quote = document.getElementById("headerSubtitle");
+  quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
+  const keyPressed = (event) => {
+    switch (event.key) {
+      case "R":
+        quoteIndex = 0;
+        quote.innerHTML = quotes[quoteIndex];
+        break;
+      case "ArrowRight":
+        if (quoteIndex >= quotes.length - 1) {
+          quoteIndex = quotes.length;
+          quote.innerHTML = `You've reached the end of this "convo".<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;
+        } else {
+          quoteIndex++;
+          quote.innerHTML = quotes[quoteIndex];
+        }
+        break;
+      case "ArrowLeft":
+        if (quoteIndex <= 0) {
+          quoteIndex = -1;
+          quote.innerHTML = `You've reached past the beginning of this "convo".<br>Press the right arrow key to go back.`;
+        } else {
+          quoteIndex--;
+          quote.innerHTML = quotes[quoteIndex];
+        }
+        break;
+    }
+  };
+  window.addEventListener("keyup", keyPressed);
+};
 const data = {
   header: {
     image: "",
@@ -124,7 +156,11 @@ const data = {
       `sometimes i question why artists that are as good as the people here are making art for mc<br>—MyPancakes`,
       `sell your soul to tyler for free fortnite vbucks`,
       `the website creator is actually an ai designed by the cia to track weebs that play skyblock and exterminate them`,
-      `What if you wanted to go to heaven, but God said<br><span style='color:#FF5555;'>Couldn't warp you! Try again later!</span> <span style="color:#AAAAAA;">${Math.random() > 0.5 ? '(NO_DESTINATION_FOUND)' : '(SERVERS_DID_NOT_ACCEPT)' }</span>`,
+      `What if you wanted to go to heaven, but God said<br><span style='color:#FF5555;'>Couldn't warp you! Try again later!</span> <span style="color:#AAAAAA;">${
+        Math.random() > 0.5
+          ? "(NO_DESTINATION_FOUND)"
+          : "(SERVERS_DID_NOT_ACCEPT)"
+      }</span>`,
       `After using this pack, I started getting SO many more matches on tinder`,
       `If energy can't be destroyed, and atoms are energy, then yes your honor, she was in fact of age`,
       `fuck everyone who pings voxal`,
@@ -306,7 +342,9 @@ const data = {
       `Among Us`,
       `amogus`,
       `<a href="https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U">listen to creatures of habit</a>`,
-      `${Math.random() > 0.5 ? "us" : "me"}<br>-juniper<br><small>(no, not the geometry dash youtuber)</small>`,
+      `${
+        Math.random() > 0.5 ? "us" : "me"
+      }<br>-juniper<br><small>(no, not the geometry dash youtuber)</small>`,
       `she's in love with the concept`,
       `I identify as a FUCKING THREAT.`,
       `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">`,
@@ -412,7 +450,11 @@ const data = {
       `WHY THE FUCK DOES IT HAVE TO BE SO HARD TO GET A COVID-19 VACCINATION?<br>I'M JUST TRYING TO GET MY FIRST DOSE OF PFIZER, FOR FUCK'S SAKE!<br><br>FUCKING HELL, I HAVE A BETTER CHANCE OF GETTING A NECRON'S HANDLE AT THIS POINT.`,
       `Any unlicensed distribution of beta textures is punishable by at least, but not limited to, 3 months of penal labor and kneecapitation.`,
       `Check <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#pack-faq</span> and <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#mod-ui-faq</span> first, or die.`,
-      `${Math.random() > 0.5 ? `<img src="https://ptb.discord.com/assets/2d16214bcc74dd1546a35d3d6f15abec.svg" draggable="false" style="width:32px; height:32px;">` : `<img src="https://cdn.discordapp.com/emojis/834588295194738758.png?v=1" draggable="false" style="width:32px; height:32px;">`} SHIT HAPPENS. | macOS Big Sur on MacBook Pro Late 2019 16" (i9-9880H @ 2.30GHz, Radeon Pro 5500M @ 2048x1280, 16GB RAM)`,
+      `${
+        Math.random() > 0.5
+          ? `<img src="https://ptb.discord.com/assets/2d16214bcc74dd1546a35d3d6f15abec.svg" draggable="false" style="width:32px; height:32px;">`
+          : `<img src="https://cdn.discordapp.com/emojis/834588295194738758.png?v=1" draggable="false" style="width:32px; height:32px;">`
+      } SHIT HAPPENS. | macOS Big Sur on MacBook Pro Late 2019 16" (i9-9880H @ 2.30GHz, Radeon Pro 5500M @ 2048x1280, 16GB RAM)`,
       `"SHIT HAPPENS."<br>-Tom Holland`,
       `Made by <span style="color: #FF5555;">[</span><span style="color: #FFFFFF;">YOUTUBE</span><span style="color: #FF5555;">] FurryEBoy</span> and his team of artists!`,
       `Type <span style="color: #AAAAAA;">/killdante</span> in chat to make the fight last longer!`,
@@ -442,104 +484,143 @@ const data = {
       `please stop using <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#make-a-website-quote</span> as <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#general</span> with a 15 minute cooldown ;-;`,
       `<span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#invalid-channel</span> is not a real chat room, and is just a rumor falsely spread by server members.`,
       `Now I've learned my
-      ${Math.random() > 0.5 ?
-        `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" draggable="false" style="width:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/787004872444739624.png?v=1" draggable="false" style="width:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/787004862356389909.png?v=1" draggable="false" style="width:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/787004897735475220.png?v=1" draggable="false" style="width:32px; height:32px;">` :
-        `<img src="https://cdn.discordapp.com/emojis/804803417259507752.png?v=1" draggable="false" style="width:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/804803405012533268.png?v=1" draggable="false" style="width:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/804803384187158559.png?v=1" draggable="false" style="width:32px; height:32px;">
-        <img src="https://cdn.discordapp.com/emojis/804803429264392213.png?v=1" draggable="false" style="width:32px; height:32px;">`}
-      , next time ${Math.random() > 0.5 ? `please don't sing with me!` : `won't you sing with me?`}`,
+        ${
+          Math.random() > 0.5
+            ? `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/787004872444739624.png?v=1" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/787004862356389909.png?v=1" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/787004897735475220.png?v=1" draggable="false" style="width:32px; height:32px;">`
+            : `<img src="https://cdn.discordapp.com/emojis/804803417259507752.png?v=1" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/804803405012533268.png?v=1" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/804803384187158559.png?v=1" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/804803429264392213.png?v=1" draggable="false" style="width:32px; height:32px;">`
+        }
+        , next time ${
+          Math.random() > 0.5
+            ? `please don't sing with me!`
+            : `won't you sing with me?`
+        }`,
       `
-     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" draggable="false" style="width:32px; height:32px;"> 
-     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
-     <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="width:32px; height:32px;">
-     `,
+       <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="width:32px; height:32px;">
+       `,
       `Winner of ${String(date.getYear() + 1900)} best pack award.`,
-      `${String(Math.abs(Math.floor((((new Date('November 04, 2041 13:15:17')) - (new Date(date.getTime()))) / 1000) / 86400)))} days left before the pack can legally get turnt`,
-      `for ${String(Math.abs(Math.floor((((new Date('July 04, 2019 14:04:00')) - (new Date('April 17, 2020 22:11:00'))) / 1000) / 86400)))} days, furf slaved away at assets, only to give up ${String(Math.abs(Math.floor((((new Date(date.getTime())) - (new Date('April 17, 2020 22:11:00'))) / 1000) / 86400)))} days ago.<br>now we have to clean up the table scraps.`,
-      `${String(Math.abs(Math.floor((((new Date(date.getTime())) - (new Date('October 28, 2020 21:52:00'))) / 1000) / 86400)))} days since the artists have touched grass`,
-      `the artists have had ${Math.random() > 0.5 ? "aesprite" : "photoshop"} open for ${String(Math.abs(Math.floor((((new Date(date.getTime())) - (new Date('May 8, 2021 00:00:00'))) / 1000) / 86400)))} days without breaks<br>now boost the server to give them a little more motivation to keep going`,
-      `we know that it's been ${String(Math.abs(Math.floor((((new Date(date.getTime())) - (new Date('October 30, 2020 00:00:00'))) / 1000) / 86400)))} days since ${Math.random() > 0.5 ? "diver's armor" : "mastiff armor"} hasn't had a texture, stop pestering us about it in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#feedback</span> pls ;-;`,
+      `${String(
+        Math.abs(
+          Math.floor(
+            (new Date("November 04, 2041 13:15:17") -
+              new Date(date.getTime())) /
+              1000 /
+              86400
+          )
+        )
+      )} days left before the pack can legally get turnt`,
+      `for ${String(
+        Math.abs(
+          Math.floor(
+            (new Date("July 04, 2019 14:04:00") -
+              new Date("April 17, 2020 22:11:00")) /
+              1000 /
+              86400
+          )
+        )
+      )} days, furf slaved away at assets, only to give up ${String(
+        Math.abs(
+          Math.floor(
+            (new Date(date.getTime()) - new Date("April 17, 2020 22:11:00")) /
+              1000 /
+              86400
+          )
+        )
+      )} days ago.<br>now we have to clean up the table scraps.`,
+      `${String(
+        Math.abs(
+          Math.floor(
+            (new Date(date.getTime()) - new Date("October 28, 2020 21:52:00")) /
+              1000 /
+              86400
+          )
+        )
+      )} days since the artists have touched grass`,
+      `the artists have had ${
+        Math.random() > 0.5 ? "aesprite" : "photoshop"
+      } open for ${String(
+        Math.abs(
+          Math.floor(
+            (new Date(date.getTime()) - new Date("May 8, 2021 00:00:00")) /
+              1000 /
+              86400
+          )
+        )
+      )} days without breaks<br>now boost the server to give them a little more motivation to keep going`,
+      `we know that it's been ${String(
+        Math.abs(
+          Math.floor(
+            (new Date(date.getTime()) - new Date("October 30, 2020 00:00:00")) /
+              1000 /
+              86400
+          )
+        )
+      )} days since ${
+        Math.random() > 0.5 ? "diver's armor" : "mastiff armor"
+      } hasn't had a texture, stop pestering us about it in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#feedback</span> pls ;-;`,
       () => {
         document.body.style = "filter:blur(1px)";
-        document.getElementById("headerSubtitle").innerHTML = "looks like your vision isn't the best!";
+        document.getElementById("headerSubtitle").innerHTML =
+          "looks like your vision isn't the best!";
       },
       () => {
         document.body.style = "filter:grayscale(80%)";
-        document.getElementById("headerSubtitle").innerHTML = "look mom, im emo";
+        document.getElementById("headerSubtitle").innerHTML =
+          "look mom, im emo";
       },
       () => {
-        let quoteIndex = -1;
-        const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
-        const quotes = [
+        pressToMoveQuotes([
           "voxal: time to add 100 more quotes<br>*cries in pain*",
-          "Erymanthus: dwai i can help", 
-          "voxal: okai lets see how many you can port over", 
-          "*two hours later*", 
-          "Erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear"];
-        function keyPressed(event){
-          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
-          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this "convo".<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
-          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this "convo".<br>Press the right arrow key to go back.`;}
-          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
-          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
-        }
-        window.addEventListener("keyup", keyPressed);
+          "Erymanthus: dwai i can help",
+          "voxal: okai lets see how many you can port over",
+          "*two hours later*",
+          "Erymanthus: jesus christ voxal i took a phat nap again im so sorry i wont lapse this hard again i swear",
+        ]);
       },
       () => {
-        let quoteIndex = -1;
-        const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
-        const quotes = [
+        pressToMoveQuotes([
           "Here's a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>, because Motor doesn't know how to go to vacation properly.",
           "Discord Ghosting<br><br>By MotorGorilla<br>March 10, 2021",
           "I will be out of the office beginning Wednesday, March 10th, at 6:46:48 (E.S.T.), and will return on Sunday, March 14th, at 3:47 (Hawaiian-Aleutian Standard Time).",
-          "During that period, I will have limited access to Discord. Meaning that I will have full access to Discord. I will continue to read my Discord as though I were sitting in my office, but I will be \"out\" of the office. Meaning there will be no difference. Also, I will probably be in the office a bunch.", 
-          "I will have sporadic access to my cell phone. This is either because I am doing whatever business I have to attend to during my surprise vacation, or, more likely, because I am lying on my couch, staring at my cell phone and willing myself not to check it for at least fifteen minutes.", 
-          "I will have extremely limited access to pay phones. I forgot to bring quarters, and the last calling card I owned expired before I was born. Also, most pay phones are now public urinals.", 
+          'During that period, I will have limited access to Discord. Meaning that I will have full access to Discord. I will continue to read my Discord as though I were sitting in my office, but I will be "out" of the office. Meaning there will be no difference. Also, I will probably be in the office a bunch.',
+          "I will have sporadic access to my cell phone. This is either because I am doing whatever business I have to attend to during my surprise vacation, or, more likely, because I am lying on my couch, staring at my cell phone and willing myself not to check it for at least fifteen minutes.",
+          "I will have extremely limited access to pay phones. I forgot to bring quarters, and the last calling card I owned expired before I was born. Also, most pay phones are now public urinals.",
           "I will have standard access to Discord PMs. I’m not really sure where they are at these days, but if you send one I’m sure Discord admins will find me.",
-          "I will be checking my \"snail mail\" in, quite frankly, never. Such is the 21st century, and I use Discord, as mentioned earlier.",
+          'I will be checking my "snail mail" in, quite frankly, never. Such is the 21st century, and I use Discord, as mentioned earlier.',
           "I will have almost zero access to carrier pigeons. This is less a function of my vacation and more a function of the year I was born. Hell, do those things still <span style='font-style: italic;'>exist</span>?",
           "I will NOT be checking my landline, which is a can attached to a string, because <span style='font-style: italic;'>what the fuck? Who still uses landlines?</span>",
           "I will have only intermittent access to Skyblock. If you desperately need to show me your giveaway prize pool, please print a copy and mail it to:<br><br><span style='font-style: italic;'>I’m on Vacation</span><br><span style='font-style: italic;'>Attn: MotorGorilla</span><br><span style='font-style: italic;'>c/o: /visit MotorGorilla</span>",
-          "I will have erratic access to Discord server giveaway channels. Should you enter \"200M SKYBLOCK GIVEAWAY\", you may see my user name briefly, then it may disappear, as though I had seen your user name and fled the chat room.<br>Wrong. It has to do with the surprise vacation I’m on.",
+          'I will have erratic access to Discord server giveaway channels. Should you enter "200M SKYBLOCK GIVEAWAY", you may see my user name briefly, then it may disappear, as though I had seen your user name and fled the chat room.<br>Wrong. It has to do with the surprise vacation I’m on.',
           "I will have fitful access to my memories. That is why I may ignore you when you pass me on the street and yell, \"<span style='font-style: italic;'>Hey, Motor! It’s me, one of your artists!</span>\"<br>Again, this relates to a memory problem and has nothing to do with the 200 million coins I'm running away from the authorities with.",
-          "While on vacation, I will not be doing that thing where I wish someone a happy birthday by having some random ghost pinging me. My assistant will be doing that for me. Unfortunately, they're also \"out of the office\", so the middleman will be Clyde.<br>Happy birthday.",
+          'While on vacation, I will not be doing that thing where I wish someone a happy birthday by having some random ghost pinging me. My assistant will be doing that for me. Unfortunately, they\'re also "out of the office", so the middleman will be Clyde.<br>Happy birthday.',
           "I will have no access to my homework. A judge ruled that I should be “on vacation” from them.<br><small>(Spoiler: I was the judge.)</small><br><br>And I will have constant access to Spotify. That is less informative and more of a brag.",
           "Finally, I’m sure this goes without saying, but if you’re really rich or really famous, I am instantly available 24/7. Just spam ping me.",
           "The rest of you, please do not respond to this message, or Discord will force it into my cell phone's push notifications—on a par with my fragrun bot getting banned and every time some nerd pulls an \"accidental\" <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>@everyone</span>.",
           "All my best,<br>xoxo,<br>The M-Man ♦",
           "<span style='font-style: italic;'>Published in the <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#alpha-updates</span> channel in the <a href='https://discord.gg/fsr' style='color:#fbcc6c; text-decoration: none;'>FurfSky Reborn Discord server</span></span>.",
           "<span style='font-style: italic;'>MotorGorilla, a veteran artist for FurfSky Reborn, compiles the countless assets from other artists in the server. His memoir, “My Online Persona: Snoopy,” will be published whenever he stops procrastinating in general.</span>",
-          "This has been a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>."];
-        function keyPressed(event){
-          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
-          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start again.`;}
-          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning.<br>Press the right arrow key to go back.`;}
-          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
-          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
-        }
-        window.addEventListener("keyup", keyPressed);
+          "This has been a parody of Colon Jost's <a href='https://www.newyorker.com/magazine/2013/01/28/automatic-reply' style='font-style: italic; color:#fbcc6c; text-decoration: none;'>\"Automatic Reply\"</a>.",
+        ]);
       },
       () => {
-        let quoteIndex = -1;
-        const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
-        const quotes = [
+        pressToMoveQuotes([
           `There is an impersonator amongst goog (an FSR artist) and two server members (Temp and zburger).<br><br>How will things play out?<br>Press the right arrow key and see.`,
           `<span style="font-size:18px">goog: I may happen to have an connected feeling with others usually conveyed with the function of a proximity chat voice channel, or a simple chat mechanic that the individual with the particular wavelength of visible light most close to the wavelength of red, is acting or preforming in ways that are suspicious, or ominous, discretely moving around unlike other partners in this spaceship, I recommend we take immediate action and remove the impostor of the crew from the spaceship, therefore winning the game and going home to our families.</span>`,
           `<span style="font-size:18px">Temp: If I may counteract this recommendation, it was observable to multiple members of our community including myself that an individual identified to be of identical color to yourself was capable of opening and closing a basic ventilation cover. Given the average quantifiable intelligence measured of our ship's pre-incidental crew, it must be concluded therefore that you are the disreputable individual who continues to plague our turn based activities. I plan to subsequently use this information to put forth a motion for your ejection from this hallowed spacecraft.</span>`,
@@ -548,33 +629,23 @@ const data = {
           `<span style="font-size:18px">Temp: If it is believed by the group that my continued presence does not advance the interests of our crew, then so be it, but I would defend my integrity and necessity to the ship's continued function to the last.</span>`,
           `<span style="font-size:18px">zburger: We will send your astronaut figure out of the ejection bay of our spacecraft, but you will be deemed heroic and necessary to our victory of this mission. It has been an honor serving along side you on our ship, and we will be pleasured if you would continue your functions as an otherworldly spirit.</span>`,
           `<span style="font-size:18px">goog: haha stinky baby</span>`,
-          `<span style="font-size:18px">Bread: what the hell happened here?</span>`];
-        function keyPressed(event){
-          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
-          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this "convo".<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;}
-          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this "convo".<br>Press the right arrow key to go back.`;}
-          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
-          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
-        }
-        window.addEventListener("keyup", keyPressed);
+          `<span style="font-size:18px">Bread: what the hell happened here?</span>`,
+        ]);
       },
       () => {
-        let quoteIndex = -1;
-        const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
-        const quotes = [
+        pressToMoveQuotes([
           "We're no strangers to love",
-          "You know the rules and so do I", 
+          "You know the rules and so do I",
           "A full commitment's what I'm thinking of",
-          "You wouldn't get this from any other guy", 
+          "You wouldn't get this from any other guy",
           `I just wanna tell you how I'm feeling`,
           `Gotta make you understand`,
-          'Never gonna give you up',
-          'Never gonna let you down',
-          'Never gonna run around and desert you',
-          'Never gonna make you cry',
-          'Never gonna say goodbye',
-          'Never gonna tell a lie and hurt you',
+          "Never gonna give you up",
+          "Never gonna let you down",
+          "Never gonna run around and desert you",
+          "Never gonna make you cry",
+          "Never gonna say goodbye",
+          "Never gonna tell a lie and hurt you",
           "We've known each other for so long",
           "Your heart's been aching, but",
           "You're too shy to say it",
@@ -582,18 +653,18 @@ const data = {
           "We know the game and we're gonna play it",
           `And if you ask me how I'm feeling`,
           `Don't tell me you're too blind to see`,
-          'Never gonna give you up',
-          'Never gonna let you down',
-          'Never gonna run around and desert you',
-          'Never gonna make you cry',
-          'Never gonna say goodbye',
-          'Never gonna tell a lie and hurt you',
-          'Never gonna give you up',
-          'Never gonna let you down',
-          'Never gonna run around and desert you',
-          'Never gonna make you cry',
-          'Never gonna say goodbye',
-          'Never gonna tell a lie and hurt you',
+          "Never gonna give you up",
+          "Never gonna let you down",
+          "Never gonna run around and desert you",
+          "Never gonna make you cry",
+          "Never gonna say goodbye",
+          "Never gonna tell a lie and hurt you",
+          "Never gonna give you up",
+          "Never gonna let you down",
+          "Never gonna run around and desert you",
+          "Never gonna make you cry",
+          "Never gonna say goodbye",
+          "Never gonna tell a lie and hurt you",
           "(Ooh, give you up)",
           "(Ooh, give you up) [x2]",
           "Never gonna give, never gonna give<br><small>(Give you up)</small>",
@@ -605,39 +676,28 @@ const data = {
           "We know the game and we're gonna play it",
           `I just wanna tell you how I'm feeling`,
           `Gotta make you understand`,
-          'Never gonna give you up',
-          'Never gonna let you down',
-          'Never gonna run around and desert you',
-          'Never gonna make you cry',
-          'Never gonna say goodbye',
-          'Never gonna tell a lie and hurt you',
-          'Never gonna give you up',
-          'Never gonna let you down',
-          'Never gonna run around and desert you',
-          'Never gonna make you cry',
-          'Never gonna say goodbye',
-          'Never gonna tell a lie and hurt you',
-          'Never gonna give you up',
-          'Never gonna let you down',
-          'Never gonna run around and desert you',
-          'Never gonna make you cry',
-          'Never gonna say goodbye',
-          'Never gonna tell a lie and hurt you',
-        ];
-        function keyPressed(event){
-          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
-          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start again.`;}
-          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning.<br>Press the right arrow key to go back.`;}
-          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
-          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
-        }
-        window.addEventListener("keyup", keyPressed);
+          "Never gonna give you up",
+          "Never gonna let you down",
+          "Never gonna run around and desert you",
+          "Never gonna make you cry",
+          "Never gonna say goodbye",
+          "Never gonna tell a lie and hurt you",
+          "Never gonna give you up",
+          "Never gonna let you down",
+          "Never gonna run around and desert you",
+          "Never gonna make you cry",
+          "Never gonna say goodbye",
+          "Never gonna tell a lie and hurt you",
+          "Never gonna give you up",
+          "Never gonna let you down",
+          "Never gonna run around and desert you",
+          "Never gonna make you cry",
+          "Never gonna say goodbye",
+          "Never gonna tell a lie and hurt you",
+        ]);
       },
       () => {
-        let quoteIndex = -1;
-        const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start the copypasta.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
-        const quotes = [
+        pressToMoveQuotes([
           `Red sus.`,
           `Red suuuus.`,
           `I said red, sus, hahahahaha.`,
@@ -667,21 +727,10 @@ const data = {
           `Hahahaha!`,
           `Anyway, yea, gotta go do tasks.`,
           `Hahahaha!`,
-        ];
-        function keyPressed(event){
-          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
-          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this copypasta.<br>Press the left arrow key to go back, or "R" to start the copypasta again.`;}
-          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this copypasta.<br>Press the right arrow key to go back.`;}
-          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
-          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
-        }
-        window.addEventListener("keyup", keyPressed);
+        ]);
       },
       () => {
-        let quoteIndex = -1;
-        const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
-        const quotes = [
+        pressToMoveQuotes([
           `How to Lose Weight in 4 Easy Steps`,
           `Step one: No beer.<br><br>Every time you drink a beer, it's like eating seven slices of bread. That's a lot of unnecessary carbs.`,
           `Step two: Portion control.<br><br>When eating out at a restaurant, cut your meal in half and ask for a takeout container to save the rest for later.`,
@@ -755,55 +804,107 @@ const data = {
           `After all, change takes time...`,
           `...but time is all it takes.`,
           `Step four: No fruit juice.<br>Too much sugar.`,
-        ];
-        function keyPressed(event){
-          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
-          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start again.`;}
-          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning.<br>Press the right arrow key to go back.`;}
-          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
-          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
-        }
-        window.addEventListener("keyup", keyPressed);
+        ]);
       },
       () => {
-        let quoteIndex = -1;
-        const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start the "apology".<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
-        const quotes = [`I feel like this is something important to talk about, I’ve been very withheld for a while about it all and just decided it’d probably be best to just let it out so I can feel relaxed a little more I guess.`, `This will be a very long read i’m sure, I’m writing this in my bath at 4am on my phone so forgive any mistakes or confusing bits.`,`Back in October/November of 2020, I for the first time since when 1.16 had just released I decided to try and speedrun 1.16 some to get a decent time.<br>My goal was to get a time faster than 25 minutes, which was a good time and fairly obtainable at the time for me without spending months speedrunning.`, `We had or were just about to switch manhunt to 1.16 and I wanted to get practice for that, and then speedrun for a better 1.15 time, because my record on 1.15 had been beaten.`,`After running for about a week, I got a 19 minute time (that arguably could have been lower, ironically enough due to bad luck).`, `I started running 1.15 directly after, and a few day’s later there were some suspicions involving my streamed runs on 1.16.`, `At this point, I was cooperative but upset and confused that I was being questioned. I provided all the information that I could, and assumed that everything was fine.`, `As chatter grew, I was confused and the numbers didn’t look to be in my favor.`,`At this point I reached out to the only mojang developer that I had contact with, and talked for an hour or so about what was going on.`, `I told him the details and was asking if there’s potential for a bug or glitch, and he told me that no there isn’t, but said some things about how banning for luck seems far fetched and that they should improve their system.`,`I felt a little reassured, but also angry that I was potentially being dragged for absolutely nothing.`, `It wasn’t a huge thing yet, but it still lingered in my mind and I couldn’t really think about anything other than it.`,`As time went on and many weeks passed, I grew more and more frustrated, convinced that I was being targeted due to the fact that I was a Youtuber and a couple of the mods (self admitted) didn’t like me at all and didn’t have many kind words to say.`, `I was an asshole and lashed out publicly, saying the investigation was a farce and expressing how pissed I was that I was being targeted and that it was taking so long, as the mods kept giving me deadlines and then missing them.`,`This was terribly stupid of me to do.<br>I was scared and stressed and said and did shitty things.<br>I regret it a lot and really wish that I had been able to keep my calm.`,`Later that month, the speedrun team released a video and a document detailing why my 1.16 runs couldn’t have been legitimate based on math and statistics.<br>I admittedly don’t know shit about math and statistics, I didn’t go to college and I hated math my whole life.`, `At this point I felt complete fear, as I felt like I had been publicly smeared in a way that I have no clue how to respond to.<br>I didn’t understand the math and I didn’t understand why I had been left in the dark for so long only to have a video dropped randomly on me right before MCC.`, `At this point and before, I had multiple speedrun moderators messaging me scary things about how it was a shit show and no one could agree on things just before the release, that they were clearly biased against me and so on.`, `In retrospect, this may have been out of fear and wanting to be on the good side of a really big youtuber, or maybe they were being truthful or a little bit of both.`, `All I know is that it scared me a lot. feeling like everything you built might come tumbling down and there’s nothing you can do about it is really stressful.`,`Again, I lashed out.<br>I tweeted about the mods being clout chasers, and said a lot of really dicky things.<br>I was pissed, I was scared, and I was being an idiot.`,`shortly after that,  someone gave me the idea to hire a professional statistician because I know nothing about math. This calmed me down a lot and brought me back to a much healthier mindset.`, `I googled and I ended up finding two professors and I emailed them both about the situation asking for assistance. Only one of them was available to help. `,`I was looking for help and I told them that I didn’t cheat, and that I just needed a second opinion on the math.`, `Eventually the professor came back with a conclusion that the mods numbers were off by a significant significant margin, and that’s it’s possible although extremely unlikely.`, `Again, not completely understanding math but knowing that my experts opinion seemed to be that the mods were off, I felt vindicated and relieved.<br>I made a video about it, and expressed the professors views.`, `people hounded me for it saying that the Astro physicist was fake, but the mods confirmed it was legit.<br>I just wanted a (mostly) unbiased parties opinion.`,`The mods came back with a response, correcting the professor and saying that he was off and providing reasons for why.`, `Again, I don’t understand complicated math so I sent it directly to the professor asking for his thoughts.`, `Later on, he came back admitting there were mistakes in his original assessment, although he still believed theirs was off.`, `In his rebuttal though, he came to the conclusion that it’s improbable that I didn’t cheat.<br>I felt like the right thing to do was post his findings, even though he hadn’t asked me to yet, I did.`, `I tweeted them out and replied saying that I agree that it seems more likely than not that I cheated.`, `I didn’t say anything more than that.`,`Funnily enough, he actually emailed me a day or two later saying I need to post his findings, or he will (semi-threatening, but not in a mean way), and I responded that I already had before he even asked.`,`At this point I was lost, and I was fairly confused about the whole thing.`, `Wondering what the other options were and exploring the possibilities. as much as I was confident that I didn’t cheat, I had never explored the option that I possibly did.`, `due to the way I reacted to the mods and perceived everything going on I was convinced that they were out to get me.`, `I tunnel visioned and was paranoid and didn’t think straight. I had plenty of valid reasons to believe that they weren’t impartial, and had the mod team and I been completely friendly from the beginning I believe it never would have gotten to the point that it did.`,`After considering this, I ended up finding out that I HAD actually been using a disallowed modification during ~6 of my live streams on Twitch.`, `At the time we were just starting to record videos on 1.16 and we had just hired a developer to help with coding mods for videos because me and George had no experience with mods only plugins.`, `One of the mods that they were working on was an overall recording mod, that I have used in every video (with updates and improvements) since around the speedrun controversy.`, `You may notice it in my videos due to f3 being small or particles being reduced, or recently on my streams things like the background being custom or a “Dreams servers” option and plenty of other features and improvements.`,`<span style="font-size:20px;">In our challenge videos, before 1.16 we always increased the enderman spawn rates and pearl drop rates out of convenience and we’ve mentioned that openly before.</span><br><span style="font-size:20px;">It makes the videos better because we don’t spend hours looking for pearls or spend so much time farming blaze rods (a totally RNG thing, mostly pearls).</span>`, `When 1.16 came out, it was more complicated to increase piglin trades then it is to do enderman pearl drops. A server side plugin was made for our videos that slightly increases the rates.`, `Around this time is when the first versions of the recording mod was being made, although it was more of a chat mod at this point.`, `<span style="font-size:15px;">I had considered at the time that this potentially could have been a problem, but brushed it off because 1. Server side and client side are completely different and as far as I was aware nothing had been done client side. 2. as far as I knew it was just basically a chat mod so far and 3. I was 99% sure that I didn’t even have the recording mod on. Which was backed up by the fabric api logs saying that only the fabric api was loaded (although I found out later it only lists things that explicitly ask to be listed which I had no idea) this was mentioned in my response video.</span>`,`I ended up thinking that it’s basically the only explanation after the professor came back with what he did.`, `I talked with the developer and ended up finding out that when working on the mod stuff he had added the same improvements from our challenge servers to the client side mod so that they would work in single player for videos like the shock collar video or other “single player” mod videos.`, `This was only in an early rendition of the mod and was removed because the developer realized that those type of videos can just be done on a PC hosted server.`, `This actually included a couple other things that weren’t mentioned at all during the controversy much as far as I’m aware. Ender eyes had a low chance of breaking when thrown, and enderman dropped pearls at a much higher percentage (I don’t think I killed many enderman so this wasnt noticeable, similar to the eyes).`,`When I realized this, I felt an extreme sense of guilt and I took down my response video not believing in what I said in the video at all anymore.`, `This was a couple months ago at this point I believe. When the drama first started I cared more about defending myself and being right, then about figuring out what was actually going on and I shot myself in the foot by doing it.`,`I felt really terrible for the mods because I dragged them through the mud even though they were mostly right.`, `I still feel as though the mod team was extremely unprofessional when dealing with it, but they’re a group of volunteers just trying to do their job and in their eyes I was some cheating sob youtuber who didn’t care at all.`, `Maybe in their position I would have treated me the same. I was an asshole back to them which didn’t help at all either.`,`I reflected a lot about the entire thing and had a lot of regret about just the first few days after the runs. What if they had asked for my mods sooner, what if I had realized sooner, what if I hadn’t had a history with a couple of the mods maybe I wouldn’t have jumped straight to them being out to get me.`, `Further past that what if I could have controlled my emotions and not blown the whole thing out of proportion. I can’t live by what if’s though so I was just left with what I had.`, `I debated live streaming or making a video about it, but the drama had basically already passed and I was worried about rekindling the fire when I had already gone through basically a couple months straight of absolutely being shit on by anyone that didn’t think of me favorably, and the mods had gone through weeks of torture Im sure too.`,`I figured it’s out of the way, and it would be a story I would tell in a few years when no one really cared.`, `I told a couple people and just felt like the community had been through enough drama and that it was pointless.`, `I didn’t want to be the center of controversy for the hundredth time. `,`it was shitty and an unfortunate situation where I felt like I couldn’t defend myself anymore in good faith without feeling bad but I also didn’t have any intention of cheating.`,`Since the speedrun controversy there’s been some animosity between me and the mods, and I feel like the relationship only got worse.`, `They declined my donations from the controversy video, got into drama a couple times with me/my community on Twitter since(don’t want to go into specifics), and a month or so ago added me to a chat questioning me about my previous 1.15 runs from around a year ago.`, `They saw a suspicious black box that they thought meant a splice, but it turned out to be a youtube setting on their end that they realized, and they had some other random questions as well.`, `This was resolved fairly maturely I believe and I haven’t talked to them since.`,`Yesterday around MCC the mods made the decision to remove my old runs due to suspicions and the fact that my 1.16 run was invalid, which is something that is done with most people who submit any invalid runs at all.`, `I’m sure there’s reasonable suspicions about most runs, especially offline ones from back when they were allowed, so couple that with a 1.16 run being actually invalid and it’s a completely reasonable assumption.`, `You can’t give someone the benefit of doubt on lag or frame skips or potential cuts or anything unless they’ve earned it, and in this case I haven’t at all.`, `So I don’t want to see any hate towards the mods or any drama involving the fact that they were marked invalid due to my 1.16 run.`, `I think it’s dumb that it’s been done 11 months later, but it’s understandable and if anything, I deserve it, and it puts an end to any potential drama. (at this point what could they do, double ban me? /j)`,`I’m not really sure what Im expecting out of all of this, but I just felt like I had a huge weight on my shoulder and I want to get it off.`, `I think the whole situation was extremely shitty overall for everyone involved and I wish that I could go back and do things differently because it was some of the worst weeks of my life and still impacts me every day.`, `I’m sorry to anyone that I let down or disappointed.<br>I always strive to be the best person that I can be and that whole debacle wasn’t the best that I can be or anywhere near it.`, `I hope this brings some closure to anyone who needed it, and I really want to move forward with positive vibes like I’ve been trying my best to promote as much as I can.`,`When I got into speed running I was doing it every day for months, and you can see the skill improvement even just over a few months of tryharding.`, `It was so much fun and I got a few snarky records that I shouldn’t have got in the first place (my first world record I chopped down trees for 10 minutes, I still find that hilarious how unoptimized the category was).`, `I came in at the right time and met some absolutely incredible people who are some of the best Minecraft players on the planet.`, `I am no where near the best speedrunner and I never have been, I was in the right place at the right time and was able to have a lot of fun because of that.`,`I hope that this gives insight into my mindset a little bit, but if not I’m not sure what will. I’m sure I’ll talk about it more just for clarity sake, but I want to avoid causing more drama.`, `please don’t send any hate to the mod team or anyone involved in the situation, I don’t want any more drama at all, you’re no supporter of mine if you do.`,`dream`];
-        function keyPressed(event){
-          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
-          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end of this "apology".<br>Press the left arrow key to go back, or "R" to start the "apology" again.`;}
-          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning of this "apology".<br>Press the right arrow key to go back.`;}
-          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
-          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
-        }
-        window.addEventListener("keyup", keyPressed);
+        pressToMoveQuotes([
+          `I feel like this is something important to talk about, I’ve been very withheld for a while about it all and just decided it’d probably be best to just let it out so I can feel relaxed a little more I guess.`,
+          `This will be a very long read i’m sure, I’m writing this in my bath at 4am on my phone so forgive any mistakes or confusing bits.`,
+          `Back in October/November of 2020, I for the first time since when 1.16 had just released I decided to try and speedrun 1.16 some to get a decent time.<br>My goal was to get a time faster than 25 minutes, which was a good time and fairly obtainable at the time for me without spending months speedrunning.`,
+          `We had or were just about to switch manhunt to 1.16 and I wanted to get practice for that, and then speedrun for a better 1.15 time, because my record on 1.15 had been beaten.`,
+          `After running for about a week, I got a 19 minute time (that arguably could have been lower, ironically enough due to bad luck).`,
+          `I started running 1.15 directly after, and a few day’s later there were some suspicions involving my streamed runs on 1.16.`,
+          `At this point, I was cooperative but upset and confused that I was being questioned. I provided all the information that I could, and assumed that everything was fine.`,
+          `As chatter grew, I was confused and the numbers didn’t look to be in my favor.`,
+          `At this point I reached out to the only mojang developer that I had contact with, and talked for an hour or so about what was going on.`,
+          `I told him the details and was asking if there’s potential for a bug or glitch, and he told me that no there isn’t, but said some things about how banning for luck seems far fetched and that they should improve their system.`,
+          `I felt a little reassured, but also angry that I was potentially being dragged for absolutely nothing.`,
+          `It wasn’t a huge thing yet, but it still lingered in my mind and I couldn’t really think about anything other than it.`,
+          `As time went on and many weeks passed, I grew more and more frustrated, convinced that I was being targeted due to the fact that I was a Youtuber and a couple of the mods (self admitted) didn’t like me at all and didn’t have many kind words to say.`,
+          `I was an asshole and lashed out publicly, saying the investigation was a farce and expressing how pissed I was that I was being targeted and that it was taking so long, as the mods kept giving me deadlines and then missing them.`,
+          `This was terribly stupid of me to do.<br>I was scared and stressed and said and did shitty things.<br>I regret it a lot and really wish that I had been able to keep my calm.`,
+          `Later that month, the speedrun team released a video and a document detailing why my 1.16 runs couldn’t have been legitimate based on math and statistics.<br>I admittedly don’t know shit about math and statistics, I didn’t go to college and I hated math my whole life.`,
+          `At this point I felt complete fear, as I felt like I had been publicly smeared in a way that I have no clue how to respond to.<br>I didn’t understand the math and I didn’t understand why I had been left in the dark for so long only to have a video dropped randomly on me right before MCC.`,
+          `At this point and before, I had multiple speedrun moderators messaging me scary things about how it was a shit show and no one could agree on things just before the release, that they were clearly biased against me and so on.`,
+          `In retrospect, this may have been out of fear and wanting to be on the good side of a really big youtuber, or maybe they were being truthful or a little bit of both.`,
+          `All I know is that it scared me a lot. feeling like everything you built might come tumbling down and there’s nothing you can do about it is really stressful.`,
+          `Again, I lashed out.<br>I tweeted about the mods being clout chasers, and said a lot of really dicky things.<br>I was pissed, I was scared, and I was being an idiot.`,
+          `shortly after that,  someone gave me the idea to hire a professional statistician because I know nothing about math. This calmed me down a lot and brought me back to a much healthier mindset.`,
+          `I googled and I ended up finding two professors and I emailed them both about the situation asking for assistance. Only one of them was available to help. `,
+          `I was looking for help and I told them that I didn’t cheat, and that I just needed a second opinion on the math.`,
+          `Eventually the professor came back with a conclusion that the mods numbers were off by a significant significant margin, and that’s it’s possible although extremely unlikely.`,
+          `Again, not completely understanding math but knowing that my experts opinion seemed to be that the mods were off, I felt vindicated and relieved.<br>I made a video about it, and expressed the professors views.`,
+          `people hounded me for it saying that the Astro physicist was fake, but the mods confirmed it was legit.<br>I just wanted a (mostly) unbiased parties opinion.`,
+          `The mods came back with a response, correcting the professor and saying that he was off and providing reasons for why.`,
+          `Again, I don’t understand complicated math so I sent it directly to the professor asking for his thoughts.`,
+          `Later on, he came back admitting there were mistakes in his original assessment, although he still believed theirs was off.`,
+          `In his rebuttal though, he came to the conclusion that it’s improbable that I didn’t cheat.<br>I felt like the right thing to do was post his findings, even though he hadn’t asked me to yet, I did.`,
+          `I tweeted them out and replied saying that I agree that it seems more likely than not that I cheated.`,
+          `I didn’t say anything more than that.`,
+          `Funnily enough, he actually emailed me a day or two later saying I need to post his findings, or he will (semi-threatening, but not in a mean way), and I responded that I already had before he even asked.`,
+          `At this point I was lost, and I was fairly confused about the whole thing.`,
+          `Wondering what the other options were and exploring the possibilities. as much as I was confident that I didn’t cheat, I had never explored the option that I possibly did.`,
+          `due to the way I reacted to the mods and perceived everything going on I was convinced that they were out to get me.`,
+          `I tunnel visioned and was paranoid and didn’t think straight. I had plenty of valid reasons to believe that they weren’t impartial, and had the mod team and I been completely friendly from the beginning I believe it never would have gotten to the point that it did.`,
+          `After considering this, I ended up finding out that I HAD actually been using a disallowed modification during ~6 of my live streams on Twitch.`,
+          `At the time we were just starting to record videos on 1.16 and we had just hired a developer to help with coding mods for videos because me and George had no experience with mods only plugins.`,
+          `One of the mods that they were working on was an overall recording mod, that I have used in every video (with updates and improvements) since around the speedrun controversy.`,
+          `You may notice it in my videos due to f3 being small or particles being reduced, or recently on my streams things like the background being custom or a “Dreams servers” option and plenty of other features and improvements.`,
+          `<span style="font-size:20px;">In our challenge videos, before 1.16 we always increased the enderman spawn rates and pearl drop rates out of convenience and we’ve mentioned that openly before.</span><br><span style="font-size:20px;">It makes the videos better because we don’t spend hours looking for pearls or spend so much time farming blaze rods (a totally RNG thing, mostly pearls).</span>`,
+          `When 1.16 came out, it was more complicated to increase piglin trades then it is to do enderman pearl drops. A server side plugin was made for our videos that slightly increases the rates.`,
+          `Around this time is when the first versions of the recording mod was being made, although it was more of a chat mod at this point.`,
+          `<span style="font-size:15px;">I had considered at the time that this potentially could have been a problem, but brushed it off because 1. Server side and client side are completely different and as far as I was aware nothing had been done client side. 2. as far as I knew it was just basically a chat mod so far and 3. I was 99% sure that I didn’t even have the recording mod on. Which was backed up by the fabric api logs saying that only the fabric api was loaded (although I found out later it only lists things that explicitly ask to be listed which I had no idea) this was mentioned in my response video.</span>`,
+          `I ended up thinking that it’s basically the only explanation after the professor came back with what he did.`,
+          `I talked with the developer and ended up finding out that when working on the mod stuff he had added the same improvements from our challenge servers to the client side mod so that they would work in single player for videos like the shock collar video or other “single player” mod videos.`,
+          `This was only in an early rendition of the mod and was removed because the developer realized that those type of videos can just be done on a PC hosted server.`,
+          `This actually included a couple other things that weren’t mentioned at all during the controversy much as far as I’m aware. Ender eyes had a low chance of breaking when thrown, and enderman dropped pearls at a much higher percentage (I don’t think I killed many enderman so this wasnt noticeable, similar to the eyes).`,
+          `When I realized this, I felt an extreme sense of guilt and I took down my response video not believing in what I said in the video at all anymore.`,
+          `This was a couple months ago at this point I believe. When the drama first started I cared more about defending myself and being right, then about figuring out what was actually going on and I shot myself in the foot by doing it.`,
+          `I felt really terrible for the mods because I dragged them through the mud even though they were mostly right.`,
+          `I still feel as though the mod team was extremely unprofessional when dealing with it, but they’re a group of volunteers just trying to do their job and in their eyes I was some cheating sob youtuber who didn’t care at all.`,
+          `Maybe in their position I would have treated me the same. I was an asshole back to them which didn’t help at all either.`,
+          `I reflected a lot about the entire thing and had a lot of regret about just the first few days after the runs. What if they had asked for my mods sooner, what if I had realized sooner, what if I hadn’t had a history with a couple of the mods maybe I wouldn’t have jumped straight to them being out to get me.`,
+          `Further past that what if I could have controlled my emotions and not blown the whole thing out of proportion. I can’t live by what if’s though so I was just left with what I had.`,
+          `I debated live streaming or making a video about it, but the drama had basically already passed and I was worried about rekindling the fire when I had already gone through basically a couple months straight of absolutely being shit on by anyone that didn’t think of me favorably, and the mods had gone through weeks of torture Im sure too.`,
+          `I figured it’s out of the way, and it would be a story I would tell in a few years when no one really cared.`,
+          `I told a couple people and just felt like the community had been through enough drama and that it was pointless.`,
+          `I didn’t want to be the center of controversy for the hundredth time. `,
+          `it was shitty and an unfortunate situation where I felt like I couldn’t defend myself anymore in good faith without feeling bad but I also didn’t have any intention of cheating.`,
+          `Since the speedrun controversy there’s been some animosity between me and the mods, and I feel like the relationship only got worse.`,
+          `They declined my donations from the controversy video, got into drama a couple times with me/my community on Twitter since(don’t want to go into specifics), and a month or so ago added me to a chat questioning me about my previous 1.15 runs from around a year ago.`,
+          `They saw a suspicious black box that they thought meant a splice, but it turned out to be a youtube setting on their end that they realized, and they had some other random questions as well.`,
+          `This was resolved fairly maturely I believe and I haven’t talked to them since.`,
+          `Yesterday around MCC the mods made the decision to remove my old runs due to suspicions and the fact that my 1.16 run was invalid, which is something that is done with most people who submit any invalid runs at all.`,
+          `I’m sure there’s reasonable suspicions about most runs, especially offline ones from back when they were allowed, so couple that with a 1.16 run being actually invalid and it’s a completely reasonable assumption.`,
+          `You can’t give someone the benefit of doubt on lag or frame skips or potential cuts or anything unless they’ve earned it, and in this case I haven’t at all.`,
+          `So I don’t want to see any hate towards the mods or any drama involving the fact that they were marked invalid due to my 1.16 run.`,
+          `I think it’s dumb that it’s been done 11 months later, but it’s understandable and if anything, I deserve it, and it puts an end to any potential drama. (at this point what could they do, double ban me? /j)`,
+          `I’m not really sure what Im expecting out of all of this, but I just felt like I had a huge weight on my shoulder and I want to get it off.`,
+          `I think the whole situation was extremely shitty overall for everyone involved and I wish that I could go back and do things differently because it was some of the worst weeks of my life and still impacts me every day.`,
+          `I’m sorry to anyone that I let down or disappointed.<br>I always strive to be the best person that I can be and that whole debacle wasn’t the best that I can be or anywhere near it.`,
+          `I hope this brings some closure to anyone who needed it, and I really want to move forward with positive vibes like I’ve been trying my best to promote as much as I can.`,
+          `When I got into speed running I was doing it every day for months, and you can see the skill improvement even just over a few months of tryharding.`,
+          `It was so much fun and I got a few snarky records that I shouldn’t have got in the first place (my first world record I chopped down trees for 10 minutes, I still find that hilarious how unoptimized the category was).`,
+          `I came in at the right time and met some absolutely incredible people who are some of the best Minecraft players on the planet.`,
+          `I am no where near the best speedrunner and I never have been, I was in the right place at the right time and was able to have a lot of fun because of that.`,
+          `I hope that this gives insight into my mindset a little bit, but if not I’m not sure what will. I’m sure I’ll talk about it more just for clarity sake, but I want to avoid causing more drama.`,
+          `please don’t send any hate to the mod team or anyone involved in the situation, I don’t want any more drama at all, you’re no supporter of mine if you do.`,
+          `dream`,
+        ]);
       },
       () => {
-        let quoteIndex = -1;
-        const quote = document.getElementById("headerSubtitle");
-        quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
-        const quotes = [
-          `you've been had lol`
-        ];
-        function keyPressed(event){
-          if (event.keyCode==82){quoteIndex=0;quote.innerHTML = quotes[quoteIndex];}
-          else if(quoteIndex>=quotes.length-1 && event.keyCode==39){quoteIndex=quotes.length;quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start again.`;}
-          else if(quoteIndex<=0 && event.keyCode==37){quoteIndex=-1;quote.innerHTML = `You've reached past the beginning.<br>Press the right arrow key to go back.`;}
-          else if (event.keyCode==39){quoteIndex++;quote.innerHTML = quotes[quoteIndex];}
-          else if (event.keyCode==37){quoteIndex--;quote.innerHTML = quotes[quoteIndex];}
-        }
-        window.addEventListener("keyup", keyPressed);
+        pressToMoveQuotes([`you've been had lol`]);
       },
       () => {
-        let metersAway = Math.floor(Math.random() * 300);
+        let metersAway = Math.floor(Math.random() * 300) + 300;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
           if (metersAway > 0) {
             quote.innerHTML = `I am within ${metersAway} meters and rapidly approaching<br>-parakeetiscool`;
             metersAway--;
           } else if (metersAway <= 0) {
-            quote.innerHTML = "Knock knock, I'm at your door.<br>-parakeetiscool";
+            quote.innerHTML =
+              "Knock knock, I'm at your door.<br>-parakeetiscool";
             clearInterval(interval);
           }
         }, 100);
@@ -814,13 +915,12 @@ const data = {
         let quoteBoo = "<span style='color:#FF55FF;'>Boo</span>";
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
-          if (oCounter < numOs)
-          {
+          if (oCounter < numOs) {
             quoteBoo += "<span style='color:#FF55FF;'>o</span>";
             quote.innerHTML = quoteBoo;
             oCounter++;
           }
-          if(oCounter >= numOs){
+          if (oCounter >= numOs) {
             quoteBoo += "<span style='color:#FF55FF;'>p!</span>";
             quote.innerHTML = quoteBoo;
             clearInterval(interval);
@@ -828,20 +928,19 @@ const data = {
         }, 100);
       },
       () => {
-        let numCools = Math.floor((Math.random() * (30 - 10)) + 10);
+        let numCools = Math.floor(Math.random() * (30 - 10) + 10);
         let coolCounter = 1;
         let quoteBoo = `"cool `;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
-          if(coolCounter >= numCools+1){
+          if (coolCounter >= numCools + 1) {
             quoteBoo += `<br>-Jake Peralta`;
             clearInterval(interval);
           }
-          if (coolCounter < numCools)
-          {
+          if (coolCounter < numCools) {
             quoteBoo += `cool `;
           }
-          if(coolCounter == numCools){
+          if (coolCounter == numCools) {
             quoteBoo += `cool"`;
           }
           quote.innerHTML = quoteBoo;
@@ -849,13 +948,12 @@ const data = {
         }, 85);
       },
       () => {
-        let impostorArray = ["u","/","i","s","n","o","t","t","h","e","i","m","p","o","s","t","e","r"," ","w","a","s"," ","t","h","e"," ","I","m","p","o","s","t","o","r",".",];
+        let impostorArray = "u/isnottheimposter was the Impostor.".split("");
         let impostorIndex = 0;
         let impostorQuote = "";
+        const quote = document.getElementById("headerSubtitle");
         let interval = setInterval(() => {
-          const quote = document.getElementById("headerSubtitle");
-          if (impostorIndex < impostorArray.length)
-          {
+          if (impostorIndex < impostorArray.length) {
             impostorQuote += impostorArray[impostorIndex];
             quote.innerHTML = impostorQuote;
             impostorIndex++;
@@ -867,10 +965,34 @@ const data = {
       () => {
         let counter = -1;
         setInterval(() => {
-          const formattingCodeColors = [`FF5555`, `FFAA00`, `FFFF55`, `55FF55`, `55FFFF`, `FF55FF`, `AA00AA`];
+          const formattingCodeColors = [
+            `FF5555`,
+            `FFAA00`,
+            `FFFF55`,
+            `55FF55`,
+            `55FFFF`,
+            `FF55FF`,
+            `AA00AA`,
+          ];
           const quote = document.getElementById("headerSubtitle");
           counter++;
-          if(counter!=-2){quote.innerHTML = `<span style="color:#${formattingCodeColors[counter % 7]}">Le c</span><span style="color:#${formattingCodeColors[(counter+1) % 7]}">hro</span><span style="color:#${formattingCodeColors[(counter+2) % 7]}">ma t</span><span style="color:#${formattingCodeColors[(counter+3) % 7]}">ext</span><span style="color:#${formattingCodeColors[(counter+4) % 7]}">! Po<span style="color:#${formattingCodeColors[(counter+5) % 7]}">gge</span><span style="color:#${formattingCodeColors[(counter+6) % 7]}">rs!</span>`;}
+          if (counter != -2) {
+            quote.innerHTML = `<span style="color:#${
+              formattingCodeColors[counter % 7]
+            }">Le c</span><span style="color:#${
+              formattingCodeColors[(counter + 1) % 7]
+            }">hro</span><span style="color:#${
+              formattingCodeColors[(counter + 2) % 7]
+            }">ma t</span><span style="color:#${
+              formattingCodeColors[(counter + 3) % 7]
+            }">ext</span><span style="color:#${
+              formattingCodeColors[(counter + 4) % 7]
+            }">! Po<span style="color:#${
+              formattingCodeColors[(counter + 5) % 7]
+            }">gge</span><span style="color:#${
+              formattingCodeColors[(counter + 6) % 7]
+            }">rs!</span>`;
+          }
         }, 50);
       },
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
@@ -889,8 +1011,7 @@ const data = {
     {
       version: "v1.3",
       name: "The Update that Textured Everything*",
-      fileFull:
-        "/files/v1.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.3§8§l].zip",
+      fileFull: "/files/v1.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.3§8§l].zip",
       fileOverlay:
         "/files/v1.3/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.3§8§l].zip",
       fileOverlayPlus:
@@ -902,7 +1023,7 @@ const data = {
       fileFull:
         "/files/v1.2.6/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.6§8§l].zip",
       fileOverlay:
-        "/files/v1.2.6/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.6§8§l].zip"
+        "/files/v1.2.6/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.6§8§l].zip",
     },
     {
       version: "v1.2.5",
@@ -910,7 +1031,7 @@ const data = {
       fileFull:
         "/files/v1.2.5/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.5§8§l].zip",
       fileOverlay:
-        "/files/v1.2.5/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.5§8§l].zip"
+        "/files/v1.2.5/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.5§8§l].zip",
     },
     {
       version: "v1.69",
@@ -964,8 +1085,7 @@ const data = {
     {
       version: "v0.2.0",
       name: " F7 and Jacob Events",
-      fileFull:
-        "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lFL [§70.2.0.§8§l].zip",
+      fileFull: "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lFL [§70.2.0.§8§l].zip",
       fileOverlay:
         "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lOV [§70.2.0.§8§l].zip",
     },
@@ -1014,7 +1134,8 @@ const data = {
       name: "SoshJam",
       link: "https://hypixel.net/members/1196292/",
       role: "Retired Artist",
-      quote: "you want me to have a dinky little 5x5 image for a legendary item?",
+      quote:
+        "you want me to have a dinky little 5x5 image for a legendary item?",
     },
     {
       name: "iDevil4Hell/Thanatos",
@@ -1093,7 +1214,8 @@ const data = {
       name: "Erymanthus",
       link: "https://www.reddit.com/user/RayDeeUx/",
       role: "Artist & Website Maintainer",
-      quote: "hey, you could pour soup in my lap and i'll probably apologize to you!",
+      quote:
+        "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
       name: "goog",
@@ -1103,7 +1225,8 @@ const data = {
     {
       name: "Zetkut",
       role: "Retired Artist",
-      quote: "spain without the s <small>(i just woke up i don't want to think)</small>",
+      quote:
+        "spain without the s <small>(i just woke up i don't want to think)</small>",
     },
     {
       name: "Ropes",
@@ -1113,7 +1236,8 @@ const data = {
     {
       name: "Hexafish",
       role: "Artist",
-      quote: "petition to remove the liver dragger's texture from fsr because you should never use it",
+      quote:
+        "petition to remove the liver dragger's texture from fsr because you should never use it",
     },
     {
       name: "derpium",
@@ -1129,7 +1253,8 @@ const data = {
       name: "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>voxal</span>",
       link: "https://thoughtscape.vercel.app/",
       role: "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Website Developer</span>",
-      quote: "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>I am very speical :)</span>",
+      quote:
+        "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>I am very speical :)</span>",
     },
     {
       name: "pig",
@@ -1168,7 +1293,8 @@ const data = {
       name: "Smolegit",
       link: "https://twitter.com/smolegit1",
       role: "Moderator",
-      quote: "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
+      quote:
+        "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
     },
     {
       name: "Nan",
@@ -1208,7 +1334,8 @@ const data = {
     {
       name: "MyPancakes",
       role: "Pack Contributor",
-      quote: "sometimes i question why artists that are as good as the people here are making art for mc",
+      quote:
+        "sometimes i question why artists that are as good as the people here are making art for mc",
     },
     {
       name: "TomEngMaster",
@@ -1228,7 +1355,8 @@ const data = {
     {
       name: "TheMeerkaT",
       role: "Pack Contributor",
-      quote: "at least you didn't get yourself to design the whole sea creature guide",
+      quote:
+        "at least you didn't get yourself to design the whole sea creature guide",
     },
     {
       name: "Hasnu",
@@ -1243,7 +1371,8 @@ const data = {
     {
       name: "nacrt",
       role: "Pack Contributor",
-      quote: "just have it a normal file name, the cancer that is mediafire only makes things worse",
+      quote:
+        "just have it a normal file name, the cancer that is mediafire only makes things worse",
     },
     {
       name: "Shy0",
