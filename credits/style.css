@@ -21,9 +21,9 @@ header {
 }
 #credits > div {
   display: inline-block;
-  margin:20px;
+  margin: 20px;
 }
-#credits > div > a{
-    color:white;
-    text-decoration: none;
+#credits > div > a {
+  color: white;
+  text-decoration: none;
 }
