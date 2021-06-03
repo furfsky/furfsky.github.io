@@ -1237,7 +1237,7 @@ const data = {
     },
     {
       name: "Ropes",
-      role: "Retired Artist",
+      role: "Trial Artist",
       quote: "yup ! I hate furfsky 🙂",
     },
     {
