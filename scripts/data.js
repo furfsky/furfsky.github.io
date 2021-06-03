@@ -995,6 +995,41 @@ const data = {
           }
         }, 50);
       },
+      () => {
+        let quotes = [
+          ["i hate programming"],
+          ["i hate programming <br /> i hate programming"],
+          [
+            "i hate programming <br /> i hate programming <br /> i really hate it",
+          ],
+          ["it sucks i hate it so much"],
+          "i ha|a|a|a|a|a|a|a|a|a|a|a|a|te||| |programming".split("|"),
+          ["ᴉ ɥɐʇǝ dɹoƃɹɐɯɯᴉuƃ"],
+          ["i hate programming"],
+          ["i h a t e p r o g r a m m i n g"],
+          Array(10).fill("ihatethis"),
+          "whyyyyyyyyyy".split(""),
+          ["why is this so dumb"],
+          "oh.|||||||||.||||||||.".split("|"),
+          ["i love programming!"],
+        ];
+        let index = -1;
+        let index2 = 0;
+        let fullQuote = "";
+        const quote = document.getElementById("headerSubtitle");
+        let interval = setInterval(() => {
+          if (index >= quotes.length - 2) clearInterval(interval);
+          let interval2 = setInterval(() => {
+            if (index2 >= quotes[index].length - 1) clearInterval(interval2);
+            fullQuote += quotes[index][index2];
+            index2++;
+            container.innerHTML = fullQuote;
+          }, 50);
+          index2 = 0;
+          fullQuote = "";
+          index++;
+        }, 1500);
+      },
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/821913465941524480.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/834947827532300328.gif?v=1" draggable="false">`,
