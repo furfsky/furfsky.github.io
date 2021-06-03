@@ -1246,11 +1246,13 @@ const data = {
       quote:
         "petition to remove the liver dragger's texture from fsr because you should never use it",
     },
+    /*
     {
       name: "derpium",
       role: "Retired Artist",
       quote: "speep fart",
     },
+    */
     {
       name: "Glenz",
       role: "Trial Artist",
