@@ -1248,7 +1248,7 @@ const data = {
     },
     {
       name: "derpium",
-      role: "Trial Artist",
+      role: "Retired Artist",
       quote: "speep fart",
     },
     {
