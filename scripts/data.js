@@ -1023,7 +1023,7 @@ const data = {
             if (index2 >= quotes[index].length - 1) clearInterval(interval2);
             fullQuote += quotes[index][index2];
             index2++;
-            container.innerHTML = fullQuote;
+            quote.innerHTML = fullQuote;
           }, 50);
           index2 = 0;
           fullQuote = "";
