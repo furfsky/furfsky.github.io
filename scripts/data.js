@@ -180,6 +180,7 @@ const data = {
       `hallways fucking stink`,
       `stop refreshing and look at dn`,
       `/dn`,
+      `this pack does not cater to folks who choose to offend any member or ally of the LGBTQ2IA+ community under any circumstances.<br>if this applies to you, please go /play pit instead.`,
       `do not do /stuck<br>worst mistake of my life`,
       `"[iphone] was boring"<br>-Infinity`,
       `the burning child had sunglasses.`,
