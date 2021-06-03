@@ -1218,6 +1218,13 @@ const data = {
         "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
+      name: "Smolegit",
+      link: "https://twitter.com/smolegit1",
+      role: "Artist",
+      quote:
+        "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
+    },
+    {
       name: "goog",
       role: "Artist",
       quote: "those are uhh... a lot of channels... you got there.",
@@ -1288,13 +1295,6 @@ const data = {
       name: "Gonk",
       role: "Moderator",
       quote: "you miss 100% of the shots you don't take",
-    },
-    {
-      name: "Smolegit",
-      link: "https://twitter.com/smolegit1",
-      role: "Moderator",
-      quote:
-        "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
     },
     {
       name: "Nan",
