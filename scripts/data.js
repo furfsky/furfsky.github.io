@@ -2,7 +2,7 @@ const date = new Date();
 const pressToMoveQuotes = (quotes) => {
   let quoteIndex = -1;
   const quote = document.getElementById("headerSubtitle");
-  quote.innerHTML = `Right arrow key to start the "convo".<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
+  quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
   const keyPressed = (event) => {
     switch (event.key) {
       case "R":
@@ -12,7 +12,7 @@ const pressToMoveQuotes = (quotes) => {
       case "ArrowRight":
         if (quoteIndex >= quotes.length - 1) {
           quoteIndex = quotes.length;
-          quote.innerHTML = `You've reached the end of this "convo".<br>Press the left arrow key to go back, or "R" to start the "convo" again.`;
+          quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start again.`;
         } else {
           quoteIndex++;
           quote.innerHTML = quotes[quoteIndex];
@@ -21,7 +21,7 @@ const pressToMoveQuotes = (quotes) => {
       case "ArrowLeft":
         if (quoteIndex <= 0) {
           quoteIndex = -1;
-          quote.innerHTML = `You've reached past the beginning of this "convo".<br>Press the right arrow key to go back.`;
+          quote.innerHTML = `You've reached past the beginning.<br>Press the right arrow key to go back.`;
         } else {
           quoteIndex--;
           quote.innerHTML = quotes[quoteIndex];
@@ -1253,6 +1253,13 @@ const data = {
         "hey, you could pour soup in my lap and i'll probably apologize to you!",
     },
     {
+      name: "Smolegit",
+      link: "https://twitter.com/smolegit1",
+      role: "Artist",
+      quote:
+        "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
+    },
+    {
       name: "goog",
       role: "Artist",
       quote: "those are uhh... a lot of channels... you got there.",
@@ -1265,7 +1272,7 @@ const data = {
     },
     {
       name: "Ropes",
-      role: "Retired Artist",
+      role: "Trial Artist",
       quote: "yup ! I hate furfsky 🙂",
     },
     {
@@ -1274,11 +1281,13 @@ const data = {
       quote:
         "petition to remove the liver dragger's texture from fsr because you should never use it",
     },
+    /*
     {
       name: "derpium",
-      role: "Trial Artist",
+      role: "Retired Artist",
       quote: "speep fart",
     },
+    */
     {
       name: "Glenz",
       role: "Trial Artist",
@@ -1323,13 +1332,6 @@ const data = {
       name: "Gonk",
       role: "Moderator",
       quote: "you miss 100% of the shots you don't take",
-    },
-    {
-      name: "Smolegit",
-      link: "https://twitter.com/smolegit1",
-      role: "Moderator",
-      quote:
-        "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
     },
     {
       name: "Nan",
