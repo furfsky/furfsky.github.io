@@ -417,6 +417,8 @@ const data = {
       `furfsky reborn will now be using textures from pixilart.com to reduce the workload on the artist team :)`,
       `Now containing 25% less Soylent Green™!`,
       `o7`,
+      `\o&gt;`,
+      `&lt;o/`,
       `┬─┬ ノ( ゜-゜ノ)`,
       `(◕‿◕✿)`,
       `(☞ﾟ∀ﾟ)☞`,
