@@ -17,14 +17,12 @@
       "headerSubtitle"
     ).innerHTML = `There are currently ${data.header.subtitle.length} quotes (including this one) on the site. Reload to see if your submission was one of them!`;
   } // Was going to use a promise for this but ok
-  if (Math.random() < 0.01) {
-    document.getElementById("logo").src = "assets/logos/motor.png";
-    document.getElementById(
-      "headerSubtitle"
-    ).innerHTML = `"perfection"<br>-motor`;
+  if (new Date().getMonth() === 5) {
+    document.getElementById("logo").src = "assets/logos/FSRPrideMonth.gif";
   } else {
-    if (new Date().getMonth() === 5)
-      document.getElementById("logo").src = "assets/logos/FSRPrideMonth.gif";
+    if (Math.random() < 0.01)
+      document.getElementById("logo").src = "assets/logos/motor.png";
+      document.getElementById("headerSubtitle").innerHTML = `"perfection"<br>-motor`;
     else document.getElementById("logo").src = "assets/logos/logo.gif";
   }
   let full = document.getElementById("fullLink");
