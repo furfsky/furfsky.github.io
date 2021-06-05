@@ -24,7 +24,6 @@
       document.getElementById("headerSubtitle").innerHTML = `"perfection"<br>-motor`;
   }
     else document.getElementById("logo").src = "assets/logos/logo.gif";
-  }
   let full = document.getElementById("fullLink");
   let overlay = document.getElementById("overlayLink");
   let overlayPlus = document.getElementById("overlayPlusLink");
