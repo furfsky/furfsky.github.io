@@ -302,6 +302,14 @@ const data = {
       `the dress was white and gold`,
       `the dress was black and blue`,
       `the josh fight was... interesting.`,
+      `name backwards is eman`,
+      `AUTHORIZED PERSONELL ONLY BEYOND THIS POINT.`,
+      `once sponsored by the suffering of 14 innocent souls before we set them free`,
+      `please do not click on the patreon logo we are looking into replacing it with a youtube logo`,
+      `what the fuck is an svg path`,
+      `Don't cry about the pride logo at all and celebrate diversity like a normal person, please.`,
+      `Go cry about the pride logo privately and have a nice day.`,
+      `NO HATE SPEECH ALLOWED BEYOND THIS POINT.`,
       `area 51`,
       `catch me outside how about that`,
       `"one day the queen laid an egg and we all hatched out of it"<br>-FurryEBoy, the best UK history teacher in FSR`,
@@ -445,6 +453,7 @@ const data = {
       `i mine all day i mine all night<br>i mine non-stop 'til those diamonds are in sight`,
       `yo, there is a fridge on mid`,
       `Also visit SkyCrypt!`,
+      `this is where our conversations are stored people <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" style="width:32px; height:32px;"><br><br><img src="https://cdn.discordapp.com/attachments/789592044984860672/850139362774483034/20210603_155950_HDR.jpg" width="40%" height="40%" draggable="false">`,
       `AY CARAMBA DONDE ESTA LA BIBLIOTECA`,
       `ay caramba donde esta la biblioteca`,
       `gzdfhbklkogdfhpgfjkopnimmghfjpoml,ngfhompl,nfghmopl,nfgmop`,
@@ -1043,6 +1052,41 @@ const data = {
           index++;
         }, 1500);
       },
+      () => {
+        let counter = -1;
+        setInterval(() => {
+          const formattingCodeColors = [
+            `FF5555`,
+            `FFAA00`,
+            `FFFF55`,
+            `55FF55`,
+            `55FFFF`,
+            `FF55FF`,
+            `AA00AA`,
+          ];
+          const quote = document.getElementById("headerSubtitle");
+          counter++;
+          if (counter != -2) {
+            quote.innerHTML = `<span style="color:#${
+              formattingCodeColors[counter % 7]
+            }">Le other chroma text!</span>`;
+          }
+        }, 50);
+      },
+      () => {
+        let counter = -1;
+        setInterval(() => {
+          const quotes = [
+            `inhale`,
+            `exhale`,
+          ];
+          const quote = document.getElementById("headerSubtitle");
+          counter++;
+          if (counter != -2) {
+            quote.innerHTML = `${quotes[counter % 2]}`;
+          }
+        }, 750);
+      },
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/821913465941524480.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/834947827532300328.gif?v=1" draggable="false">`,
@@ -1053,6 +1097,7 @@ const data = {
       `<img src="https://cdn.discordapp.com/emojis/776897206300180480.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/attachments/789592044984860672/825779017558130697/image0.png" width="400" height="225" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/attachments/789592044984860672/850511263846105139/Screenshot_728.png" width="40%" height="40%" draggable="false">`,
     ],
   },
   downloads: [
