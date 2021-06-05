@@ -229,7 +229,6 @@ const data = {
       `:pog:`,
       `tra la laaa`,
       `“Aw, man. All the orange soda spilled out of my cereal.”<br>-Jake Peralta`,
-      `"Every time someone steps up and says who they are, the world becomes a better, more interesting place."<br>-Captain Holt`,
       `if you get killed what happens to all your debt`,
       `noice`,
       `life's a party and i'm the pinata`,
@@ -277,8 +276,6 @@ const data = {
       `whats popping`,
       `k imma listrn t oi song and slweo d oe now`,
       `haha yes time to get 250k coins from a golden jerry box`,
-      `<span style="font-size:3px;">Just Enough Dungeons // Why I fucked up. // Hello, i wanted to tell you that the accusations of me putting a session id in my mod is true, my mod indeed had a backdoor in it that would allow me to get the session id of everyone who used it. // I am very sorry to everyone i disappointed, and to everyone who used my mod. // At first JED was just a little project that i had so i could get better at coding and tried to get somewhat known in the community for a mod, a good mod, but I failed. // I first implemented the session id stealer because I wanted to make a joke to my coop by making him think I hacked into his account, but the temptation of stealing other people's coins/item was too strong for me. // I saw that mekz joined the discord only to realize that i really fucked up, because JED was starting to get too big for me and my session id stealer would be revealed to the public and everyone would hate me, it was only a matter of time. // That day finally happened, and it is today. I started to stop hacking into accounts, and removed the session id stealer. // All the next builds of my mod will be clean, you can decompile the code and check it out for yourself, or you can just compile the github repository that I will keep updated, even tho yall probably will stop using my mod and will leave the server. // For now on i don't know what to do, i might just leave the minecraft community and do what i want (super mario galaxy speedruning) or continue to make my mod in hope that i make at least 1 person happy.</span>`,
-      `<span style="font-size:12px;">SkyBlock Modification Announcement - JustEnoughDungeons (JED) | By [ADMIN] Fr0z3n — Community Manager<br>Hello everyone, // It has recently come to our attention that the SkyBlock modification JustEnoughDungeons (JED) is potentially being used for malicious purposes in order to put the accounts of those using it at risk of being hacked. // Due to the account security risks, and in order to keep you all safe from being potentially hacked, we've decided to block this modification from being used on the server. This is for your own safety. If you are currently using this modification, we would highly recommend that you remove it immediately and change your Minecraft password after doing so.Thank you for your understanding, and stay safe out there!</span>`,
       `hey uh, we need to borrow your valkyrie, to, uh, make sure that our texture pack works`,
       `I ate a shoebox.`,
       `your call is very important to us. please stay on the line.`,
@@ -319,6 +316,7 @@ const data = {
       `this is fine`,
       `how do you do fellow kids`,
       `¯\\_(ツ)_/¯`,
+      `wait, why do i see a LiveLeak logo?`,
       `(╯°□°) ╯︵ ┻━┻`,
       `<i>cheese</i><br>-SausageDog359`,
       `bone apple tea`,
@@ -598,6 +596,10 @@ const data = {
         Math.random() > 0.5 ? "diver's armor" : "mastiff armor"
       } hasn't had a texture, stop pestering us about it in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#feedback</span> pls ;-;`,
       () => {
+        document.getElementById("logo").src = "assets/logos/FSRPrideMonth.gif";
+        document.getElementById("headerSubtitle").innerHTML = `"Every time someone steps up and says who they are, the world becomes a better, more interesting place."<br>-Captain Holt`;
+      },
+      () => {
         document.body.style = "filter:blur(1px)";
         document.getElementById("headerSubtitle").innerHTML =
           "looks like your vision isn't the best!";
@@ -606,6 +608,11 @@ const data = {
         document.body.style = "filter:grayscale(80%)";
         document.getElementById("headerSubtitle").innerHTML =
           "look mom, im emo";
+      },
+      () => {
+        document.body.style = "filter:brightness(1.4)";
+        document.getElementById("headerSubtitle").innerHTML =
+          "is it a bit too bright in here?";
       },
       () => {
         pressToMoveQuotes([
@@ -916,6 +923,27 @@ const data = {
       },
       () => {
         pressToMoveQuotes([`you've been had lol`]);
+      },
+      () => {
+        pressToMoveQuotes([
+          `Just Enough Dungeons<br><br>Why I fucked up.`,
+          `Hello, i wanted to tell you that the accusations of me putting a session id in my mod is true, my mod indeed had a backdoor in it that would allow me to get the session id of everyone who used it.`,
+          `I am very sorry to everyone i disappointed, and to everyone who used my mod.`,
+          `At first JED was just a little project that i had so i could get better at coding and tried to get somewhat known in the community for a mod, a good mod, but I failed.`,
+          `*I first implemented the session id stealer because I wanted to make a joke to my coop by making him think I hacked into his account, but the temptation of stealing other people's coins/item was too strong for me.`,
+          `I saw that mekz joined the discord only to realize that i really fucked up, because JED was starting to get too big for me and my session id stealer would be revealed to the public and everyone would hate me, it was only a matter of time.`,
+          `That day finally happened, and it is today. I started to stop hacking into accounts, and removed the session id stealer.`,
+          `All the next builds of my mod will be clean, you can decompile the code and check it out for yourself, or you can just compile the github repository that I will keep updated, even tho yall probably will stop using my mod and will leave the server.`,
+          `For now on i don't know what to do, i might just leave the minecraft community and do what i want (super mario galaxy speedruning) or continue to make my mod in hope that i make at least 1 person happy.`,
+        ]);
+      },
+      () => {
+        pressToMoveQuotes([
+          `SkyBlock Modification Announcement - JustEnoughDungeons (JED)<br><br>By [ADMIN] Fr0z3n — Community Manager`,
+          `Hello everyone,<br><br>It has recently come to our attention that the SkyBlock modification JustEnoughDungeons (JED) is potentially being used for malicious purposes in order to put the accounts of those using it at risk of being hacked.`,
+          `Due to the account security risks, and in order to keep you all safe from being potentially hacked, we've decided to block this modification from being used on the server.<br><br>This is for your own safety.`,
+          `If you are currently using this modification, we would highly recommend that you remove it immediately and change your Minecraft password after doing so.<br><br>Thank you for your understanding, and stay safe out there!`,
+        ]);
       },
       () => {
         let metersAway = Math.floor(Math.random() * 300) + 300;
