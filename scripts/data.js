@@ -350,6 +350,7 @@ const data = {
       `You can't edit this text!`,
       `<span style="color: #67DADD;">erymanthus</span>`,
       `1 in 7.5 Trillion!`,
+      `The creator of neu is an asshole and put a rickroll [in neu's storage menu].<br>instead, enjoy this gif of a cat.<br>-moulberry`,
       `Just Enough Textures`,
       `<span style="color: #FF5555;">[MINISTER] FurryEBoy</span>`,
       `haha yeah`,
