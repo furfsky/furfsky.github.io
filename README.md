@@ -21,3 +21,9 @@ The FurfSky Reborn website is not the dictionary definition of perfect, but its 
 *Note: Simply submitting a quote for the website's splash text on the home page does not constitute a contribution–if you are here to do that, please drop it into the `#make-a-website-quote` text channel in the FurfSky Reborn Discord server instead. Forks and/or pull requests that constitute merely of splash text/quote submissions will be ignored, unless if it's **really**, **REALLY** funny.*
 
 *Another note: Yes, we are working to get an SSL certificate. Please don't remind us about that.*
+
+## Questions?
+
+For further questions/concerns, drop a message in the `#website-comments` channel in the FurfSky Reborn Discord server.
+
+— voxal + Erymanthus
