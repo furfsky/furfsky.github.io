@@ -415,6 +415,7 @@ const data = {
       `rip nether wart pouch`,
       `daily reminder to eat your booster cookie and drink your god pot`,
       `"shut up motor"<br>-HellCastle`,
+      `it's june 15th and you're asked "what would happen if you keep washing your hair with water that's contaminated with metal?"<br><br>spoiler: it'll change color.`,
       `bsiciut`,
       `i hope that every chip bag you open rips down the middle`,
       `h nnndahnnhnhjnnhjnjnj`,
