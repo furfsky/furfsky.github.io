@@ -1266,6 +1266,13 @@ const data = {
       role: "Artist",
       quote: "Try not to cringe! [FSR Edition] (Gone wrong, absolutely failed)",
     },
+    /*
+    {
+      name: "abyssr",
+      role: "Retired Artist",
+      quote: "<small>IM NICKING EVERYONE TO EVERYONE SO ILL PING EVERYONE AND EVERYONE GETS PINGED</small>",
+    },
+    */
     {
       name: "aGrxpe",
       link: "https://hypixel.net/members/3230375/",
