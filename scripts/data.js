@@ -286,6 +286,8 @@ const data = {
       `Stop begging for shit in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#skyblock</span>.<br>It's not funny, nor does it help anyone.`,
       `goog`,
       `also try snowfault 16x!`,
+      `Secrets should not be required for S+ dungeons runs in Hypixel SkyBlock. Rather, players should be rewarded for teamwork and defeating more difficult boss mobs with special attack patterns (ex Rev T5), not right clicking stupid boxes in the wall. Over 15k voters would agree.`,
+      `sEcReTs sHoUlD NoT Be rEqUiReD FoR S+ dUnGeOnS RuNs iN HyPiXeL SkYbLoCk. RaThEr, PlAyErS ShOuLd bE ReWaRdEd fOr tEaMwOrK AnD DeFeAtInG MoRe dIfFiCuLt bOsS MoBs wItH SpEcIaL AtTaCk pAtTeRnS (eX ReV T5), nOt rIgHt cLiCkInG StUpId bOxEs iN ThE WaLl. OvEr 15k vOtErS WoUlD AgReE.`,
       `[THIS QUOTE WAS REDACTED BY THE LOCAL AUTHORITIES]`,
       `FlexPack! The only pack you'll ever need!<br>Now that's a lot of damage!`,
       `Made for that lowpixel groundblock whatsitsname`,
