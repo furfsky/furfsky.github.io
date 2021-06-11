@@ -30,8 +30,8 @@
     wrapper.appendChild(text);
 
     if (download.fileFull) wrapper.appendChild(FLButton);
-    if (download.fileOverlay) wrapper.appendChild(OVButton);
     if (download.fileOverlayPlus) wrapper.appendChild(OVPButton);
+    if (download.fileOverlay) wrapper.appendChild(OVButton);
     container.appendChild(wrapper);
   }); //FIXME, move the a tag outside, so restructure this
 })();
