@@ -331,6 +331,8 @@ const data = {
       `hey, hey, hey mister, cantcha see the monsters in my head`,
       `brb gonnna t-pose over wynncraft rq`,
       `all the other kids with the pumped up kicks`,
+      `You telling me a shrimp fried this rice?`,
+      `faq tab coming soon?`,
       `baby shark doo doo doo doo doo doo`,
       `rip <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#the-barbershop</span>`,
       `Our scientists have confirmed that the colour of eggs is [that of a rainbow].`,
