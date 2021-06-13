@@ -1842,29 +1842,29 @@ navbar.innerHTML = `
   </a>
  </li>
  <li>
-  <a href="/credits/">
+  <a href="/partners/">
     <img 
-    src="/assets/navbar/credits.png" 
-    onmouseover="this.src='/assets/navbar/credits_pressed.png'"
-    onmouseout="this.src='/assets/navbar/credits.png'"
+    src="/assets/navbar/partners.png" 
+    onmouseover="this.src='/assets/navbar/partners_pressed.png'"
+    onmouseout="this.src='/assets/navbar/partners.png'"
     />
   </a>
  </li>
  <li>
   <a href="/faq/">
     <img 
-    src="/assets/navbar/gallery.png" 
-    onmouseover="this.src='/assets/navbar/gallery_pressed.png'"
-    onmouseout="this.src='/assets/navbar/gallery.png'"
+    src="/assets/navbar/faq.png" 
+    onmouseover="this.src='/assets/navbar/faq_pressed.png'"
+    onmouseout="this.src='/assets/navbar/faq.png'"
     />
   </a>
  </li>
  <li>
-  <a href="/partners/">
+  <a href="/credits/">
     <img 
-    src="/assets/navbar/downloads.png" 
-    onmouseover="this.src='/assets/navbar/downloads_pressed.png'"
-    onmouseout="this.src='/assets/navbar/downloads.png'"
+    src="/assets/navbar/credits.png" 
+    onmouseover="this.src='/assets/navbar/credits_pressed.png'"
+    onmouseout="this.src='/assets/navbar/credits.png'"
     />
   </a>
  </li>
