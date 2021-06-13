@@ -1715,7 +1715,98 @@ const data = {
         otherwise <i>everyone</i> would be seeing distorted textures-beta or no beta.`,
       relevantLinksAndAllThat: `<br><br><a href="https://patreon.com/biscuitdev">SBA beta information</a>`,
     },
-  ]
+  ],
+  partners: [
+    {
+      name: `Moulberry's Bush`,
+      photo: `https://cdn.discordapp.com/avatars/211288288055525376/1d9bccd94f1b3bb739689739d77a8ffb.png?size=2048`,
+      desc: `Home of Moulberry, the maker of the Skyblock mod NEU, but also<br>
+        some other helpful mods including Hychat, Insomnia, and HUDCaching.`,
+      link: `https://discord.gg/moulberry`,
+      linkText: `Join Moulberry's Bush here.`,
+    },
+    {
+      name: `Danker's Skyblock Mod`,
+      photo: `https://cdn.discordapp.com/attachments/829790281565601899/846434141062823966/dsm.png`,
+      desc: `Home of Danker's Mod for Hypixel Skyblock, which includes a bunch of<br>
+        solvers and other QoL additions to improve your overall Hypixel Skyblock experience.`,
+      link: `https://discord.gg/QsEkNQS`,
+      linkText: `Join the Danker's Skyblock Mod server here.`,
+    },
+    {
+      name: `ZachPlaysAN's Discord`,
+      photo: `https://cdn.discordapp.com/avatars/285270046677139459/a2112e9f9261b60c6ef64c3df2554b40.png?size=2048`,
+      desc: `The ZachPlaysAN Community Discord is a place for<br>
+      SkyBlock players and channel viewers to come together and talk<br>
+      about updates and what they're working on, as well as a way for<br>
+      ZachPlaysAN to communicate with his viewers and share his videos!`,
+      link: `https://discord.gg/zachplaysan`,
+      linkText: `Join ZachPlaysAN's Discord server here.`,
+    },
+    {
+      name: `Biscuit's Bakery`,
+      photo: `https://cdn.discordapp.com/attachments/829790281565601899/846438002464391209/a_f5cc2a5e89cd5acae89622e47cee5b30.gif`,
+      desc: `Home of SkyblockAddons, a mod by Biscuit, which includes<br>
+        dozens of useful features to tweak and improve your time on<br>
+        Hypixel Skyblock. Also contains support channels for the mod.`,
+      link: `https://discord.gg/zWyr3f5GXz`,
+      linkText: `Join Biscuit's Bakery here.`,
+    },
+    {
+      name: `Apec`,
+      photo: `https://cdn.discordapp.com/attachments/829790281565601899/846435797926412338/apec.gif`,
+      desc: `Apec is a Minecraft mod designed to improve the GUI<br>
+        to better suit playing Hypixel Skyblock, and overall just makes<br>
+        everything look a lot more clean.`,
+      link: `https://discord.gg/YXrJzpY`,
+      linkText: `Join the Apec Discord server here.`,
+    },
+    {
+      name: `SkyClient`,
+      photo: `https://media.discordapp.net/attachments/829790281565601899/846438901836415006/skyclient256.gif`,
+      desc: `What is essentially a fancy modpack, SkyClient makes it<br>
+        easy to install mods and texture packs for Skyblock. It also allows<br>
+        you to update your mods and packs with one click.`,
+      link: `https://discord.gg/VPqDRWSHN2`,
+      linkText: `Join the SkyClient Discord server here.`,
+    },
+    {
+      name: `Skyblock Overhaul`,
+      photo: `https://cdn.discordapp.com/icons/796144458013081650/caf61c061dbcfe059bcdf04713f8aeaf.png?size=256`,
+      desc: `Hypixel Skyblock has a variety of swords, bows and tools.<br>
+        The Skyblock Overhaul Revamped pack will include completely overhauled<br>
+        textures of the items in Skyblock, and bring life to the textures with<br>
+        intricate designs and colour!`,
+      link: `https://discord.gg/MGpAEZyKp5`,
+      linkText: `Join Skyblock Overhaul here.`,
+    },
+    {
+      name: `Worlds and Beyond`,
+      photo: `https://cdn.discordapp.com/icons/778919802953662488/a_60b99e313f065301e349a7efcc932cff.png?size=256`,
+      desc: `A super clean and cool texture pack for Skyblock with<br>
+        tons of animated textures made by none other than Skeletony!`,
+      link: `https://discord.gg/TXufEf3QaA`,
+      linkText: `Join Worlds and Beyond here.`,
+    },
+    {
+      name: `Motor's Garage`,
+      photo: `https://cdn.discordapp.com/icons/555131716151410688/16feb203116c92e140ed8fb1dde8e639.png?size=256`,
+      desc: `A vanilla styled Hypixel Skyblock pack made by Motor.<br>
+        Includes textures for almost all items in the game, as well as<br>
+        NEU support for Custom Skulls and Mithril Veins.`,
+      link: `https://discord.gg/ABHrh6K3Fh`,
+      linkText: `Join Motor's Garage here.`,
+    },
+    {
+      name: `r/HypixelSkyblock`,
+      photo: `https://styles.redditmedia.com/t5_13bsg7/styles/communityIcon_yei06atmmk851.jpg?width=256&s=d4253c34106b0a8c752612fd32117b3d513935e7`,
+      desc: `A Reddit fan community dedicated to discussing topics<br>
+        related to Hypixel Skyblock. It's considered by many to be<br>
+        a less toxic version of the Hypixel Forums, and is well moderated.`,
+      link: `https://reddit.com/r/HypixelSkyblock`,
+      linkText: `Visit r/HypixelSkyblock here.`,
+    },
+  ],
 };
 
 //inject navbar
@@ -1751,14 +1842,32 @@ navbar.innerHTML = `
   </a>
  </li>
  <li>
-   <a href="/credits/">
-     <img 
-     src="/assets/navbar/credits.png" 
-     onmouseover="this.src='/assets/navbar/credits_pressed.png'"
-     onmouseout="this.src='/assets/navbar/credits.png'"
-     />
+  <a href="/credits/">
+    <img 
+    src="/assets/navbar/credits.png" 
+    onmouseover="this.src='/assets/navbar/credits_pressed.png'"
+    onmouseout="this.src='/assets/navbar/credits.png'"
+    />
   </a>
-</li>
+ </li>
+ <li>
+  <a href="/faq/">
+    <img 
+    src="/assets/navbar/gallery.png" 
+    onmouseover="this.src='/assets/navbar/gallery_pressed.png'"
+    onmouseout="this.src='/assets/navbar/gallery.png'"
+    />
+  </a>
+ </li>
+ <li>
+  <a href="/partners/">
+    <img 
+    src="/assets/navbar/downloads.png" 
+    onmouseover="this.src='/assets/navbar/downloads_pressed.png'"
+    onmouseout="this.src='/assets/navbar/downloads.png'"
+    />
+  </a>
+ </li>
 </ul>
 `;
 document.body.insertBefore(navbar, document.body.firstChild);

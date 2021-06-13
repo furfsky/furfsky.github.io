@@ -1,0 +1,57 @@
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(28, 29, 49, 1) 90%),
+      url(/assets/banner.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+#logo {
+  position: absolute;
+  width: 25em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#partnerProgram {
+  position: absolute;
+  top: 77.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Minecraft";
+  margin: 0;
+  color: #fbcc6c;
+}
+#partnerProgram > h1 {
+  text-align: center;
+}
+#partnerProgram > h3 {
+  color: #683d8d;
+}
+#partners {
+  background: #1c1d31;
+  color: white;
+  font-family: "Minecraft";
+  text-align: center;
+}
+#partners > div {
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  margin: 20px;
+}
+#partners > div > h2 {
+  color: #fbcc6c;
+  text-decoration: none;
+}
+#partners > div > h3 {
+  color: #683d8d;
+  text-decoration: none;
+}
+#partners > div > img {
+  width: 100px;
+  height: 100px;
+}
+#partners > div > h3 > a {
+  color: #c0713f;
+}
