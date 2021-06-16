@@ -302,7 +302,13 @@ const data = {
       `the dress was black and blue`,
       `the josh fight was... interesting.`,
       `name backwards is eman`,
-      `AUTHORIZED PERSONELL ONLY BEYOND THIS POINT.`,
+      `TaumatawhakatangihangakoauauoTamateahaumaitawhitiurehaeaturipukakapikimaungahoronukupokaiwhenuakitanatahu`,
+      `Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu`,
+      `Taumatawhakatangihangakoauauotamateaurehaeaturipukakapikimaungahoronukupokaiwhenuakitanatahu`,
+      `Taumatawhakatangihangakoauauotamateapokaiwhenuakitanatahu`,
+      `trust no one, except your Land Rover Range Rover Evoque 2.0 TD4 E-Capability 4x4 HSE Dynamic`,
+      `Bruce, its been 5 years. You still owe me 16 dollars.`,
+      `AUTHORIZED PERSONNEL ONLY BEYOND THIS POINT.`,
       `once sponsored by the suffering of 14 innocent souls before we set them free`,
       `please do not click on the patreon logo we are looking into replacing it with a youtube logo`,
       `what the fuck is an svg path`,
@@ -953,6 +959,21 @@ const data = {
         ]);
       },
       () => {
+        pressToMoveQuotes([
+          `<i>Disclaimer: the following conversation took place in another Discord server.</i>`,
+          `Temp: i feel like there are a few parallels [from skyblock] to potentially draw with late Qing china`,
+          `Smolegit: continue`,
+          `<span style="font-size:20px">Temp:<br>- Large nearly unlimited sources of manpower and raw goods (you kill billions of catacomb undeads and there's still more to go, and there are a bunch of rooms and even necron's boss phase that seem to be about collecting resources in some fashion, plus it's expansive enough that there's always more to be uncovered)</span>`,
+          `<span style="font-size:20px">- Behind on technological and political advancement (absolute monarchy closed off from the rest of the world, all the stuff seems to be about ancient techniques of necromancy, and even their gear that you do take mostly seems to be for its mystical properties that you then refine with the aboveground islands' more advanced industrial practices, and while it gets harder as you get closer to the center of power, all of the weapons and powers of the very numerous mobs seem to crumble when faced with skyblock's equivalent of professionalized pirates)</span>`,
+          `<span style="font-size:20px">- Some limited efforts to modernize, but locked behind authoritarian practices, limiting their application to better the standard of living and industrial capacity of the nation (Necron/Maxor have a relatively modern factory but theirs is the only one we see and it's entirely centralized around a singular function of building soldiers and being necron's evil lair)</span>`,
+          `<span style="font-size:20px">- External pressures faced after previous isolation from complacency (The catacombs seemed to be relatively closed off and content to teach an upper class the tradition of necromancy, but as of about a year ago the village all but sanctioned raids on the homelands, as the natural defense of being underground is increasingly bypassed by the sheer nerve of the playerbase and mort's construction of elevators)</span>`,
+          `<span style="font-size:20px">- Was once a great power dominant over the other factions of the world (Kaeman is written to have wrought war upon the aboveground kingdom and raze it to the ground, virtually uncontested)</span>`,
+          `(Temp) some assumptions:<br>- poor modern standard of living (they all appear to be relatively cramped in underground bunkers)<br>- Absolute monarchy (it seems heavily implied)`,
+          `(Temp) i feel like you could easily fill in the blanks a bit and have a republican revolution at the very least attempted`,
+          `(Temp) f someone actually wanted to make a skyblock anime i feel like that would be one hell of a story to make up and focus on`,
+        ]);
+      },
+      () => {
         let metersAway = Math.floor(Math.random() * 300) + 300;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
@@ -1124,12 +1145,13 @@ const data = {
       },
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/821913465941524480.png?v=1" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/834122955595710465.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/834947827532300328.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/834947234885271592.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/817106472424177706.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/825078817265287239.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/776897206300180480.gif?v=1" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/776897206300180480.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/attachments/789592044984860672/825779017558130697/image0.png" width="400" height="225" draggable="false">`,
       `<img src="https://cdn.discordapp.com/attachments/789592044984860672/850511263846105139/Screenshot_728.png" width="40%" height="40%" draggable="false">`,
