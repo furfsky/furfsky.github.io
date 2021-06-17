@@ -1525,7 +1525,12 @@ const data = {
     {
       name: "ThatGravyBoat",
       role: "Pack Contributor",
-      quote: "I use MS paint for my pixel art",
+      quote: "I use MS paint for my pixel art",  //damn, why is aseprite so expensive
+    },
+    {
+      name: "Sigia42",
+      role: "Pack Contributor",
+      quote: "damn, why is aseprite so expensive",
     },
     {
       name: "nacrt",
