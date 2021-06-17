@@ -466,6 +466,8 @@ const data = {
       `Also visit SkyCrypt!`,
       `this is where our conversations are stored people <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" style="width:32px; height:32px;"><br><br><img src="https://cdn.discordapp.com/attachments/789592044984860672/850139362774483034/20210603_155950_HDR.jpg" width="40%" height="40%" draggable="false">`,
       `AY CARAMBA DONDE ESTA LA BIBLIOTECA`,
+      `all funds from patreon will go into funding skyblock gems for all of the staff`,
+      `there are no more funds from patreon, no more skyblock gems for staff`,
       `ay caramba donde esta la biblioteca`,
       `gzdfhbklkogdfhpgfjkopnimmghfjpoml,ngfhompl,nfghmopl,nfgmop`,
       `imagine not using https -thegu5`,
@@ -1268,11 +1270,6 @@ const data = {
       role: "Head Artist",
       quote: "I'm built not born, it's an analytical advantage.",
     },
-    {
-      name: "GenesiS",
-      role: "Artist",
-      quote: "Shadow fury shits on Livid Dagger",
-    },
     /* {
       name: "Saikage",
       link: "https://hypixel.net/members/3250921/",
@@ -1356,6 +1353,11 @@ const data = {
       name: "ThatOneRandomDiscordAccount",
       role: "Artist",
       quote: "Dollar Store Skeletony: now with uncreativivity",
+    },
+    {
+      name: "GenesiS",
+      role: "Artist",
+      quote: "Shadow fury shits on Livid Dagger",
     },
     {
       name: "Motor",
