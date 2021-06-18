@@ -150,6 +150,7 @@ const data = {
       `<span style="color: #FFAA00;">RARE DROP!</span> <span style="color: #FFFFFF">Carrot</span> <span style="color: #55FFFF">(+300% Magic Find!)</span>`,
       `your wifi password is probably along the lines of "170sb45ltngX3331458tdq314w".<br>now go download the pack.`,
       `so we gave an aimbot a paintbrush`,
+      `Invest in Dunder Mifflin it's a guaranteed investment.`,
       `ix`,
       `"help why are people boning me"<br><br>-Moulberry, concerned about people throwing Bonemerangs at him`,
       `imagine if the 10kth server member was furf himself coming in to flip us off<br>—erymanthus`,
