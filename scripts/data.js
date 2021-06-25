@@ -1174,7 +1174,7 @@ const data = {
   downloads: [
     {
       version: "v1.3.1",
-      name: "*The Update that Acutally Textured Everything*",
+      name: "Voidgloom Twilight",
       fileFull: "/files/v1.3.1/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.3.1§8§l].zip",
       fileOverlay:
         "/files/v1.3.1/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.3.1§8§l].zip",
