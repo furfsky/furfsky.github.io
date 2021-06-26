@@ -1288,7 +1288,7 @@ const data = {
     },
     {
       name: "tea",
-      role: "Artist",
+      role: "Head Artist",
       quote: "i will murder every axolotl in a 100 km radius",
     },
     /* {
