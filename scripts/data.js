@@ -1387,7 +1387,7 @@ const data = {
     },
     {
       name: "D43DALUS",
-      role: "Head Artist",
+      role: "Artist",
       quote: "I'm built not born, it's an analytical advantage.",
     },
     {
