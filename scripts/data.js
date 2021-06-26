@@ -1265,7 +1265,7 @@ const data = {
   ],
   creditColors: {
     Manager: "#ffa500",
-    "Head Artist": "#00ffc6",
+    "Head Artist": "#d776ff",
     Artist: "#b19cd9",
     "Trial Artist": "#6a5d82",
     "Retired Artist": "#7d6e99",
