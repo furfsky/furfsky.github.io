@@ -1217,7 +1217,7 @@ const data = {
   creditColors: {
     Manager: "#ffa500",
     "Head Artist": "#00ffc6",
-    Artist: "#b19cd9",
+    Artist: "#d776ff",
     "Trial Artist": "#6a5d82",
     "Retired Artist": "#7d6e99",
     Admin: "#4b8b3b",
@@ -1238,9 +1238,9 @@ const data = {
       quote: "no fun allowed!",
     },
     {
-      name: "D43DALUS",
+      name: "tea",
       role: "Head Artist",
-      quote: "I'm built not born, it's an analytical advantage.",
+      quote: "i will murder every axolotl in a 100 km radius",
     },
     {
       name: "GenesiS",
@@ -1337,9 +1337,9 @@ const data = {
       quote: "Master at Shitposting",
     },
     {
-      name: "tea",
+      name: "D43DALUS",
       role: "Artist",
-      quote: "i will murder every axolotl in a 100 km radius",
+      quote: "I'm built not born, it's an analytical advantage.",
     },
     {
       name: "Erymanthus",
@@ -1663,15 +1663,12 @@ const data = {
       relevantLinksAndAllThat:`<br><br><a href="https://www.curseforge.com/minecraft/mc-mods/apec/files">Get Apec here.</a>`,
     },
     {
-      question: `<i>[Skytils or SkyblockCatia (SBC)]</i> - How do I revert to the old <code>rarity.png</code> shape?`,
-      //question: `<i>[Skytils, SkyblockCatia (SBC), and Skyblock Extras (SBE)]</i> - How do I revert to the old <code>rarity.png</code> shape?`,
-      photo: `<img src="https://cdn.discordapp.com/attachments/728977460737081454/853057908568883220/unknown.png">`,
-      //photo: `<img src="https://cdn.discordapp.com/attachments/728977460737081454/853058627333914684/unknown.png">`,
+      question: `<i>[Skytils, SkyblockCatia (SBC), and Skyblock Extras (SBE)]</i> - How do I revert to the old <code>rarity.png</code> shape?`,
+      photo: `<img src="https://cdn.discordapp.com/attachments/728977460737081454/853058627333914684/unknown.png">`,
       answer: `Please unzip your copy of FurfSky Reborn if you haven't done so already.<br>
         Then navigate to the respective directory for the mod whose rarity shapes you want to delete.<br>
         Delete them as necessary.`,
-      relevantLinksAndAllThat:`<br><br><a href="https://github.com/Skytils/SkytilsMod/releases">Skytils</a> | <a href="https://www.curseforge.com/minecraft/mc-mods/skyblockcatia/files">SBC</a>`,
-      //relevantLinksAndAllThat:`<br><br><a href="https://github.com/Skytils/SkytilsMod/releases">Skytils</a> | <a href="https://www.curseforge.com/minecraft/mc-mods/skyblockcatia/files">SBC</a> | <a href="https://sbewebsite.appspot.com/">SBE</a>`,
+      relevantLinksAndAllThat:`<br><br><a href="https://github.com/Skytils/SkytilsMod/releases">Skytils</a> | <a href="https://www.curseforge.com/minecraft/mc-mods/skyblockcatia/files">SBC</a> | <a href="https://sbewebsite.appspot.com/">SBE</a>`,
     },
     {
       question: `<i>[SkyblockPersonalized (SBP)]</i> - Why is my font color in <code>/sbp</code>... weird?`,
