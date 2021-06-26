@@ -1,14 +1,15 @@
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(28, 29, 49, 1) 90%),
-      url(/assets/banner.png) no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-  }
+  background: linear-gradient(#00000000 0%, #1c1d31 90%),
+    url(/assets/banner.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
 #logo {
   position: absolute;
-  width: 25em;
+  width: 15em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -19,21 +20,30 @@ header {
   font-family: "Minecraft";
   text-align: center;
 }
-#faq > div {
+#faq {
   display: center;
 }
-#faq > div > h1, h2 {
+.itemQuestion, .sectionTitle {
   color: #fbcc6c;
   text-decoration: none;
 }
-#faq > div > h3 {
+.itemAnswer, .sectionNote {
   color: #683d8d;
   text-decoration: none;
+  margin: 0 10em;
 }
-#faq > div > img {
+.itemPhoto {
   width: 25%;
   height: 25%;
 }
-#faq > div > h3 > a {
+.itemRelated {
+  margin: 0;
+  padding: 1em;
+}
+.itemRelated > a, .sectionNote > a {
   color: #c0713f;
+}
+#disclaimer {
+  padding: 0.67em 0;
+  margin: 0;
 }

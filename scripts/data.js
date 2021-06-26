@@ -1,5 +1,11 @@
 const date = new Date();
-const isMobile = (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0,4)));
+const isMobile =
+  /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(
+    navigator.userAgent
+  ) ||
+  /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(
+    navigator.userAgent.substr(0, 4)
+  );
 const pressToMoveQuotes = (quotes) => {
   let quoteIndex = -1;
   const quote = document.getElementById("headerSubtitle");
@@ -600,7 +606,9 @@ const data = {
       } hasn't had a texture, stop pestering us about it in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#feedback</span> pls ;-;`,
       () => {
         document.getElementById("logo").src = "assets/logos/FSRPrideMonth.gif";
-        document.getElementById("headerSubtitle").innerHTML = `"Every time someone steps up and says who they are, the world becomes a better, more interesting place."<br>-Captain Holt`;
+        document.getElementById(
+          "headerSubtitle"
+        ).innerHTML = `"Every time someone steps up and says who they are, the world becomes a better, more interesting place."<br>-Captain Holt`;
       },
       () => {
         document.body.style = "filter:blur(1px)";
@@ -1107,10 +1115,7 @@ const data = {
       () => {
         let counter = -1;
         setInterval(() => {
-          const quotes = [
-            `inhale`,
-            `exhale`,
-          ];
+          const quotes = [`inhale`, `exhale`];
           const quote = document.getElementById("headerSubtitle");
           counter++;
           if (counter != -2) {
@@ -1525,200 +1530,177 @@ const data = {
   ],
   faq: [
     {
-      question: `<h1 id="disclaimers"><h1 id="disclaimer">Disclaimers</h1></h1>`,
-      photo: ``,
-      answer: `- If you have edited your pack in any way, please be aware that it is possible that it is an issue on your end.<br>
-        If you are reporting a bug, make sure it is with an unmodified version of the latest release.<br><br>
-        - If you are using BLC or Lunar Client, please don't report any bugs to us at all.<br>
-        Both of these clients tend to have issues on their end.<br><br>
-        - We recommend using OptiFine M6 over OptiFine M5 as the most common cause of M5 crashes<br>
-        and/or problems is its white screen bug on macOS, which OptiFine M6 fixes.<br>
-        Additionally, items in third person perspectives shouldn't break for Windows and Linux players in OptiFine M6.<br>
-        If OptiFine M5 works just fine for you, keep using it. Otherwise, use M6 and see if your problem is resolved.<br><br>
-        - Any links included on this page that lead outside of the furfsky.net domain<br>
-        are not for promotional purposes. They are there solely for convenience.<br><br>
-        - Further questions regarding Skyblock item textures should go to<br>
-        the #questions-and-support channel in the Discord server.<br>
-        Any questions regarding mod UIs should be directed at @Erymanthus | u/RayDeeUx.`,
-      relevantLinksAndAllThat: ``,
+      name: `FAQ - Item Textures`,
+      id: "items",
+      note: `Note: Most frequent solutions include switching from Badlion/Lunar to Forge
+      updating your mods, and browsing your Video Settings.<br><a href="#mods">Click here to go to the mod UIs section.</a>`,
+      items: [
+        {
+          question: `Glass panes are displaying as "null" in-game, what do I do?`,
+          photo: `https://cdn.discordapp.com/attachments/728977460737081454/853011732129775686/what_the_fudge_imgur.png`,
+          answer: `Update OptiFine to M6.`,
+          related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a>`,
+        },
+        {
+          question: `Textures aren't showing up properly when I hold them, what do I do?`,
+          photo: `https://cdn.discordapp.com/attachments/728977460737081454/853013636729536602/vOhsHbJ.png`,
+          answer: `
+          <ul>
+            <li>Make sure Custom Item textures is enabled in your Video Settings.<br>Here is the settings path: <code>Video Settings > Quality > Custom Items: ON</code></li>
+            <li>Check your mod folder, if you are using Orange's Old Animation please remove it and download the Sk1er version which doesn't break the pack and is more feature complete.</li>
+            <li>If you are using Badlion Client (BLC), their mod, BetterFrames, tends to break the pack completely, so make sure to disable it if you plan on using FurfSky Reborn.</li>
+            <li>In general, we heavily advise against the usage of BLC when using FurfSky Reborn, as it has a very buggy version of OptiFine. SkyClient is a great solution.</li>
+          </ul>
+            `,
+          related: `<a href="https://sk1er.club/beta">Get Sk1er LLC's Old Animations through this link.</a><br><a href="https://hypixel.net/threads/skyclient-easily-install-and-update-skyblock-mods-and-packs.3731617/">Learn more about SkyClient here.</a>`,
+        },
+        {
+          question: `Why isn't &lt;item&gt; textured?`,
+          answer: `We are always working on FurfSky Reborn, and not all items in Skyblock are textured yet.  
+            We release updates pretty frequently, so keep your eyes open if an item you want textured pops up in a release.`,
+          related: `<a href="/downloads">Go to the downloads page.</a>`,
+        },
+        {
+          question: `What is the difference between the Full & Overlay(+) versions?`,
+          answer: `Full: Skyblock textures, Vanilla Minecraft textures, Mod UIs, and NotEnoughUpdates (NEU) skulls.  
+            Overlay+: Skyblock textures and NEU skulls.  
+            Overlay - only Skyblock textures.`,
+          related: `<a href="/downloads">Go to the downloads page.</a>`,
+        },
+        {
+          question: `Do I need to use the original FurfSky+ to use this one?`,
+          answer: `No, all FurfSky+ textures are included in this pack.
+            We have even updated some of them to better fit in with the Furf style,
+            and we have also reduced the color count on many of them.`,
+        },
+        {
+          question: `What Minecraft version is FurfSky Reborn for?`,
+          photo: ``,
+          answer: `By default, FurfSky Reborn will work for Minecraft versions <i>1.8.9 - 1.12.2</i>.
+            For versions past 1.8.9, you will get a warning saying that the pack is for a different version of Minecraft.
+            As long as you are playing between versions <i>1.8.9 - 1.12.2</i>, you can ignore this warning.
+            If you are playing on a Minecraft version higher than 1.12.2, this error does actually mean something.
+            Basically, 1.13 was an internal rewrite of Minecraft and OptiFine switched from using the "mcpatcher" to "optifine" folder.
+            The download of the pack only includes the "mcpatcher" folder, as we don't officially support versions higher than 1.12.2.
+            If you do want to use the pack on a higher version and accept the fact that there will be glitches,
+            duplicate the "mcpatcher" folder and rename it "optifine".
+            Besides the model bugs, the pack should work for the most part now, rather than not at all.`,
+        },
+        {
+          question: `Why are some player skulls appearing as other player skulls?`,
+          photo: ``,
+          answer: `If you are using BLC, please swap to SkyClient.
+            Otherwise, open your mods folder and check what mods you have.
+            If you are using SkyblockCatia, please delete it and replace it with Skytils.
+            Skytils does everything that SkyblockCatia does but better, along with a lot of other features.
+            SkyblockCatia's player skull retexturing feature breaks our player skull retexturing with NEU.`,
+          related: `<a href="https://github.com/Skytils/SkytilsMod/releases">Get Skytils here.</a>`,
+        },
+        {
+          question: `Why are certain items not appearing animated?`,
+          photo: ``,
+          answer: `Make sure Terrain Animations is enabled in your Video Settings.
+            Here is the settings path: <code>Video Settings > Animations > Terrain Animated: ON</code>`,
+          related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Make sure you have OptiFine M6.</a>`,
+        },
+        {
+          question: `Why aren't the Mithril Vein block textures showing up?`,
+          photo: `https://cdn.discordapp.com/attachments/821151183070298174/839725667645784104/Screen_Shot_2021-05-06_at_12.48.55.759_AM_Eastern_Daylight_Time.png`,
+          answer: `Make sure you're using the latest version of NEU.
+            Additionally, the option in the above image <i>must</i> be toggled on.`,
+          related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
+        },
+        {
+          question: `Why does my game crash when using OptiFine M5?`,
+          photo: ``,
+          answer: `Make sure you're using the latest versions of Patcher and OptiFine.
+            Additionally, if you would like to retain 1.7 animations, use Old Animations from Sk1er LLC.`,
+          related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">OptiFine M6,</a> <a href="https://static.sk1er.club/repo/mods/patcher/1.5.1/1.8.9/Patcher-1.5.1%20(1.8.9).jar">Patcher 1.5.1,</a> <a href="https://sk1er.club/beta">and Sk1er LLC's Old Animations [optional].</a>`,
+        },
+        {
+          question: `Your textures for skulls aren't showing up, what do I do?`,
+          photo: ``,
+          answer: `Our custom skull textures are only available through Moulberry's NEU. Please install that mod.
+            Also, update OptiFine to M6 just in case.`,
+          related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a> <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a>`,
+        },
+      ],
     },
     {
-      question: `<h1 id="sbitems"><h1 id="items">FAQ - Skyblock item textures</h1></h1>`,
-      photo: ``,
-      answer: `<i>Note: Most frequent solutions include switching from Badlion/Lunar to Forge,<br>
-        updating your mods, and browsing your Video Settings.</i>`,
-      relevantLinksAndAllThat: `<br><br><a href="#mod">Click here to go to the mod UIs section.</a>`,
-    },
-    {
-      question: `Glass panes are displaying as "null" in-game, what do I do?`,
-      photo: `<img src="https://cdn.discordapp.com/attachments/728977460737081454/853011732129775686/what_the_fudge_imgur.png"><br>`,
-      answer: `Update OptiFine to M6.`,
-      relevantLinksAndAllThat:`<br><br><a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a>`,
-    },
-    {
-      question: `Textures aren't showing up properly when I hold them, what do I do?`,
-      photo: `<img src="https://cdn.discordapp.com/attachments/728977460737081454/853013636729536602/vOhsHbJ.png"><br>`,
-      answer: `
-        - Make sure Custom Item textures is enabled in your Video Settings.<br>
-        Here is the settings path: <code>Video Settings > Quality > Custom Items: ON</code><br><br>
-        — Check your mod folder, if you are using Orange's Old Animation please remove it<br>
-        and download the Sk1er version which doesn't break the pack and is more feature complete.<br><br>
-        - If you are using Badlion Client (BLC), their mod, BetterFrames, tends to break the pack completely,<br>
-        so make sure to disable it if you plan on using FurfSky Reborn.<br><br>
-        In general, we heavily advise against the usage of BLC<br>
-        when using FurfSky Reborn, as it has a very buggy version of OptiFine.<br>
-        SkyClient is a great solution.
-        `,
-      relevantLinksAndAllThat:`<br><br><a href="https://sk1er.club/beta">Get Sk1er LLC's Old Animations through this link.</a><br><a href="https://hypixel.net/threads/skyclient-easily-install-and-update-skyblock-mods-and-packs.3731617/">Learn more about SkyClient here.</a>`,
-    },
-    {
-      question: `Why isn't &lt;item&gt; textured?`,
-      photo: ``,
-      answer: `We are always working on FurfSky Reborn, and not all items in Skyblock are textured yet.<br>
-        We release updates pretty frequently, so keep your eyes open if an item you want textured pops up in a release.`,
-      relevantLinksAndAllThat: `<br><br><a href="/downloads">Go to the downloads page.</a>`,
-    },
-    {
-      question: `What is the difference between the Full & Overlay(+) versions?`,
-      photo: ``,
-      answer: `Full: Skyblock textures, Vanilla Minecraft textures, Mod UIs, and NotEnoughUpdates (NEU) skulls.<br>
-        Overlay+: Skyblock textures and NEU skulls.<br>
-        Overlay - only Skyblock textures.`,
-      relevantLinksAndAllThat: `<br><br><a href="/downloads">Go to the downloads page.</a>`,
-    },
-    {
-      question: `Do I need to use the original FurfSky+ to use this one?`,
-      photo: ``,
-      answer: `No, all FurfSky+ textures are included in this pack.<br>
-        We have even updated some of them to better fit in with the Furf style,<br>
-        and we have also reduced the color count on many of them.`,
-      relevantLinksAndAllThat: ``,
-    },
-    {
-      question: `What Minecraft version is FurfSky Reborn for?`,
-      photo: ``,
-      answer: `By default, FurfSky Reborn will work for Minecraft versions <i>1.8.9 - 1.12.2</i>.<br>
-        For versions past 1.8.9, you will get a warning saying that the pack is for a different version of Minecraft.<br>
-        As long as you are playing between versions <i>1.8.9 - 1.12.2</i>, you can ignore this warning.<br><br>
-        If you are playing on a Minecraft version higher than 1.12.2, this error does actually mean something.<br>
-        Basically, 1.13 was an internal rewrite of Minecraft and OptiFine switched from using the "mcpatcher" to "optifine" folder.<br>
-        The download of the pack only includes the "mcpatcher" folder, as we don't officially support versions higher than 1.12.2.<br><br>
-        If you do want to use the pack on a higher version and accept the fact that there will be glitches,<br>
-        duplicate the "mcpatcher" folder and rename it "optifine".<br>
-        Besides the model bugs, the pack should work for the most part now, rather than not at all.`,
-      relevantLinksAndAllThat: ``,
-    },
-    {
-      question: `Why are some player skulls appearing as other player skulls?`,
-      photo: ``,
-      answer: `If you are using BLC, please swap to SkyClient.<br>
-        Otherwise, open your mods folder and check what mods you have.<br>
-        If you are using SkyblockCatia, please delete it and replace it with Skytils.<br>
-        Skytils does everything that SkyblockCatia does but better, along with a lot of other features.<br>
-        SkyblockCatia's player skull retexturing feature breaks our player skull retexturing with NEU.`,
-      relevantLinksAndAllThat:`<br><br><a href="https://github.com/Skytils/SkytilsMod/releases">Get Skytils here.</a>`,
-    },
-    {
-      question: `Why are certain items not appearing animated?`,
-      photo: ``,
-      answer: `Make sure Terrain Animations is enabled in your Video Settings.<br>
-        Here is the settings path: <code>Video Settings > Animations > Terrain Animated: ON</code>`,
-      relevantLinksAndAllThat:`<br><br><a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Make sure you have OptiFine M6.</a>`,
-    },
-    {
-      question: `Why aren't the Mithril Vein block textures showing up?`,
-      photo: `<img src="https://cdn.discordapp.com/attachments/821151183070298174/839725667645784104/Screen_Shot_2021-05-06_at_12.48.55.759_AM_Eastern_Daylight_Time.png">`,
-      answer: `Make sure you're using the latest version of NEU.<br>
-        Additionally, the option in the above image <i>must</i> be toggled on.`,
-      relevantLinksAndAllThat:`<br><br><a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
-    },
-    {
-      question: `Why does my game crash when using OptiFine M5?`,
-      photo: ``,
-      answer: `Make sure you're using the latest versions of Patcher and OptiFine.<br>
-        Additionally, if you would like to retain 1.7 animations, use Old Animations from Sk1er LLC.`,
-      relevantLinksAndAllThat:`<br><br><a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">OptiFine M6,</a> <a href="https://static.sk1er.club/repo/mods/patcher/1.5.1/1.8.9/Patcher-1.5.1%20(1.8.9).jar">Patcher 1.5.1,</a> <a href="https://sk1er.club/beta">and Sk1er LLC's Old Animations [optional].</a>`,
-    },
-    {
-      question: `Your textures for skulls aren't showing up, what do I do?`,
-      photo: ``,
-      answer: `Our custom skull textures are only available through Moulberry's NEU. Please install that mod.<br>
-        Also, update OptiFine to M6 just in case.`,
-      relevantLinksAndAllThat:`<br><br><a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a> <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a>`,
-    },
-    {
-      question: `<h1 id="modui"><h1 id="mods"><h1 id="mod">FAQ - Mod UI</h1></h1></h1>`,
-      photo: ``,
-      answer: `<i>Note: some of these answers may apply to PacksHQ's Dark UI pack as well,<br>
-        as Erymanthus also made most of the Dark UI assets.</i>`,
-      relevantLinksAndAllThat:`<br><br><a href="#items">Click here to go to the Skyblock item textures section.</a>`,
-    },
-    {
-      question: `<i>[Apec]</i> - How do I swap between the Apec bar styles?`,
-      photo: `<img src="https://cdn.discordapp.com/attachments/728977460737081454/853051096926519316/Untitled_drawing375.png">`,
-      answer: `Navigate to your resource packs folder (or open it via in-game) and unzip the texture pack if it's still in <code>.zip</code> form.<br>
-        Then navigate to <code>/assets/apec/gui/</code> and you will see not two, but four .png files (much like the photos above).<br>
-        Rename the files as per the files names in the photo <i>above</i> the gray line <u>for gold bars</u>,<br>
-        otherwise, rename the files as per the file names in the photo <i>below</i> the gray line <u>for old-style bars</u>.`,
-      relevantLinksAndAllThat:`<br><br><a href="https://www.curseforge.com/minecraft/mc-mods/apec/files">Get Apec here.</a>`,
-    },
-    {
-      question: `<i>[Skytils, SkyblockCatia (SBC), and Skyblock Extras (SBE)]</i> - How do I revert to the old <code>rarity.png</code> shape?`,
-      photo: `<img src="https://cdn.discordapp.com/attachments/728977460737081454/853058627333914684/unknown.png">`,
-      answer: `Please unzip your copy of FurfSky Reborn if you haven't done so already.<br>
-        Then navigate to the respective directory for the mod whose rarity shapes you want to delete.<br>
-        Delete them as necessary.`,
-      relevantLinksAndAllThat:`<br><br><a href="https://github.com/Skytils/SkytilsMod/releases">Skytils</a> | <a href="https://www.curseforge.com/minecraft/mc-mods/skyblockcatia/files">SBC</a> | <a href="https://sbewebsite.appspot.com/">SBE</a>`,
-    },
-    {
-      question: `<i>[SkyblockPersonalized (SBP)]</i> - Why is my font color in <code>/sbp</code>... weird?`,
-      photo: `<img src="https://cdn.discordapp.com/attachments/785025965226459176/821112316664741888/Screen_Shot_2021-03-15_at_3.png">`,
-      answer: `Please use the mod's <i>Dark Theme</i> in <code>/sbp</code> as seen above.`,
-      relevantLinksAndAllThat:``,
-    },
-    {
-      question: `<i>[SBP]</i> - What happened to the background of my player/character<br>in <code>/sbp</code> and why do the corners seem scuffed?<br>(Also, why do some of my GUI elements seem off?)`,
-      photo: ``,
-      answer: `Please get the most recent version of the mod from SBP's Discord server.`,
-      relevantLinksAndAllThat:`<br><br><a href="https://discord.com/channels/779549891890118683/779550146861203477">SBP's #releases channel</a>`,
-    },
-    {
-      question: `<i>[NotEnoughUpdates (NEU)]</i> - Why is the text incredibly dark in NEU's custom Skyblock menus?`,
-      photo: `<img src="https://cdn.discordapp.com/attachments/785025965226459176/821121294501543986/Screen_Shot_2021-03-15_at_4.png">`,
-      answer: `Please type <code>/neu improved</code> in chat and change the background and button styles exactly as shown above.<br>
-        If the text isn't gold after you make this change, please ping an Erymanthus for more help.`,
-      relevantLinksAndAllThat:`<br><br><a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
-    },
-    {
-      question: `<i>[SkyblockAddons (SBA)]</i> - How do I turn on the pack's custom defense icon for SBA?`,
-      photo: `<img src="https://cdn.discordapp.com/attachments/785025965226459176/821122320839606323/Screen_Shot_2021-03-03_at_1.png">`,
-      answer: `Type <code>/sba</code> in chat and then type in "van" or "defen" into the search bar.<br>
-        click the little ⚙️ of the first setting that shows up, which leads to the menu seen above.<br>
-        Make sure the switch is <u>exactly</u> as follows.<br><br>
-        <i><u>Flip that switch on first before you start overthinking these steps.<br>Please. Save both yourself and us some time.</u></i>`,
-      relevantLinksAndAllThat: `<br><br><a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.5.5/SkyblockAddons-1.5.5-for-MC-1.8.9.jar">SBA direct download (v1.5.5, not the beta!)</a><br>For the beta, check out Biscuit's Patreon page <a href="https://patreon.com/biscuitdev">here</a>.`,
-    },
-    {
-      question: `<i>[SkyblockHUD (SBHUD)]</i> - Why are some textures for UI elements blank and/or missing in v1.13 of SBHUD?<br>(Also, more SBHUD v1.13 questions when?)`,
-      photo: ``,
-      answer: `SBHUD v1.13 is still in beta. Patience is key. As of now, everything in v1.13 of SBHUD should be fine<br>
-        (with a few rendering bugs in dungeons, but that's not on us).`,
-      relevantLinksAndAllThat: `<br><br><a href="https://discord.com/channels/516977525906341928/794648295255310366">Obtain SBHUD by obtaining one the roles under the "Perks" webhook here.</a>`,
-    },
-    {
-      question: `<i>[SBA (<u>beta versions 12/12b and above only</u>)]</i> - Why aren't my health/mana bars textured?`,
-      photo: ``,
-      answer: `Relax, they're coming out in the next pack release. SBA beta 12b's new bars<br>
-        rely on a different <code>.png</code> file than previous versions of SBA,<br>
-        otherwise <i>everyone</i> would be seeing distorted textures-beta or no beta.`,
-      relevantLinksAndAllThat: `<br><br><a href="https://patreon.com/biscuitdev">SBA beta information</a>`,
+      //H1
+      name: `FAQ - Mod UI`,
+      id: "mods",
+      //ITALIC
+      note: `Note: some of these answers may apply to PacksHQ's Dark UI pack as well,
+      as Erymanthus also made most of the Dark UI assets. <br> <a href="#items">Click here to go to the Skyblock item textures section.</a>`,
+      items: [
+        {
+          question: `<i>[Apec]</i> - How do I swap between the Apec bar styles?`,
+          photo: `  https://cdn.discordapp.com/attachments/728977460737081454/853051096926519316/Untitled_drawing375.png`,
+          answer: `Navigate to your resource packs folder (or open it via in-game) and unzip the texture pack if it's still in <code>.zip</code> form.
+          Then navigate to <code>/assets/apec/gui/</code> and you will see not two, but four .png files (much like the photos above).
+          Rename the files as per the files names in the photo <i>above</i> the gray line <u>for gold bars</u>,
+          otherwise, rename the files as per the file names in the photo <i>below</i> the gray line <u>for old-style bars</u>.`,
+          related: `<a href="https://www.curseforge.com/minecraft/mc-mods/apec/files">Get Apec here.</a>`,
+        },
+        {
+          question: `<i>[Skytils, SkyblockCatia (SBC), and Skyblock Extras (SBE)]</i> - How do I revert to the old <code>rarity.png</code> shape?`,
+          photo: `  https://cdn.discordapp.com/attachments/728977460737081454/853058627333914684/unknown.png`,
+          answer: `Please unzip your copy of FurfSky Reborn if you haven't done so already.
+            Then navigate to the respective directory for the mod whose rarity shapes you want to delete.
+            Delete them as necessary.`,
+          related: `<a href="https://github.com/Skytils/SkytilsMod/releases">Skytils</a> | <a href="https://www.curseforge.com/minecraft/mc-mods/skyblockcatia/files">SBC</a> | <a href="https://sbewebsite.appspot.com/">SBE</a>`,
+        },
+        {
+          question: `<i>[SkyblockPersonalized (SBP)]</i> - Why is my font color in <code>/sbp</code>... weird?`,
+          photo: `  https://cdn.discordapp.com/attachments/785025965226459176/821112316664741888/Screen_Shot_2021-03-15_at_3.png`,
+          answer: `Please use the mod's <i>Dark Theme</i> in <code>/sbp</code> as seen above.`,
+        },
+        {
+          question: `<i>[SBP]</i> - What happened to the background of my player/characterin <code>/sbp</code> and why do the corners seem scuffed?(Also, why do some of my GUI elements seem off?)`,
+          photo: ``,
+          answer: `Please get the most recent version of the mod from SBP's Discord server.`,
+          related: `<a href="https://discord.com/channels/779549891890118683/779550146861203477">SBP's #releases channel</a>`,
+        },
+        {
+          question: `<i>[NotEnoughUpdates (NEU)]</i> - Why is the text incredibly dark in NEU's custom Skyblock menus?`,
+          photo: `  https://cdn.discordapp.com/attachments/785025965226459176/821121294501543986/Screen_Shot_2021-03-15_at_4.png`,
+          answer: `Please type <code>/neu improved</code> in chat and change the background and button styles exactly as shown above.
+            If the text isn't gold after you make this change, please ping an Erymanthus for more help.`,
+          related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
+        },
+        {
+          question: `<i>[SkyblockAddons (SBA)]</i> - How do I turn on the pack's custom defense icon for SBA?`,
+          photo: `  https://cdn.discordapp.com/attachments/785025965226459176/821122320839606323/Screen_Shot_2021-03-03_at_1.png`,
+          answer: `Type <code>/sba</code> in chat and then type in "van" or "defen" into the search bar.
+            click the little ⚙️ of the first setting that shows up, which leads to the menu seen above.
+            Make sure the switch is <u>exactly</u> as follows.
+            <i><u>Flip that switch on first before you start overthinking these steps.Please. Save both yourself and us some time.</u></i>`,
+          related: `<a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.5.5/SkyblockAddons-1.5.5-for-MC-1.8.9.jar">SBA direct download (v1.5.5, not the beta!)</a><br>For the beta, check out Biscuit's Patreon page <a href="https://patreon.com/biscuitdev">here</a>.`,
+        },
+        {
+          question: `<i>[SkyblockHUD (SBHUD)]</i> - Why are some textures for UI elements blank and/or missing in v1.13 of SBHUD?(Also, more SBHUD v1.13 questions when?)`,
+          photo: ``,
+          answer: `SBHUD v1.13 is still in beta. Patience is key. As of now, everything in v1.13 of SBHUD should be fine
+            (with a few rendering bugs in dungeons, but that's not on us).`,
+          related: `<a href="https://discord.com/channels/516977525906341928/794648295255310366">Obtain SBHUD by obtaining one the roles under the "Perks" webhook here.</a>`,
+        },
+        {
+          question: `<i>[SBA (<u>beta versions 12/12b and above only</u>)]</i> - Why aren't my health/mana bars textured?`,
+          photo: ``,
+          answer: `Relax, they're coming out in the next pack release. SBA beta 12b's new bars
+            rely on a different <code>.png</code> file than previous versions of SBA,
+            otherwise <i>everyone</i> would be seeing distorted textures-beta or no beta.`,
+          related: `<a href="https://patreon.com/biscuitdev">SBA beta information</a>`,
+        },
+      ],
     },
   ],
   partners: [
     {
       name: `Moulberry's Bush`,
       photo: `https://cdn.discordapp.com/avatars/211288288055525376/1d9bccd94f1b3bb739689739d77a8ffb.png?size=2048`,
-      desc: `Home of Moulberry, the maker of the Skyblock mod NEU, but also<br>
+      desc: `Home of Moulberry, the maker of the Skyblock mod NEU, but also
         some other helpful mods including Hychat, Insomnia, and HUDCaching.`,
       link: `https://discord.gg/moulberry`,
       linkText: `Join Moulberry's Bush here.`,
@@ -1726,7 +1708,7 @@ const data = {
     {
       name: `Danker's Skyblock Mod`,
       photo: `https://cdn.discordapp.com/attachments/829790281565601899/846434141062823966/dsm.png`,
-      desc: `Home of Danker's Mod for Hypixel Skyblock, which includes a bunch of<br>
+      desc: `Home of Danker's Mod for Hypixel Skyblock, which includes a bunch of
         solvers and other QoL additions to improve your overall Hypixel Skyblock experience.`,
       link: `https://discord.gg/QsEkNQS`,
       linkText: `Join the Danker's Skyblock Mod server here.`,
@@ -1734,9 +1716,9 @@ const data = {
     {
       name: `ZachPlaysAN's Discord`,
       photo: `https://cdn.discordapp.com/avatars/285270046677139459/a2112e9f9261b60c6ef64c3df2554b40.png?size=2048`,
-      desc: `The ZachPlaysAN Community Discord is a place for<br>
-      SkyBlock players and channel viewers to come together and talk<br>
-      about updates and what they're working on, as well as a way for<br>
+      desc: `The ZachPlaysAN Community Discord is a place for
+      SkyBlock players and channel viewers to come together and talk
+      about updates and what they're working on, as well as a way for
       ZachPlaysAN to communicate with his viewers and share his videos!`,
       link: `https://discord.gg/zachplaysan`,
       linkText: `Join ZachPlaysAN's Discord server here.`,
@@ -1744,8 +1726,8 @@ const data = {
     {
       name: `Biscuit's Bakery`,
       photo: `https://cdn.discordapp.com/attachments/829790281565601899/846438002464391209/a_f5cc2a5e89cd5acae89622e47cee5b30.gif`,
-      desc: `Home of SkyblockAddons, a mod by Biscuit, which includes<br>
-        dozens of useful features to tweak and improve your time on<br>
+      desc: `Home of SkyblockAddons, a mod by Biscuit, which includes
+        dozens of useful features to tweak and improve your time on
         Hypixel Skyblock. Also contains support channels for the mod.`,
       link: `https://discord.gg/zWyr3f5GXz`,
       linkText: `Join Biscuit's Bakery here.`,
@@ -1753,8 +1735,8 @@ const data = {
     {
       name: `Apec`,
       photo: `https://cdn.discordapp.com/attachments/829790281565601899/846435797926412338/apec.gif`,
-      desc: `Apec is a Minecraft mod designed to improve the GUI<br>
-        to better suit playing Hypixel Skyblock, and overall just makes<br>
+      desc: `Apec is a Minecraft mod designed to improve the GUI
+        to better suit playing Hypixel Skyblock, and overall just makes
         everything look a lot more clean.`,
       link: `https://discord.gg/YXrJzpY`,
       linkText: `Join the Apec Discord server here.`,
@@ -1762,8 +1744,8 @@ const data = {
     {
       name: `SkyClient`,
       photo: `https://media.discordapp.net/attachments/829790281565601899/846438901836415006/skyclient256.gif`,
-      desc: `What is essentially a fancy modpack, SkyClient makes it<br>
-        easy to install mods and texture packs for Skyblock. It also allows<br>
+      desc: `What is essentially a fancy modpack, SkyClient makes it
+        easy to install mods and texture packs for Skyblock. It also allows
         you to update your mods and packs with one click.`,
       link: `https://discord.gg/VPqDRWSHN2`,
       linkText: `Join the SkyClient Discord server here.`,
@@ -1771,9 +1753,9 @@ const data = {
     {
       name: `Skyblock Overhaul`,
       photo: `https://cdn.discordapp.com/icons/796144458013081650/caf61c061dbcfe059bcdf04713f8aeaf.png?size=256`,
-      desc: `Hypixel Skyblock has a variety of swords, bows and tools.<br>
-        The Skyblock Overhaul Revamped pack will include completely overhauled<br>
-        textures of the items in Skyblock, and bring life to the textures with<br>
+      desc: `Hypixel Skyblock has a variety of swords, bows and tools.
+        The Skyblock Overhaul Revamped pack will include completely overhauled
+        textures of the items in Skyblock, and bring life to the textures with
         intricate designs and colour!`,
       link: `https://discord.gg/MGpAEZyKp5`,
       linkText: `Join Skyblock Overhaul here.`,
@@ -1781,7 +1763,7 @@ const data = {
     {
       name: `Worlds and Beyond`,
       photo: `https://cdn.discordapp.com/icons/778919802953662488/a_60b99e313f065301e349a7efcc932cff.png?size=256`,
-      desc: `A super clean and cool texture pack for Skyblock with<br>
+      desc: `A super clean and cool texture pack for Skyblock with
         tons of animated textures made by none other than Skeletony!`,
       link: `https://discord.gg/TXufEf3QaA`,
       linkText: `Join Worlds and Beyond here.`,
@@ -1789,8 +1771,8 @@ const data = {
     {
       name: `Motor's Garage`,
       photo: `https://cdn.discordapp.com/icons/555131716151410688/16feb203116c92e140ed8fb1dde8e639.png?size=256`,
-      desc: `A vanilla styled Hypixel Skyblock pack made by Motor.<br>
-        Includes textures for almost all items in the game, as well as<br>
+      desc: `A vanilla styled Hypixel Skyblock pack made by Motor.
+        Includes textures for almost all items in the game, as well as
         NEU support for Custom Skulls and Mithril Veins.`,
       link: `https://discord.gg/ABHrh6K3Fh`,
       linkText: `Join Motor's Garage here.`,
@@ -1798,8 +1780,8 @@ const data = {
     {
       name: `r/HypixelSkyblock`,
       photo: `https://styles.redditmedia.com/t5_13bsg7/styles/communityIcon_yei06atmmk851.jpg?width=256&s=d4253c34106b0a8c752612fd32117b3d513935e7`,
-      desc: `A Reddit fan community dedicated to discussing topics<br>
-        related to Hypixel Skyblock. It's considered by many to be<br>
+      desc: `A Reddit fan community dedicated to discussing topics
+        related to Hypixel Skyblock. It's considered by many to be
         a less toxic version of the Hypixel Forums, and is well moderated.`,
       link: `https://reddit.com/r/HypixelSkyblock`,
       linkText: `Visit r/HypixelSkyblock here.`,
@@ -1807,17 +1789,17 @@ const data = {
   ],
   steps: [
     {
-      step: `Download FurfSky Reborn.<br><a href="/">Latest version</a> (recommended)<br><a href="/downloads/">All versions</a>`,
+      step: `Download FurfSky Reborn.<a href="/">Latest version</a> (recommended)<a href="/downloads/">All versions</a>`,
       type: `Required`,
       title: `How else are you going to use FurfSky Reborn?`,
     },
     {
-      step: `If you haven't done so already, download and install OptiFine for 1.8.9.<br>macOS players: <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Optifine M6</a> Windows and Linux players: <a href="https://optifine.net/adloadx?f=OptiFine_1.8.9_HD_U_M5.jar">OptiFine M5</a>`,
+      step: `If you haven't done so already, download and install OptiFine for 1.8.9.macOS players: <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Optifine M6</a> Windows and Linux players: <a href="https://optifine.net/adloadx?f=OptiFine_1.8.9_HD_U_M5.jar">OptiFine M5</a>`,
       type: `Required`,
       title: `OptiFine is required to apply textures to non-vanilla items such as the ones you see in Hypixel Skyblock.`,
     },
     {
-      step: `Launch Minecraft and from the splash screen/main menu, go to your resource packs.<br>(<code>Options > Resource Packs</code>)`,
+      step: `Launch Minecraft and from the splash screen/main menu, go to your resource packs.(<code>Options > Resource Packs</code>)`,
       type: `Required`,
       title: `This is how you navigate to your resources packs menu.`,
     },
@@ -1832,26 +1814,26 @@ const data = {
       title: `This is how you get Minecraft to acknowledge the Furfsky Reborn pack.`,
     },
     {
-      step: `Move the FurfSky Reborn texture pack from the left column into the right column.<br>Then press "Done" towards the bottom right.`,
+      step: `Move the FurfSky Reborn texture pack from the left column into the right column.Then press "Done" towards the bottom right.`,
       type: `Required`,
       title: `Again, this is a cross-platform step. If you already know how to apply texture packs or have your own methods, use those.`,
     },
     {
-      step: `Make sure Custom Textures are enabled by going to<br><code>Video Settings > Quality > Custom Items: ON</code> and enabling it.`,
+      step: `Make sure Custom Textures are enabled by going to<code>Video Settings > Quality > Custom Items: ON</code> and enabling it.`,
       type: `Required`,
       title: `This is the second part of using OptiFine to apply custom item textures.`,
     },
     {
-      step: `Disable Fast Render.<br>(<code>Video Settings > Performance > Fast Render: OFF</code>)`,
+      step: `Disable Fast Render.(<code>Video Settings > Performance > Fast Render: OFF</code>)`,
       type: `Required`,
       title: `Fast Render causes problems as your Hypixel Skyblock mods library grows, and this step is a precautionary measure in minimizing problems in the future.`,
     },
     {
-      step: `Enable custom texture's animations by going to<br><code>Video Settings > Animations > Terrain Animated: ON</code>.`,
+      step: `Enable custom texture's animations by going to<code>Video Settings > Animations > Terrain Animated: ON</code>.`,
       type: `Optional`,
       title: `If you don't want animations for your items, you can turn this option "OFF" instead.`,
     },
-  ]
+  ],
 };
 
 //inject navbar
