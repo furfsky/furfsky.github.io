@@ -14,10 +14,6 @@ header {
   transform: translate(-50%, -50%);
 }
 #partnerProgram {
-  position: absolute;
-  top: 77.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-family: "Minecraft";
   margin: 0;
   color: #fbcc6c;
@@ -27,6 +23,7 @@ header {
 }
 #partnerProgram > h3 {
   color: #683d8d;
+  margin: 0 10em;
 }
 #partners {
   background: #1c1d31;
@@ -47,6 +44,7 @@ header {
 #partners > div > h3 {
   color: #683d8d;
   text-decoration: none;
+  margin: 0 10em;
 }
 #partners > div > img {
   width: 100px;
