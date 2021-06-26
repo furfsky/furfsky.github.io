@@ -16,7 +16,11 @@ All other folders serve to store individual `.html` and `.css` files for each pa
 
 ## Contributing to the repo
 
-The FurfSky Reborn website is not the dictionary definition of perfect, but its contributors always strive to bring the website closer to perfection. If you want to help out, feel free to do so however you please–a fork, a pull request, whatever you feel is necessary.
+The FurfSky Reborn website is not the dictionary definition of perfect, but its contributors always strive to bring the website closer to perfection. If you want to help out, feel free to do so however you please–a fork, a pull request, a new branch-whatever you feel is necessary. We're flexible.
+
+Just run `git clone https://github.com/furfsky/furfsky.github.io` in your command line interface to get started.
+
+If you want to test your changes on your local machine without publishing anything to GitHub just yet, we recommend the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for [Visual Studio Code](https://code.visualstudio.com/).
 
 *Note: Simply submitting a quote for the website's splash text on the home page does not constitute a contribution–if you are here to do that, please drop it into the `#make-a-website-quote` text channel in the FurfSky Reborn Discord server instead. Forks and/or pull requests that constitute merely of splash text/quote submissions will be ignored, unless if it's **really**, **REALLY** funny.*
 

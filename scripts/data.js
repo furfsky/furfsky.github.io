@@ -157,6 +157,7 @@ const data = {
       `<span style="color: #FFAA00;">RARE DROP!</span> <span style="color: #FFFFFF">Carrot</span> <span style="color: #55FFFF">(+300% Magic Find!)</span>`,
       `your wifi password is probably along the lines of "170sb45ltngX3331458tdq314w".<br>now go download the pack.`,
       `so we gave an aimbot a paintbrush`,
+      `Invest in Dunder Mifflin it's a guaranteed investment.`,
       `ix`,
       `"help why are people boning me"<br><br>-Moulberry, concerned about people throwing Bonemerangs at him`,
       `imagine if the 10kth server member was furf himself coming in to flip us off<br>—erymanthus`,
@@ -307,7 +308,13 @@ const data = {
       `the dress was black and blue`,
       `the josh fight was... interesting.`,
       `name backwards is eman`,
-      `AUTHORIZED PERSONELL ONLY BEYOND THIS POINT.`,
+      `TaumatawhakatangihangakoauauoTamateahaumaitawhitiurehaeaturipukakapikimaungahoronukupokaiwhenuakitanatahu`,
+      `Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu`,
+      `Taumatawhakatangihangakoauauotamateaurehaeaturipukakapikimaungahoronukupokaiwhenuakitanatahu`,
+      `Taumatawhakatangihangakoauauotamateapokaiwhenuakitanatahu`,
+      `trust no one, except your Land Rover Range Rover Evoque 2.0 TD4 E-Capability 4x4 HSE Dynamic`,
+      `Bruce, its been 5 years. You still owe me 16 dollars.`,
+      `AUTHORIZED PERSONNEL ONLY BEYOND THIS POINT.`,
       `once sponsored by the suffering of 14 innocent souls before we set them free`,
       `please do not click on the patreon logo we are looking into replacing it with a youtube logo`,
       `what the fuck is an svg path`,
@@ -333,9 +340,22 @@ const data = {
       `here come dat boi<br><br>oh shit waddup`,
       `damn daniel back at it again with the white vans`,
       `check yourself before you shrek yourself`,
+      `<span style="font-size:5px;">Has this ever happened to you? You bought a house, it was not disclosed to you that there was a termite infestation in the walls and moldings, so you have to take it upon yourself to call your own termite extermination company, but when the guys show up they immediately ask to use your bathroom, then for over two hours they take turns going in and out of there, taking huge mud-pies and over flushing? Then they go in there together, and you hear you hear a bunch of scrounging around, and then you here a bunch of yelling, and then one of them is standing in the bathroom doorway shouting at you that his friend’s foot was stuck in the toilet, and he says, “help him, you gotta help him!” And then you go in there to help him, he just pulls it out easily and laughs because his foot was stuck. It wasn’t stuck at all, he was just faking it. And then they get really serious and say “It’s Turbo Time!” And then they both start running around the house as fast as they can and jumping over the couches. But when you try to jump in they yell at you and they say, “YOU’RE NOT PART OF THE TURBO TEAM! DON’T RUN! YOU DON’T RUN WITH US! WE’RE THE ONES THAT RUN! UNTIL YOU’RE PART OF THIS TURBO TEAM, WALK SLOWLY!” So you go lay down to be by yourself and ready your art books, but then the next day you went into the bathroom, and it looked like the hole in your toilet had shrunk. And you said “How can that be? There’s no way they could’ve shrunk the toilet.” But then you saw in the trash, a receipt for Home Depot for a toilet the exact same size as yours, but with a joke hole that’s just for farts! They replaced your real toilet with a fart toilet, and now you can’t take a dump in your house because your toilet can’t suck them down, and you feel sick to your stomach! Has that ever happened to you?! Call me right now please!</span>`,
       `hey, hey, hey mister, cantcha see the monsters in my head`,
+      `<code>++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.</code>`,
       `brb gonnna t-pose over wynncraft rq`,
+      `you dont ned to shade armor`,
+      `<span style="font-size:7px;">Ello there and by ello I mean I made a bottle of ello here. Once ya drink it as you can see you get an instant ELLO! Your own ELLO! THINK ABOUT THAT! THINK OF ALL THE POSIBILITIES! So many possibilities. Ok so what you just saw there was me and bottle of ello. Um and before I explain this I just want to say I am sorry for the low um videos that are coming out of my channel I’m just getting it setup and I think I will be posting videos recently there’s a lot of stress going on irl so ya know dont expect too much. But this has been done before, well something similar to this and it’s like for example lets get a potion out here its its command block if you have fire resistance on you and then it says something like ello. Uh this isnt the case this gives you absorbption. Now the problem with the way it was before.</span>`,
       `all the other kids with the pumped up kicks`,
+      `We are as many as we are one, each of our millions equally unmemorable, we need no names, for we are each simply a number.  We. are. clones.`,
+      `party rock is in the hou`,
+      `se tonight`,
+      `I personally would say I'm somewhere between late and end game (although I don't have giant's sword I can afford one). If I sold my creative mind, years 1-54 cake bag, my unused pets, etc... I would likely easily afford Hyperion, leg ender dragon pet, & the rest of my talis recombed... so if you count the value in those items I am endgame.`,
+      `You telling me a shrimp fried this rice?`,
+      `faq tab coming soon?`,
+      `partners tab soon?`,
+      `LEARN RUST OR GET LEFT IN THE DUST`,
+      `ery shut`,
       `baby shark doo doo doo doo doo doo`,
       `rip <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#the-barbershop</span>`,
       `Our scientists have confirmed that the colour of eggs is [that of a rainbow].`,
@@ -410,6 +430,7 @@ const data = {
       `May you find enlightenment.`,
       `that's what she said`,
       `*kisses hand goodbye*<br>goodnight everybody!`,
+      `<span style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span style="font-size: 20px;">`,
       `title of your <i>sextant</i> tape`,
       `to get the golden ball reforge stone bring a sea emperor to jake and get 600k coins`,
       `the golden ball requires mining 30 and is not worth anyone's time or effort`,
@@ -462,6 +483,8 @@ const data = {
       `Also visit SkyCrypt!`,
       `this is where our conversations are stored people <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" style="width:32px; height:32px;"><br><br><img src="https://cdn.discordapp.com/attachments/789592044984860672/850139362774483034/20210603_155950_HDR.jpg" width="40%" height="40%" draggable="false">`,
       `AY CARAMBA DONDE ESTA LA BIBLIOTECA`,
+      `all funds from patreon will go into funding skyblock gems for all of the staff`,
+      `there are no more funds from patreon, no more skyblock gems for staff`,
       `ay caramba donde esta la biblioteca`,
       `gzdfhbklkogdfhpgfjkopnimmghfjpoml,ngfhompl,nfghmopl,nfgmop`,
       `imagine not using https -thegu5`,
@@ -957,6 +980,21 @@ const data = {
         ]);
       },
       () => {
+        pressToMoveQuotes([
+          `<i>Disclaimer: the following conversation took place in another Discord server.</i>`,
+          `Temp: i feel like there are a few parallels [from skyblock] to potentially draw with late Qing china`,
+          `Smolegit: continue`,
+          `<span style="font-size:20px">Temp:<br>- Large nearly unlimited sources of manpower and raw goods (you kill billions of catacomb undeads and there's still more to go, and there are a bunch of rooms and even necron's boss phase that seem to be about collecting resources in some fashion, plus it's expansive enough that there's always more to be uncovered)</span>`,
+          `<span style="font-size:20px">- Behind on technological and political advancement (absolute monarchy closed off from the rest of the world, all the stuff seems to be about ancient techniques of necromancy, and even their gear that you do take mostly seems to be for its mystical properties that you then refine with the aboveground islands' more advanced industrial practices, and while it gets harder as you get closer to the center of power, all of the weapons and powers of the very numerous mobs seem to crumble when faced with skyblock's equivalent of professionalized pirates)</span>`,
+          `<span style="font-size:20px">- Some limited efforts to modernize, but locked behind authoritarian practices, limiting their application to better the standard of living and industrial capacity of the nation (Necron/Maxor have a relatively modern factory but theirs is the only one we see and it's entirely centralized around a singular function of building soldiers and being necron's evil lair)</span>`,
+          `<span style="font-size:20px">- External pressures faced after previous isolation from complacency (The catacombs seemed to be relatively closed off and content to teach an upper class the tradition of necromancy, but as of about a year ago the village all but sanctioned raids on the homelands, as the natural defense of being underground is increasingly bypassed by the sheer nerve of the playerbase and mort's construction of elevators)</span>`,
+          `<span style="font-size:20px">- Was once a great power dominant over the other factions of the world (Kaeman is written to have wrought war upon the aboveground kingdom and raze it to the ground, virtually uncontested)</span>`,
+          `(Temp) some assumptions:<br>- poor modern standard of living (they all appear to be relatively cramped in underground bunkers)<br>- Absolute monarchy (it seems heavily implied)`,
+          `(Temp) i feel like you could easily fill in the blanks a bit and have a republican revolution at the very least attempted`,
+          `(Temp) f someone actually wanted to make a skyblock anime i feel like that would be one hell of a story to make up and focus on`,
+        ]);
+      },
+      () => {
         let metersAway = Math.floor(Math.random() * 300) + 300;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
@@ -1125,18 +1163,28 @@ const data = {
       },
       `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/821913465941524480.png?v=1" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/834122955595710465.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/834947827532300328.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/834947234885271592.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/817106472424177706.gif?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/825078817265287239.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/776897206300180480.gif?v=1" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/776897206300180480.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
       `<img src="https://cdn.discordapp.com/attachments/789592044984860672/825779017558130697/image0.png" width="400" height="225" draggable="false">`,
       `<img src="https://cdn.discordapp.com/attachments/789592044984860672/850511263846105139/Screenshot_728.png" width="40%" height="40%" draggable="false">`,
     ],
   },
   downloads: [
+    {
+      version: "v1.3.1",
+      name: "Voidgloom Twilight",
+      fileFull: "/files/v1.3.1/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.3.1§8§l].zip",
+      fileOverlay:
+        "/files/v1.3.1/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.3.1§8§l].zip",
+      fileOverlayPlus:
+        "/files/v1.3.1/§r§lFurfSky §6§lReborn §8§lOV+ §8§l[§71.3.1§8§l].zip",
+    },
     {
       version: "v1.3",
       name: "The Update that Textured Everything*",
@@ -1246,6 +1294,7 @@ const data = {
       name: "tea",
       role: "Head Artist",
       quote: "i will murder every axolotl in a 100 km radius",
+
     },
     {
       name: "GenesiS",
@@ -1268,7 +1317,7 @@ const data = {
     },
     {
       name: "iDevil4Hell/Thanatos",
-      link: "https://hypixel.net/members/3639006/",
+      link: "https://twitter.com/xThanatos6",
       role: "Artist",
       quote: "Try not to cringe! [FSR Edition] (Gone wrong, absolutely failed)",
     },
@@ -1337,6 +1386,11 @@ const data = {
       quote: "Dollar Store Skeletony: now with uncreativivity",
     },
     {
+      name: "GenesiS",
+      role: "Artist",
+      quote: "Shadow fury shits on Livid Dagger",
+    },
+    {
       name: "Motor",
       role: "Artist",
       quote: "Master at Shitposting",
@@ -1362,6 +1416,7 @@ const data = {
     },
     {
       name: "goog",
+      link: "https://www.reddit.com/u/gordram",
       role: "Artist",
       quote: "those are uhh... a lot of channels... you got there.",
     },
@@ -1378,6 +1433,7 @@ const data = {
     },
     {
       name: "Hexafish",
+      link: "https://www.reddit.com/u/definitelynotdark",
       role: "Artist",
       quote:
         "petition to remove the liver dragger's texture from fsr because you should never use it",
@@ -1391,6 +1447,7 @@ const data = {
     */
     {
       name: "Glenz",
+      link: "https://twitter.com/glenz2007",
       role: "Trial Artist",
       quote: "Chroma HUD/UIs hurts my soul",
     },
@@ -1504,7 +1561,12 @@ const data = {
     {
       name: "ThatGravyBoat",
       role: "Pack Contributor",
-      quote: "I use MS paint for my pixel art",
+      quote: "I use MS paint for my pixel art",  //damn, why is aseprite so expensive
+    },
+    {
+      name: "Sigia42",
+      role: "Pack Contributor",
+      quote: "damn, why is aseprite so expensive",
     },
     {
       name: "nacrt",
