@@ -1287,9 +1287,9 @@ const data = {
       quote: "no fun allowed!",
     },
     {
-      name: "D43DALUS",
-      role: "Head Artist",
-      quote: "I'm built not born, it's an analytical advantage.",
+      name: "tea",
+      role: "Artist",
+      quote: "i will murder every axolotl in a 100 km radius",
     },
     /* {
       name: "Saikage",
@@ -1386,9 +1386,9 @@ const data = {
       quote: "Master at Shitposting",
     },
     {
-      name: "tea",
-      role: "Artist",
-      quote: "i will murder every axolotl in a 100 km radius",
+      name: "D43DALUS",
+      role: "Head Artist",
+      quote: "I'm built not born, it's an analytical advantage.",
     },
     {
       name: "Erymanthus",
