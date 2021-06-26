@@ -1307,7 +1307,7 @@ const data = {
     },
     {
       name: "iDevil4Hell/Thanatos",
-      link: "https://hypixel.net/members/3639006/",
+      link: "https://twitter.com/xThanatos6",
       role: "Artist",
       quote: "Try not to cringe! [FSR Edition] (Gone wrong, absolutely failed)",
     },
@@ -1406,6 +1406,7 @@ const data = {
     },
     {
       name: "goog",
+      link: "https://www.reddit.com/u/gordram",
       role: "Artist",
       quote: "those are uhh... a lot of channels... you got there.",
     },
@@ -1422,6 +1423,7 @@ const data = {
     },
     {
       name: "Hexafish",
+      link: "https://www.reddit.com/u/definitelynotdark",
       role: "Artist",
       quote:
         "petition to remove the liver dragger's texture from fsr because you should never use it",
@@ -1435,6 +1437,7 @@ const data = {
     */
     {
       name: "Glenz",
+      link: "https://twitter.com/glenz2007",
       role: "Trial Artist",
       quote: "Chroma HUD/UIs hurts my soul",
     },
