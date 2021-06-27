@@ -1438,7 +1438,7 @@ const data = {
     {
       name: "Glenz",
       link: "https://twitter.com/glenz2007",
-      role: "Trial Artist",
+      role: "Artist",
       quote: "Chroma HUD/UIs hurts my soul",
     },
     {
