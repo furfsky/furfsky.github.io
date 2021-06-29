@@ -153,7 +153,8 @@ const data = {
       `Invest in Dunder Mifflin it's a guaranteed investment.`,
       `ix`,
       `"help why are people boning me"<br><br>-Moulberry, concerned about people throwing Bonemerangs at him`,
-      `imagine if the 10kth server member was furf himself coming in to flip us off<br>—erymanthus`,
+      `imagine if the 10kth server member was furf himself coming in to flip us off<br>—erymanthus<br><br><small>(this, fortunately, aged quite poorly.)</small>`,
+      `I grant my divine permission to continue the pack that I had lacked the willpower to continue due to being too poor in-game to draw every item lmao<br>-Furf himself`,
       `sometimes i question why artists that are as good as the people here are making art for mc<br>—MyPancakes`,
       `sell your soul to tyler for free fortnite vbucks`,
       `the website creator is actually an ai designed by the cia to track weebs that play skyblock and exterminate them`,
@@ -403,6 +404,7 @@ const data = {
       `Welcome to https://furfsky.net, the only place where you won't be murdered for using the &lt;i&gt; HTML tag instead of &lt;span style="font-style: italic;"&gt;.`,
       `There are currently quotes (including this one) on the site. Reload to see if your submission was one of them!`,
       `hanz get der flammenwerfer!`,
+      `now approved by furf himself!`,
       `the pack nullzee uses to flip his way from rags to riches-try it today!`,
       `quick fade for 2 pence innit best ina city lovely cuts donup for rotten smirkin blokes likyarself`,
       `kitty review: great camouflage tho i didn't ask for a rock 5/10`,
@@ -622,6 +624,15 @@ const data = {
       )} days since ${
         Math.random() > 0.5 ? "diver's armor" : "mastiff armor"
       } hasn't had a texture, stop pestering us about it in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#feedback</span> pls ;-;`,
+      `${String(
+        Math.abs(
+          Math.floor(
+            (new Date(date.getTime()) - new Date("June 28, 2021 23:21:00")) /
+              1000 /
+              86400
+          )
+        )
+      )} days ago, furf came out of the shadows and joined the furfsky reborn team.`,
       () => {
         document.getElementById("logo").src = "assets/logos/FSRPrideMonth.gif";
         document.getElementById("headerSubtitle").innerHTML = `"Every time someone steps up and says who they are, the world becomes a better, more interesting place."<br>-Captain Holt`;
@@ -1266,6 +1277,7 @@ const data = {
   creditColors: {
     Manager: "#ffa500",
     "Head Artist": "#d776ff",
+    "Original FurfSky+ Creator (+ current artist)": "#c041ff",
     Artist: "#b19cd9",
     "Trial Artist": "#6a5d82",
     "Retired Artist": "#7d6e99",
@@ -1285,6 +1297,12 @@ const data = {
       link: "https://www.youtube.com/channel/UC2GO6UL1OEC0Lk35bhMtNRQ",
       role: "Manager",
       quote: "no fun allowed!",
+    },
+    {
+      name: "Furf",
+      link: "https://hypixel.net/threads/16x-pack-furfsky-compatibility-hotfix-v1-7-1.2138599/",
+      role: "Original FurfSky+ Creator (+ current artist)",
+      quote: "im just now looking up furfsky again on youtube and it made me realize how much i've missed since my last release",
     },
     {
       name: "tea",
