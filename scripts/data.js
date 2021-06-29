@@ -1302,7 +1302,7 @@ const data = {
       name: "Furf",
       link: "https://hypixel.net/threads/16x-pack-furfsky-compatibility-hotfix-v1-7-1.2138599/",
       role: "Original FurfSky+ Creator (+ current artist)",
-      quote: "im just now looking up furfsky again on youtube and it made me realize how much i've missed since my last release",
+      quote: "im just now looking up furfsky again on youtube<br>and it made me realize how much i've missed since my last release",
     },
     {
       name: "tea",
