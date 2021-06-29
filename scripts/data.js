@@ -1413,7 +1413,7 @@ const data = {
       link: "https://www.reddit.com/user/RayDeeUx/",
       role: "Artist & Website Maintainer",
       quote:
-        "hey, you could pour soup in my lap and i'll probably apologize to you!",
+        "hey, you could pour soup in my lap<br>and i'll probably apologize to you!",
     },
     {
       name: "Smolegit",
@@ -1432,7 +1432,7 @@ const data = {
       name: "Zetkut",
       role: "Retired Artist",
       quote:
-        "spain without the s <small>(i just woke up i don't want to think)</small>",
+        "spain without the s<br><small>(i just woke up i don't want to think)</small>",
     },
     {
       name: "Ropes",
@@ -1444,7 +1444,7 @@ const data = {
       link: "https://www.reddit.com/u/definitelynotdark",
       role: "Artist",
       quote:
-        "petition to remove the liver dragger's texture from fsr because you should never use it",
+        "petition to remove the liver dragger's texture<br>from fsr because you should never use it",
     },
     /*
     {
@@ -1538,7 +1538,7 @@ const data = {
       name: "MyPancakes",
       role: "Pack Contributor",
       quote:
-        "sometimes i question why artists that are as good as the people here are making art for mc",
+        "sometimes i question why artists that are<br>as good as the people here are making art for mc",
     },
     {
       name: "TomEngMaster",
@@ -1559,7 +1559,7 @@ const data = {
       name: "TheMeerkaT",
       role: "Pack Contributor",
       quote:
-        "at least you didn't get yourself to design the whole sea creature guide",
+        "at least you didn't get yourself<br>to design the whole sea creature guide",
     },
     {
       name: "Hasnu",
@@ -1580,7 +1580,7 @@ const data = {
       name: "nacrt",
       role: "Pack Contributor",
       quote:
-        "just have it a normal file name, the cancer that is mediafire only makes things worse",
+        "just have it a normal file name,<br>the cancer that is mediafire only makes things worse",
     },
     {
       name: "Shy0",
