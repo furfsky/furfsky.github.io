@@ -325,6 +325,8 @@ const data = {
       `ermahgerd it's ferfsker rehbern!!!!`,
       `this is fine`,
       `how do you do fellow kids`,
+      `The official continuation of FurfSky+!`,
+      `furf joined the artist team what will he do`,
       `¯\\_(ツ)_/¯`,
       `wait, why do i see a LiveLeak logo?`,
       `(╯°□°) ╯︵ ┻━┻`,
