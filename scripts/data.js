@@ -182,6 +182,8 @@ const data = {
       `hallways fucking stink`,
       `stop refreshing and look at dn`,
       `/dn`,
+      `j`,
+      `the j`,
       `this pack does not cater to folks who choose to offend any member or ally of the LGBTQ2IA+ community under any circumstances.<br>if this applies to you, please go /play pit instead.`,
       `greetings reduced in scale (but in an endearing diminuative slang) line between vertex pronoun (used to refer to inanimate objects)`,
       `sausagedog i will pull out my fucking debit card and buy you MVP++ if you don't shut up<br>-Erymanthus`,
