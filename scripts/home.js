@@ -22,7 +22,7 @@
   } else if (Math.random() < 0.01) {
       document.getElementById("logo").src = "assets/logos/motor.png";
       document.getElementById("headerSubtitle").innerHTML = `"perfection"<br>-motor`;
-  } else if (Math.random() < 0.11) {
+  } else if (Math.random() < 0.02) {
       document.getElementById("logo").src = "assets/logos/goog.png";
       document.getElementById("headerSubtitle").innerHTML = `"@Erymanthus | u/RayDeeUx thoughts :uwubserver:"<br>-goog`;
   }
