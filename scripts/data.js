@@ -1393,6 +1393,11 @@ const data = {
       quote: "bootleg sans. also check out wab",
     },
     {
+      name: "penk",
+      role: "Artist",
+      quote: "next person who changes my name is certified acrid",
+    },
+    {
       name: "ThatOneRandomDiscordAccount",
       role: "Artist",
       quote: "Dollar Store Skeletony: now with uncreativivity",
