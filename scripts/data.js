@@ -1516,7 +1516,7 @@ const data = {
     {
       name: "Suker",
       role: "Moderator",
-      quote: "do or do not there is no try",
+      quote: "the fsr twitter is a place only the<br>highest level of memers can ascend to",
     },
     {
       name: "NameWasntTaken",
