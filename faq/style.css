@@ -23,6 +23,12 @@ header {
 #faq {
   display: center;
 }
+#faq > h1 {
+  color: #fbcc6c;
+}
+#faq > p {
+  color: #683d8d;
+}
 .itemQuestion, .sectionTitle {
   color: #fbcc6c;
   text-decoration: none;

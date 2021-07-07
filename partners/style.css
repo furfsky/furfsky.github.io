@@ -31,11 +31,12 @@ header {
   font-family: "Minecraft";
   text-align: center;
 }
-#partners > div {
+.indivPartner {
   display: inline-block;
   text-align: center;
   vertical-align: center;
   margin: 20px;
+  width: 40%;
 }
 #partners > div > h2 {
   color: #fbcc6c;

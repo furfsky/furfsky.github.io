@@ -1269,8 +1269,9 @@ const data = {
   ],
   creditColors: {
     Manager: "#ffa500",
-    "Head Artist": "#00ffc6",
-    Artist: "#d776ff",
+    "Head Artist": "#d776ff",
+    "Original FurfSky+ Creator (+ current artist)": "#c041ff",
+    Artist: "#b19cd9",
     "Trial Artist": "#6a5d82",
     "Retired Artist": "#7d6e99",
     Admin: "#4b8b3b",
@@ -1291,15 +1292,15 @@ const data = {
       quote: "no fun allowed!",
     },
     {
+      name: "Furf",
+      link: "https://hypixel.net/threads/16x-pack-furfsky-compatibility-hotfix-v1-7-1.2138599/",
+      role: "Original FurfSky+ Creator (+ current artist)",
+      quote: "im just now looking up furfsky again on youtube<br>and it made me realize how much i've missed since my last release",
+    },
+    {
       name: "tea",
       role: "Head Artist",
       quote: "i will murder every axolotl in a 100 km radius",
-
-    },
-    {
-      name: "GenesiS",
-      role: "Artist",
-      quote: "Shadow fury shits on Livid Dagger",
     },
     /* {
       name: "Saikage",
@@ -1381,6 +1382,11 @@ const data = {
       quote: "bootleg sans. also check out wab",
     },
     {
+      name: "penk",
+      role: "Artist",
+      quote: "next person who changes my name is certified acrid",
+    },
+    {
       name: "ThatOneRandomDiscordAccount",
       role: "Artist",
       quote: "Dollar Store Skeletony: now with uncreativivity",
@@ -1405,7 +1411,7 @@ const data = {
       link: "https://www.reddit.com/user/RayDeeUx/",
       role: "Artist & Website Maintainer",
       quote:
-        "hey, you could pour soup in my lap and i'll probably apologize to you!",
+        "hey, you could pour soup in my lap<br>and i'll probably apologize to you!",
     },
     {
       name: "Smolegit",
@@ -1424,7 +1430,7 @@ const data = {
       name: "Zetkut",
       role: "Retired Artist",
       quote:
-        "spain without the s <small>(i just woke up i don't want to think)</small>",
+        "spain without the s<br><small>(i just woke up i don't want to think)</small>",
     },
     {
       name: "Ropes",
@@ -1436,7 +1442,7 @@ const data = {
       link: "https://www.reddit.com/u/definitelynotdark",
       role: "Artist",
       quote:
-        "petition to remove the liver dragger's texture from fsr because you should never use it",
+        "petition to remove the liver dragger's texture<br>from fsr because you should never use it",
     },
     /*
     {
@@ -1448,7 +1454,7 @@ const data = {
     {
       name: "Glenz",
       link: "https://twitter.com/glenz2007",
-      role: "Trial Artist",
+      role: "Artist",
       quote: "Chroma HUD/UIs hurts my soul",
     },
     {
@@ -1499,7 +1505,7 @@ const data = {
     {
       name: "Suker",
       role: "Moderator",
-      quote: "do or do not there is no try",
+      quote: "the fsr twitter is a place only the<br>highest level of memers can ascend to",
     },
     {
       name: "NameWasntTaken",
@@ -1530,7 +1536,7 @@ const data = {
       name: "MyPancakes",
       role: "Pack Contributor",
       quote:
-        "sometimes i question why artists that are as good as the people here are making art for mc",
+        "sometimes i question why artists that are<br>as good as the people here are making art for mc",
     },
     {
       name: "TomEngMaster",
@@ -1551,7 +1557,7 @@ const data = {
       name: "TheMeerkaT",
       role: "Pack Contributor",
       quote:
-        "at least you didn't get yourself to design the whole sea creature guide",
+        "at least you didn't get yourself<br>to design the whole sea creature guide",
     },
     {
       name: "Hasnu",
@@ -1572,7 +1578,7 @@ const data = {
       name: "nacrt",
       role: "Pack Contributor",
       quote:
-        "just have it a normal file name, the cancer that is mediafire only makes things worse",
+        "just have it a normal file name,<br>the cancer that is mediafire only makes things worse",
     },
     {
       name: "Shy0",
@@ -1719,7 +1725,7 @@ const data = {
           answer: `Please use the mod's <i>Dark Theme</i> in <code>/sbp</code> as seen above.`,
         },
         {
-          question: `<i>[SBP]</i> - What happened to the background of my player/characterin <code>/sbp</code> and why do the corners seem scuffed?(Also, why do some of my GUI elements seem off?)`,
+          question: `<i>[SBP]</i> - What happened to the background of my player/characterin <code>/sbp</code> and why do the corners seem scuffed?<br>(Also, why do some of my GUI elements seem off?)`,
           photo: ``,
           answer: `Please get the most recent version of the mod from SBP's Discord server.`,
           related: `<a href="https://discord.com/channels/779549891890118683/779550146861203477">SBP's #releases channel</a>`,
@@ -1728,7 +1734,7 @@ const data = {
           question: `<i>[NotEnoughUpdates (NEU)]</i> - Why is the text incredibly dark in NEU's custom Skyblock menus?`,
           photo: `  https://cdn.discordapp.com/attachments/785025965226459176/821121294501543986/Screen_Shot_2021-03-15_at_4.png`,
           answer: `Please type <code>/neu improved</code> in chat and change the background and button styles exactly as shown above.
-            If the text isn't gold after you make this change, please ping an Erymanthus for more help.`,
+            If the text isn't gold after you make this change, please ping Erymanthus for more help.`,
           related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
         },
         {
@@ -1851,17 +1857,17 @@ const data = {
   ],
   steps: [
     {
-      step: `Download FurfSky Reborn.<a href="/">Latest version</a> (recommended)<a href="/downloads/">All versions</a>`,
+      step: `Download FurfSky Reborn.<br><a href="/">Latest version</a> (recommended) | <a href="/downloads/">All versions</a>`,
       type: `Required`,
       title: `How else are you going to use FurfSky Reborn?`,
     },
     {
-      step: `If you haven't done so already, download and install OptiFine for 1.8.9.macOS players: <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Optifine M6</a> Windows and Linux players: <a href="https://optifine.net/adloadx?f=OptiFine_1.8.9_HD_U_M5.jar">OptiFine M5</a>`,
+      step: `If you haven't done so already, download and install OptiFine for 1.8.9.<br>macOS players: <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Optifine M6</a> | Windows and Linux players: <a href="https://optifine.net/adloadx?f=OptiFine_1.8.9_HD_U_M5.jar">OptiFine M5</a>`,
       type: `Required`,
       title: `OptiFine is required to apply textures to non-vanilla items such as the ones you see in Hypixel Skyblock.`,
     },
     {
-      step: `Launch Minecraft and from the splash screen/main menu, go to your resource packs.(<code>Options > Resource Packs</code>)`,
+      step: `Launch Minecraft and from the splash screen/main menu, go to your resource packs.<br>(<code>Options > Resource Packs</code>)`,
       type: `Required`,
       title: `This is how you navigate to your resources packs menu.`,
     },
@@ -1876,24 +1882,29 @@ const data = {
       title: `This is how you get Minecraft to acknowledge the Furfsky Reborn pack.`,
     },
     {
-      step: `Move the FurfSky Reborn texture pack from the left column into the right column.Then press "Done" towards the bottom right.`,
+      step: `Move the FurfSky Reborn texture pack from the left column into the right column.<br>Then press "Done" towards the bottom right.`,
       type: `Required`,
       title: `Again, this is a cross-platform step. If you already know how to apply texture packs or have your own methods, use those.`,
     },
     {
-      step: `Make sure Custom Textures are enabled by going to<code>Video Settings > Quality > Custom Items: ON</code> and enabling it.`,
+      step: `Make sure Custom Textures are enabled by going to<br><code>Video Settings > Quality > Custom Items: ON</code> and enabling it.`,
       type: `Required`,
       title: `This is the second part of using OptiFine to apply custom item textures.`,
     },
     {
-      step: `Disable Fast Render.(<code>Video Settings > Performance > Fast Render: OFF</code>)`,
+      step: `Disable Fast Render.<br>(<code>Video Settings > Performance > Fast Render: OFF</code>)`,
       type: `Required`,
       title: `Fast Render causes problems as your Hypixel Skyblock mods library grows, and this step is a precautionary measure in minimizing problems in the future.`,
     },
     {
-      step: `Enable custom texture's animations by going to<code>Video Settings > Animations > Terrain Animated: ON</code>.`,
+      step: `Enable custom texture's animations by going to<br><code>Video Settings > Animations > Terrain Animated: ON</code>.`,
       type: `Optional`,
       title: `If you don't want animations for your items, you can turn this option "OFF" instead.`,
+    },
+    {
+      step: `Check out the <a href="/faq/">FAQ</a> page.`,
+      type: `Optional`,
+      title: `Just because you've finished installing the pack doesn't necessairly mean you won't experience any problems.`,
     },
   ],
 };
