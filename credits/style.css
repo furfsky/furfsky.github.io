@@ -15,6 +15,15 @@ header {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
+header > #headerSubtitle {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Minecraft";
+  margin: 0;
+  color: #fbcc6c;
+}
 #credits {
   background: #1c1d31;
   color: white;

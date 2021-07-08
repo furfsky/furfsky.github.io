@@ -19,12 +19,15 @@
   } // Was going to use a promise for this but ok
   if (new Date().getMonth() === 5) {
     document.getElementById("logo").src = "assets/logos/FSRPrideMonth.gif";
-  } else if (Math.random() < 0.01) {
+  } else if (Math.random() <= 0.01) {
       document.getElementById("logo").src = "assets/logos/motor.png";
       document.getElementById("headerSubtitle").innerHTML = `"perfection"<br>-motor`;
-  } else if (Math.random() < 0.11) {
+  } else if (Math.random() <= 0.02 && 0.01 < Math.random()) {
       document.getElementById("logo").src = "assets/logos/goog.png";
       document.getElementById("headerSubtitle").innerHTML = `"@Erymanthus | u/RayDeeUx thoughts :uwubserver:"<br>-goog`;
+  } else if (Math.random() <= 0.03 && 0.02 < Math.random()) {
+      document.getElementById("logo").src = "assets/logos/ery.png";
+      document.getElementById("headerSubtitle").innerHTML = `hey look i made my own crappy version of the fsr logo for the site as well<br>-erymanthus`;
   }
     else document.getElementById("logo").src = "assets/logos/logo.gif";
   let full = document.getElementById("fullLink");

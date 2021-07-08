@@ -1951,6 +1951,15 @@ navbar.innerHTML = `
   </a>
  </li>
  <li>
+  <a href="/steps/">
+    <img 
+    src="/assets/navbar/steps.png" 
+    onmouseover="this.src='/assets/navbar/steps_pressed.png'"
+    onmouseout="this.src='/assets/navbar/steps.png'"
+    />
+  </a>
+ </li>
+ <li>
   <a href="/faq/">
     <img 
     src="/assets/navbar/faq.png" 

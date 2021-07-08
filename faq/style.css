@@ -13,6 +13,8 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
 }
 #faq {
   background: #1c1d31;
