@@ -1835,7 +1835,7 @@ const data = {
           answer: `Type <code>/sba</code> in chat and then type in "van" or "defen" into the search bar.
             click the little ⚙️ of the first setting that shows up, which leads to the menu seen above.
             Make sure the switch is <u>exactly</u> as follows.
-            <i><u>Flip that switch on first before you start overthinking these steps.Please. Save both yourself and us some time.</u></i>`,
+            <i><u>Flip that switch on first before you start overthinking these steps.<br>Please. Save both yourself and us some time.</u></i>`,
           related: `<a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.5.5/SkyblockAddons-1.5.5-for-MC-1.8.9.jar">SBA direct download (v1.5.5, not the beta!)</a>`,
         },
         {
