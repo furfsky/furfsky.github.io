@@ -160,7 +160,8 @@ const data = {
       `Invest in Dunder Mifflin it's a guaranteed investment.`,
       `ix`,
       `"help why are people boning me"<br><br>-Moulberry, concerned about people throwing Bonemerangs at him`,
-      `imagine if the 10kth server member was furf himself coming in to flip us off<br>—erymanthus`,
+      `imagine if the 10kth server member was furf himself coming in to flip us off<br>—erymanthus<br><br><small>(this, fortunately, aged quite poorly.)</small>`,
+      `I grant my divine permission to continue the pack that I had lacked the willpower to continue due to being too poor in-game to draw every item lmao<br>-Furf himself`,
       `sometimes i question why artists that are as good as the people here are making art for mc<br>—MyPancakes`,
       `sell your soul to tyler for free fortnite vbucks`,
       `the website creator is actually an ai designed by the cia to track weebs that play skyblock and exterminate them`,
@@ -188,6 +189,8 @@ const data = {
       `hallways fucking stink`,
       `stop refreshing and look at dn`,
       `/dn`,
+      `j`,
+      `the j`,
       `this pack does not cater to folks who choose to offend any member or ally of the LGBTQ2IA+ community under any circumstances.<br>if this applies to you, please go /play pit instead.`,
       `greetings reduced in scale (but in an endearing diminuative slang) line between vertex pronoun (used to refer to inanimate objects)`,
       `sausagedog i will pull out my fucking debit card and buy you MVP++ if you don't shut up<br>-Erymanthus`,
@@ -294,6 +297,8 @@ const data = {
       `Stop begging for shit in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#skyblock</span>.<br>It's not funny, nor does it help anyone.`,
       `goog`,
       `also try snowfault 16x!`,
+      `Secrets should not be required for S+ dungeons runs in Hypixel SkyBlock. Rather, players should be rewarded for teamwork and defeating more difficult boss mobs with special attack patterns (ex Rev T5), not right clicking stupid boxes in the wall. Over 15k voters would agree.`,
+      `sEcReTs sHoUlD NoT Be rEqUiReD FoR S+ dUnGeOnS RuNs iN HyPiXeL SkYbLoCk. RaThEr, PlAyErS ShOuLd bE ReWaRdEd fOr tEaMwOrK AnD DeFeAtInG MoRe dIfFiCuLt bOsS MoBs wItH SpEcIaL AtTaCk pAtTeRnS (eX ReV T5), nOt rIgHt cLiCkInG StUpId bOxEs iN ThE WaLl. OvEr 15k vOtErS WoUlD AgReE.`,
       `[THIS QUOTE WAS REDACTED BY THE LOCAL AUTHORITIES]`,
       `FlexPack! The only pack you'll ever need!<br>Now that's a lot of damage!`,
       `Made for that lowpixel groundblock whatsitsname`,
@@ -329,6 +334,8 @@ const data = {
       `ermahgerd it's ferfsker rehbern!!!!`,
       `this is fine`,
       `how do you do fellow kids`,
+      `The official continuation of FurfSky+!`,
+      `furf joined the artist team what will he do`,
       `¯\\_(ツ)_/¯`,
       `wait, why do i see a LiveLeak logo?`,
       `(╯°□°) ╯︵ ┻━┻`,
@@ -408,6 +415,7 @@ const data = {
       `Welcome to https://furfsky.net, the only place where you won't be murdered for using the &lt;i&gt; HTML tag instead of &lt;span style="font-style: italic;"&gt;.`,
       `There are currently quotes (including this one) on the site. Reload to see if your submission was one of them!`,
       `hanz get der flammenwerfer!`,
+      `now approved by furf himself!`,
       `the pack nullzee uses to flip his way from rags to riches-try it today!`,
       `quick fade for 2 pence innit best ina city lovely cuts donup for rotten smirkin blokes likyarself`,
       `kitty review: great camouflage tho i didn't ask for a rock 5/10`,
@@ -499,6 +507,7 @@ const data = {
       `live from lebanon and/or the uk it's hellcastle and furryeboy`,
       `If I had a dollar for every time they redid the wither swords I could bribe the FSR team to demote TORDA`,
       `^ make sure to check if this says FurSfky Rebron`,
+      `I personally would say I’m somewhere between late and end game (although I don’t have giant’s sword I can afford one). If I sold my creative mind, years 1-54 cake bag, my unused pets, etc… I would likely easily afford Hyperion, leg ender dragon pet, & the rest of my talis recombed… so if you count the value in those items I am endgame.`,
       `WHY THE FUCK DOES IT HAVE TO BE SO HARD TO GET A COVID-19 VACCINATION?<br>I'M JUST TRYING TO GET MY FIRST DOSE OF PFIZER, FOR FUCK'S SAKE!<br><br>FUCKING HELL, I HAVE A BETTER CHANCE OF GETTING A NECRON'S HANDLE AT THIS POINT.`,
       `Any unlicensed distribution of beta textures is punishable by at least, but not limited to, 3 months of penal labor and kneecapitation.`,
       `Check <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#pack-faq</span> and <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#mod-ui-faq</span> first, or die.`,
@@ -519,19 +528,23 @@ const data = {
       `Beans.<br>-TORDA`,
       `"That boy ain't right."<br>-Hank Hill`,
       `the letter 8 is my favorite color of the furfsky reborn resource pack`,
-      `<img src="https://cdn.discordapp.com/attachments/728977460737081454/839757476085760040/Screenshot_2021-05-06_FurryEBoy_Minecraft_Profile.png" draggable="false" width="32" height="32"> He protecc<br><img src="https://cdn.discordapp.com/attachments/728977460737081454/839758647910989844/Screen_Shot_2021-05-06_at_3.00.30.459_AM_Eastern_Daylight_Time.png" draggable="false" width="32" height="32"> he attacc<br>but most importantly...<br><br><img src="https://cdn.discordapp.com/avatars/291620843363106828/2b3112ee6c0303ef1bd21b90b7137fc4.png" draggable="false" width="32" height="32"> he make texture pacc`,
+      `<img src="https://cdn.discordapp.com/attachments/728977460737081454/839757476085760040/Screenshot_2021-05-06_FurryEBoy_Minecraft_Profile.png" draggable="false" width="32" height="32"> He protecc<br><img src="https://cdn.discordapp.com/attachments/728977460737081454/839758647910989844/Screen_Shot_2021-05-06_at_3.00.30.459_AM_Eastern_Daylight_Time.png" draggable="false" width="32" height="32"> he attacc<br>but most importantly...<br><br><img src="https://cdn.discordapp.com/attachments/773391315424772096/860313890503000124/reddit_tyler.png" draggable="false" width="32" height="32"> he make texture pacc`,
       `If I was a man with a coherent brain, I would have gotten full Shadow Assassin and Livid Dagger, but no. I just have full Superior Dragon Armor and an overly maxed Shadow Fury.`,
       `keep it in your pants please<br><small>(and yes you should reasonably know what we mean by "it")</small>`,
       `"wait are we going to be graded or is this just some pass/fail garbage"<br>-multiple aspiring folks applying for fsr artist as well as amy santiago`,
       `i guess i just dont care what other people think of me`,
       `"<i>Just because you wanna do something doesn't mean you get to do it.<br>Life is chaos, success is completely arbitrary, and confidence is everything.</i>"<br>-Gina Linetti`,
       `hot damn!`,
-      `; vs <span style="font-family: Trebuchet MS;">;</span><br><br>Which one is the English semicolon?<br><br><small>(Credits to MisterCheezeCake for uncovering this gem.)`,
+      `; vs <span style="font-family: Trebuchet MS;">;</span><br><br>Which one is the English semicolon?<br><br><small>(Credits to MisterCheezeCake for uncovering this gem.)`,
       `<i>We protest you calling us "little kids".<br>We prefer to be called "vertically-impaired pre-adults".</i><br>-fsr team (but Yakko Warner said it first)`,
       `I'm going to slice your Achilles' tendons, peel off your fingernails, and stick knitting needles in your eyes.`,
       `<span style="font-size:4px;">Bassicly for those player who are using neu etc almost everything. Is banable which makes u play it easy like neu ah etc profit no profit dungeon overlay solvers and now the shaders etc if they allow us to see which we would not ban like dungeon overlay etc so I would recommend using lunar client and badlion cuz of they have what is allowed yeah dungeon map potion effects etc allowed but just use lunar or badlion cuz everything there matches the rules of server me personally use lunar client used to use neu etc which I could get ban I never got kicked earlier but might watchdog never saw it and now I don't wanna get ban tell me if I'm wrong</span>`,
       `Instructions unclear; the captive's Achilles' tendons have been needled, fingernails sliced, and eyes peeled.`,
       `this is exhausting i just want to go back to my container of goo and go to sleep`,
+      `A mop that mummified merrily missed Mississippi on the black mamba!`,
+      `furfgems premium currency coming 2022`,
+      `bruh everyone else gets the ability to draw amazing art and all i fucking get is being able to type voodoo words into the computer and get text.`,
+      `life is so firetrucking hard`,
       `stop refreshing the page, please. these random quotes were meant to be fun tidbits you notice for a fleeting moment before you download the latest version of the pack, not for you to get a funny screenshot. save that job for erymanthus and voxal<br>thanks :D`,
       `please stop using <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#make-a-website-quote</span> as <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#general</span> with a 15 minute cooldown ;-;`,
       `<span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#invalid-channel</span> is not a real chat room, and is just a rumor falsely spread by server members.`,
@@ -627,11 +640,18 @@ const data = {
       )} days since ${
         Math.random() > 0.5 ? "diver's armor" : "mastiff armor"
       } hasn't had a texture, stop pestering us about it in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#feedback</span> pls ;-;`,
+      `${String(
+        Math.abs(
+          Math.floor(
+            (new Date(date.getTime()) - new Date("June 28, 2021 23:21:00")) /
+              1000 /
+              86400
+          )
+        )
+      )} days ago, furf came out of the shadows and joined the furfsky reborn team.`,
       () => {
         document.getElementById("logo").src = "assets/logos/FSRPrideMonth.gif";
-        document.getElementById(
-          "headerSubtitle"
-        ).innerHTML = `"Every time someone steps up and says who they are, the world becomes a better, more interesting place."<br>-Captain Holt`;
+        document.getElementById("headerSubtitle").innerHTML = `"Every time someone steps up and says who they are, the world becomes a better, more interesting place."<br>-Captain Holt`;
       },
       () => {
         document.body.style = "filter:blur(1px)";
@@ -995,6 +1015,75 @@ const data = {
         ]);
       },
       () => {
+        pressToMoveQuotes([
+            `(Secure the bag, know what I mean? Banrisk on the beat)`,
+            `(Ayo, Perish, this is hot, boy)`,
+            `I wear a mask with a smile for hours at a time`,
+            `Stare at the ceiling while I hold back what's on my mind`,
+            `And when they ask me how I'm doing`,
+            `I say, "I'm just fine"`,
+            `And when they ask me how I'm doing`,
+            `I say, "I'm just fine"`,
+            `But the fact is`,
+            `I can never get off of my mattress`,
+            `And all that they can ask is`,
+            `"Why are you so sad, kid?" (Why are you so sad, kid?)`,
+            `That's what the mask is`,
+            `That's what the point of the mask is`,
+            `So you can see I'm tryin'`,
+            `You won't see me cryin'`,
+            `I'll just keep on smilin', I'm good (Yeah, I'm good)`,
+            `And it just keeps on pilin'`,
+            `It's so terrifying`,
+            `But I keep on smilin', I'm good (Yeah, I'm good)`,
+            `I've been carin' too much for so long`,
+            `Been comparin' myself for so long`,
+            `Been wearin' a smile for so long, it's real`,
+            `So long, it's real, so long, it's real`,
+            `Always bein' judged by a bunch of strange faces`,
+            `Scared to go outside, haven't seen the light in ages`,
+            `But I've been places`,
+            `So I'm okay-ish, so I'm okay-ish`,
+            `Yeah, I'm okay, bitch`,
+            `But the fact is`,
+            `I need help, I'm failin' all my classes`,
+            `They think that I need glasses`,
+            `I just really wish that I could pass this (Wish that I could pass this)`,
+            `That's what the mask is`,
+            `That's what the point of the mask is`,
+            `So you can see I'm tryin'`,
+            `You won't see me cryin'`,
+            `I'll just keep on smilin', I'm good (Yeah, I'm good)`,
+            `And it just keeps on pilin'`,
+            `It's so terrifying`,
+            `But I keep on smilin', I'm good (Yeah, I'm good)`,
+            `I've been carin' too much for so long`,
+            `Been comparin' myself for so long`,
+            `Been wearin' a smile for so long, it's real`,
+            `So long, it's real, so long, it's real`,
+            `So long, it's real`,
+            `So long, it's real<br>[x2]`,
+        ]);
+      },
+      () => {
+        pressToMoveQuotes([
+            `How many creative minds do you have again?`,
+            `It's ridiculous that you think your opinion holds any ground against mine with an idea that the admins took and used all the time.`,
+            `I am an endgame player - if i sold ALL my skyblock cakes, ALL my pet collection (which is worth a lot even with candied pets) I can easily afford a tier boosted ender dragon and a giant's sword, which effectively makes me a lot farther along than most other end game players.`,
+            `I think the admins should just let me become a developer and give me another creative mind because that was also my idea and I should be reimbursed properly.`,
+            `If you guys think you're so good and better than me, try and get one yourself.`,
+            `Can you? I don't think so.`,
+            `The best you can do is just skillfully aoe one shot all the enemies you come across with your expensive gear.`,
+            `It shouldn't even be that expensive - look at recombs.`,
+            `Recombs should be less than 5 million coins even though they are 5 million coins to get from the chest.`,
+            `It sounds unreasonable but if your tiny pea dungeon player brains can even think properly, the mayor Paul reduces prices of dungeon loot by 20% so recombs shouldn't cost 5 million.`,
+            `If an item is too expensive for me to obtain, then its not fair to me as a content creator because it is now more difficult for me to gain and make 'content' out of it.`,
+            `However, once I get it due to inevitable price deflation its 'no longer worth it' and barely adds any content because I took too long to get the item myself and show it off.`,
+            `This is why Skyblock is dying - content creators like myself can't show off cool and new items because nothing is made in my own favor.`,
+            `And I already know what you guys are gonna say, "oh he has a big ego" or "oh all he does is complain" - I bet most people reading this message are just going to copy and paste it repeatedly to make fun of me but that's just going to reinforce my original point, I'm better than all of you, if you think you're better than me get some more creative minds.`,
+        ]);
+      },
+      () => {
         let metersAway = Math.floor(Math.random() * 300) + 300;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
@@ -1153,7 +1242,10 @@ const data = {
       () => {
         let counter = -1;
         setInterval(() => {
-          const quotes = [`inhale`, `exhale`];
+          const quotes = [
+            `inhale`,
+            `exhale`,
+          ];
           const quote = document.getElementById("headerSubtitle");
           counter++;
           if (counter != -2) {
@@ -1675,7 +1767,7 @@ const data = {
           question: `Why aren't the Mithril Vein block textures showing up?`,
           photo: `https://cdn.discordapp.com/attachments/821151183070298174/839725667645784104/Screen_Shot_2021-05-06_at_12.48.55.759_AM_Eastern_Daylight_Time.png`,
           answer: `Make sure you're using the latest version of NEU.
-            Additionally, the option in the above image <i>must</i> be toggled on.`,
+            Additionally, the option in the above image <i>must</i> be toggled on, and your <code>Connected Textures</code> option in OptiFine's settings <i>must</i> be set to <code>Fast</code>.`,
           related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
         },
         {
@@ -1739,15 +1831,15 @@ const data = {
         },
         {
           question: `<i>[SkyblockAddons (SBA)]</i> - How do I turn on the pack's custom defense icon for SBA?`,
-          photo: `  https://cdn.discordapp.com/attachments/785025965226459176/821122320839606323/Screen_Shot_2021-03-03_at_1.png`,
+          photo: `https://cdn.discordapp.com/attachments/785025965226459176/821122320839606323/Screen_Shot_2021-03-03_at_1.png`,
           answer: `Type <code>/sba</code> in chat and then type in "van" or "defen" into the search bar.
             click the little ⚙️ of the first setting that shows up, which leads to the menu seen above.
             Make sure the switch is <u>exactly</u> as follows.
             <i><u>Flip that switch on first before you start overthinking these steps.Please. Save both yourself and us some time.</u></i>`,
-          related: `<a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.5.5/SkyblockAddons-1.5.5-for-MC-1.8.9.jar">SBA direct download (v1.5.5, not the beta!)</a><br>For the beta, check out Biscuit's Patreon page <a href="https://patreon.com/biscuitdev">here</a>.`,
+          related: `<a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.5.5/SkyblockAddons-1.5.5-for-MC-1.8.9.jar">SBA direct download (v1.5.5, not the beta!)</a>`,
         },
         {
-          question: `<i>[SkyblockHUD (SBHUD)]</i> - Why are some textures for UI elements blank and/or missing in v1.13 of SBHUD?(Also, more SBHUD v1.13 questions when?)`,
+          question: `<i>[SkyblockHUD (SBHUD)]</i> - Why are some textures for UI elements blank and/or missing in v1.13 of SBHUD?<br>(Also, more SBHUD v1.13 questions when?)`,
           photo: ``,
           answer: `SBHUD v1.13 is still in beta. Patience is key. As of now, everything in v1.13 of SBHUD should be fine
             (with a few rendering bugs in dungeons, but that's not on us).`,
@@ -1760,6 +1852,18 @@ const data = {
             rely on a different <code>.png</code> file than previous versions of SBA,
             otherwise <i>everyone</i> would be seeing distorted textures-beta or no beta.`,
           related: `<a href="https://patreon.com/biscuitdev">SBA beta information</a>`,
+        },
+        {
+          question: `<i>[SBE]</i> - Why does my SFX from SBE sound different from what I had before I installed the pack?`,
+          photo: ``,
+          answer: `The original audio files included within SBE's initial v2.0.0 release either
+          lacked any credit for the original source (in <code>warning.ogg</code>'s case, which was taken from
+          a Daniel Simion on SoundBible.com) or violated Microsoft's copyright policies
+          (in <code>chime.ogg</code>'s case, which was Windows 7's shutdown sound effect verbatim).
+          Whether or not SBE's <code>.ogg</code> files change after v2.0.0 (which, evidently, has not happened yet)
+          or after the timestamp of this message is not my concern, and whether you choose to restore
+          SBE's original sound effects is a choice you make at your own risk.`,
+          related: `<a href="https://soundbible.com/2182-Ice-Cubes-Glass.html"><code>warning.ogg</code> source</a> | <a href="https://creativecommons.org/licenses/by/3.0/">Human-readable Creative Commons 3.0 (CC 3.0) license</a> | <a href="https://creativecommons.org/licenses/by/3.0/legalcode">Legal mumbo jumbo version of CC 3.0</a><br><a href="https://www.microsoft.com/en-us/legal/copyright/permissions">Microsoft's copyright policy</a> | <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks">Microsoft's Trademark and Brand Guidelines</a>`,
         },
       ],
     },
