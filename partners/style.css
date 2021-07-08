@@ -15,26 +15,46 @@ header {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
-header > #headerSubtitle {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#partnerProgram {
   font-family: "Minecraft";
   margin: 0;
   color: #fbcc6c;
 }
-#credits {
+#partnerProgram > h1 {
+  text-align: center;
+  margin:0;
+  padding: 0.67em 0;
+}
+#partnerProgram > h3 {
+  color: #683d8d;
+  margin: 0 10em;
+}
+#partners {
   background: #1c1d31;
   color: white;
   font-family: "Minecraft";
   text-align: center;
 }
-#credits > div {
+.indivPartner {
   display: inline-block;
+  text-align: center;
+  vertical-align: center;
   margin: 20px;
+  width: 40%;
 }
-#credits > div > a {
-  color: white;
+#partners > div > h2 {
+  color: #fbcc6c;
   text-decoration: none;
+}
+#partners > div > h3 {
+  color: #683d8d;
+  text-decoration: none;
+  margin: 0 10em;
+}
+#partners > div > img {
+  width: 100px;
+  height: 100px;
+}
+#partners > div > h3 > a {
+  color: #c0713f;
 }
