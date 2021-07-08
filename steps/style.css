@@ -1,11 +1,15 @@
+h1 {
+  padding: 1.25em 0;
+  margin: 0;
+}
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(28, 29, 49, 1) 90%),
-      url(/assets/banner.png) no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-  }
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(28, 29, 49, 1) 90%),
+    url(/assets/banner.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
 #logo {
   position: absolute;
   width: 25em;
@@ -24,12 +28,10 @@ header {
 #steps > h1 {
   display: inline-block;
   vertical-align: center;
-  margin: 20px;
 }
-input
-{
-  width:40px;
-  height:25px;
+input {
+  width: 2.5em;
+  height: 25px;
 }
 .indivStep {
   font-size: 25px;
@@ -39,21 +41,22 @@ input
   display: none;
 }
 .indivStep:hover span {
-  display:block;
-  position:fixed;
-  overflow:hidden;
-  width:35%;
-  padding:10px;
-  background-color:#1c1d31e0;
-  font-size:20px;
+  display: block;
+  position: fixed;
+  overflow: hidden;
+  width: 35%;
+  padding: 10px;
+  background-color: #1c1d31e0;
+  font-size: 20px;
 }
 #progressBar {
   justify-content: center;
   align-items: flex-end;
-  margin: 20px;
+  padding: 1.25em;
   display: flex;
+  background:#1c1d31;
 }
-#progressBar > progress{
+#progressBar > progress {
   width: 50%;
   border-radius: 0%;
   background: #683d8d;
