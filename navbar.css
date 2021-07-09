@@ -3,16 +3,19 @@ nav{
   position: relative;
 }
 nav ul {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   list-style-type: none;
   position: fixed;
   margin: 0;
   padding: 0;
+  top: 0;
+  gap: 10px 20px;
 }
 nav ul li {
   display: inline-block;
   text-align: center;
-  margin: 0 20px
 }
 nav ul li a img {
   position: relative;
