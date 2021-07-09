@@ -2017,79 +2017,54 @@ const data = {
       title: `Just because you've finished installing the pack doesn't necessairly mean you won't experience any problems.`,
     },
   ],
+  navigation: {
+    "home": '/',
+    "downloads": '/downloads/',
+    "gallery": '/gallery/',
+    "partners": '/partners/',
+    "steps": "/steps/",
+    "faq": "/faq/",
+    "credits": "/credits/",
+  }
 };
 
-//inject navbar
-let navbar = document.createElement("nav");
+const buildImageSrc = (pageName, isHover = false) => {
+  const BASE_IMG_URL = '/assets/navbar/';
+  const IMAGE_TYPE = '.png';
+  const HOVER_IMG_POSTFIX = '_pressed';
+  return `${BASE_IMG_URL}${pageName}${isHover ? HOVER_IMG_POSTFIX : ''}${IMAGE_TYPE}`
+}
 
-navbar.innerHTML = `
-<ul>
- <li>
-  <a href="/">
-    <img 
-    src="/assets/navbar/home.png" 
-    onmouseover="this.src='/assets/navbar/home_pressed.png'"
-    onmouseout="this.src='/assets/navbar/home.png'"
-    />
-  </a>
- </li>
- <li>
-  <a href="/downloads/">
-    <img 
-    src="/assets/navbar/downloads.png" 
-    onmouseover="this.src='/assets/navbar/downloads_pressed.png'"
-    onmouseout="this.src='/assets/navbar/downloads.png'"
-    />
-  </a>
- </li>
- <li>
-  <a href="/gallery/">
-    <img 
-    src="/assets/navbar/gallery.png" 
-    onmouseover="this.src='/assets/navbar/gallery_pressed.png'"
-    onmouseout="this.src='/assets/navbar/gallery.png'"
-    />
-  </a>
- </li>
- <li>
-  <a href="/partners/">
-    <img 
-    src="/assets/navbar/partners.png" 
-    onmouseover="this.src='/assets/navbar/partners_pressed.png'"
-    onmouseout="this.src='/assets/navbar/partners.png'"
-    />
-  </a>
- </li>
- <li>
-  <a href="/steps/">
-    <img 
-    src="/assets/navbar/steps.png" 
-    onmouseover="this.src='/assets/navbar/steps_pressed.png'"
-    onmouseout="this.src='/assets/navbar/steps.png'"
-    />
-  </a>
- </li>
- <li>
-  <a href="/faq/">
-    <img 
-    src="/assets/navbar/faq.png" 
-    onmouseover="this.src='/assets/navbar/faq_pressed.png'"
-    onmouseout="this.src='/assets/navbar/faq.png'"
-    />
-  </a>
- </li>
- <li>
-  <a href="/credits/">
-    <img 
-    src="/assets/navbar/credits.png" 
-    onmouseover="this.src='/assets/navbar/credits_pressed.png'"
-    onmouseout="this.src='/assets/navbar/credits.png'"
-    />
-  </a>
- </li>
-</ul>
-`;
-document.body.insertBefore(navbar, document.body.firstChild);
+const handleImageHoverEvent = (event, isHover) => {
+  if (!event || !event.target || !event.target.alt) return;
+  event.target.src = buildImageSrc(event.target.alt, isHover);
+}
+
+const buildNavigationNode = (config) => {
+  const navbar = document.createElement("nav");
+  if (!config) {
+    console.error("[buildNavigationPage]: Config is missing");
+    return navbar;
+  }
+  const list = document.createElement('ul');
+  list.addEventListener('mouseover', e => handleImageHoverEvent(e, true));
+  list.addEventListener('mouseout', handleImageHoverEvent);
+  Object.keys(config).forEach(pageName => {
+    const listItem = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = config[pageName];
+    const image = document.createElement("img");
+    image.src = buildImageSrc(pageName);
+    image.alt = pageName;
+    link.appendChild(image);
+    listItem.appendChild(link);
+    list.appendChild(listItem);
+  })
+  navbar.appendChild(list);
+  return navbar;
+}
+
+document.body.insertBefore(buildNavigationNode(data.navigation), document.body.firstChild);
 //meta tags
 
 document.head.append();
