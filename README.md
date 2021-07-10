@@ -2,7 +2,7 @@
 Where everything in http://furfsky.net takes place.
 
 ## Explaining the repo
-This GitHub repo is the backbone for all files necessary for http://furfsky.net to provide the best experience possible for you as you learn about the FurfSky Reborn pack. (Granted, we're still missing an SSL certificate as of the commit date of this version of this `README.md` version... but that's beside the point.)
+This GitHub repo is the backbone for all files necessary for http://furfsky.net to provide the best experience possible for you as you learn about the FurfSky Reborn pack. (Granted, we're still missing an SSL certificate as of the commit date of this version of this `README.md` file... but that's beside the point.)
 
 The most probable reason you're here is because of the many commits that happen in the `#website-and-bot-updates-and-developments` text channel in the FurfSky Reborn Discord server (https://discord.gg/fsr). As such, the main attraction of this GitHub repository is `data.js`, located in the `scripts` folder.
 
