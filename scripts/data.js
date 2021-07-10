@@ -1507,7 +1507,7 @@ const data = {
     },
     {
       name: "Smolegit",
-      link: "https://twitter.com/sm0legit",
+      link: "https://twitter.com/smolegit1",
       role: "Artist",
       quote:
         "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
@@ -1526,7 +1526,7 @@ const data = {
     },
     {
       name: "Ropes",
-      role: "Artist",
+      role: "Trial Artist",
       quote: "yup ! I hate furfsky 🙂",
     },
     {
@@ -1682,11 +1682,6 @@ const data = {
       name: "Shy0",
       role: "Pack Contributor",
       quote: "om im stoopid",
-    },
-    {
-      name: "MasterMiner4647",
-      role: "Discord Contributor",
-      quote: "the other quotes aren't family friendly, but mine is",
     },
     {
       name: "Hoss",
@@ -1867,8 +1862,8 @@ const data = {
           a Daniel Simion on SoundBible.com) or violated Microsoft's copyright policies
           (in <code>chime.ogg</code>'s case, which was Windows 7's shutdown sound effect verbatim).
           Whether or not SBE's <code>.ogg</code> files change after v2.0.0 (which, evidently, has not happened yet)
-          is not our concern, and whether you choose to restore SBE's original sound effects is a choice
-          you make at your own risk.`,
+          or after the timestamp of this message is not my concern, and whether you choose to restore
+          SBE's original sound effects is a choice you make at your own risk.`,
           related: `<a href="https://soundbible.com/2182-Ice-Cubes-Glass.html"><code>warning.ogg</code> source</a> | <a href="https://creativecommons.org/licenses/by/3.0/">Human-readable Creative Commons 3.0 (CC 3.0) license</a> | <a href="https://creativecommons.org/licenses/by/3.0/legalcode">Legal mumbo jumbo version of CC 3.0</a><br><a href="https://www.microsoft.com/en-us/legal/copyright/permissions">Microsoft's copyright policy</a> | <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks">Microsoft's Trademark and Brand Guidelines</a>`,
         },
       ],
@@ -2025,7 +2020,31 @@ const data = {
     "steps": "/steps/",
     "faq": "/faq/",
     "credits": "/credits/",
-  }
+  },
+  quotelessContribs: {
+    testersAssoc:
+    [
+      `Ajay`,
+      `artificialair`,
+      `Aura`,
+      `BACON`,
+      `Bix`,
+      `king poyo`,
+      `Mylzad`,
+      `NirBehar`,
+      `Piggity`,
+      `Pxgxr`,
+      `SheepMika`,
+      `<span style="color:#fbcc6c">and</span> Strafe`,
+    ],
+    problematicFolks:
+    [
+      `Saikage`,
+      `abyssr`,
+      `SeBook`,
+      `<span style="color:#fbcc6c">and</span> MasterMiner4647`,
+    ]
+  },
 };
 
 const buildImageSrc = (pageName, isHover = false) => {

@@ -25,3 +25,24 @@
     container.appendChild(wrapper);
   });
 })();
+(() => {
+  let conTwoner = document.getElementById("noQuoteCredits");
+  let otherWrap = document.createElement("div");
+  otherWrap.innerHTML = `<span style="color:#fbcc6c">Special thanks to </span>`;
+  testersAssocStr = `<span style="color:#ff5098">`;
+  data.quotelessContribs.testersAssoc.forEach((quotelessPerson) => {
+    testersAssocStr += (quotelessPerson + ", ");
+  });
+  testersAssocStr = testersAssocStr.slice(0, -2);
+  testersAssocStr += `</span><span style="color:#fbcc6c"> for testing each pack version extensively.<br>Additional thanks to </span>`;
+  otherWrap.innerHTML += testersAssocStr;
+
+  problematicFolksStr = `<span style="color:#7d6e99">`;
+  data.quotelessContribs.problematicFolks.forEach((quotelessPerson) => {
+    problematicFolksStr += (quotelessPerson + ", ");
+  });
+  problematicFolksStr = problematicFolksStr.slice(0, -2);
+  problematicFolksStr += `</span><span style="color:#fbcc6c"> for their previous work on the pack and/or the FurfSky Reborn Discord server.</span>`;
+  otherWrap.innerHTML += problematicFolksStr;
+  conTwoner.appendChild(otherWrap);
+})();

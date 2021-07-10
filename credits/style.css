@@ -6,6 +6,9 @@ header {
   width: 100%;
   text-align: center;
 }
+body {
+  background: #1c1d31;
+}
 #logo {
   position: absolute;
   width: 25em;
@@ -37,4 +40,11 @@ header > #headerSubtitle {
 #credits > div > a {
   color: white;
   text-decoration: none;
+}
+#noQuoteCredits {
+  background: #1c1d31;
+  color: white;
+  font-family: "Minecraft";
+  text-align: center;
+  margin: 20px;
 }
