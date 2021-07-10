@@ -1,11 +1,12 @@
 const date = new Date();
-const isMobile =
-  /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(
-    navigator.userAgent
-  ) ||
-  /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(
-    navigator.userAgent.substr(0, 4)
-  );
+/* Commenting out unused variable till it gets a use (so it doesn't get evaluated and stored in-memory for nothing) */
+// const isMobile =
+//   /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series[46]0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(
+//     navigator.userAgent
+//   ) ||
+//   /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br[ev]w|bumb|bw-[nu]|c55\/|capi|ccwa|cdm-|cell|chtm|cldc|cmd-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc-s|devi|dica|dmob|do[cp]o|ds(12|-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly[-_]|g1 u|g560|gene|gf-5|g-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd-[mpt]|hei-|hi(pt|ta)|hp( i|ip)|hs-c|ht(c[- _agpst]|tp)|hu(aw|tc)|i-(20|go|ma)|i230|iac[ -\/]|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja[tv]a|jbro|jemu|jigs|kddi|keji|kgt[ \/]|klon|kpt |kwc-|kyo[ck]|le(no|xi)|lg( g|\/[klu]|50|54|-[a-w])|libw|lynx|m1-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t[- ov]|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30[02]|n50[025]|n7(0[01]|10)|ne([cm]-|on|tf|wf|wg|wt)|nok[6i]|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan[adt]|pdxg|pg(13|-([1-8]|c))|phil|pire|pl(ay|uc)|pn-2|po(ck|rt|se)|prox|psio|pt-g|qa-a|qc(07|12|21|32|60|-[2-7]|i-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h-|oo|p-)|sdk\/|se(c[-01]|47|mc|nd|ri)|sgh-|shar|sie[-m]|sk-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h-|v-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl-|tdg-|tel[im]|tim-|t-mo|to(pl|sh)|ts(70|m-|m3|m5)|tx-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c[- ]|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas-|your|zeto|zte-/i.test(
+//     navigator.userAgent.substr(0, 4)
+//   );
 const pressToMoveQuotes = (quotes) => {
   let quoteIndex = -1;
   const quote = document.getElementById("headerSubtitle");
@@ -371,8 +372,8 @@ const data = {
       `i can feel your heat.`,
       `a calendar is just like a box of chocolates, sometimes you get 2020, sometimes you don't`,
       `#winning`,
-      `<img src="https://discord.com/assets/ddea4500a252f80cbf6d6c92db15178e.svg" draggable="false" width="32" height="32"> fsr is owned by a furry?`,
-      `<a href="https://www.youtube.com/watch?v=BLnDVDYJx0Q"><img src="https://discord.com/assets/817f965bd1fd796777908e6c8052d665.svg" draggable="false" width="64" height="64"></a>`,
+      `<img src="https://discord.com/assets/ddea4500a252f80cbf6d6c92db15178e.svg" draggable="false" width="32" height="32" alt="emoji: head explosion"> fsr is owned by a furry?`,
+      `<a href="https://www.youtube.com/watch?v=BLnDVDYJx0Q"><img src="https://discord.com/assets/817f965bd1fd796777908e6c8052d665.svg" alt="emoji: satisfied" draggable="false" width="64" height="64"></a>`,
       `Now with twice as much ÙwÚ`,
       `you're a furry now >:)`,
       `drink more ovaltine`,
@@ -399,14 +400,14 @@ const data = {
       }<br>-juniper<br><small>(no, not the geometry dash youtuber)</small>`,
       `she's in love with the concept`,
       `I identify as a FUCKING THREAT.`,
-      `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">`,
-      `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">`,
+      `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" alt="A" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" alt="M" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" alt="O" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" alt="G" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" alt="U" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" alt="S" draggable="false" style="width:32px; height:32px;">`,
+      `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" alt="A" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" alt="M" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" alt="O" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" alt="N" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" alt="G" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" alt="U" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" alt="S" draggable="false" style="width:32px; height:32px;">`,
       `♫ no matter how hard you try,<br>you can't stop me now ♫`,
       `come to r/hypixelskyblock: now with around 93% more dubious fanart`,
       `r/hypixelskyblock: the art is maybe better than the memes`,
       `"why do all american teenagers sound the same i cant tell the fuckers apart in VCs" —NWT`,
-      `damn, pfizer really do be making me drowsy as fuck rn <img src="https://discord.com/assets/711ac22a92d00f844023ded91f820e8c.svg" draggable="false" style="width:32px; height:32px;">`,
-      `"fot nerf? shadow fury moment <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" style="width:32px; height:32px;">"`,
+      `damn, pfizer really do be making me drowsy as fuck rn <img src="https://discord.com/assets/711ac22a92d00f844023ded91f820e8c.svg" alt="emoji: sleepy" draggable="false" style="width:32px; height:32px;">`,
+      `"fot nerf? shadow fury moment <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" alt="emoji: flush owo" draggable="false" style="width:32px; height:32px;">"`,
       `"bonzo will bend us"<br>-rebmE 2021`,
       `zburger: <i>if bedbugs live in beds, then cockroaches</i>—<br>Temp: —<i>ruin an otherwise spectacular chicken sandwich :(</i>`,
       `zburger: i am losing braincells at the rate of the amount of water flowing through the niagra falls per second<br>Temp: in gallons, litres, barrels, washing machines, molecules, subatomic particles, or brain cells?<br> Daedalus: you forgot the femoral artery<br>zburger: yes`,
@@ -489,14 +490,14 @@ const data = {
       `i mine all day i mine all night<br>i mine non-stop 'til those diamonds are in sight`,
       `yo, there is a fridge on mid`,
       `Also visit SkyCrypt!`,
-      `this is where our conversations are stored people <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" style="width:32px; height:32px;"><br><br><img src="https://cdn.discordapp.com/attachments/789592044984860672/850139362774483034/20210603_155950_HDR.jpg" width="40%" height="40%" draggable="false">`,
+      `this is where our conversations are stored people <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" alt="emoji: flush" draggable="false" style="width:32px; height:32px;"><br><br><img src="https://cdn.discordapp.com/attachments/789592044984860672/850139362774483034/20210603_155950_HDR.jpg" alt="photo of a building" width="40%" height="40%" draggable="false">`,
       `AY CARAMBA DONDE ESTA LA BIBLIOTECA`,
       `all funds from patreon will go into funding skyblock gems for all of the staff`,
       `there are no more funds from patreon, no more skyblock gems for staff`,
       `ay caramba donde esta la biblioteca`,
       `gzdfhbklkogdfhpgfjkopnimmghfjpoml,ngfhompl,nfghmopl,nfgmop`,
       `imagine not using https -thegu5`,
-      `tomengmaster: ery ttt me <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" width="32" height="32"><br>erymanthus: you want me to toss tomatoes towards you?`,
+      `tomengmaster: ery ttt me <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" alt="emoji: flush" draggable="false" width="32" height="32"><br>erymanthus: you want me to toss tomatoes towards you?`,
       `fire tictactoe <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>@Erymanthus | u/RayDeeUx</span>`,
       `goodbye,<br><br><code style="font-size:24px;">damage = (5 + weapon damage + strength / 5) x (1 + strength / 100) x (1 + crit damage / 100) x (1 + additive multiplier / 100)</code>`,
       `<code style="font-size:24px;">damage = (5 + weapon damage) x (1 + strength / 100) x (1 + crit damage / 100) x (1 + additive multiplier / 100)</code><br><br>is pure shit.`,
@@ -513,8 +514,8 @@ const data = {
       `Check <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#pack-faq</span> and <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#mod-ui-faq</span> first, or die.`,
       `${
         Math.random() > 0.5
-          ? `<img src="https://ptb.discord.com/assets/2d16214bcc74dd1546a35d3d6f15abec.svg" draggable="false" style="width:32px; height:32px;">`
-          : `<img src="https://cdn.discordapp.com/emojis/834588295194738758.png?v=1" draggable="false" style="width:32px; height:32px;">`
+          ? `<img src="https://ptb.discord.com/assets/2d16214bcc74dd1546a35d3d6f15abec.svg" alt="emoji: purple shirt" draggable="false" style="width:32px; height:32px;">`
+          : `<img src="https://cdn.discordapp.com/emojis/834588295194738758.png?v=1" alt="emoji: cursed purple shirt with a face" draggable="false" style="width:32px; height:32px;">`
       } SHIT HAPPENS. | macOS Big Sur on MacBook Pro Late 2019 16" (i9-9880H @ 2.30GHz, Radeon Pro 5500M @ 2048x1280, 16GB RAM)`,
       `"SHIT HAPPENS."<br>-Tom Holland`,
       `Made by <span style="color: #FF5555;">[</span><span style="color: #FFFFFF;">YOUTUBE</span><span style="color: #FF5555;">] FurryEBoy</span> and his team of artists!`,
@@ -523,19 +524,19 @@ const data = {
       `Better get some corticosteroids to treat that laryngeal fracture.`,
       `holy motherforking shirtballs`,
       `aHR0cHM6Ly9taW5pa2xvb24uY29tL3BpY3MvZDk4ZTE3MDgtZWQ3Ny00NzE1LWE5OTktY2VlNDY2YTk1NzY2LnBuZw==`,
-      `<img src="https://media1.tenor.com/images/663ee2c0232d35607ea49f16eb28fdf8/tenor.gif" draggable="false" width="996px" height="196px">`,
-      `<img src="https://cdn.discordapp.com/emojis/604486986170105866.png?v=1" draggable="false" width="32" height="32"> Temporary quote outage.<br>Try again later.`,
+      `<img src="https://media1.tenor.com/images/663ee2c0232d35607ea49f16eb28fdf8/tenor.gif" alt="Achievement Get! Who The Fuck Pinged Me" draggable="false" width="996px" height="196px">`,
+      `<img src="https://cdn.discordapp.com/emojis/604486986170105866.png?v=1" alt="Alert icon" draggable="false" width="32" height="32"> Temporary quote outage.<br>Try again later.`,
       `Beans.<br>-TORDA`,
       `"That boy ain't right."<br>-Hank Hill`,
       `the letter 8 is my favorite color of the furfsky reborn resource pack`,
-      `<img src="https://cdn.discordapp.com/attachments/728977460737081454/839757476085760040/Screenshot_2021-05-06_FurryEBoy_Minecraft_Profile.png" draggable="false" width="32" height="32"> He protecc<br><img src="https://cdn.discordapp.com/attachments/728977460737081454/839758647910989844/Screen_Shot_2021-05-06_at_3.00.30.459_AM_Eastern_Daylight_Time.png" draggable="false" width="32" height="32"> he attacc<br>but most importantly...<br><br><img src="https://cdn.discordapp.com/attachments/773391315424772096/860313890503000124/reddit_tyler.png" draggable="false" width="32" height="32"> he make texture pacc`,
+      `<img src="https://cdn.discordapp.com/attachments/728977460737081454/839757476085760040/Screenshot_2021-05-06_FurryEBoy_Minecraft_Profile.png" alt="Tyler with sunglasses as minecraft head" draggable="false" width="32" height="32"> He protecc<br><img src="https://cdn.discordapp.com/attachments/728977460737081454/839758647910989844/Screen_Shot_2021-05-06_at_3.00.30.459_AM_Eastern_Daylight_Time.png" alt="angry tyler with sunglasses" draggable="false" width="32" height="32"> he attacc<br>but most importantly...<br><br><img src="https://cdn.discordapp.com/attachments/773391315424772096/860313890503000124/reddit_tyler.png" alt="owo winking tyler with pride sunglasses" draggable="false" width="32" height="32"> he make texture pacc`,
       `If I was a man with a coherent brain, I would have gotten full Shadow Assassin and Livid Dagger, but no. I just have full Superior Dragon Armor and an overly maxed Shadow Fury.`,
       `keep it in your pants please<br><small>(and yes you should reasonably know what we mean by "it")</small>`,
       `"wait are we going to be graded or is this just some pass/fail garbage"<br>-multiple aspiring folks applying for fsr artist as well as amy santiago`,
       `i guess i just dont care what other people think of me`,
       `"<i>Just because you wanna do something doesn't mean you get to do it.<br>Life is chaos, success is completely arbitrary, and confidence is everything.</i>"<br>-Gina Linetti`,
       `hot damn!`,
-      `; vs <span style="font-family: Trebuchet MS;">;</span><br><br>Which one is the English semicolon?<br><br><small>(Credits to MisterCheezeCake for uncovering this gem.)`,
+      `; vs <span style="font-family: Trebuchet MS, sans-serif;">;</span><br><br>Which one is the English semicolon?<br><br><small>(Credits to MisterCheezeCake for uncovering this gem.)`,
       `<i>We protest you calling us "little kids".<br>We prefer to be called "vertically-impaired pre-adults".</i><br>-fsr team (but Yakko Warner said it first)`,
       `I'm going to slice your Achilles' tendons, peel off your fingernails, and stick knitting needles in your eyes.`,
       `<span style="font-size:4px;">Bassicly for those player who are using neu etc almost everything. Is banable which makes u play it easy like neu ah etc profit no profit dungeon overlay solvers and now the shaders etc if they allow us to see which we would not ban like dungeon overlay etc so I would recommend using lunar client and badlion cuz of they have what is allowed yeah dungeon map potion effects etc allowed but just use lunar or badlion cuz everything there matches the rules of server me personally use lunar client used to use neu etc which I could get ban I never got kicked earlier but might watchdog never saw it and now I don't wanna get ban tell me if I'm wrong</span>`,
@@ -551,14 +552,14 @@ const data = {
       `Now I've learned my
         ${
           Math.random() > 0.5
-            ? `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/787004872444739624.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/787004862356389909.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/787004897735475220.png?v=1" draggable="false" style="width:32px; height:32px;">`
-            : `<img src="https://cdn.discordapp.com/emojis/804803417259507752.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/804803405012533268.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/804803384187158559.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/804803429264392213.png?v=1" draggable="false" style="width:32px; height:32px;">`
+          ? `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" alt="A dungeons score icon" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/787004872444739624.png?v=1" alt="B dungeons score icon" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/787004862356389909.png?v=1" alt="C dungeons score icon" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/787004897735475220.png?v=1" alt="S dungeons score icon" draggable="false" style="width:32px; height:32px;">`
+          : `<img src="https://cdn.discordapp.com/emojis/804803417259507752.png?v=1" alt="emoji: A dungeons score" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/804803405012533268.png?v=1" alt="emoji: B dungeons score" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/804803384187158559.png?v=1" alt="emoji: C dungeons score" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/804803429264392213.png?v=1" alt="emoji: S dungeons score" draggable="false" style="width:32px; height:32px;">`
         }
         , next time ${
           Math.random() > 0.5
@@ -566,21 +567,21 @@ const data = {
             : `won't you sing with me?`
         }`,
       `
-       <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" alt="F" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" alt="U" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" alt="R" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" alt="F" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" alt="S" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" alt="K" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" alt="Y" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" alt="R" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" alt="E" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" alt="B" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" alt="O" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" alt="R" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" alt="N" draggable="false" style="width:32px; height:32px;">
        `,
-      `Winner of ${String(date.getYear() + 1900)} best pack award.`,
+      `Winner of ${String(date.getFullYear())} best pack award.`,
       `${String(
         Math.abs(
           Math.floor(
@@ -654,17 +655,17 @@ const data = {
         document.getElementById("headerSubtitle").innerHTML = `"Every time someone steps up and says who they are, the world becomes a better, more interesting place."<br>-Captain Holt`;
       },
       () => {
-        document.body.style = "filter:blur(1px)";
+        document.body.style.filter = 'blur(1px)';
         document.getElementById("headerSubtitle").innerHTML =
           "looks like your vision isn't the best!";
       },
       () => {
-        document.body.style = "filter:grayscale(80%)";
+        document.body.style.filter = "grayscale(80%)";
         document.getElementById("headerSubtitle").innerHTML =
           "look mom, im emo";
       },
       () => {
-        document.body.style = "filter:brightness(1.4)";
+        document.body.style.filter = "brightness(1.4)";
         document.getElementById("headerSubtitle").innerHTML =
           "is it a bit too bright in here?";
       },
@@ -1128,7 +1129,7 @@ const data = {
           if (coolCounter < numCools) {
             quoteBoo += `cool `;
           }
-          if (coolCounter == numCools) {
+          if (coolCounter === numCools) {
             quoteBoo += `cool"`;
           }
           quote.innerHTML = quoteBoo;
@@ -1164,7 +1165,7 @@ const data = {
           ];
           const quote = document.getElementById("headerSubtitle");
           counter++;
-          if (counter != -2) {
+          if (counter !== -2) {
             quote.innerHTML = `<span style="color:#${
               formattingCodeColors[counter % 7]
             }">Le c</span><span style="color:#${
@@ -1232,7 +1233,7 @@ const data = {
           ];
           const quote = document.getElementById("headerSubtitle");
           counter++;
-          if (counter != -2) {
+          if (counter !== -2) {
             quote.innerHTML = `<span style="color:#${
               formattingCodeColors[counter % 7]
             }">Le other chroma text!</span>`;
@@ -1248,23 +1249,23 @@ const data = {
           ];
           const quote = document.getElementById("headerSubtitle");
           counter++;
-          if (counter != -2) {
+          if (counter !== -2) {
             quote.innerHTML = `${quotes[counter % 2]}`;
           }
         }, 750);
       },
-      `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/821913465941524480.png?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/834122955595710465.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/834947827532300328.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/834947234885271592.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/817106472424177706.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/825078817265287239.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/776897206300180480.png?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/attachments/789592044984860672/825779017558130697/image0.png" width="400" height="225" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/attachments/789592044984860672/850511263846105139/Screenshot_728.png" width="40%" height="40%" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" alt="frog agrees (animated)" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/821913465941524480.png?v=1" alt="sword" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/834122955595710465.gif?v=1" alt="owo what's this" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/834947827532300328.gif?v=1" alt="emoji: goodbot fast" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/834947234885271592.gif?v=1" alt="emoji: goodbot" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" alt="emoji: cursed flushed" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/817106472424177706.gif?v=1" alt="animated: vibing cat" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/825078817265287239.gif?v=1" alt="animated: vibing cat" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/776897206300180480.png?v=1" alt="pointing gun" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" alt="emoji: cursed flushed" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/attachments/789592044984860672/825779017558130697/image0.png" alt="Cock flavor noodle soup mix and SHITO mild chilli sauce with fish and shrimp" width="400" height="225" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/attachments/789592044984860672/850511263846105139/Screenshot_728.png" alt="very real looking t-shirt with FurfSky Reborn pride logo print and text: 10 out of 10 texture pack would buy again this helped me in my dating life 10 necron handles? coincidence? maybe not 1!!!" width="40%" height="40%" draggable="false">`,
     ],
   },
   downloads: [
@@ -1684,6 +1685,11 @@ const data = {
       quote: "om im stoopid",
     },
     {
+      name: "MasterMiner4647",
+      role: "Discord Contributor",
+      quote: "the other quotes aren't family friendly, but mine is",
+    },
+    {
       name: "Hoss",
       role: "Discord Contributor",
       quote: "tylereboy my beloved",
@@ -2009,7 +2015,7 @@ const data = {
     {
       step: `Check out the <a href="/faq/">FAQ</a> page.`,
       type: `Optional`,
-      title: `Just because you've finished installing the pack doesn't necessairly mean you won't experience any problems.`,
+      title: `Just because you've finished installing the pack doesn't necessarily mean you won't experience any problems.`,
     },
   ],
   navigation: {
@@ -2023,27 +2029,27 @@ const data = {
   },
   quotelessContribs: {
     testersAssoc:
-    [
-      `Ajay`,
-      `artificialair`,
-      `Aura`,
-      `BACON`,
-      `Bix`,
-      `king poyo`,
-      `Mylzad`,
-      `NirBehar`,
-      `Piggity`,
-      `Pxgxr`,
-      `SheepMika`,
-      `<span style="color:#fbcc6c">and</span> Strafe`,
-    ],
+      [
+        `Ajay`,
+        `artificialair`,
+        `Aura`,
+        `BACON`,
+        `Bix`,
+        `king poyo`,
+        `Mylzad`,
+        `NirBehar`,
+        `Piggity`,
+        `Pxgxr`,
+        `SheepMika`,
+        `<span style="color:#fbcc6c">and</span> Strafe`,
+      ],
     problematicFolks:
-    [
-      `Saikage`,
-      `abyssr`,
-      `SeBook`,
-      `<span style="color:#fbcc6c">and</span> MasterMiner4647`,
-    ]
+      [
+        `Saikage`,
+        `abyssr`,
+        `SeBook`,
+        `<span style="color:#fbcc6c">and</span> MasterMiner4647`,
+      ]
   },
 };
 
