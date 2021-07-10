@@ -1507,7 +1507,7 @@ const data = {
     },
     {
       name: "Smolegit",
-      link: "https://twitter.com/smolegit1",
+      link: "https://twitter.com/sm0legit",
       role: "Artist",
       quote:
         "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
