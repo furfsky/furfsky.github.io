@@ -1463,9 +1463,9 @@ const data = {
       quote: "you better not be the sus imposter",
     },
     {
-      name: "TrashAtNames/BlockBusterCF",
+      name: "TrashAtNames/BlockBusterCF/Poison Doggo",
       link: "https://hypixel.net/members/2765236/",
-      role: "Artist",
+      role: "Retired Artist",
       quote: "i live under a rock when it comes to optifine updates apparently",
     },
     {
