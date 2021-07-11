@@ -230,6 +230,7 @@ const data = {
       `<span style="color: #FF5555;">☠ LGenes1S died to a trap and became a ghost.</span>`,
       `<span style="color: #AA0000;">why did we make the owner a furry</span>`,
       `Now with 100% less Skeletony`,
+      `If anyone ever combine anything 32x into a 16x pack or the opposite, i instantly despise them<br>-Glenz`,
       `dreese`,
       `What's a crossguard?`,
       `Bad news first; the good news is probably a lie.`,
