@@ -254,6 +254,7 @@ const data = {
       `<span style="color: #FFAA00;">Furf</span><span style="color: #AA00AA;">Sky+</span>, but its <span style="color: #FFAA00;">Reborn</span> <span style="color: #FFFFFF;">:o</span>`,
       `Now with 100% less +'s`,
       `:(<br>-Juniper`,
+      `Hello! I'm done with CSGO and give all my inventory, the first three who send a trade - I will give a knife ;)`,
       `FSR GOBLIN ARMOR<br><br>BOTTOM TEXT`,
       `${Math.random() > 0.5 ? "JustEnoughDungeons" : "jed"} is bad`,
       `404 unoriginality not found`,
