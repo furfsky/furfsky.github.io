@@ -1086,6 +1086,29 @@ const data = {
         ]);
       },
       () => {
+        pressToMoveQuotes([
+          `<i>Note: This is a transcript of a Discord DM between two folks.</i>`,
+          `GL0WSQUID: dELTA`,
+          `Daedalus: what do you want`,
+          `GL0WSQUID: can you make me a pack`,
+          `Daedalus: depends`,
+          `GL0WSQUID: on what`,
+          `Daedalus: what the pack is`,
+          `Daedalus: and how much you're willing to pay`,
+          `Daedalus: cause i don't know you`,
+          `GL0WSQUID: i am not willing to pay am poor i want it a custom pack for a pvp channel`,
+          `Daedalus: yeah<br><br><i>no</i>`,
+        ]);
+      },
+      () => {
+        pressToMoveQuotes([
+          `<i>Note: This is a transcript of a Discord DM between two folks.</i>`,
+          `GL0WSQUID: Question`,
+          `FurryEBoy: dont even ask`,
+          `FurryEBoy: i will laugh at you`,
+        ]);
+      },
+      () => {
         let metersAway = Math.floor(Math.random() * 300) + 300;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
