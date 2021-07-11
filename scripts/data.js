@@ -327,6 +327,7 @@ const data = {
       `Don't cry about the pride logo at all and celebrate diversity like a normal person, please.`,
       `Go cry about the pride logo privately and have a nice day.`,
       `NO HATE SPEECH ALLOWED BEYOND THIS POINT.`,
+      `I WASN GONNA pay em after bitch so maybe can u try to read`,
       `area 51`,
       `catch me outside how about that`,
       `"one day the queen laid an egg and we all hatched out of it"<br>-FurryEBoy, the best UK history teacher in FSR`,
