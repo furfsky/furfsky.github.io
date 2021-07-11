@@ -1685,11 +1685,6 @@ const data = {
       quote: "om im stoopid",
     },
     {
-      name: "MasterMiner4647",
-      role: "Discord Contributor",
-      quote: "the other quotes aren't family friendly, but mine is",
-    },
-    {
       name: "Hoss",
       role: "Discord Contributor",
       quote: "tylereboy my beloved",
