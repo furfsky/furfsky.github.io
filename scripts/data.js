@@ -13,7 +13,7 @@ const pressToMoveQuotes = (quotes) => {
   quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
   const keyPressed = (event) => {
     switch (event.key) {
-      case "R":
+      case ("R" || "r"):
         quoteIndex = 0;
         quote.innerHTML = quotes[quoteIndex];
         break;
