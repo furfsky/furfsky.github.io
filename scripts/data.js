@@ -1297,7 +1297,7 @@ const data = {
   downloads: [
     {
       version: "v1.3.2",
-      name: "Tying Up Loose Ends <small>(Motor's name for this update sucked)</small>",
+      name: "v1.3's Loose Ends, Pets, and some SB UI<small>(Motor's name for this update sucked, so it's different here)</small>",
       fileFull: "/files/v1.3.2/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.3.2§8§l].zip",
       fileOverlay:
         "/files/v1.3.2/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.3.2§8§l].zip",
