@@ -10,10 +10,10 @@ const date = new Date();
 const pressToMoveQuotes = (quotes) => {
   let quoteIndex = -1;
   const quote = document.getElementById("headerSubtitle");
-  quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
+  quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>Shift + R keys to restart.<br>Mobile device users, get good.`;
   const keyPressed = (event) => {
     switch (event.key) {
-      case ("R" || "r"):
+      case "R":
         quoteIndex = 0;
         quote.innerHTML = quotes[quoteIndex];
         break;
