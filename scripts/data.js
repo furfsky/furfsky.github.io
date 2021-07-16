@@ -20,7 +20,7 @@ const pressToMoveQuotes = (quotes) => {
       case "ArrowRight":
         if (quoteIndex >= quotes.length - 1) {
           quoteIndex = quotes.length;
-          quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start again.`;
+          quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or Shift + R to start again.`;
         } else {
           quoteIndex++;
           quote.innerHTML = quotes[quoteIndex];
