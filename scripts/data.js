@@ -41,6 +41,7 @@ const pressToMoveQuotes = (quotes) => {
 };
 const foxScriptScroll = (veryLongString) => {
   const quoteNode = document.getElementById("headerSubtitle");
+  if (!quoteNode) return;
   quoteNode.style.maxHeight = '200px';
   quoteNode.style.overflowY = 'hidden';
   quoteNode.textContent = veryLongString;
