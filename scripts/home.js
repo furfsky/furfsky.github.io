@@ -1,15 +1,3 @@
-const foxScriptScroll = (veryLongString) => {
-  const quoteNode = document.getElementById("headerSubtitle");
-  if (!quoteNode) return;
-  quoteNode.style.maxHeight = '200px';
-  quoteNode.style.overflowY = 'hidden';
-  quoteNode.textContent = veryLongString;
-  let scrollPosition = 5;
-  setInterval(() => {
-    quoteNode.scrollTo({ top: scrollPosition, behavior: 'smooth' })
-    scrollPosition = scrollPosition + 5
-  }, 100)
-};
 (() => {
   let entry =
     data.header.subtitle[
