@@ -2103,9 +2103,8 @@ const data = {
 
 const buildImageSrc = (pageName, isHover = false) => {
   const BASE_IMG_URL = '/assets/navbar/';
-  const IMAGE_TYPE = '.png';
   const HOVER_IMG_POSTFIX = '_pressed';
-  return `${BASE_IMG_URL}${pageName}${isHover ? HOVER_IMG_POSTFIX : ''}${IMAGE_TYPE}`
+  return `${BASE_IMG_URL}${pageName}${isHover ? HOVER_IMG_POSTFIX : ''}.png`
 }
 
 const handleImageHoverEvent = (event, isHover) => {
