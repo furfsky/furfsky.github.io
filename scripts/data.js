@@ -1927,7 +1927,7 @@ const data = {
           question: `<i>[SBA]</i> - Why aren't my health/mana bars textured?`,
           photo: ``,
           answer: `Make your you're on FurfSky Reborn v1.3.1 or above.`,
-          related: `<a href="https://patreon.com/biscuitdev">SBA beta information</a> | <a href="/downloads">Go to the downloads page.</a>`,
+          related: `<a href="/downloads">Go to the downloads page.</a>`,
         },
         {
           question: `<i>[SBE]</i> - Why does my SFX from SBE sound different from what I had before I installed the pack?`,
