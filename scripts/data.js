@@ -100,6 +100,7 @@ const data = {
       `why do they call it oven if you oven the cold food of out hot eat the food`,
       `Help im locked in a data center`,
       `what`,
+      `Never half-ass two things. Whole-ass one thing.`,
       `Now works with Wynncraft!`,
       `i can smell your fear through the screen`,
       `we will steal your ip and sell it to china`,
@@ -1429,6 +1430,7 @@ const data = {
     "Website Developer": "#ffff00",
     "Pack Contributor": "#00b0b0",
     "CIT Monkey": "#7c2a21",
+    "The 3D Render Person": "#ff7d00",
     "Discord Contributor": "#aa0000",
   },
   credits: [
@@ -1616,6 +1618,11 @@ const data = {
       role: "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Website Developer</span>",
       quote:
         "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>I am very speical :)</span>",
+    },
+    {
+      name: "woah. (DAT_NOMAD)",
+      role: "The 3D Render Person",
+      quote: "refraction and the gang bout to enter the dungeon",
     },
     {
       name: "pig",
