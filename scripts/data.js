@@ -1914,7 +1914,7 @@ const data = {
             click the little ⚙️ of the first setting that shows up, which leads to the menu seen above.
             Make sure the switch is <u>exactly</u> as follows.
             <i><u>Flip that switch on first before you start overthinking these steps.<br>Please. Save both yourself and us some time.</u></i>`,
-          related: `<a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.5.5/SkyblockAddons-1.5.5-for-MC-1.8.9.jar">SBA direct download (v1.5.5, not the beta!)</a>`,
+          related: `<a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.6.0/SkyblockAddons-1.6.0-for-MC-1.8.9.jar">SBA direct download (v1.6)</a>`,
         },
         {
           question: `<i>[SkyblockHUD (SBHUD)]</i> - Why are some textures for UI elements blank and/or missing in v1.13 of SBHUD?<br>(Also, more SBHUD v1.13 questions when?)`,
@@ -1924,12 +1924,10 @@ const data = {
           related: `<a href="https://discord.com/channels/516977525906341928/794648295255310366">Obtain SBHUD by obtaining one the roles under the "Perks" webhook here.</a>`,
         },
         {
-          question: `<i>[SBA (<u>beta versions 12/12b and above only</u>)]</i> - Why aren't my health/mana bars textured?`,
+          question: `<i>[SBA]</i> - Why aren't my health/mana bars textured?`,
           photo: ``,
-          answer: `Relax, they're coming out in the next pack release. SBA beta 12b's new bars
-            rely on a different <code>.png</code> file than previous versions of SBA,
-            otherwise <i>everyone</i> would be seeing distorted textures-beta or no beta.`,
-          related: `<a href="https://patreon.com/biscuitdev">SBA beta information</a>`,
+          answer: `Make your you're on FurfSky Reborn v1.3.1 or above.`,
+          related: `<a href="https://patreon.com/biscuitdev">SBA beta information</a> | <a href="/downloads">Go to the downloads page.</a>`,
         },
         {
           question: `<i>[SBE]</i> - Why does my SFX from SBE sound different from what I had before I installed the pack?`,
