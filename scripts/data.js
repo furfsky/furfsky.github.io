@@ -1428,6 +1428,7 @@ const data = {
     "Event Helper": "#554dca",
     "Website Developer": "#ffff00",
     "Pack Contributor": "#00b0b0",
+    "CIT Monkey": "#7c2a21",
     "Discord Contributor": "#aa0000",
   },
   credits: [
@@ -1606,7 +1607,7 @@ const data = {
     {
       name: "FoxScript",
       link: "https://www.youtube.com/watch?v=AvmnYLBSnh0",
-      role: "Trial Artist",
+      role: "Artist",
       quote: "<code>[placeholder credit text]</code>",
     },
     {
@@ -1712,19 +1713,9 @@ const data = {
         "at least you didn't get yourself<br>to design the whole sea creature guide",
     },
     {
-      name: "Hasnu",
-      role: "Pack Contributor",
-      quote: "#FSRGangOnTop",
-    },
-    {
       name: "ThatGravyBoat",
       role: "Pack Contributor",
       quote: "I use MS paint for my pixel art",  //damn, why is aseprite so expensive
-    },
-    {
-      name: "Sigia42",
-      role: "Pack Contributor",
-      quote: "damn, why is aseprite so expensive",
     },
     {
       name: "nacrt",
@@ -1733,9 +1724,28 @@ const data = {
         "just have it a normal file name,<br>the cancer that is mediafire only makes things worse",
     },
     {
+      name: "Hasnu",
+      role: "CIT Monkey",
+      quote: "#FSRGangOnTop",
+    },
+    {
+      name: "Sigia42",
+      role: "CIT Monkey",
+      quote: "damn, why is aseprite so expensive",
+    },
+    {
       name: "Shy0",
       role: "Pack Contributor",
       quote: "om im stoopid",
+    },
+    {
+      name: "BluePeach81",
+      role: "CIT Monkey",
+      quote: "a funny liner",
+    },
+    {
+      name: "artificialair",
+      role: "CIT Monkey",
     },
     {
       name: "Hoss",
