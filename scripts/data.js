@@ -1724,9 +1724,19 @@ const data = {
         "just have it a normal file name,<br>the cancer that is mediafire only makes things worse",
     },
     {
+      name: "Shy0",
+      role: "Pack Contributor",
+      quote: "om im stoopid",
+    },
+    {
       name: "Hasnu",
       role: "CIT Monkey",
       quote: "#FSRGangOnTop",
+    },
+    {
+      name: "ModCruel",
+      role: "CIT Monkey",
+      quote: "Stop making bad <code>.json</code> files.",
     },
     {
       name: "Sigia42",
@@ -1734,18 +1744,14 @@ const data = {
       quote: "damn, why is aseprite so expensive",
     },
     {
-      name: "Shy0",
-      role: "Pack Contributor",
-      quote: "om im stoopid",
-    },
-    {
       name: "BluePeach81",
       role: "CIT Monkey",
-      quote: "a funny liner",
+      quote: "old livid dagger texture was better",
     },
     {
       name: "artificialair",
       role: "CIT Monkey",
+      quote: "OH FUCK THE PERIOD",
     },
     {
       name: "Hoss",
