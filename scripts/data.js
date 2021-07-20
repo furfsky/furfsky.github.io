@@ -1,15 +1,16 @@
 const date = new Date();
-const isMobile =
-  /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(
-    navigator.userAgent
-  ) ||
-  /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(
-    navigator.userAgent.substr(0, 4)
-  );
+/* Commenting out unused variable till it gets a use (so it doesn't get evaluated and stored in-memory for nothing) */
+// const isMobile =
+//   /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series[46]0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(
+//     navigator.userAgent
+//   ) ||
+//   /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br[ev]w|bumb|bw-[nu]|c55\/|capi|ccwa|cdm-|cell|chtm|cldc|cmd-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc-s|devi|dica|dmob|do[cp]o|ds(12|-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly[-_]|g1 u|g560|gene|gf-5|g-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd-[mpt]|hei-|hi(pt|ta)|hp( i|ip)|hs-c|ht(c[- _agpst]|tp)|hu(aw|tc)|i-(20|go|ma)|i230|iac[ -\/]|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja[tv]a|jbro|jemu|jigs|kddi|keji|kgt[ \/]|klon|kpt |kwc-|kyo[ck]|le(no|xi)|lg( g|\/[klu]|50|54|-[a-w])|libw|lynx|m1-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t[- ov]|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30[02]|n50[025]|n7(0[01]|10)|ne([cm]-|on|tf|wf|wg|wt)|nok[6i]|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan[adt]|pdxg|pg(13|-([1-8]|c))|phil|pire|pl(ay|uc)|pn-2|po(ck|rt|se)|prox|psio|pt-g|qa-a|qc(07|12|21|32|60|-[2-7]|i-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h-|oo|p-)|sdk\/|se(c[-01]|47|mc|nd|ri)|sgh-|shar|sie[-m]|sk-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h-|v-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl-|tdg-|tel[im]|tim-|t-mo|to(pl|sh)|ts(70|m-|m3|m5)|tx-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c[- ]|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas-|your|zeto|zte-/i.test(
+//     navigator.userAgent.substr(0, 4)
+//   );
 const pressToMoveQuotes = (quotes) => {
   let quoteIndex = -1;
   const quote = document.getElementById("headerSubtitle");
-  quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>"R" key to restart.<br>Mobile device users, get good.`;
+  quote.innerHTML = `Right arrow key to start.<br>Left arrow key to rewind.<br>Shift + R keys to restart.<br>Mobile device users, get good.`;
   const keyPressed = (event) => {
     switch (event.key) {
       case "R":
@@ -19,7 +20,7 @@ const pressToMoveQuotes = (quotes) => {
       case "ArrowRight":
         if (quoteIndex >= quotes.length - 1) {
           quoteIndex = quotes.length;
-          quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or "R" to start again.`;
+          quote.innerHTML = `You've reached the end.<br>Press the left arrow key to go back, or Shift + R to start again.`;
         } else {
           quoteIndex++;
           quote.innerHTML = quotes[quoteIndex];
@@ -37,6 +38,18 @@ const pressToMoveQuotes = (quotes) => {
     }
   };
   window.addEventListener("keyup", keyPressed);
+};
+const foxScriptScroll = (veryLongString) => {
+  const quoteNode = document.getElementById("headerSubtitle");
+  if (!quoteNode) return;
+  quoteNode.style.maxHeight = '200px';
+  quoteNode.style.overflowY = 'hidden';
+  quoteNode.textContent = veryLongString;
+  let scrollPosition = 5;
+  setInterval(() => {
+    quoteNode.scrollTo({ top: scrollPosition, behavior: 'smooth' })
+    scrollPosition = scrollPosition + 5
+  }, 100)
 };
 const data = {
   header: {
@@ -87,6 +100,7 @@ const data = {
       `why do they call it oven if you oven the cold food of out hot eat the food`,
       `Help im locked in a data center`,
       `what`,
+      `Never half-ass two things. Whole-ass one thing.`,
       `Now works with Wynncraft!`,
       `i can smell your fear through the screen`,
       `we will steal your ip and sell it to china`,
@@ -229,6 +243,7 @@ const data = {
       `<span style="color: #FF5555;">☠ LGenes1S died to a trap and became a ghost.</span>`,
       `<span style="color: #AA0000;">why did we make the owner a furry</span>`,
       `Now with 100% less Skeletony`,
+      `If anyone ever combine anything 32x into a 16x pack or the opposite, i instantly despise them<br>-Glenz`,
       `dreese`,
       `What's a crossguard?`,
       `Bad news first; the good news is probably a lie.`,
@@ -253,6 +268,7 @@ const data = {
       `<span style="color: #FFAA00;">Furf</span><span style="color: #AA00AA;">Sky+</span>, but its <span style="color: #FFAA00;">Reborn</span> <span style="color: #FFFFFF;">:o</span>`,
       `Now with 100% less +'s`,
       `:(<br>-Juniper`,
+      `Hello! I'm done with CSGO and give all my inventory, the first three who send a trade - I will give a knife ;)`,
       `FSR GOBLIN ARMOR<br><br>BOTTOM TEXT`,
       `${Math.random() > 0.5 ? "JustEnoughDungeons" : "jed"} is bad`,
       `404 unoriginality not found`,
@@ -326,6 +342,7 @@ const data = {
       `Don't cry about the pride logo at all and celebrate diversity like a normal person, please.`,
       `Go cry about the pride logo privately and have a nice day.`,
       `NO HATE SPEECH ALLOWED BEYOND THIS POINT.`,
+      `I WASN GONNA pay em after bitch so maybe can u try to read`,
       `area 51`,
       `catch me outside how about that`,
       `"one day the queen laid an egg and we all hatched out of it"<br>-FurryEBoy, the best UK history teacher in FSR`,
@@ -371,8 +388,8 @@ const data = {
       `i can feel your heat.`,
       `a calendar is just like a box of chocolates, sometimes you get 2020, sometimes you don't`,
       `#winning`,
-      `<img src="https://discord.com/assets/ddea4500a252f80cbf6d6c92db15178e.svg" draggable="false" width="32" height="32"> fsr is owned by a furry?`,
-      `<a href="https://www.youtube.com/watch?v=BLnDVDYJx0Q"><img src="https://discord.com/assets/817f965bd1fd796777908e6c8052d665.svg" draggable="false" width="64" height="64"></a>`,
+      `<img src="https://discord.com/assets/ddea4500a252f80cbf6d6c92db15178e.svg" draggable="false" width="32" height="32" alt="emoji: head explosion"> fsr is owned by a furry?`,
+      `<a href="https://www.youtube.com/watch?v=BLnDVDYJx0Q"><img src="https://discord.com/assets/817f965bd1fd796777908e6c8052d665.svg" alt="emoji: satisfied" draggable="false" width="64" height="64"></a>`,
       `Now with twice as much ÙwÚ`,
       `you're a furry now >:)`,
       `drink more ovaltine`,
@@ -399,14 +416,14 @@ const data = {
       }<br>-juniper<br><small>(no, not the geometry dash youtuber)</small>`,
       `she's in love with the concept`,
       `I identify as a FUCKING THREAT.`,
-      `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">`,
-      `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">`,
+      `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" alt="A" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" alt="M" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" alt="O" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" alt="G" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" alt="U" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" alt="S" draggable="false" style="width:32px; height:32px;">`,
+      `<img src="https://discord.com/assets/bbe8ae762f831966587a35010ed46f67.svg" alt="A" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/3ae4af803746f6882a684a5a48dc29ff.svg" alt="M" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" alt="O" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" alt="N" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/8971c31a6aaa34e99f197c5c9c3d03ad.svg" alt="G" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" alt="U" draggable="false" style="width:32px; height:32px;"> <img src="https://discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" alt="S" draggable="false" style="width:32px; height:32px;">`,
       `♫ no matter how hard you try,<br>you can't stop me now ♫`,
       `come to r/hypixelskyblock: now with around 93% more dubious fanart`,
       `r/hypixelskyblock: the art is maybe better than the memes`,
       `"why do all american teenagers sound the same i cant tell the fuckers apart in VCs" —NWT`,
-      `damn, pfizer really do be making me drowsy as fuck rn <img src="https://discord.com/assets/711ac22a92d00f844023ded91f820e8c.svg" draggable="false" style="width:32px; height:32px;">`,
-      `"fot nerf? shadow fury moment <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" style="width:32px; height:32px;">"`,
+      `damn, pfizer really do be making me drowsy as fuck rn <img src="https://discord.com/assets/711ac22a92d00f844023ded91f820e8c.svg" alt="emoji: sleepy" draggable="false" style="width:32px; height:32px;">`,
+      `"fot nerf? shadow fury moment <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" alt="emoji: flush owo" draggable="false" style="width:32px; height:32px;">"`,
       `"bonzo will bend us"<br>-rebmE 2021`,
       `zburger: <i>if bedbugs live in beds, then cockroaches</i>—<br>Temp: —<i>ruin an otherwise spectacular chicken sandwich :(</i>`,
       `zburger: i am losing braincells at the rate of the amount of water flowing through the niagra falls per second<br>Temp: in gallons, litres, barrels, washing machines, molecules, subatomic particles, or brain cells?<br> Daedalus: you forgot the femoral artery<br>zburger: yes`,
@@ -489,14 +506,14 @@ const data = {
       `i mine all day i mine all night<br>i mine non-stop 'til those diamonds are in sight`,
       `yo, there is a fridge on mid`,
       `Also visit SkyCrypt!`,
-      `this is where our conversations are stored people <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" style="width:32px; height:32px;"><br><br><img src="https://cdn.discordapp.com/attachments/789592044984860672/850139362774483034/20210603_155950_HDR.jpg" width="40%" height="40%" draggable="false">`,
+      `this is where our conversations are stored people <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" alt="emoji: flush" draggable="false" style="width:32px; height:32px;"><br><br><img src="https://cdn.discordapp.com/attachments/789592044984860672/850139362774483034/20210603_155950_HDR.jpg" alt="photo of a building" width="40%" height="40%" draggable="false">`,
       `AY CARAMBA DONDE ESTA LA BIBLIOTECA`,
       `all funds from patreon will go into funding skyblock gems for all of the staff`,
       `there are no more funds from patreon, no more skyblock gems for staff`,
       `ay caramba donde esta la biblioteca`,
       `gzdfhbklkogdfhpgfjkopnimmghfjpoml,ngfhompl,nfghmopl,nfgmop`,
       `imagine not using https -thegu5`,
-      `tomengmaster: ery ttt me <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" draggable="false" width="32" height="32"><br>erymanthus: you want me to toss tomatoes towards you?`,
+      `tomengmaster: ery ttt me <img src="https://discord.com/assets/fd077d826b040d6c8b895de3b7585c25.svg" alt="emoji: flush" draggable="false" width="32" height="32"><br>erymanthus: you want me to toss tomatoes towards you?`,
       `fire tictactoe <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>@Erymanthus | u/RayDeeUx</span>`,
       `goodbye,<br><br><code style="font-size:24px;">damage = (5 + weapon damage + strength / 5) x (1 + strength / 100) x (1 + crit damage / 100) x (1 + additive multiplier / 100)</code>`,
       `<code style="font-size:24px;">damage = (5 + weapon damage) x (1 + strength / 100) x (1 + crit damage / 100) x (1 + additive multiplier / 100)</code><br><br>is pure shit.`,
@@ -513,8 +530,8 @@ const data = {
       `Check <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#pack-faq</span> and <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#mod-ui-faq</span> first, or die.`,
       `${
         Math.random() > 0.5
-          ? `<img src="https://ptb.discord.com/assets/2d16214bcc74dd1546a35d3d6f15abec.svg" draggable="false" style="width:32px; height:32px;">`
-          : `<img src="https://cdn.discordapp.com/emojis/834588295194738758.png?v=1" draggable="false" style="width:32px; height:32px;">`
+          ? `<img src="https://ptb.discord.com/assets/2d16214bcc74dd1546a35d3d6f15abec.svg" alt="emoji: purple shirt" draggable="false" style="width:32px; height:32px;">`
+          : `<img src="https://cdn.discordapp.com/emojis/834588295194738758.png?v=1" alt="emoji: cursed purple shirt with a face" draggable="false" style="width:32px; height:32px;">`
       } SHIT HAPPENS. | macOS Big Sur on MacBook Pro Late 2019 16" (i9-9880H @ 2.30GHz, Radeon Pro 5500M @ 2048x1280, 16GB RAM)`,
       `"SHIT HAPPENS."<br>-Tom Holland`,
       `Made by <span style="color: #FF5555;">[</span><span style="color: #FFFFFF;">YOUTUBE</span><span style="color: #FF5555;">] FurryEBoy</span> and his team of artists!`,
@@ -523,19 +540,19 @@ const data = {
       `Better get some corticosteroids to treat that laryngeal fracture.`,
       `holy motherforking shirtballs`,
       `aHR0cHM6Ly9taW5pa2xvb24uY29tL3BpY3MvZDk4ZTE3MDgtZWQ3Ny00NzE1LWE5OTktY2VlNDY2YTk1NzY2LnBuZw==`,
-      `<img src="https://media1.tenor.com/images/663ee2c0232d35607ea49f16eb28fdf8/tenor.gif" draggable="false" width="996px" height="196px">`,
-      `<img src="https://cdn.discordapp.com/emojis/604486986170105866.png?v=1" draggable="false" width="32" height="32"> Temporary quote outage.<br>Try again later.`,
+      `<img src="https://media1.tenor.com/images/663ee2c0232d35607ea49f16eb28fdf8/tenor.gif" alt="Achievement Get! Who The Fuck Pinged Me" draggable="false" width="996px" height="196px">`,
+      `<img src="https://cdn.discordapp.com/emojis/604486986170105866.png?v=1" alt="Alert icon" draggable="false" width="32" height="32"> Temporary quote outage.<br>Try again later.`,
       `Beans.<br>-TORDA`,
       `"That boy ain't right."<br>-Hank Hill`,
       `the letter 8 is my favorite color of the furfsky reborn resource pack`,
-      `<img src="https://cdn.discordapp.com/attachments/728977460737081454/839757476085760040/Screenshot_2021-05-06_FurryEBoy_Minecraft_Profile.png" draggable="false" width="32" height="32"> He protecc<br><img src="https://cdn.discordapp.com/attachments/728977460737081454/839758647910989844/Screen_Shot_2021-05-06_at_3.00.30.459_AM_Eastern_Daylight_Time.png" draggable="false" width="32" height="32"> he attacc<br>but most importantly...<br><br><img src="https://cdn.discordapp.com/attachments/773391315424772096/860313890503000124/reddit_tyler.png" draggable="false" width="32" height="32"> he make texture pacc`,
+      `<img src="https://cdn.discordapp.com/attachments/728977460737081454/839757476085760040/Screenshot_2021-05-06_FurryEBoy_Minecraft_Profile.png" alt="Tyler with sunglasses as minecraft head" draggable="false" width="32" height="32"> He protecc<br><img src="https://cdn.discordapp.com/attachments/728977460737081454/839758647910989844/Screen_Shot_2021-05-06_at_3.00.30.459_AM_Eastern_Daylight_Time.png" alt="angry tyler with sunglasses" draggable="false" width="32" height="32"> he attacc<br>but most importantly...<br><br><img src="https://cdn.discordapp.com/attachments/773391315424772096/860313890503000124/reddit_tyler.png" alt="owo winking tyler with pride sunglasses" draggable="false" width="32" height="32"> he make texture pacc`,
       `If I was a man with a coherent brain, I would have gotten full Shadow Assassin and Livid Dagger, but no. I just have full Superior Dragon Armor and an overly maxed Shadow Fury.`,
       `keep it in your pants please<br><small>(and yes you should reasonably know what we mean by "it")</small>`,
       `"wait are we going to be graded or is this just some pass/fail garbage"<br>-multiple aspiring folks applying for fsr artist as well as amy santiago`,
       `i guess i just dont care what other people think of me`,
       `"<i>Just because you wanna do something doesn't mean you get to do it.<br>Life is chaos, success is completely arbitrary, and confidence is everything.</i>"<br>-Gina Linetti`,
       `hot damn!`,
-      `; vs <span style="font-family: Trebuchet MS;">;</span><br><br>Which one is the English semicolon?<br><br><small>(Credits to MisterCheezeCake for uncovering this gem.)`,
+      `; vs <span style="font-family: Trebuchet MS, sans-serif;">;</span><br><br>Which one is the English semicolon?<br><br><small>(Credits to MisterCheezeCake for uncovering this gem.)`,
       `<i>We protest you calling us "little kids".<br>We prefer to be called "vertically-impaired pre-adults".</i><br>-fsr team (but Yakko Warner said it first)`,
       `I'm going to slice your Achilles' tendons, peel off your fingernails, and stick knitting needles in your eyes.`,
       `<span style="font-size:4px;">Bassicly for those player who are using neu etc almost everything. Is banable which makes u play it easy like neu ah etc profit no profit dungeon overlay solvers and now the shaders etc if they allow us to see which we would not ban like dungeon overlay etc so I would recommend using lunar client and badlion cuz of they have what is allowed yeah dungeon map potion effects etc allowed but just use lunar or badlion cuz everything there matches the rules of server me personally use lunar client used to use neu etc which I could get ban I never got kicked earlier but might watchdog never saw it and now I don't wanna get ban tell me if I'm wrong</span>`,
@@ -551,14 +568,14 @@ const data = {
       `Now I've learned my
         ${
           Math.random() > 0.5
-            ? `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/787004872444739624.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/787004862356389909.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/787004897735475220.png?v=1" draggable="false" style="width:32px; height:32px;">`
-            : `<img src="https://cdn.discordapp.com/emojis/804803417259507752.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/804803405012533268.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/804803384187158559.png?v=1" draggable="false" style="width:32px; height:32px;">
-          <img src="https://cdn.discordapp.com/emojis/804803429264392213.png?v=1" draggable="false" style="width:32px; height:32px;">`
+          ? `<img src="https://cdn.discordapp.com/emojis/787004887061364736.png?v=1" alt="A dungeons score icon" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/787004872444739624.png?v=1" alt="B dungeons score icon" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/787004862356389909.png?v=1" alt="C dungeons score icon" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/787004897735475220.png?v=1" alt="S dungeons score icon" draggable="false" style="width:32px; height:32px;">`
+          : `<img src="https://cdn.discordapp.com/emojis/804803417259507752.png?v=1" alt="emoji: A dungeons score" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/804803405012533268.png?v=1" alt="emoji: B dungeons score" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/804803384187158559.png?v=1" alt="emoji: C dungeons score" draggable="false" style="width:32px; height:32px;">
+          <img src="https://cdn.discordapp.com/emojis/804803429264392213.png?v=1" alt="emoji: S dungeons score" draggable="false" style="width:32px; height:32px;">`
         }
         , next time ${
           Math.random() > 0.5
@@ -566,21 +583,21 @@ const data = {
             : `won't you sing with me?`
         }`,
       `
-       <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" draggable="false" style="width:32px; height:32px;">
-       <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" alt="F" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/9efe2dc7b0a590b54482c0ef75c752ca.svg" alt="U" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" alt="R" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/197cdfb70e6835c81cbb1af86ab7e01e.svg" alt="F" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/c4cb8aa4b3abef19178d052694e3ebf4.svg" alt="S" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/547b9b60d8dfc97568666a168793dc73.svg" alt="K" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/2d24eb6ab8545bd17e66af014500f1ed.svg" alt="Y" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" alt="R" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/0df8cc6898cdb812709a4672f137b62d.svg" alt="E" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/515873f6898e0b26daf51921c65a43f7.svg" alt="B" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/89bba1c5173777ba0a352d7ac585a647.svg" alt="O" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/7102ad5cacc8ba7bd99fa16b4e6468a5.svg" alt="R" draggable="false" style="width:32px; height:32px;">
+       <img src="https://ptb.discord.com/assets/f654b0f03f641e89a0db09b4c69cc33b.svg" alt="N" draggable="false" style="width:32px; height:32px;">
        `,
-      `Winner of ${String(date.getYear() + 1900)} best pack award.`,
+      `Winner of ${String(date.getFullYear())} best pack award.`,
       `${String(
         Math.abs(
           Math.floor(
@@ -654,17 +671,17 @@ const data = {
         document.getElementById("headerSubtitle").innerHTML = `"Every time someone steps up and says who they are, the world becomes a better, more interesting place."<br>-Captain Holt`;
       },
       () => {
-        document.body.style = "filter:blur(1px)";
+        document.body.style.filter = 'blur(1px)';
         document.getElementById("headerSubtitle").innerHTML =
           "looks like your vision isn't the best!";
       },
       () => {
-        document.body.style = "filter:grayscale(80%)";
+        document.body.style.filter = "grayscale(80%)";
         document.getElementById("headerSubtitle").innerHTML =
           "look mom, im emo";
       },
       () => {
-        document.body.style = "filter:brightness(1.4)";
+        document.body.style.filter = "brightness(1.4)";
         document.getElementById("headerSubtitle").innerHTML =
           "is it a bit too bright in here?";
       },
@@ -1084,6 +1101,35 @@ const data = {
         ]);
       },
       () => {
+        pressToMoveQuotes([
+          `<i>Note: This is a transcript of a Discord DM between two folks.</i>`,
+          `GL0WSQUID: dELTA`,
+          `Daedalus: what do you want`,
+          `GL0WSQUID: can you make me a pack`,
+          `Daedalus: depends`,
+          `GL0WSQUID: on what`,
+          `Daedalus: what the pack is`,
+          `Daedalus: and how much you're willing to pay`,
+          `Daedalus: cause i don't know you`,
+          `GL0WSQUID: i am not willing to pay am poor i want it a custom pack for a pvp channel`,
+          `Daedalus: yeah<br><br><i>no</i>`,
+        ]);
+      },
+      () => {
+        pressToMoveQuotes([
+          `<i>Note: This is a transcript of a Discord DM between two folks.</i>`,
+          `GL0WSQUID: Question`,
+          `FurryEBoy: dont even ask`,
+          `FurryEBoy: i will laugh at you`,
+        ]);
+      },
+      () => {
+        foxScriptScroll(`According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let's shake it up a little.Barry! Breakfast is ready! Coming! Hang on a second. Hello? Barry? Adam? Can you believe this is happening? I can't. I'll pick you up. Looking sharp. Use the stairs, Your father paid good money for those. Sorry. I'm excited. Here's the graduate. We're very proud of you, son. A perfect report card, all B's. Very proud. Ma! I got a thing going here. You got lint on your fuzz. Ow! That's me! Wave to us! We'll be in row 118,000. Bye! Barry, I told you, stop flying in the house! Hey, Adam. Hey, Barry. Is that fuzz gel? A little. Special day, graduation. Never thought I'd make it. Three days grade school, three days high school. Those were awkward. Three days college. I'm glad I took a day and hitchhiked around The Hive. You did come back different. Hi, Barry. Artie, growing a mustache? Looks good. Hear about Frankie? Yeah. You going to the funeral? No, I'm not going. Everybody knows, sting someone, you die. Don't waste it on a squirrel. Such a hothead. I guess he could have just gotten out of the way. I love this incorporating an amusement park into our day. That's why we don't need vacations. Boy, quite a bit of pomp under the circumstances. Well, Adam, today we are men. We are! Bee-men. Amen! Hallelujah! Students, faculty, distinguished bees, please welcome Dean Buzzwell. Welcome, New Hive City graduating class of 9:15. That concludes our ceremonies And begins your career at Honex Industries! Will we pick our job today? I heard it's just orientation. Heads up! Here we go. Keep your hands and antennas inside the tram at all times. Wonder what it'll be like? A little scary. Welcome to Honex, a division of Honesco and a part of the Hexagon Group. This is it! Wow. Wow. We know that you, as a bee, have worked your whole life to get to the point where you can work for your whole life. Honey begins when our valiant Pollen Jocks bring the nectar to The Hive. Our top-secret formula is automatically color-corrected, scent-adjusted and bubble-contoured into this soothing sweet syrup with its distinctive golden glow you know as... Honey! That girl was hot. She's my cousin! She is? Yes, we're all cousins. Right. You're right. At Honex, we constantly strive to improve every aspect of bee existence. These bees are stress-testing a new helmet technology. What do you think he makes? Not enough. Here we have our latest advancement, the Krelman. What does that do? Catches that little strand of honey that hangs after you pour it. Saves us millions. Can anyone work on the Krelman? Of course. Most bee jobs are small ones. But bees know that every small job, if it's done well, means a lot. But choose carefully because you'll stay in the job you pick for the rest of your life. The same job the rest of your life? I didn't know that. What's the difference? You'll be happy to know that bees, as a species, haven't had one day off in 27 million years. So you'll just work us to death? We'll sure try. Wow! That blew my mind! "What's the difference?" How can you say that? One job forever? That's an insane choice to have to make. I'm relieved. Now we only have to make one decision in life. But, Adam, how could they never have told us that? Why would you question anything? We're bees. We're the most perfectly functioning society on Earth. You ever think maybe things work a little too well here? Like what? Give me one example. I don't know. But you know what I'm talking about. Please clear the gate. Royal Nectar Force on approach. Wait a second. Check it out. Hey, those are Pollen Jocks! Wow. I've never seen them this close. They know what it's like outside The Hive. Yeah, but some don't come back. Hey, Jocks! Hi, Jocks! You guys did great! You're monsters! You're sky freaks! I love it! I love it! I wonder where they were. I don't know. Their day's not planned. Outside The Hive, flying who knows where, doing who knows what. You can't just decide to be a Pollen Jock. You have to be bred for that. Right. Look. That's more pollen than you and I will see in a lifetime. It's just a status symbol. Bees make too much of it. Perhaps. Unless you're wearing it and the ladies see you wearing it. Those ladies? Aren't they our cousins too? Distant. Distant. Look at these two. Couple of Hive Harrys. Let's have fun with them. It must be dangerous being a Pollen Jock. Yeah. Once a bear pinned me against a mushroom! He had a paw on my throat, and with the other, he was slapping me! Oh, my! I never thought I'd knock him out. What were you doing during this? Trying to alert the authorities. I can autograph that. A little gusty out there today, wasn't it, comrades? Yeah. Gusty. We're hitting a sunflower patch six miles from here tomorrow. Six miles, huh? Barry! A puddle jump for us, but maybe you're not up for it. Maybe I am. You are not! We're going 0900 at J-Gate. What do you think, buzzy-boy? Are you bee enough? I might be. It all depends on what 0900 means. Hey, Honex! Dad, you surprised me. You decide what you're interested in? Well, there's a lot of choices. But you only get one. Do you ever get bored doing the same job every day? Son, let me tell you about stirring. You grab that stick, and you just move it around, and you stir it around. You get yourself into a rhythm. It's a beautiful thing. You know, Dad, the more I think about it, maybe the honey field just isn't right for me. You were thinking of what, making balloon animals? That's a bad job for a guy with a stinger. Janet, your son's not sure he wants to go into honey! Barry, you are so funny sometimes. I'm not trying to be funny. You're not funny! You're going into honey. Our son, the stirrer! You're gonna be a stirrer? No one's listening to me! Wait till you see the sticks I have. I could say anything right now. I'm gonna get an ant tattoo! Let's open some honey and celebrate! Maybe I'll pierce my thorax. Shave my antennae. Shack up with a grasshopper. Get a gold tooth and call everybody "dawg"! I'm so proud. We're starting work today! Today's the day. Come on! All the good jobs will be gone. Yeah, right. Pollen counting, stunt bee, pouring, stirrer, front desk, hair removal... Is it still available? Hang on. Two left! One of them's yours! Congratulations! Step to the side. What'd you get? Picking crud out. Stellar! Wow! Couple of newbies? Yes, sir! Our first day! We are ready! Make your choice. You want to go first? No, you go. Oh, my. What's available? Restroom attendant's open, not for the reason you think. Any chance of getting the Krelman? Sure, you're on. I'm sorry, the Krelman just closed out. Wax monkey's always open. The Krelman opened up again. What happened? A bee died. Makes an opening. See? He's dead. Another dead one. Deady. Deadified. Two more dead. Dead from the neck up. Dead from the neck down. That's life! Oh, this is so hard! Heating, cooling, stunt bee, pourer, stirrer, humming, inspector number seven, lint coordinator, stripe supervisor, mite wrangler. Barry, what do you think I should... Barry? Barry! All right, we've got the sunflower patch in quadrant nine... What happened to you? Where are you? I'm going out. Out? Out where? Out there. Oh, no! I have to, before I go to work for the rest of my life. You're gonna die! You're crazy! Hello? Another call coming in. If anyone's feeling brave, there's a Korean deli on 83rd that gets their roses today. Hey, guys. Look at that. Isn't that the kid we saw yesterday? Hold it, son, flight deck's restricted. It's OK, Lou. We're gonna take him up. Really? Feeling lucky, are you? Sign here, here. Just initial that. Thank you. OK. You got a rain advisory today, and as you all know, bees cannot fly in rain. So be careful. As always, watch your brooms, hockey sticks, dogs, birds, bears and bats. Also, I got a couple of reports of root beer being poured on us. Murphy's in a home because of it, babbling like a cicada! That's awful. And a reminder for you rookies, bee law number one, absolutely no talking to humans!  All right, launch positions! Buzz, buzz, buzz, buzz! Buzz, buzz, buzz, buzz! Buzz, buzz, buzz, buzz! Black and yellow! Hello! You ready for this, hot shot? Yeah. Yeah, bring it on. Wind, check. Antennae, check. Nectar pack, check. Wings, check. Stinger, check. Scared out of my shorts, check. OK, ladies, let's move it out! Pound those petunias, you striped stem-suckers! All of you, drain those flowers! Wow! I'm out! I can't believe I'm out! So blue. I feel so fast and free! Box kite! Wow! Flowers! This is Blue Leader, We have roses visual. Bring it around 30 degrees and hold. Roses! 30 degrees, roger. Bringing it around. Stand to the side, kid. It's got a bit of a kick. That is one nectar collector! Ever see pollination up close? No, sir. I pick up some pollen here, sprinkle it over here. Maybe a dash over there, a pinch on that one. See that? It's a little bit of magic. That's amazing. Why do we do that? That's pollen power. More pollen, more flowers, more nectar, more honey for us. Cool. I'm picking up a lot of bright yellow, Could be daisies, Don't we need those? Copy that visual. Wait. One of these flowers seems to be on the move. Say again? You're reporting a moving flower? Affirmative. That was on the line! This is the coolest. What is it? I don't know, but I'm loving this color. It smells good. Not like a flower, but I like it. Yeah, fuzzy. Chemical-y. Careful, guys. It's a little grabby. My sweet lord of bees! Candy-brain, get off there! Problem! Guys! This could be bad. Affirmative. Very close. Gonna hurt. Mama's little boy. You are way out of position, rookie! Coming in at you like a missile! Help me! I don't think these are flowers. Should we tell him? I think he knows. What is this?! Match point! You can start packing up, honey, because you're about to eat it! Yowser! Gross. There's a bee in the car! Do something! I'm driving! Hi, bee. He's back here! He's going to sting me! Nobody move. If you don't move, he won't sting you. Freeze! He blinked! Spray him, Granny! What are you doing?! Wow... the tension level out here is unbelievable. I gotta get home. Can't fly in rain. Can't fly in rain. Can't fly in rain. Mayday! Mayday! Bee going down! Ken, could you close the window please? Ken, could you close the window please? Check out my new resume. I made it into a fold-out brochure. You see? Folds out. Oh, no. More humans. I don't need this. What was that? Maybe this time. This time. This time. This time! This time! This... Drapes! That is diabolical. It's fantastic. It's got all my special skills, even my top-ten favorite movies. What's number one? Star Wars? Nah, I don't go for that... kind of stuff. No wonder we shouldn't talk to them. They're out of their minds. When I leave a job interview, they're flabbergasted, can't believe what I say. There's the sun. Maybe that's a way out. I don't remember the sun having a big 75 on it. I predicted global warming. I could feel it getting hotter. At first I thought it was just me. Wait! Stop! Bee! Stand back. These are winter boots. Wait! Don't kill him! You know I'm allergic to them! This thing could kill me! Why does his life have less value than yours? Why does his life have any less value than mine? Is that your statement? I'm just saying all life has value. You don't know what he's capable of feeling. My brochure! There you go, little guy. I'm not scared of him.It's an allergic thing.  Put that on your resume brochure. My whole face could puff up. Make it one of your special skills. Knocking someone out is also a special skill. Right. Bye, Vanessa. Thanks. Vanessa, next week? Yogurt night? Sure, Ken. You know, whatever. You could put carob chips on there. Bye. Supposed to be less calories. Bye. I gotta say something. She saved my life. I gotta say something. All right, here it goes. Nah. What would I say? I could really get in trouble. It's a bee law. You're not supposed to talk to a human. I can't believe I'm doing this. I've got to. Oh, I can't do it. Come on! No. Yes. No. Do it. I can't. How should I start it? "You like jazz?" No, that's no good. Here she comes! Speak, you fool! Hi! I'm sorry. You're talking. Yes, I know. You're talking! I'm so sorry. No, it's OK. It's fine. I know I'm dreaming. But I don't recall going to bed. Well, I'm sure this is very disconcerting. This is a bit of a surprise to me. I mean, you're a bee! I am. And I'm not supposed to be doing this, but they were all trying to kill me. And if it wasn't for you... I had to thank you. It's just how I was raised. That was a little weird. I'm talking with a bee. Yeah. I'm talking to a bee. And the bee is talking to me! I just want to say I'm grateful. I'll leave now. Wait! How did you learn to do that? What? The talking thing. Same way you did, I guess. "Mama, Dada, honey." You pick it up. That's very funny. Yeah. Bees are funny. If we didn't laugh, we'd cry with what we have to deal with. Anyway... Can I... get you something? Like what? I don't know. I mean... I don't know. Coffee? I don't want to put you out. It's no trouble. It takes two minutes. It's just coffee. I hate to impose. Don't be ridiculous! Actually, I would love a cup. Hey, you want rum cake? I shouldn't. Have some. No, I can't. Come on! I'm trying to lose a couple micrograms. Where? These stripes don't help. You look great! I don't know if you know anything about fashion. Are you all right? No. He's making the tie in the cab as they're flying up Madison. He finally gets there. He runs up the steps into the church. The wedding is on. And he says, "Watermelon? I thought you said Guatemalan. Why would I marry a watermelon?" Is that a bee joke? That's the kind of stuff we do. Yeah, different. So, what are you gonna do, Barry? About work? I don't know. I want to do my part for The Hive, but I can't do it the way they want. I know how you feel. You do? Sure. My parents wanted me to be a lawyer or a doctor, but I wanted to be a florist. Really? My only interest is flowers. Our new queen was just elected with that same campaign slogan. Anyway, if you look... There's my hive right there. See it? You're in Sheep Meadow! Yes! I'm right off the Turtle Pond! No way! I know that area. I lost a toe ring there once. Why do girls put rings on their toes? Why not? It's like putting a hat on your knee. Maybe I'll try that. You all right, ma'am? Oh, yeah. Fine. Just having two cups of coffee! Anyway, this has been great. Thanks for the coffee. Yeah, it's no trouble. Sorry I couldn't finish it. If I did, I'd be up the rest of my life. Are you...? Can I take a piece of this with me? Sure! Here, have a crumb. Thanks! Yeah. All right. Well, then... I guess I'll see you around. Or not. OK, Barry. And thank you so much again... for before. Oh, that? That was nothing. Well, not nothing, but... Anyway... This can't possibly work. He's all set to go. We may as well try it. OK, Dave, pull the chute. Sounds amazing. It was amazing! It was the scariest, happiest moment of my life. Humans! I can't believe you were with humans! Giant, scary humans! What were they like? Huge and crazy. They talk crazy. They eat crazy giant things. They drive crazy. Do they try and kill you, like on TV? Some of them. But some of them don't. How'd you get back? Poodle. You did it, and I'm glad. You saw whatever you wanted to see. You had your "experience." Now you can pick out yourjob and be normal. Well... Well? Well, I met someone. You did? Was she Bee-ish? A wasp?! Your parents will kill you! No, no, no, not a wasp. Spider? I'm not attracted to spiders. I know it's the hottest thing, with the eight legs and all. I can't get by that face. So who is she? She's... human. No, no. That's a bee law. You wouldn't break a bee law. Her name's Vanessa. Oh, boy. She's so nice. And she's a florist! Oh, no! You're dating a human florist! We're not dating. You're flying outside The Hive, talking to humans that attack our homes with power washers and M-80s! One-eighth a stick of dynamite! She saved my life! And she understands me. This is over! Eat this. This is not over! What was that? They call it a crumb. It was so stingin' stripey! And that's not what they eat. That's what falls off what they eat! You know what a Cinnabon is? No. It's bread and cinnamon and frosting. They heat it up... Sit down! ...really hot! Listen to me! We are not them! We're us. There's us and there's them! Yes, but who can deny the heart that is yearning? There's no yearning. Stop yearning. Listen to me! You have got to start thinking bee, my friend. Thinking bee! Thinking bee. Thinking bee. Thinking bee! Thinking bee! Thinking bee! Thinking bee! There he is. He's in the pool. You know what your problem is, Barry? I gotta start thinking bee? How much longer will this go on? It's been three days! Why aren't you working? I've got a lot of big life decisions to think about. What life? You have no life! You have no job. You're barely a bee! Would it kill you to make a little honey? Barry, come out. Your father's talking to you. Martin, would you talk to him? Barry, I'm talking to you! You coming? Got everything? All set! Go ahead. I'll catch up. Don't be too long. Watch this! Vanessa! We're still here. I told you not to yell at him. He doesn't respond to yelling! Then why yell at me? Because you don't listen! I'm not listening to this. Sorry, I've gotta go. Where are you going? I'm meeting a friend. A girl? Is this why you can't decide? Bye. I just hope she's Bee-ish. They have a huge parade of flowers every year in Pasadena? To be in the Tournament of Roses, that's every florist's dream! Up on a float, surrounded by flowers, crowds cheering. A tournament. Do the roses compete in athletic events? No. All right, I've got one. How come you don't fly everywhere? It's exhausting. Why don't you run everywhere? It's faster. Yeah, OK, I see, I see. All right, your turn. TiVo. You can just freeze live TV? That's insane! You don't have that? We have Hivo, but it's a disease. It's a horrible, horrible disease. Oh, my. Dumb bees! You must want to sting all those jerks. We try not to sting. It's usually fatal for us. So you have to watch your temper. Very carefully. You kick a wall, take a walk, write an angry letter and throw it out. Work through it like any emotion: Anger, jealousy, lust. Oh, my goodness! Are you OK? Yeah. What is wrong with you?! It's a bug. He's not bothering anybody. Get out of here, you creep! What was that? A Pic 'N' Save circular? Yeah, it was. How did you know? It felt like about 10 pages. Seventy-five is pretty much our limit. You've really got that down to a science. I lost a cousin to Italian Vogue. I'll bet. What in the name of Mighty Hercules is this? How did this get here? cute Bee, Golden Blossom, Ray Liotta Private Select? Is he that actor? I never heard of him. Why is this here? For people. We eat it. You don't have enough food of your own? Well, yes. How do you get it? Bees make it. I know who makes it! And it's hard to make it! There's heating, cooling, stirring. You need a whole Krelman thing! It's organic. It's our-ganic! It's just honey, Barry. Just what?! Bees don't know about this! This is stealing! A lot of stealing! You've taken our homes, schools,hospitals! This is all we have! And it's on sale?! I'm getting to the bottom of this. I'm getting to the bottom of all of this! Hey, Hector. You almost done? Almost. He is here. I sense it. Well, I guess I'll go home now and just leave this nice honey out, with no one around. You're busted, box boy! I knew I heard something. So you can talk! I can talk. And now you'll start talking! Where you getting the sweet stuff? Who's your supplier? I don't understand. I thought we were friends. The last thing we want to do is upset bees! You're too late! It's ours now! You, sir, have crossed the wrong sword! You, sir, will be lunch for my iguana, Ignacio! Where is the honey coming from? Tell me where! Honey Farms! It comes from Honey Farms! Crazy person! What horrible thing has happened here? These faces, they never knew what hit them. And now they're on the road to nowhere! Just keep still. What? You're not dead? Do I look dead? They will wipe anything that moves. Where you headed? To Honey Farms. I am onto something huge here. I'm going to Alaska. Moose blood, crazy stuff. Blows your head off! I'm going to Tacoma. And you? He really is dead. All right. Uh-oh! What is that?! Oh, no! A wiper! Triple blade! Triple blade? Jump on! It's your only chance, bee! Why does everything have to be so doggone clean?! How much do you people need to see?! Open your eyes! Stick your head out the window! From NPR News in Washington, I'm Carl Kasell. But don't kill no more bugs! Bee! Moose blood guy!! You hear something? Like what? Like tiny screaming. Turn off the radio. Whassup, bee boy? Hey, Blood. Just a row of honey jars, as far as the eye could see. Wow! I assume wherever this truck goes is where they're getting it. I mean, that honey's ours. Bees hang tight. We're all jammed in. It's a close community. Not us, man. We on our own. Every mosquito on his own. What if you get in trouble? You a mosquito, you in trouble. Nobody likes us. They just smack. See a mosquito, smack, smack! At least you're out in the world. You must meet girls. Mosquito girls try to trade up, get with a moth, dragonfly. Mosquito girl don't want no mosquito. You got to be kidding me! Mooseblood's about to leave the building! So long, bee! Hey, guys! Mooseblood! I knew I'd catch y'all down here. Did you bring your crazy straw? We throw it in jars, slap a label on it, and it's pretty much pure profit. What is this place? A bee's got a brain the size of a pinhead. They are pinheads! Pinhead. Check out the new smoker. Oh, sweet. That's the one you want. The Thomas 3000! Smoker? Ninety puffs a minute, semi-automatic. Twice the nicotine, all the tar. A couple breaths of this knocks them right out. They make the honey, and we make the money. "They make the honey, and we make the money"? Oh, my! What's going on? Are you OK? Yeah. It doesn't last too long. Do you know you're in a fake hive with fake walls? Our queen was moved here. We had no choice. This is your queen? That's a man in women's clothes! That's a drag queen! What is this? Oh, no! There's hundreds of them! Bee honey. Our honey is being brazenly stolen on a massive scale! This is worse than anything bears have done! I intend to do something. Oh, Barry, stop. Who told you humans are taking our honey? That's a rumor. Do these look like rumors? That's a conspiracy theory. These are obviously doctored photos. How did you get mixed up in this? He's been talking to humans. What? Talking to humans?! He has a human girlfriend. And they make out! Make out? Barry! We do not. You wish you could. Whose side are you on? The bees! I dated a cricket once in San Antonio. Those crazy legs kept me up all night. Barry, this is what you want to do with your life? I want to do it for all our lives. Nobody works harder than bees! Dad, I remember you coming home so overworked your hands were still stirring. You couldn't stop. I remember that. What right do they have to our honey? We live on two cups a year. They put it in lip balm for no reason whatsoever! Even if it's true, what can one bee do? Sting them where it really hurts. In the face! The eye! That would hurt. No. Up the nose? That's a killer. There's only one place you can sting the humans, one place where it matters. Hive at Five, The Hive's only full-hour action news source. No more bee beards! With Bob Bumble at the anchor desk. Weather with Storm Stinger. Sports with Buzz Larvi. And Jeanette Chung. Good evening. I'm Bob Bumble. And I'm Jeanette Ohung. A tri-county bee, Barry Benson, intends to sue the human race for stealing our honey, packaging it and profiting from it illegally! Tomorrow night on Bee Larry King, we'll have three former queens here in our studio, discussing their new book, classy Ladies, out this week on Hexagon. Tonight we're talking to Barry Benson. Did you ever think, "I'm a kid from The Hive. I can't do this"? Bees have never been afraid to change the world. What about Bee Oolumbus? Bee Gandhi? Bejesus? Where I'm from, we'd never sue humans. We were thinking of stickball or candy stores. How old are you? The bee community is supporting you in this case, which will be the trial of the bee century. You know, they have a Larry King in the human world too. It's a common name. Next week... He looks like you and has a show and suspenders and colored dots... Next week... Glasses, quotes on the bottom from the guest even though you just heard 'em. Bear Week next week! They're scary, hairy and here live. Always leans forward, pointy shoulders, squinty eyes, very Jewish. In tennis, you attack at the point of weakness! It was my grandmother, Ken. She's 81. Honey, her backhand's a joke! I'm not gonna take advantage of that? Quiet, please. Actual work going on here. Is that that same bee? Yes, it is! I'm helping him sue the human race. Hello. Hello, bee. This is Ken. Yeah, I remember you. Timberland, size ten and a half. Vibram sole, I believe. Why does he talk again? Listen, you better go 'cause we're really busy working. But it's our yogurt night! Bye-bye. Why is yogurt night so difficult?! You poor thing. You two have been at this for hours! Yes, and Adam here has been a huge help. Frosting... How many sugars? Just one. I try not to use the competition. So why are you helping me? Bees have good qualities. And it takes my mind off the shop. Instead of flowers, people are giving balloon bouquets now. Those are great, if you're three. And artificial flowers. Oh, those just get me psychotic! Yeah, me too. Bent stingers, pointless pollination. Bees must hate those fake things! Nothing worse than a daffodil that's had work done. Maybe this could make up for it a little bit. This lawsuit's a pretty big deal. I guess. You sure you want to go through with it? Am I sure? When I'm done with the humans, they won't be able to say, "Honey, I'm home," without paying a royalty! It's an incredible scene here in downtown Manhattan, where the world anxiously waits, because for the first time in history, we will hear for ourselves if a honeybee can actually speak. What have we gotten into here, Barry? It's pretty big, isn't it? I can't believe how many humans don't work during the day. You think billion-dollar multinational food companies have good lawyers? Everybody needs to stay behind the barricade. What's the matter? I don't know, I just got a chill. Well, if it isn't the bee team. You boys work on this? All rise! The Honorable Judge Bumbleton presiding. All right. Case number 4475, Superior Court of New York, Barry Bee Benson v. the Honey Industry is now in session. Mr. Montgomery, you're representing the five food companies collectively? A privilege. Mr. Benson... you're representing all the bees of the world? I'm kidding. Yes, Your Honor, we're ready to proceed. Mr. Montgomery, your opening statement, please. Ladies and gentlemen of the jury, my grandmother was a simple woman. Born on a farm, she believed it was man's divine right to benefit from the bounty of nature God put before us. If we lived in the topsy-turvy world Mr. Benson imagines, just think of what would it mean. I would have to negotiate with the silkworm for the elastic in my britches! Talking bee! How do we know this isn't some sort of holographic motion-picture-capture Hollywood wizardry? They could be using laser beams! Robotics! Ventriloquism! Cloning! For all we know, he could be on steroids! Mr. Benson? Ladies and gentlemen, there's no trickery here. I'm just an ordinary bee. Honey's pretty important to me. It's important to all bees. We invented it! We make it. And we protect it with our lives. Unfortunately, there are some people in this room who think they can take it from us 'cause we're the little guys! I'm hoping that, after this is all over, you'll see how, by taking our honey, you not only take everything we have but everything we are! I wish he'd dress like that all the time. So nice! Call your first witness. So, Mr. Klauss Vanderhayden of Honey Farms, big company you have. I suppose so. I see you also own Honeyburton and Honron! Yes, they provide beekeepers for our farms. Beekeeper. I find that to be a very disturbing term. I don't imagine you employ any bee-free-ers, do you? No. I couldn't hear you. No. No. Because you don't free bees. You keep bees. Not only that, it seems you thought a bear would be an appropriate image for a jar of honey. They're very lovable creatures. Yogi Bear, Fozzie Bear, Build-A-Bear. You mean like this? Bears kill bees! How'd you like his head crashing through your living room?! Biting into your couch! Spitting out your throw pillows! OK, that's enough. Take him away. So, Mr. Sting, thank you for being here. Your name intrigues me. Where have I heard it before? I was with a band called The Police. But you've never been a police officer, have you? No, I haven't. No, you haven't. And so here we have yet another example of bee culture casually stolen by a human for nothing more than a prance-about stage name. Oh, please. Have you ever been stung, Mr. Sting? Because I'm feeling a little stung, Sting. Or should I say... Mr. Gordon M. Sumner! That's not his real name?! You idiots! Mr. Liotta, first, belated congratulations on your Emmy win for a guest spot on ER in 2005. Thank you. Thank you. I see from your resume that you're devilishly handsome with a churning inner turmoil that's ready to blow. I enjoy what I do. Is that a crime? Not yet it isn't. But is this what it's come to for you? Exploiting tiny, helpless bees so you don't have to rehearse your part and learn your lines, sir? Watch it, Benson! I could blow right now! This isn't a goodfella. This is a badfella! Why doesn't someone just step on this creep, and we can all go home?! Order in this court! You're all thinking it! Order! Order, I say! Say it! Mr. Liotta, please sit down! I think it was awfully nice of that bear to pitch in like that. I think the jury's on our side. Are we doing everything right, legally? I'm a florist. Right. Well, here's to a great team. To a great team! Well, hello. Ken! Hello. I didn't think you were coming. No, I was just late I tried to call, but... the battery. I didn't want all this to go to waste, so I called Barry. Luckily, he was free. Oh, that was lucky. There's a little left. I could heat it up. Yeah, heat it up, sure, whatever. So I hear you're quite a tennis player. I'm not much for the game myself. The ball's a little grabby. That's where I usually sit. Right... there. Ken, Barry was looking at your resume, and he agreed with me that eating with chopsticks isn't really a special skill. You think I don't see what you're doing? I know how hard it is to find the right job. We have that in common. Do we? Bees have 100 percent employment, but we do jobs like taking the crud out. That's just what I was thinking about doing. Ken, I let Barry borrow your razor for his fuzz. I hope that was all right. I'm going to drain the old stinger. Yeah, you do that. Look at that. You know, I've just about had it with your little Mind Games. What's that? Italian Vogue. Mamma mia, that's a lot of pages. A lot of ads. Remember what Van said, why is your life more valuable than mine? Funny, I just can't seem to recall that! I think something stinks in here! I love the smell of flowers. How do you like the smell of flames?! Not as much. Water bug! Not taking sides! Ken, I'm wearing a Chapstick hat! This is pathetic! I've got issues! Well, well, well, a royal flush! You're bluffing. Am I? Surf's up, dude! Poo water! That bowl is gnarly. Except for those dirty yellow rings! Kenneth! What are you doing?! You know, I don't even like honey! I don't eat it! We need to talk! He's just a little bee! And he happens to be the nicest bee I've met in a long time! Long time? What are you talking about?! Are there other bugs in your life?  No, but there are other things bugging me in life. And you're one of them! Fine! Talking bees, no yogurt night... My nerves are fried from riding on this emotional roller coaster! Goodbye, Ken. And for your information, I prefer sugar-free, artificial sweeteners made by man! I'm sorry about all that. I know it's got an aftertaste! I like it! I always felt there was some kind of barrier between Ken and me. I couldn't overcome it. Oh, well. Are you OK for the trial? I believe Mr. Montgomery is about out of ideas. We would like to call Mr. Barry Benson Bee to the stand. Good idea! You can really see why he's considered one of the best lawyers... Yeah. Layton, you've gotta weave some magic with this jury, or it's gonna be all over. Don't worry. The only thing I have to do to turn this jury around is to remind them of what they don't like about bees. You got the tweezers? Are you allergic? Only to losing, son. Only to losing. Mr. Benson Bee, I'll ask you what I think we'd all like to know. What exactly is your relationship to that woman? We're friends. Good friends? Yes. How good? Do you live together? Wait a minute... Are you her little... bedbug? I've seen a bee documentary or two. From what I understand, doesn't your queen give birth to all the bee children? Yeah, but... So those aren't your real parents! Oh, Barry... Yes, they are! Hold me back! You're an illegitimate bee, aren't you, Benson? He's denouncing bees! Don't y'all date your cousins? Objection! I'm going to pincushion this guy! Adam, don't! It's what he wants! Oh, I'm hit!! Oh, lordy, I am hit! Order! Order! The venom! The venom is coursing through my veins! I have been felled by a winged beast of destruction! You see? You can't treat them like equals! They're striped savages! Stinging's the only thing they know! It's their way! Adam, stay with me. I can't feel my legs. What Angel of Mercy will come forward to suck the poison from my heaving buttocks? I will have order in this court. Order! Order, please! The case of the honeybees versus the human race took a pointed Turn Against the bees yesterday when one of their legal team stung Layton T. Montgomery. Hey, buddy. Hey. Is there much pain? Yeah. I... I blew the whole case, didn't I? It doesn't matter. What matters is you're alive. You could have died. I'd be better off dead. Look at me. They got it from the cafeteria downstairs, in a tuna sandwich. Look, there's a little celery still on it. What was it like to sting someone? I can't explain it. It was all... All adrenaline and then...and then ecstasy! All right. You think it was all a trap? Of course. I'm sorry. I flew us right into this. What were we thinking? Look at us. We're just a couple of bugs in this world. What will the humans do to us if they win? I don't know. I hear they put the roaches in motels. That doesn't sound so bad. Adam, they check in, but they don't check out! Oh, my. Could you get a nurse to close that window? Why? The smoke. Bees don't smoke. Right. Bees don't smoke. Bees don't smoke! But some bees are smoking. That's it! That's our case! It is? It's not over? Get dressed. I've gotta go somewhere. Get back to the court and stall. Stall any way you can. And assuming you've done step correctly, you're ready for the tub. Mr. Flayman. Yes? Yes, Your Honor! Where is the rest of your team? Well, Your Honor, it's interesting. Bees are trained to fly haphazardly, and as a result, we don't make very good time. I actually heard a funny story about... Your Honor, haven't these ridiculous bugs taken up enough of this court's valuable time? How much longer will we allow these absurd shenanigans to go on? They have presented no compelling evidence to support their charges against my clients, who run legitimate businesses. I move for a complete dismissal of this entire case! Mr. Flayman, I'm afraid I'm going to have to consider Mr. Montgomery's motion. But you can't! We have a terrific case. Where is your proof? Where is the evidence? Show me the smoking gun! Hold it, Your Honor! You want a smoking gun? Here is your smoking gun. What is that? It's a bee smoker! What, this? This harmless little contraption? This couldn't hurt a fly, let alone a bee. Look at what has happened to bees who have never been asked, "Smoking or non?" Is this what nature intended for us? To be forcibly addicted to smoke machines and man-made wooden slat work camps? Living out our lives as honey slaves to the white man? What are we gonna do? He's playing the species card. Ladies and gentlemen, please, free these bees! Free the bees! Free the bees! Free the bees! Free the bees! Free the bees! The court finds in favor of the bees! Vanessa, we won! I knew you could do it! High-five! Sorry. I'm OK! You know what this means? All the honey will finally belong to the bees. Now we won't have to work so hard all the time. This is an unholy perversion of the balance of nature, Benson. You'll regret this. Barry, how much honey is out there? All right. One at a time. Barry, who are you wearing? My sweater is Ralph Lauren, and I have no pants. What if Montgomery's right? What do you mean? We've been living the bee way a long time, 27 million years. Congratulations on your victory. What will you demand as a settlement? First, we'll demand a complete shutdown of all bee work camps. Then we want back the honey that was ours to begin with, every last drop. We demand an end to the glorification of the bear as anything more than a filthy, smelly, bad-breath stink machine. We're all aware of what they do in the woods. Wait for my signal. Take him out. He'll have nauseous for a few hours, then he'll be fine. And we will no longer tolerate bee-negative nicknames... But it's just a prance-about stage name! ...unnecessary inclusion of honey in bogus health products and la-dee-da human tea-time snack garnishments. Can't breathe. Bring it in, boys! Hold it right there! Good. Tap it. Mr. Buzzwell, we just passed three cups and there's gallons more coming! I think we need to shut down! Shut down? We've never shut down. Shut down honey production! Stop making honey! Turn your key, sir! What do we do now? Cannonball! We're shutting honey production! Mission abort. Aborting pollination and nectar detail. Returning to base. Adam, you wouldn't believe how much honey was out there. Oh, yeah? What's going on? Where is everybody? Are they out celebrating? They're home. They don't know what to do. Laying out, sleeping in. I heard your Uncle Carl was on his way to San Antonio with a cricket. At least we got our honey back. Sometimes I think, so what if humans liked our honey? Who wouldn't? It's the greatest thing in the world! I was excited to be part of making it. This was my new desk. This was my new job. I wanted to do it really well. And now... Now I can't. I don't understand why they're not happy. I thought their lives would be better! They're doing nothing. It's amazing. Honey really changes people. You don't have any idea what's going on, do you? What did you want to show me? This. What happened here? That is not the half of it. Oh, no. Oh, my. They're all wilting. Doesn't look very good, does it? No. And whose fault do you think that is? You know, I'm gonna guess bees. Bees? Specifically, me. I didn't think bees not needing to make honey would affect all these things. It's not just flowers. Fruits, vegetables, they all need bees. That's our whole SAT test right there. Take away produce, that affects the entire animal kingdom. And then, of course... The human species? So if there's no more pollination, it could all just go south here, couldn't it? I know this is also partly my fault. How about a suicide pact? How do we do it? I'll sting you, you step on me. That just kills you twice. Right, right. Listen, Barry... sorry, but I gotta get going. I had to open my mouth and talk. Vanessa? Vanessa? Why are you leaving? Where are you going? To the final Tournament of Roses parade in Pasadena. They've moved it to this weekend because all the flowers are dying. It's the Last Chance I'll ever have to see it. Vanessa, I just wanna say I'm sorry. I never meant it to turn out like this. I know. Me neither. Tournament of Roses. Roses can't do sports. Wait a minute. Roses. Roses? Roses! Vanessa! Roses?! Barry? Roses are flowers! Yes, they are. Flowers, bees, pollen! I know. That's why this is the last parade. Maybe not. Could you ask him to slow down? Could you slow down? Barry! OK, I made a huge mistake. This is a total disaster, all my fault. Yes, it kind of is. I've ruined the planet. I wanted to help you with the flower shop. I've made it worse. Actually, it's completely closed down. I thought maybe you were remodeling. But I have another idea, and it's greater than my previous ideas combined. I don't want to hear it! All right, they have the roses, the roses have the pollen. I know every bee, plant and flower bud in this park. All we gotta do is get what they've got back here with what we've got. Bees. Park. Pollen! Flowers. Repollination! Across the nation! Tournament of Roses, Pasadena, California. They've got nothing but flowers, floats and cotton candy. Security will be tight. I have an idea. Vanessa Bloome, FTD. Official floral business. It's real. Sorry, ma'am. Nice brooch. Thank you. It was a gift. Once inside, we just pick the right float. How about The Princess and the Pea? I could be the princess, and you could be the pea! Yes, I got it. Where should I sit? What are you? I believe I'm the pea. The pea? It goes under the mattresses. Not in this fairy tale, sweetheart. I'm getting the marshal. You do that! This whole parade is a fiasco! Let's see what this baby'll do. Hey, what are you doing?! Then all we do is blend in with traffic... without arousing suspicion. Once at the airport, there's no stopping us. Stop! Security. You and your insect pack your float? Yes. Has it been in your possession the entire time? Would you remove your shoes? Remove your stinger. It's part of me. I know. Just having some fun. Enjoy your flight. Then if we're lucky, we'll have just enough pollen to do the job. Can you believe how lucky we are? We have just enough pollen to do the job! I think this is gonna work. It's got to work. Attention, passengers, this is Captain Scott. We have a bit of bad weather in New York. It looks like we'll experience a couple hours delay. Barry, these are cut flowers with no water. They'll never make it. I gotta get up there and talk to them. Be careful. Can I get help with the Sky Mall magazine? I'd like to order the talking inflatable nose and ear hair trimmer. Captain, I'm in a real situation. What'd you say, Hal? Nothing. Bee! Don't freak out! My entire species... What are you doing? Wait a minute! I'm an attorney! Who's an attorney? Don't move. Oh, Barry. Good afternoon, passengers. This is your captain. Would a Miss Vanessa Bloome in 24B please report to the cockpit? And please hurry! What happened here? There was a DustBuster, a toupee, a life raft exploded. One's bald, one's in a boat, they're both unconscious! Is that another bee joke? No! No one's flying the plane! This is JFK control tower, Flight 356. What's your status? This is Vanessa Bloome. I'm a florist from New York. Where's the pilot? He's unconscious, and so is the copilot. Not good. Does anyone onboard have flight experience? As a matter of fact, there is. Who's that? Barry Benson. From the honey trial?! Oh, great. Vanessa, this is nothing more than a big metal bee. It's got giant wings, huge engines. I can't fly a plane. Why not? Isn't John Travolta a pilot? Yes. How hard could it be? Wait, Barry! We're headed into some lightning. This is Bob Bumble. We have some late-breaking news from JFK Airport, where a suspenseful scene is developing. Barry Benson, fresh from his legal victory... That's Barry! ...is attempting to land a plane, loaded with people, flowers and an incapacitated flight crew. Flowers?! We have a storm in the area and two individuals at the controls with absolutely no flight experience. Just a minute. There's a bee on that plane. I'm quite familiar with Mr. Benson and his no-account compadres. They've done enough damage. But isn't he your only hope? Technically, a bee shouldn't be able to fly at all. Their wings are too small... Haven't we heard this a million times? "The surface area of the wings and body mass make no sense." Get this on the air! Got it. Stand by. We're going live. The way we work may be a mystery to you. Making honey takes a lot of bees doing a lot of small jobs. But let me tell you about a small job. If you do it well, it makes a big difference. More than we realized. To us, to everyone. That's why I want to get bees back to working together. That's the bee way! We're not made of Jell-O. We get behind a fellow. Black and yellow! Hello! Left, right, down, hover. Hover? Forget hover. This isn't so hard. Beep-beep! Beep-beep! Barry, what happened?! Wait, I think we were on autopilot the whole time. That may have been helping me. And now we're not! So it turns out I cannot fly a plane. All of you, let's get behind this fellow! Move it out! Move out! Our only chance is if I do what I'd do, you copy me with the wings of the plane! Don't have to yell. I'm not yelling! We're in a lot of trouble. It's very hard to concentrate with that panicky tone in your voice! It's not a tone. I'm panicking! I can't do this! Vanessa, pull yourself together. You have to snap out of it! You snap out of it. You snap out of it. You snap out of it! You snap out of it! You snap out of it! You snap out of it! You snap out of it! You snap out of it! Hold it! Why? Come on, it's my turn. How is the plane flying? I don't know. Hello? Benson, got any flowers for a happy occasion in there? The Pollen Jocks! They do get behind a fellow. Black and yellow. Hello. All right, let's drop this tin can on the blacktop. Where? I can't see anything. Can you? No, nothing. It's all cloudy. Come on. You got to think bee, Barry. Thinking bee. Thinking bee. Thinking bee! Thinking bee! Thinking bee! Wait a minute. I think I'm feeling something. What? I don't know. It's strong, pulling me. Like a 27-million-year-old instinct. Bring the nose down. Thinking bee! Thinking bee! Thinking bee! What in the world is on the tarmac? Get some lights on that! Thinking bee! Thinking bee! Thinking bee! Vanessa, aim for the flower. OK. Cut the engines. We're going in on bee power. Ready, boys? Affirmative! Good. Good. Easy, now. That's it. Land on that flower! Ready? Full reverse! Spin it around! Not that flower! The other one! Which one? That flower. I'm aiming at the flower! That's a fat guy in a flowered shirt. I mean the giant pulsating flower made of millions of bees! Pull forward. Nose down. Tail up. Rotate around it. This is insane, Barry! This's the only way I know how to fly. Am I koo-koo-kachoo, or is this plane flying in an insect-like pattern? Get your nose in there. Don't be afraid. Smell it. Full reverse! Just drop it. Be a part of it. Aim for the center! Now drop it in! Drop it in, woman! Come on, already. Barry, we did it! You taught me how to fly! Yes. No high-five! Right. Barry, it worked! Did you see the giant flower? What giant flower? Where? Of course I saw the flower! That was genius! Thank you. But we're not done yet. Listen, everyone! This runway is covered with the last pollen from the last flowers available anywhere on Earth. That means this is our Last Chance. We're the only ones who make honey, pollinate flowers and dress like this. If we're gonna survive as a species, this is our moment! What do you say? Are we going to be bees, or just Museum of Natural History keychains? We're bees! Keychain! Then follow me! Except Keychain. Hold on, Barry. Here. You've earned this. Yeah! I'm a Pollen Jock! And it's a perfect fit. All I gotta do are the sleeves. Oh, yeah. That's our Barry. Mom! The bees are back! If anybody needs to make a call, now's the time. I got a feeling we'll be working late tonight! Here's your change. Have a great afternoon! Can I help who's next? Would you like some honey with that? It is bee-approved. Don't forget these. Milk, cream, cheese, it's all me.  And I don't see a nickel! Sometimes I just feel like a piece of meat! I had no idea. Barry, I'm sorry. Have you got a moment? Would you excuse me? My mosquito associate will help you. Sorry I'm late. He's a lawyer too? I was already a blood-sucking parasite. All I needed was a briefcase. Have a great afternoon! Barry, I just got this huge tulip order, and I can't get them anywhere. No problem, Vannie. Just leave it to me. You're a lifesaver, Barry. Can I help who's next? All right, scramble, jocks! It's time to fly. Thank you, Barry! That bee is living my life! Let it go, Kenny. When will this nightmare end?! Let it all go. Beautiful day to fly. Sure is. Between you and me, I was dying to get out of that office. You have got to start thinking bee, my friend. Thinking bee! Me? Hold it. Let's just stop for a second. Hold it. I'm sorry. I'm sorry, everyone. Can we stop here? I'm not making a major life decision during a production number! All right. Take ten, everybody. Wrap it up, guys. I had virtually no rehearsal for that.`);
+      },
+      () => {
+        foxScriptScroll(`I'm not entirely sure why added this type of quote to the site especially when it doesn't support HTML tags, but I guess there's no choice but to go along with it. Anyways, did you know that the tenth derivative of some function won't ever be used in reality? Also, did you know that you should watch some Animaniacs? Welp, have fun with this vertical text marquee that doesn't have multiline support, and remember to wear your seatbelt.`);
+      },
+      () => {
         let metersAway = Math.floor(Math.random() * 300) + 300;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
@@ -1128,7 +1174,7 @@ const data = {
           if (coolCounter < numCools) {
             quoteBoo += `cool `;
           }
-          if (coolCounter == numCools) {
+          if (coolCounter === numCools) {
             quoteBoo += `cool"`;
           }
           quote.innerHTML = quoteBoo;
@@ -1164,7 +1210,7 @@ const data = {
           ];
           const quote = document.getElementById("headerSubtitle");
           counter++;
-          if (counter != -2) {
+          if (counter !== -2) {
             quote.innerHTML = `<span style="color:#${
               formattingCodeColors[counter % 7]
             }">Le c</span><span style="color:#${
@@ -1232,7 +1278,7 @@ const data = {
           ];
           const quote = document.getElementById("headerSubtitle");
           counter++;
-          if (counter != -2) {
+          if (counter !== -2) {
             quote.innerHTML = `<span style="color:#${
               formattingCodeColors[counter % 7]
             }">Le other chroma text!</span>`;
@@ -1248,26 +1294,35 @@ const data = {
           ];
           const quote = document.getElementById("headerSubtitle");
           counter++;
-          if (counter != -2) {
+          if (counter !== -2) {
             quote.innerHTML = `${quotes[counter % 2]}`;
           }
         }, 750);
       },
-      `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/821913465941524480.png?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/834122955595710465.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/834947827532300328.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/834947234885271592.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/817106472424177706.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/825078817265287239.gif?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/776897206300180480.png?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/attachments/789592044984860672/825779017558130697/image0.png" width="400" height="225" draggable="false">`,
-      `<img src="https://cdn.discordapp.com/attachments/789592044984860672/850511263846105139/Screenshot_728.png" width="40%" height="40%" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/775767117089865758.gif?v=1" alt="frog agrees (animated)" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/821913465941524480.png?v=1" alt="sword" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/834122955595710465.gif?v=1" alt="owo what's this" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/834947827532300328.gif?v=1" alt="emoji: goodbot fast" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/834947234885271592.gif?v=1" alt="emoji: goodbot" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" alt="emoji: cursed flushed" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/817106472424177706.gif?v=1" alt="animated: vibing cat" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/825078817265287239.gif?v=1" alt="animated: vibing cat" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/776897206300180480.png?v=1" alt="pointing gun" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/emojis/784933350569279498.png?v=1" alt="emoji: cursed flushed" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/attachments/789592044984860672/825779017558130697/image0.png" alt="Cock flavor noodle soup mix and SHITO mild chilli sauce with fish and shrimp" width="400" height="225" draggable="false">`,
+      `<img src="https://cdn.discordapp.com/attachments/789592044984860672/850511263846105139/Screenshot_728.png" alt="very real looking t-shirt with FurfSky Reborn pride logo print and text: 10 out of 10 texture pack would buy again this helped me in my dating life 10 necron handles? coincidence? maybe not 1!!!" width="40%" height="40%" draggable="false">`,
     ],
   },
   downloads: [
+    {
+      version: "v1.3.2",
+      name: "v1.3's Loose Ends, Pets, and some SB UI<small>(Motor's name for this update sucked, so it's different here)</small>",
+      fileFull: "/files/v1.3.2/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.3.2§8§l].zip",
+      fileOverlay:
+        "/files/v1.3.2/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.3.2§8§l].zip",
+      fileOverlayPlus:
+        "/files/v1.3.2/§r§lFurfSky §6§lReborn §8§lOV+ §8§l[§71.3.2§8§l].zip",
+    },
     {
       version: "v1.3.1",
       name: "Voidgloom Twilight",
@@ -1374,6 +1429,8 @@ const data = {
     "Event Helper": "#554dca",
     "Website Developer": "#ffff00",
     "Pack Contributor": "#00b0b0",
+    "CIT Monkey": "#7c2a21",
+    "The 3D Render Person": "#ff7d00",
     "Discord Contributor": "#aa0000",
   },
   credits: [
@@ -1462,9 +1519,9 @@ const data = {
       quote: "you better not be the sus imposter",
     },
     {
-      name: "TrashAtNames/BlockBusterCF",
+      name: "TrashAtNames/BlockBusterCF/Poison Doggo",
       link: "https://hypixel.net/members/2765236/",
-      role: "Artist",
+      role: "Retired Artist",
       quote: "i live under a rock when it comes to optifine updates apparently",
     },
     {
@@ -1526,7 +1583,7 @@ const data = {
     },
     {
       name: "Ropes",
-      role: "Trial Artist",
+      role: "Artist",
       quote: "yup ! I hate furfsky 🙂",
     },
     {
@@ -1552,7 +1609,7 @@ const data = {
     {
       name: "FoxScript",
       link: "https://www.youtube.com/watch?v=AvmnYLBSnh0",
-      role: "Trial Artist",
+      role: "Artist",
       quote: "<code>[placeholder credit text]</code>",
     },
     {
@@ -1561,6 +1618,11 @@ const data = {
       role: "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Website Developer</span>",
       quote:
         "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>I am very speical :)</span>",
+    },
+    {
+      name: "woah. (DAT_NOMAD)",
+      role: "The 3D Render Person",
+      quote: "refraction and the gang bout to enter the dungeon",
     },
     {
       name: "pig",
@@ -1658,19 +1720,9 @@ const data = {
         "at least you didn't get yourself<br>to design the whole sea creature guide",
     },
     {
-      name: "Hasnu",
-      role: "Pack Contributor",
-      quote: "#FSRGangOnTop",
-    },
-    {
       name: "ThatGravyBoat",
       role: "Pack Contributor",
       quote: "I use MS paint for my pixel art",  //damn, why is aseprite so expensive
-    },
-    {
-      name: "Sigia42",
-      role: "Pack Contributor",
-      quote: "damn, why is aseprite so expensive",
     },
     {
       name: "nacrt",
@@ -1682,6 +1734,31 @@ const data = {
       name: "Shy0",
       role: "Pack Contributor",
       quote: "om im stoopid",
+    },
+    {
+      name: "Hasnu",
+      role: "CIT Monkey",
+      quote: "#FSRGangOnTop",
+    },
+    {
+      name: "ModCruel",
+      role: "CIT Monkey",
+      quote: "Stop making bad <code>.json</code> files.",
+    },
+    {
+      name: "Sigia42",
+      role: "CIT Monkey",
+      quote: "damn, why is aseprite so expensive",
+    },
+    {
+      name: "BluePeach81",
+      role: "CIT Monkey",
+      quote: "old livid dagger texture was better",
+    },
+    {
+      name: "artificialair",
+      role: "CIT Monkey",
+      quote: "OH FUCK THE PERIOD",
     },
     {
       name: "Hoss",
@@ -1837,7 +1914,7 @@ const data = {
             click the little ⚙️ of the first setting that shows up, which leads to the menu seen above.
             Make sure the switch is <u>exactly</u> as follows.
             <i><u>Flip that switch on first before you start overthinking these steps.<br>Please. Save both yourself and us some time.</u></i>`,
-          related: `<a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.5.5/SkyblockAddons-1.5.5-for-MC-1.8.9.jar">SBA direct download (v1.5.5, not the beta!)</a>`,
+          related: `<a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.6.0/SkyblockAddons-1.6.0-for-MC-1.8.9.jar">SBA direct download (v1.6)</a>`,
         },
         {
           question: `<i>[SkyblockHUD (SBHUD)]</i> - Why are some textures for UI elements blank and/or missing in v1.13 of SBHUD?<br>(Also, more SBHUD v1.13 questions when?)`,
@@ -1847,12 +1924,10 @@ const data = {
           related: `<a href="https://discord.com/channels/516977525906341928/794648295255310366">Obtain SBHUD by obtaining one the roles under the "Perks" webhook here.</a>`,
         },
         {
-          question: `<i>[SBA (<u>beta versions 12/12b and above only</u>)]</i> - Why aren't my health/mana bars textured?`,
+          question: `<i>[SBA]</i> - Why aren't my health/mana bars textured?`,
           photo: ``,
-          answer: `Relax, they're coming out in the next pack release. SBA beta 12b's new bars
-            rely on a different <code>.png</code> file than previous versions of SBA,
-            otherwise <i>everyone</i> would be seeing distorted textures-beta or no beta.`,
-          related: `<a href="https://patreon.com/biscuitdev">SBA beta information</a>`,
+          answer: `Make your you're on FurfSky Reborn v1.3.1 or above.`,
+          related: `<a href="/downloads">Go to the downloads page.</a>`,
         },
         {
           question: `<i>[SBE]</i> - Why does my SFX from SBE sound different from what I had before I installed the pack?`,
@@ -2009,7 +2084,7 @@ const data = {
     {
       step: `Check out the <a href="/faq/">FAQ</a> page.`,
       type: `Optional`,
-      title: `Just because you've finished installing the pack doesn't necessairly mean you won't experience any problems.`,
+      title: `Just because you've finished installing the pack doesn't necessarily mean you won't experience any problems.`,
     },
   ],
   navigation: {
@@ -2023,35 +2098,34 @@ const data = {
   },
   quotelessContribs: {
     testersAssoc:
-    [
-      `Ajay`,
-      `artificialair`,
-      `Aura`,
-      `BACON`,
-      `Bix`,
-      `king poyo`,
-      `Mylzad`,
-      `NirBehar`,
-      `Piggity`,
-      `Pxgxr`,
-      `SheepMika`,
-      `<span style="color:#fbcc6c">and</span> Strafe`,
-    ],
+      [
+        `Ajay`,
+        `artificialair`,
+        `Aura`,
+        `BACON`,
+        `Bix`,
+        `king poyo`,
+        `Mylzad`,
+        `NirBehar`,
+        `Piggity`,
+        `Pxgxr`,
+        `SheepMika`,
+        `<span style="color:#fbcc6c">and</span> Strafe`,
+      ],
     problematicFolks:
-    [
-      `Saikage`,
-      `abyssr`,
-      `SeBook`,
-      `<span style="color:#fbcc6c">and</span> MasterMiner4647`,
-    ]
+      [
+        `Saikage`,
+        `abyssr`,
+        `SeBook`,
+        `<span style="color:#fbcc6c">and</span> MasterMiner4647`,
+      ]
   },
 };
 
 const buildImageSrc = (pageName, isHover = false) => {
   const BASE_IMG_URL = '/assets/navbar/';
-  const IMAGE_TYPE = '.png';
   const HOVER_IMG_POSTFIX = '_pressed';
-  return `${BASE_IMG_URL}${pageName}${isHover ? HOVER_IMG_POSTFIX : ''}${IMAGE_TYPE}`
+  return `${BASE_IMG_URL}${pageName}${isHover ? HOVER_IMG_POSTFIX : ''}.png`
 }
 
 const handleImageHoverEvent = (event, isHover) => {
