@@ -1982,7 +1982,7 @@ const data = {
       title: `If you have your own method of finding your texture packs folder, go for it. This step is intended to be a cross-platform method.`,
     },
     {
-      step: `Drag the FurfSky Reborn <code>.zip</code> file from your downloads folder into the resource packs folder.`,
+      step: navigator.platform.toLowerCase().includes("linux") ? `ooh, your a nerd, using linux i see, use the <code>mv</code> to the directory of your minecraft installation. usually <code>~/.minecraft</code>` : `Drag the FurfSky Reborn <code>.zip</code> file from your downloads folder into the resource packs folder.`,
       type: `Required`,
       title: `This is how you get Minecraft to acknowledge the Furfsky Reborn pack.`,
     },
