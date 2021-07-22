@@ -16,7 +16,7 @@ header {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
-#headerSubtitle {
+header > #headerSubtitle {
   position: absolute;
   top: 75%;
   left: 50%;
