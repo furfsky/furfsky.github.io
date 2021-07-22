@@ -349,6 +349,25 @@ const data = {
       `NO HATE SPEECH ALLOWED BEYOND THIS POINT.`,
       `I WASN GONNA pay em after bitch so maybe can u try to read`,
       `area 51`,
+      `Was I wearing a tiara when I came in here? Because if you happen upon it, would you have Lady Pennyface retrieve it and send it post-hence?`,
+      `everything hurts and im dying`,
+      `despacito`,
+      `runnin' in the '90s`,
+      `bitches get stuff done`,
+      `don’t start chasing applause and acclaim. that way lies madness.`,
+      `give 100%. 110% is impossible. only idiots recommend that.`
+      `if i keep my body moving and my mind occupied at all times i will avoid falling into a bottomless pit of despair`,
+      `bababooey`,
+      `<i>lit</i>erally the best pack`,
+      `i... sad.`,
+      `are ya winning son?`,
+      `why am i argentina`,
+      `youre going to brazil`,
+      `sp0ns0r'd by raid shadow legends`,
+      `was that the bite of 87`,
+      `oh my god go outside`,
+      `luck is a concept created by the weak to explain their failures`,
+      `time is money money is power power is pizza pizza is knowledge`,
       `catch me outside how about that`,
       `"one day the queen laid an egg and we all hatched out of it"<br>-FurryEBoy, the best UK history teacher in FSR`,
       `Things were getting cancelled so fast, people thought it was Twitter!`,
@@ -401,6 +420,7 @@ const data = {
       `NOT APPROVED FOR HUMAN USE`,
       `Try <span style="color: #AAAAAA;">/play TKR</span> Today!`,
       `+1% SPEED!!!`,
+      `My grandfather picks up quartz and valuable onyx jewels. Send 60 dozen quart jars and 12 black pans.`,
       `<span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#pack-faq</span>`,
       `<span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#questions-and-support</span>`,
       `You can't edit this text!`,
@@ -434,10 +454,21 @@ const data = {
       `zburger: i am losing braincells at the rate of the amount of water flowing through the niagra falls per second<br>Temp: in gallons, litres, barrels, washing machines, molecules, subatomic particles, or brain cells?<br> Daedalus: you forgot the femoral artery<br>zburger: yes`,
       `i dont want the pack<br><br>i just want the texture pack`,
       `so... when's this site going to support https connections?`,
-      `Welcome to https://furfsky.net, the only place where you won't be murdered for using the &lt;i&gt; HTML tag instead of &lt;span style="font-style: italic;"&gt;.`,
+      `Welcome to http://furfsky.net, the only place where you won't be murdered for using the &lt;i&gt; HTML tag instead of &lt;span style="font-style: italic;"&gt;.`,
       `There are currently quotes (including this one) on the site. Reload to see if your submission was one of them!`,
       `hanz get der flammenwerfer!`,
       `now approved by furf himself!`,
+      `joseph mother`,
+      `ggwp`,
+      `ery looked up a tutorial for a perm invis exploit, banned.`,
+      `[( / O . w . O )] /`,
+      `\ [( O . w . O \ )]`,
+      `[( / U . w . U )] /`,
+      `\ [( U . w . U \ )]`,
+      `[( / U . w . U )] / * \ [( O . w . O \ )]`,
+      `[( / O . w . O )] / * \ [( O . w . O \ )]`,
+      `[( / U . w . U )] / * \ [( U . w . U \ )]`,
+      `[( / O . w . O )] / * \ [( U . w . U \ )]`,
       `the pack nullzee uses to flip his way from rags to riches-try it today!`,
       `quick fade for 2 pence innit best ina city lovely cuts donup for rotten smirkin blokes likyarself`,
       `kitty review: great camouflage tho i didn't ask for a rock 5/10`,
@@ -1133,6 +1164,21 @@ const data = {
       },
       () => {
         foxScriptScroll(`I'm not entirely sure why added this type of quote to the site especially when it doesn't support HTML tags, but I guess there's no choice but to go along with it. Anyways, did you know that the tenth derivative of some function won't ever be used in reality? Also, did you know that you should watch some Animaniacs? Welp, have fun with this vertical text marquee that doesn't have multiline support, and remember to wear your seatbelt.`);
+      },
+      () => {
+        foxScriptScroll(`God is dead. God remains dead. And we have killed him. How shall we comfort ourselves, the murderers of all murderers? What was holiest and mightiest of all that the world has yet owned has bled to death under our knives: who will wipe this blood off us? What water is there for us to clean ourselves? What festivals of atonement, what sacred games shall we have to invent? Is not the greatness of this deed too great for us? Must we ourselves not become gods simply to appear worthy of it? The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents. We live on a placid island of ignorance in the midst of black seas of infinity, and it was not meant that we should voyage far. The sciences, each straining in its own direction, have hitherto harmed us little; but some day the piecing together of dissociated knowledge will open up such terrifying vistas of reality, and of our frightful position therein, that we shall either go mad from the revelation or flee from the deadly light into the peace and safety of a new dark age.`);
+      },
+      () => {
+        foxScriptScroll(`The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.`);
+      },
+      () => {
+        foxScriptScroll(`I attest to the following: I shall not give or receive aid during this exam. My answers will be entirely my own. Plagiarism software will scan my responses. My teacher will receive my responses. If I give or receive help or submit work that is not my own: My score will be canceled. My attempt to cheat will be reported to college admissions offices and my high school. I will be banned from future College Board exams. Anyone who helps me or receives help from me will be investigated. My grandfather picks up quartz and valuable onyx jewels. Send 60 dozen quart jars and 12 black pans.`);
+      },
+      () => {
+        foxScriptScroll(`United States, Canada, Mexico, Panama Haiti, Jamaica, Peru, Republic Dominican, Cuba, Caribbean Greenland, El Salvador too. Puerto Rico, Columbia, Venezuela Honduras, Guyana, and still, Guatemala, Bolivia, then Argentina And Ecuador, Chile, Brazil. Costa Rica, Belize, Nicaragua, Bermuda Bahamas, Tobago, San Juan, Paraguay, Uruguay, Suriname And French Guiana, Barbados, and Guam. Norway, and Sweden, and Iceland, and Finland And Germany now one piece, Switzerland, Austria, Czechoslovakia Italy, Turkey, and Greece. Poland, Romania, Scotland, Albania Ireland, Russia, Oman, Bulgaria, Saudi Arabia Hungary, Cyprus, Iraq, and Iran. There’s Syria, Lebanon, Israel, Jordan Both Yemens, Kuwait, and Bahrain, The Netherlands, Luxembourg, Belgium, and Portugal France, England, Denmark, and Spain. India, Pakistan, Burma, Afghanistan Thailand, Nepal, and Bhutan, Kampuchea, Malaysia, then Bangladesh (Asia) And China, Korea, Japan. Mongolia, Laos, and Tibet, Indonesia The Philippine Islands, Taiwan, Sri Lanka, New Guinea, Sumatra, New Zealand Then Borneo, and Vietnam. Tunisia, Morocco, Uganda, Angola Zimbabwe, Djibouti, Botswana, Mozambique, Zambia, Swaziland, Gambia Guinea, Algeria, Ghana. Burundi, Lesotho, and Malawi, Togo The Spanish Sahara is gone, Niger, Nigeria, Chad, and Liberia Egypt, Benin, and Gabon. Tanzania, Somalia, Kenya, and Mali Sierra Leone, and Algiers, Dahomey, Namibia, Senegal, Libya Cameroon, Congo, Zaire. Ethiopia, Guinea-Bissau, Madagascar Rwanda, Mahore, and Cayman, Hong Kong, Abu Dhabi, Qatar, Yugoslavia… Crete, Mauritania Then Transylvania, Monaco, Liechtenstein Malta, and Palestine, Fiji, Australia, Sudan`);
+      },
+      () => {
+        foxScriptScroll(`What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little "clever" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo.`);
       },
       () => {
         let metersAway = Math.floor(Math.random() * 300) + 300;
