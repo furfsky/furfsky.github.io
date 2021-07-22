@@ -16,6 +16,18 @@ header {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
+#headerSubtitle {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Minecraft";
+  margin: 0;
+  color: #fbcc6c;
+}
+#headerSubtitle > h3{
+  color: #683d8d;
+}
 #downloadContainer {
   background: #1c1d31;
   color:white;

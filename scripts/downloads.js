@@ -13,9 +13,14 @@
     }`;
     FLButton.className = "downloadButton";
     if (download.fileFull)
-      FLButton.innerHTML = `<a href="${download.fileFull.toString()}" download>${
+      if (download.version == "FurfSky+ v1.0 to v1.7.1")
+      FLButton.innerHTML = `<a href="${download.fileFull.toString()}" target="_blank">${
         download.version
-      } Full</a>`;
+      } (external MediaFire link)</a>`;
+      else
+        FLButton.innerHTML = `<a href="${download.fileFull.toString()}" download>${
+          download.version
+        } Full</a>`;
     OVButton.className = "downloadButton";
     if (download.fileOverlay)
       OVButton.innerHTML = `<a href="${download.fileOverlay.toString()}" download>${

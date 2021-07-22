@@ -1367,7 +1367,7 @@ const data = {
   downloads: [
     {
       version: "v1.3.2",
-      name: "v1.3's Loose Ends, Pets, and some SB UI<small>(Motor's name for this update sucked, so it's different here)</small>",
+      name: "v1.3's Loose Ends, Pets, and some SB UI<br><small>(Motor's name for this update sucked, so it's different here)</small>",
       fileFull: "/files/v1.3.2/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.3.2§8§l].zip",
       fileOverlay:
         "/files/v1.3.2/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.3.2§8§l].zip",
@@ -1426,7 +1426,7 @@ const data = {
     },
     {
       version: "v1.2.3",
-      name: "Mod UIs (Yes, 99% of the SB mods you can name are textured here)",
+      name: "Mod UIs<br><small>(Yes, 99% of the SB mods you can name are textured here)</small>",
       fileFull:
         "/files/v1.2.3/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.2.3§8§l].zip",
       fileOverlay:
@@ -1440,7 +1440,6 @@ const data = {
       fileOverlay:
         "/files/v1.2.2/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.2.2§8§l].zip",
     },
-
     {
       version: "v1.1.0",
       name: "someone was too lazy to give it a title",
@@ -1463,6 +1462,11 @@ const data = {
       fileFull: "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lFL [§70.2.0.§8§l].zip",
       fileOverlay:
         "/files/v0.2.0/§6Furf§5Sky §eReborn §8§lOV [§70.2.0.§8§l].zip",
+    },
+    {
+      version: "FurfSky+ v1.0 to v1.7.1",
+      name: "because some people fear change",
+      fileFull: "https://www.mediafire.com/folder/s89785ls3dghy/FurfSky%2B",
     },
   ],
   creditColors: {
