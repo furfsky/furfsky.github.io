@@ -355,7 +355,7 @@ const data = {
       `runnin' in the '90s`,
       `bitches get stuff done`,
       `don’t start chasing applause and acclaim. that way lies madness.`,
-      `give 100%. 110% is impossible. only idiots recommend that.`
+      `give 100%. 110% is impossible. only idiots recommend that.`,
       `if i keep my body moving and my mind occupied at all times i will avoid falling into a bottomless pit of despair`,
       `bababooey`,
       `<i>lit</i>erally the best pack`,
