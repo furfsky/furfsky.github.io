@@ -1685,11 +1685,13 @@ const data = {
       quote:
         "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>I am very speical :)</span>",
     },
+    /*
     {
       name: "woah. (DAT_NOMAD)",
       role: "The 3D Render Person",
       quote: "refraction and the gang bout to enter the dungeon",
     },
+    */
     {
       name: "pig",
       role: "Admin",
