@@ -28,6 +28,9 @@
   } else if (Math.random() <= 0.03 && 0.02 < Math.random()) {
       document.getElementById("logo").src = "assets/logos/ery.png";
       document.getElementById("headerSubtitle").innerHTML = `hey look i made my own crappy version of the fsr logo for the site as well<br>-erymanthus`;
+  } else if (Math.random() <= 0.03 && 0.02 < Math.random()) {
+      document.getElementById("logo").src = "assets/logos/amogus.png";
+      document.getElementById("headerSubtitle").innerHTML = `not a quote but have a 0.1% chance for the FurfSky Reborn logo to say Among Us instead in the same style<br>-FurryEBoy`;
   }
     else document.getElementById("logo").src = "assets/logos/logo.gif";
   let full = document.getElementById("fullLink");
