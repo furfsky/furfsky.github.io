@@ -2196,8 +2196,20 @@ const data = {
         `abyssr`,
         `SeBook`,
         `<span style="color:#fbcc6c">and</span> MasterMiner4647`,
-      ]
+      ],
   },
+  homeJSExclusiveNames: [
+    `motor`,
+    `goog`,
+    `ery`,
+    `amogus`,
+  ],
+  homeJSExclusiveQuotes: [
+    `"perfection"<br>-motor`,
+    `"@Erymanthus | u/RayDeeUx thoughts :uwubserver:"<br>-goog`,
+    `hey look i made my own crappy version of the fsr logo for the site as well<br>-erymanthus`,
+    `not a quote but have a 0.1% chance for the FurfSky Reborn logo to say Among Us instead in the same style<br>-FurryEBoy`,
+  ],
 };
 
 const buildImageSrc = (pageName, isHover = false) => {
