@@ -33,15 +33,15 @@
   data.quotelessContribs.testersAssoc.forEach((quotelessPerson) => {
     testersAssocStr += (quotelessPerson + ", ");
   });
-  testersAssocStr = testersAssocStr.slice(0, -2);
-  testersAssocStr += `</span><span style="color:#fbcc6c"> for testing each pack version extensively.<br>Additional thanks to our Discord server boosters and the channel members over at HellCastle and FurryEBoy's YouTube channel!<br>Acknowledgements: </span>`;
+  testersAssocStr = testersAssocStr.slice(0, -2); //removes that trailing comma
+  testersAssocStr += `</span><span style="color:#fbcc6c"> for testing each pack version extensively.<br>Additional thanks to our Discord server boosters and the channel members over at HellCastle and FurryEBoy's YouTube channel for going above and beyond in supporting the pack!<br>Acknowledgements: </span>`;
   otherWrap.innerHTML += testersAssocStr;
 
   problematicFolksStr = `<span style="color:#7d6e99">`;
   data.quotelessContribs.problematicFolks.forEach((quotelessPerson) => {
     problematicFolksStr += (quotelessPerson + ", ");
   });
-  problematicFolksStr = problematicFolksStr.slice(0, -2);
+  problematicFolksStr = problematicFolksStr.slice(0, -2); //removes that trailing comma
   problematicFolksStr += `</span><span style="color:#fbcc6c"> for their previous work on the pack and/or the FurfSky Reborn Discord server.</span>`;
   otherWrap.innerHTML += problematicFolksStr;
   conTwoner.appendChild(otherWrap);
