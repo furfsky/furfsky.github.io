@@ -20,7 +20,7 @@
   } // Was going to use a promise for this but ok
   if (new Date().getMonth() === 5) {
     document.getElementById("logo").src = "assets/logos/FSRPrideMonth.gif";
-  } else /*if (Math.random() <= 0.01)*/ {
+  } else if (Math.random() <= 0.01) {
     document.getElementById("logo").src = `assets/logos/${String(data.homeJSExclusiveNames[theMagicNumber])}.png`;
     document.getElementById("headerSubtitle").innerHTML = `${String(data.homeJSExclusiveQuotes[theMagicNumber])}`;
   }
