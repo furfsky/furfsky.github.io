@@ -3,6 +3,7 @@
     data.header.subtitle[
       Math.floor(Math.random() * data.header.subtitle.length)
     ];
+  let theMagicNumber = Math.floor(Math.random() * (data.homeJSExclusiveNames.length));
   if (typeof entry == "string") {
     document.getElementById("headerSubtitle").innerHTML = entry;
   }
@@ -19,20 +20,11 @@
   } // Was going to use a promise for this but ok
   if (new Date().getMonth() === 5) {
     document.getElementById("logo").src = "assets/logos/FSRPrideMonth.gif";
-  } else if (Math.random() <= 0.01) {
-      document.getElementById("logo").src = "assets/logos/motor.png";
-      document.getElementById("headerSubtitle").innerHTML = `"perfection"<br>-motor`;
-  } else if (Math.random() <= 0.02 && 0.01 < Math.random()) {
-      document.getElementById("logo").src = "assets/logos/goog.png";
-      document.getElementById("headerSubtitle").innerHTML = `"@Erymanthus | u/RayDeeUx thoughts :uwubserver:"<br>-goog`;
-  } else if (Math.random() <= 0.03 && 0.02 < Math.random()) {
-      document.getElementById("logo").src = "assets/logos/ery.png";
-      document.getElementById("headerSubtitle").innerHTML = `hey look i made my own crappy version of the fsr logo for the site as well<br>-erymanthus`;
-  } else if (Math.random() <= 0.04 && 0.03 < Math.random()) {
-      document.getElementById("logo").src = "assets/logos/amogus.png";
-      document.getElementById("headerSubtitle").innerHTML = `not a quote but have a 0.1% chance for the FurfSky Reborn logo to say Among Us instead in the same style<br>-FurryEBoy`;
+  } else /*if (Math.random() <= 0.01)*/ {
+    document.getElementById("logo").src = `assets/logos/${String(data.homeJSExclusiveNames[theMagicNumber])}.png`;
+    document.getElementById("headerSubtitle").innerHTML = `${String(data.homeJSExclusiveQuotes[theMagicNumber])}`;
   }
-    else document.getElementById("logo").src = "assets/logos/logo.gif";
+  //   else document.getElementById("logo").src = "assets/logos/logo.gif";
   let full = document.getElementById("fullLink");
   let overlay = document.getElementById("overlayLink");
   let overlayPlus = document.getElementById("overlayPlusLink");
