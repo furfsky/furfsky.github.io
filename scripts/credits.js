@@ -34,7 +34,7 @@
     testersAssocStr += (quotelessPerson + ", ");
   });
   testersAssocStr = testersAssocStr.slice(0, -2);
-  testersAssocStr += `</span><span style="color:#fbcc6c"> for testing each pack version extensively.<br>Additional thanks to </span>`;
+  testersAssocStr += `</span><span style="color:#fbcc6c"> for testing each pack version extensively.<br>Additional thanks to our Discord server boosters and the channel members over at HellCastle and FurryEBoy's YouTube channel!<br>Acknowledgements: </span>`;
   otherWrap.innerHTML += testersAssocStr;
 
   problematicFolksStr = `<span style="color:#7d6e99">`;
