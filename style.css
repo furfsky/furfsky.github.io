@@ -83,6 +83,25 @@ svg {
 svg:hover {
   fill: #c87333;
 }
+.theBiggestAndPhattestPhuckingDisclaimerInHumanHistory {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.theBiggestAndPhattestPhuckingDisclaimerInHumanHistory span {
+  display: none;
+}
+.theBiggestAndPhattestPhuckingDisclaimerInHumanHistory:hover span {
+  display: block;
+  font-family: "Minecraft";
+  position: fixed;
+  overflow: hidden;
+  width: 35%;
+  padding: 10px;
+  background-color: #1c1d31e0;
+  color: #fbcc6c;
+  font-size: 20px;
+}
 body {
   overflow: hidden;
 }
