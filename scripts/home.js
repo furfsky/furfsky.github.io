@@ -24,7 +24,7 @@
     document.getElementById("logo").src = `assets/logos/${String(data.homeJSExclusiveNames[theMagicNumber])}.png`;
     document.getElementById("headerSubtitle").innerHTML = `${String(data.homeJSExclusiveQuotes[theMagicNumber])}`;
   }
-  //   else document.getElementById("logo").src = "assets/logos/logo.gif";
+  else document.getElementById("logo").src = "assets/logos/logo.gif";
   let full = document.getElementById("fullLink");
   let overlay = document.getElementById("overlayLink");
   let overlayPlus = document.getElementById("overlayPlusLink");
@@ -45,3 +45,14 @@
     OK, fine, you called our bluff. Now quit poking around here and go back to finding some funny little quote to screenshot.
   `);
 })();
+
+var tooltips = document.querySelectorAll('.theBiggestAndPhattestPhuckingDisclaimerInHumanHistory span');
+
+window.onmousemove = function (e) {
+    var x = (e.clientX + 10) + 'px',
+        y = (e.clientY - 100) + 'px';
+    for (var i = 0; i < tooltips.length; i++) {
+      tooltips[i].style.top = y;
+      tooltips[i].style.left = x;
+    }
+};
