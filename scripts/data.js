@@ -2020,7 +2020,7 @@ const data = {
         {
           question: `<i>[SBA]</i> - Why aren't my health/mana bars textured?`,
           photo: ``,
-          answer: `Make your you're on FurfSky Reborn v1.3.1 or above.`,
+          answer: `Make sure you're on FurfSky Reborn v1.3.1 or above.`,
           related: `<a href="/downloads">Go to the downloads page.</a>`,
         },
         {
