@@ -1514,7 +1514,7 @@ const data = {
     "Event Helper": "#554dca",
     "Website Developer": "#ffff00",
     "Pack Contributor": "#00b0b0",
-    "CIT Monkey": "#7c2a21",
+    "CIT Monkey": "#b07f79",
     "The 3D Render Person": "#ff7d00",
     "Discord Contributor": "#aa0000",
   },
