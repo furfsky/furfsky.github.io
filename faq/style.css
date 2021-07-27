@@ -29,14 +29,14 @@ header {
   color: #fbcc6c;
 }
 #faq > p {
-  color: #683d8d;
+  color: #a48aba;
 }
 .itemQuestion, .sectionTitle {
   color: #fbcc6c;
   text-decoration: none;
 }
 .itemAnswer, .sectionNote {
-  color: #683d8d;
+  color: #a48aba;
   text-decoration: none;
   margin: 0 10em;
 }
