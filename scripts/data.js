@@ -1809,7 +1809,7 @@ const data = {
     {
       name: "ThatGravyBoat",
       role: "Pack Contributor",
-      quote: "I use MS paint for my pixel art",  //damn, why is aseprite so expensive
+      quote: "I use MS paint for my pixel art",
     },
     {
       name: "nacrt",
@@ -1821,6 +1821,11 @@ const data = {
       name: "Shy0",
       role: "Pack Contributor",
       quote: "om im stoopid",
+    },
+    {
+      name: "8KCoffeeWizard",
+      role: "Pack Contributor",
+      quote: "imagine playing hypixel on 1.16",
     },
     {
       name: "Hasnu",
