@@ -360,6 +360,8 @@ const data = {
       `NO HATE SPEECH ALLOWED BEYOND THIS POINT.`,
       `I WASN GONNA pay em after bitch so maybe can u try to read`,
       `area 51`,
+      `It is possible to commit no mistakes and still lose. That is not a weakness; that is life.`,
+      `Laughter is the best medicine. The cool thing is you can't OD and the refills are free.`,
       `Was I wearing a tiara when I came in here? Because if you happen upon it, would you have Lady Pennyface retrieve it and send it post-hence?`,
       `everything hurts and im dying`,
       `despacito`,
