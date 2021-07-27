@@ -2050,7 +2050,7 @@ const data = {
           a Daniel Simion on SoundBible.com) or violated Microsoft's copyright policies
           (in <code>chime.ogg</code>'s case, which was Windows 7's shutdown sound effect verbatim).
           Whether or not SBE's <code>.ogg</code> files change after v2.0.0 (which, evidently, has not happened yet)
-          or after the timestamp of this message is not my concern, and whether you choose to restore
+          or after the timestamp of this message is not anyone's concern, and whether you choose to restore
           SBE's original sound effects is a choice you make at your own risk.`,
           related: `<a href="https://soundbible.com/2182-Ice-Cubes-Glass.html"><code>warning.ogg</code> source</a> | <a href="https://creativecommons.org/licenses/by/3.0/">Human-readable Creative Commons 3.0 (CC 3.0) license</a> | <a href="https://creativecommons.org/licenses/by/3.0/legalcode">Legal mumbo jumbo version of CC 3.0</a><br><a href="https://www.microsoft.com/en-us/legal/copyright/permissions">Microsoft's copyright policy</a> | <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks">Microsoft's Trademark and Brand Guidelines</a>`,
         },
