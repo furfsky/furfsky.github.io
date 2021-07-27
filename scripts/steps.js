@@ -15,7 +15,7 @@
       <span class="indivStep">
         ${index}. ${indivStep.step}
         <span>
-          Step ${index} explaination:<br>${indivStep.title}
+          Step ${index} explanation:<br>${indivStep.title}
         </span>
       </span>
     </input>
