@@ -1,12 +1,12 @@
 # furfsky.github.io
 
-Where everything in http://furfsky.net takes place.
+Where everything in <http://furfsky.net> takes place.
 
 ## Explaining the repo
 
-This GitHub repo is the backbone for all files necessary for http://furfsky.net to provide the best experience possible for you as you learn about the FurfSky Reborn pack. (Granted, we're still missing an SSL certificate as of the commit date of this version of this `README.md` file... but that's beside the point.)
+This GitHub repo is the backbone for all files necessary for <http://furfsky.net> to provide the best experience possible for you as you learn about the FurfSky Reborn pack. (Granted, we're still missing an SSL certificate as of the commit date of this version of this `README.md` file... but that's beside the point.)
 
-The most probable reason you're here is because of the many commits that happen in the `#website-and-bot-updates-and-developments` text channel in the FurfSky Reborn Discord server (https://discord.gg/fsr). As such, the main attraction of this GitHub repository is `data.js`, located in the `scripts` folder.
+The most probable reason you're here is because of the many commits that happen in the `#website-and-bot-updates-and-developments` text channel in the FurfSky Reborn Discord server (<https://discord.gg/fsr>). As such, the main attraction of this GitHub repository is `data.js`, located in the `scripts` folder.
 
 Other important areas of the repo include:
 
@@ -15,7 +15,7 @@ Other important areas of the repo include:
 - the `scripts` folder, which houses all `.js` files that bring the FurfSky Reborn website to life.
 - the `fonts` folder, which prevents the text on the site from rendering in the Trebuchet MS font instead of the Minecraft font.
 
-All other folders serve to store individual `.html` and `.css` files for each page on the website. The `CNAME` allows https://furfsky.github.io to be "translated", so to speak, into http://furfsky.net, and the `README.md` file... well, you're reading it right now.
+All other folders serve to store individual `.html` and `.css` files for each page on the website. The `CNAME` allows <https://furfsky.github.io> to be "translated", so to speak, into <http://furfsky.net>, and the `README.md` file... well, you're reading it right now.
 
 ## Contributing to the repo
 
