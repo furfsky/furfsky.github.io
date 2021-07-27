@@ -31,11 +31,13 @@ header {
 #faq > p {
   color: #a48aba;
 }
-.itemQuestion, .sectionTitle {
+.itemQuestion,
+.sectionTitle {
   color: #fbcc6c;
   text-decoration: none;
 }
-.itemAnswer, .sectionNote {
+.itemAnswer,
+.sectionNote {
   color: #a48aba;
   text-decoration: none;
   margin: 0 10em;
@@ -48,7 +50,8 @@ header {
   margin: 0;
   padding: 1em;
 }
-.itemRelated > a, .sectionNote > a {
+.itemRelated > a,
+.sectionNote > a {
   color: #c0713f;
 }
 #disclaimer {

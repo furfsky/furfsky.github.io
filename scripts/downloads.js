@@ -14,9 +14,9 @@
     FLButton.className = "downloadButton";
     if (download.fileFull)
       if (download.version == "FurfSky+ v1.0 to v1.7.1")
-      FLButton.innerHTML = `<a href="${download.fileFull.toString()}" target="_blank">${
-        download.version
-      } (external MediaFire link)</a>`;
+        FLButton.innerHTML = `<a href="${download.fileFull.toString()}" target="_blank">${
+          download.version
+        } (external MediaFire link)</a>`;
       else
         FLButton.innerHTML = `<a href="${download.fileFull.toString()}" download>${
           download.version
