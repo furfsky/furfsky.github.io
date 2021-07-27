@@ -716,7 +716,7 @@ const data = {
           )
         )
       )} days since ${
-        Math.random() > 0.5 ? "diver's armor" : "mastiff armor"
+        Math.random() > 0.5 ? "diver's armor" : "farm armor"
       } hasn't had a texture, stop pestering us about it in <span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#feedback</span> pls ;-;`,
       `${String(
         Math.abs(
