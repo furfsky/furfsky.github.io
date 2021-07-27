@@ -37,9 +37,9 @@
       related.className = "itemRelated";
 
       wrapper.appendChild(question);
-      if(item.photo) wrapper.appendChild(photo);
+      if (item.photo) wrapper.appendChild(photo);
       wrapper.appendChild(answer);
-      if(item.related) wrapper.appendChild(related);
+      if (item.related) wrapper.appendChild(related);
       sect.appendChild(wrapper);
     });
     container.appendChild(sect);

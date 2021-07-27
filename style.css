@@ -64,7 +64,7 @@ img {
 }
 .downloadButton:hover {
   transform: scale(1.25);
-  color: #d48af1; 
+  color: #d48af1;
   background: #444a71;
   border: 5px solid #683d8d;
 }

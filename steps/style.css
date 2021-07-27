@@ -54,7 +54,7 @@ input {
   align-items: flex-end;
   padding: 1.25em;
   display: flex;
-  background:#1c1d31;
+  background: #1c1d31;
 }
 #progressBar > progress {
   width: 50%;

@@ -3,7 +3,9 @@
     data.header.subtitle[
       Math.floor(Math.random() * data.header.subtitle.length)
     ];
-  let theMagicNumber = Math.floor(Math.random() * (data.homeJSExclusiveNames.length));
+  let theMagicNumber = Math.floor(
+    Math.random() * data.homeJSExclusiveNames.length
+  );
   if (typeof entry == "string") {
     document.getElementById("headerSubtitle").innerHTML = entry;
   }
@@ -21,10 +23,13 @@
   if (new Date().getMonth() === 5) {
     document.getElementById("logo").src = "assets/logos/FSRPrideMonth.gif";
   } else if (Math.random() <= 0.01) {
-    document.getElementById("logo").src = `assets/logos/${String(data.homeJSExclusiveNames[theMagicNumber])}.png`;
-    document.getElementById("headerSubtitle").innerHTML = `${String(data.homeJSExclusiveQuotes[theMagicNumber])}`;
-  }
-  else document.getElementById("logo").src = "assets/logos/logo.gif";
+    document.getElementById("logo").src = `assets/logos/${String(
+      data.homeJSExclusiveNames[theMagicNumber]
+    )}.png`;
+    document.getElementById("headerSubtitle").innerHTML = `${String(
+      data.homeJSExclusiveQuotes[theMagicNumber]
+    )}`;
+  } else document.getElementById("logo").src = "assets/logos/logo.gif";
   let full = document.getElementById("fullLink");
   let overlay = document.getElementById("overlayLink");
   let overlayPlus = document.getElementById("overlayPlusLink");
@@ -46,13 +51,15 @@
   `);
 })();
 
-var tooltips = document.querySelectorAll('.theBiggestAndPhattestPhuckingDisclaimerInHumanHistory span');
+var tooltips = document.querySelectorAll(
+  ".theBiggestAndPhattestPhuckingDisclaimerInHumanHistory span"
+);
 
 window.onmousemove = function (e) {
-    var x = (e.clientX + 10) + 'px',
-        y = (e.clientY - 100) + 'px';
-    for (var i = 0; i < tooltips.length; i++) {
-      tooltips[i].style.top = y;
-      tooltips[i].style.left = x;
-    }
+  var x = e.clientX + 10 + "px",
+    y = e.clientY - 100 + "px";
+  for (var i = 0; i < tooltips.length; i++) {
+    tooltips[i].style.top = y;
+    tooltips[i].style.left = x;
+  }
 };

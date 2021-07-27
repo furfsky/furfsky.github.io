@@ -1,4 +1,4 @@
-nav{
+nav {
   z-index: 9999;
   position: relative;
 }
@@ -29,9 +29,9 @@ nav ul li a:hover > img {
 nav ul li a {
   display: block;
 }
-nav{
-    height:10%;
+nav {
+  height: 10%;
 }
-.disabled-tab{
+.disabled-tab {
   filter: grayscale(100%);
 }

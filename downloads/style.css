@@ -25,16 +25,15 @@ header {
   margin: 0;
   color: #fbcc6c;
 }
-#headerSubtitle > h3{
+#headerSubtitle > h3 {
   color: #683d8d;
 }
 #downloadContainer {
   background: #1c1d31;
-  color:white;
+  color: white;
   font-family: "Minecraft";
 }
 .downloadButtons {
-
   text-align: center;
 }
 .downloadButton {
@@ -52,7 +51,7 @@ header {
 }
 .downloadButton:hover {
   transform: scale(1.25);
-  color: #d48af1; 
+  color: #d48af1;
   background: #444a71;
   border: 5px solid #683d8d;
 }
@@ -62,5 +61,5 @@ header {
 }
 .downloadText {
   text-align: center;
-  margin:0;
+  margin: 0;
 }
