@@ -32,14 +32,12 @@
 function updateBar(index) {
   document.getElementById(`checkbox${index}`).setAttribute(`disabled`, true);
   document.getElementById(`checkbox${index}`).setAttribute(`checked`, true);
-  if (index <= data.steps.length) {
-    document
+  document
       .getElementById(`theActualBar`)
       .setAttribute(`value`, (index / 8) * 100);
     for (let j = index; j === 1; j--) {
       document.getElementById(`checkbox${j}`).setAttribute(`disabled`, true);
       document.getElementById(`checkbox${j}`).setAttribute(`checked`, true);
-    }
   }
 }
 
