@@ -287,6 +287,7 @@ const data = {
       `i do and they dont`,
       `...she asked as if she cared.`,
       `Live from New York, it's Saturday Night!`,
+      `This is the dumbest most brain dead shit I have seen all week`,
       `"Ooh, self burn! Those are rare!"<br>-Jake Peralta`,
       `wflaffle or pnacakae?<br>${Math.random() > 0.5 ? "-zburger" : "-rebmE"}`,
       `(paraphrased transcript of voice channel session)<br><br>"what if ery just lurks in vcs for website quotes"<br>-rebmE`,
