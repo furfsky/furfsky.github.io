@@ -90,6 +90,7 @@ svg:hover {
 }
 .theBiggestAndPhattestPhuckingDisclaimerInHumanHistory span {
   display: none;
+  font-size: 18px;
 }
 .theBiggestAndPhattestPhuckingDisclaimerInHumanHistory:hover span {
   display: block;
@@ -100,8 +101,7 @@ svg:hover {
   padding: 10px;
   background-color: #1c1d31e0;
   color: #fbcc6c;
-  font-size: 15px;
-  /*GITHUB WAKE THE FUCK UP PLEASE*/
+  font-size: 18px;
 }
 body {
   overflow: hidden;
