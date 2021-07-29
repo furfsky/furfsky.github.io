@@ -762,6 +762,30 @@ const data = {
           "is it a bit too bright in here?";
       },
       () => {
+        document.getElementById("headerSubtitle").innerHTML = `<p contenteditable="true">you can edit this text...</p>`;
+        keystrokes = "";
+        devMode = false;
+        const keyPressedDevMode = (event) => {
+          if (!devMode){
+            keystrokes += event.key;
+            if (document.getElementById("headerSubtitle").innerHTML.includes("/devmode")) {
+              console.log(`Developer mode activated. Press any key to generate a new quote.`);
+              devMode = true;
+            }
+          }
+          else {
+            devModeQuote = [];
+            while (typeof devModeQuote != "string") {
+              devModeQuote = data.header.subtitle[Math.floor(Math.random() * data.header.subtitle.length)];
+            }
+            console.log(devModeQuote);
+            document.getElementById("headerSubtitle").innerHTML = devModeQuote;
+            document.getElementById("logo").src = "assets/logos/devmode.png";
+          }
+        }
+        window.addEventListener("keyup", keyPressedDevMode);
+      },
+      () => {
         pressToMoveQuotes([
           "voxal: time to add 100 more quotes<br>*cries in pain*",
           "Erymanthus: dwai i can help",
