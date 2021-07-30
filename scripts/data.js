@@ -767,9 +767,13 @@ const data = {
         devMode = false;
         const keyPressedDevMode = (event) => {
           if (!devMode){
-            keystrokes += event.key;
+            if (((event.key == (`/`)) || (event.key == (`d`))) || ((event.key == (`e`)) || (event.key == (`v`)) || ((event.key == (`m`)) || (event.key == (`o`))))){
+              document.body.style.filter = 'blur(2px)';
+              setTimeout(() => document.body.style.filter = 'blur(0px)', 250);
+            }
             if (document.getElementById("headerSubtitle").innerHTML.includes("/devmode")) {
-              console.log(`Developer mode activated. Press any key to generate a new quote.`);
+              document.getElementById("headerSubtitle").innerHTML = `Developer mode activated. Press any key to generate a new quote.`;
+              document.getElementById("logo").src = "assets/logos/devmode.png";
               devMode = true;
             }
           }
@@ -778,7 +782,6 @@ const data = {
             while (typeof devModeQuote != "string") {
               devModeQuote = data.header.subtitle[Math.floor(Math.random() * data.header.subtitle.length)];
             }
-            console.log(devModeQuote);
             document.getElementById("headerSubtitle").innerHTML = devModeQuote;
             document.getElementById("logo").src = "assets/logos/devmode.png";
           }
