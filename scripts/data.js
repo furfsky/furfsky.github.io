@@ -1455,6 +1455,16 @@ const data = {
   },
   downloads: [
     {
+      version: "v1.4",
+      name: "Journey's Beginning<br><small>(Crystal Hollows items and more!)</small>",
+      fileFull:
+        "/files/v1.4/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.4§8§l].zip",
+      fileOverlay:
+        "/files/v1.4/§r§lFurfSky §6§lReborn §8§lOV §8§l[§71.4§8§l].zip",
+      fileOverlayPlus:
+        "/files/v1.4/§r§lFurfSky §6§lReborn §8§lOV+ §8§l[§71.4§8§l].zip",
+    },
+    {
       version: "v1.3.2",
       name: "v1.3's Loose Ends, Pets, and some SB UI<br><small>(Motor's name for this update sucked, so it's different here)</small>",
       fileFull:
