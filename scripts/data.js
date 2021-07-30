@@ -1268,6 +1268,11 @@ const data = {
         );
       },
       () => {
+        foxScriptScroll(
+          `HOLYT HSIT KILL ME KILL ME SHOOT ME RN KILL ME I WANT TO UNLIVE PLEASE I WANT THE SWEET RELEASE OF DEATH SOMEBOSDY FINSIH ME OR FI NISH ON ME FUCKING HELL MAN WHYYYYY BRO LIFETIME HAS BEEN RUINED DAY RUINED WEEK RUINED MONTH RUINED YEAR RUINED AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH END MY SUFFERING THIOS IS THE CATALYST OF MY PAIN`
+        );
+      },
+      () => {
         let metersAway = Math.floor(Math.random() * 300) + 300;
         let interval = setInterval(() => {
           const quote = document.getElementById("headerSubtitle");
