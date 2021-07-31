@@ -58,3 +58,11 @@ window.onmousemove = function (e) {
       tooltips[i].style.left = x;
     }
 };
+
+const toggleDisclaimer = (event) => {
+  console.log(event.key);
+  if(event.key == "i" || event.key == "I")
+  document.getElementById("disclaimerWrapper").style.display = `none`;
+}
+
+window.addEventListener("keyup", toggleDisclaimer);
