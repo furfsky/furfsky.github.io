@@ -2260,7 +2260,7 @@ const data = {
   navigation: {
     "home": '/',
     "downloads": '/downloads/',
-    //special
+    "addons": '/addons/',
     "gallery": '/gallery/',
     "steps": "/steps/",
     "faq": "/faq/",
