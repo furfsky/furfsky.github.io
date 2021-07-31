@@ -2258,13 +2258,14 @@ const data = {
     },
   ],
   navigation: {
-    home: "/",
-    downloads: "/downloads/",
-    gallery: "/gallery/",
-    partners: "/partners/",
-    steps: "/steps/",
-    faq: "/faq/",
-    credits: "/credits/",
+    "home": '/',
+    "downloads": '/downloads/',
+    //special
+    "gallery": '/gallery/',
+    "steps": "/steps/",
+    "faq": "/faq/",
+    "partners": '/partners/',
+    "credits": "/credits/",
   },
   quotelessContribs: {
     testersAssoc: [
