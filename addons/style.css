@@ -1,0 +1,81 @@
+header {
+  background: linear-gradient(#00000000 0%, #1c1d31 90%),
+    url(/assets/banner.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+#logo {
+  position: absolute;
+  width: 40em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+#headerSubtitle {
+  position: absolute;
+  top: 76.25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Minecraft";
+  margin: 0;
+  color: #a48aba;
+}
+#headerSubtitle > h1{
+  color: #fbcc6c;
+}
+#downloadContainer {
+  background: #1c1d31;
+  color:white;
+  font-family: "Minecraft";
+}
+.downloadButtons {
+
+  text-align: center;
+}
+.downloadButton {
+  transition: all 200ms ease-out;
+  font-size: 25px;
+  color: #f6cb75;
+  /* border-radius: 15px; */
+  background: #444a71;
+  padding: 10px;
+  text-align: center;
+  margin: 25px;
+  display: inline-block;
+  border: 5px solid #c0713f;
+  /* border: 5px solid #662e96; */
+}
+.downloadButton:hover {
+  transform: scale(1.25);
+  color: #d48af1; 
+  background: #444a71;
+  border: 5px solid #683d8d;
+}
+.downloadButton > a {
+  color: inherit;
+  text-decoration: none;
+}
+.downloadText {
+  text-align: center;
+  margin:0;
+}
+.addonTitle {
+  color: #f6cb75;
+}
+.addonTitle span {
+  display: none;
+}
+.addonTitle:hover span {
+  display: block;
+  position: fixed;
+  overflow: hidden;
+  width: 30%;
+  padding: 10px;
+  background-color: #1c1d31e0;
+  font-size: 20px;
+  z-index: 9999;
+}
