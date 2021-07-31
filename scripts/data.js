@@ -2296,6 +2296,29 @@ const data = {
     `hey look i made my own crappy version of the fsr logo for the site as well<br>-erymanthus`,
     `not a quote but have a 0.1% chance for the FurfSky Reborn logo to say Among Us instead in the same style<br>-FurryEBoy`,
   ],
+  addons: [
+    {
+      name: "[FL] Crystal Hollows tunnels",
+      shortSuffix: `MOD UI`,
+      title: `Tunnel routes may not be entirely accurate-none of them have been tested for accuracy.`,
+      shorterName: "Crystal Hollows tunnels",
+      fileLink: "/files/addons/§r§lFS§6§lR §8 - §8§l[§7Crystal Hollows tunnels§8§l].zip",
+    },
+    {
+      name: "[FL] Replace gold bars",
+      shortSuffix: `MOD UI`,
+      title: `Affects textures for mod UIs only. Vanilla hotbar still retains golden texture.`,
+      shorterName: "Classic bars",
+      fileLink: "/files/addons/§r§lFS§6§lR §8 - §8§l[§7Classic FSR bars§8§l].zip",
+    },
+    {
+      name: "[FL] Skyblocker by xMrVizzy",
+      shortSuffix: `1.16.5 MOD UI`,
+      title: `For the rare 1.16.5 Fabric player who wants FurfSky textures on 1.16.5 for some reason.`,
+      shorterName: "Skyblocker UI",
+      fileLink: "/files/addons/§r§lFS§6§lR §8 - §8§l[§7Skyblocker UI (1.16.5)§8§l].zip",
+    },
+  ],
 };
 
 const buildImageSrc = (pageName, isHover = false) => {
