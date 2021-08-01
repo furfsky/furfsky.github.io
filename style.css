@@ -1,6 +1,8 @@
 header {
   background: linear-gradient(#00000000 0%, #1c1d31 90%),
     url(assets/banner.png) no-repeat;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
   background-size: cover;
   height: 100vh;
   width: 100%;
