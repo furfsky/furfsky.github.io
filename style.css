@@ -1,110 +1,133 @@
 header {
-  background: linear-gradient(#00000000 0%, #1c1d31 90%),
-    url(assets/banner.png) no-repeat;
-    image-rendering: pixelated;
-    image-rendering: crisp-edges;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  text-align: center;
+    background: linear-gradient(#00000000 0%, #1c1d31 90%),
+    url(assets/banner.svg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
 }
+
 h1 {
-  margin: 0;
-  color: #fbcc6c;
+    margin: 0;
+    color: var(--furf-gold);
 }
+
 p {
-  margin: 0;
-  color: inherit;
+    margin: 0;
+    color: inherit;
 }
+
 header > #headerSubtitle {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: "Minecraft";
-  margin: 0;
-  color: #fbcc6c;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Minecraft", sans-serif;
+    margin: 0;
+    color: var(--furf-gold);
+    /*text-shadow: 0px -1px 0px #FCE2AB, -4px 0px 0px #C87333, -4px 4px 0px #A15635, 4px 4px 0px #A15635, -4px -4px 0px #C87333, 0px 4px 0px #A15635, 0px -4px 0px #C87333, 4px -4px 0px #A15635;*/
+    line-height: 56px;
 }
+
 header > .downloadButtons {
-  position: absolute;
-  font-family: "Minecraft";
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  width: 100%;
+    position: absolute;
+    font-family: "Minecraft", sans-serif;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 100%;
 }
+
 img {
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    image-rendering: crisp-edges;
 }
+
 #logo {
-  position: absolute;
-  width: 30em;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    width: 30em;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 .downloadButton {
-  transition: all 200ms ease-out;
-  font-size: 25px;
-  color: #f6cb75;
-  /* border-radius: 15px; */
-  background: #444a71;
-  padding: 10px;
-  text-align: center;
-  margin: 25px;
-  display: inline-block;
-  border: 5px solid #c0713f;
-  /* border: 5px solid #662e96; */
+    transition: all 200ms ease-out;
+    font-size: 25px;
+    color: var(--furf-gold);
+    /* border-radius: 15px; */
+    background: var(--furf-background);
+    padding: 10px;
+    text-align: center;
+    margin: 25px;
+    display: inline-block;
+    border: 5px solid var(--furf-orange);
+    /* border: 5px solid #662e96; */
 }
+
 .downloadButton:hover {
-  transform: scale(1.25);
-  color: #d48af1;
-  background: #444a71;
-  border: 5px solid #683d8d;
+    transform: scale(1.25);
+    color: var(--furf-violet-light);
+    background: var(--furf-background);
+    border: 5px solid var(--furf-violet-dark);
 }
+
 .socials {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
+
 .socials > a {
-  color: #ffffff00;
+    color: #ffffff00;
 }
+
 svg {
-  fill: #fbcc6c;
-  transition: 200ms;
+    fill: var(--furf-gold);
+    transition: 200ms;
 }
+
 svg:hover {
-  fill: #c87333;
+    fill: var(--furf-orange);
 }
+
 .theBiggestAndPhattestPhuckingDisclaimerInHumanHistory {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
+
 .theBiggestAndPhattestPhuckingDisclaimerInHumanHistory span {
-  display: none;
-  font-size: 18px;
+    display: none;
+    font-size: 18px;
 }
+
 .theBiggestAndPhattestPhuckingDisclaimerInHumanHistory:hover span {
-  display: block;
-  font-family: "Minecraft";
-  position: fixed;
-  overflow: hidden;
-  width: 35%;
-  padding: 10px;
-  background-color: #1c1d31e0;
-  color: #fbcc6c;
-  font-size: 18px;
+    display: block;
+    font-family: "Minecraft", sans-serif;
+    position: fixed;
+    overflow: hidden;
+    width: 35%;
+    padding: 10px;
+    background-color: var(--furf-background-dark);
+    color: var(--furf-gold);
+    font-size: 18px;
 }
+
 body {
-  overflow: hidden;
+    overflow: hidden;
+}
+
+:root {
+    --furf-gold: #fbcc6c;
+    --furf-orange: #c87333;
+    --furf-violet-light: #d48af1;
+    --furf-violet-dark: #683d8d;
+    --furf-background: #444a71;
+    --furf-background-dark: #1c1d31e0;
 }
