@@ -25,8 +25,10 @@ header > #headerSubtitle {
     font-family: "Minecraft", sans-serif;
     margin: 0;
     color: var(--furf-gold);
-    /*text-shadow: 0px -1px 0px #FCE2AB, -4px 0px 0px #C87333, -4px 4px 0px #A15635, 4px 4px 0px #A15635, -4px -4px 0px #C87333, 0px 4px 0px #A15635, 0px -4px 0px #C87333, 4px -4px 0px #A15635;*/
-    /* line-height: 56px; */
+    /*
+    text-shadow: 0px -1px 0px #FCE2AB, -4px 0px 0px #C87333, -4px 4px 0px #A15635, 4px 4px 0px #A15635, -4px -4px 0px #C87333, 0px 4px 0px #A15635, 0px -4px 0px #C87333, 4px -4px 0px #A15635;
+    line-height: 56px;
+    */
 }
 
 header > .downloadButtons {
