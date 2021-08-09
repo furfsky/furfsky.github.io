@@ -1612,9 +1612,10 @@ const data = {
         "im just now looking up furfsky again on youtube<br>and it made me realize how much i've missed since my last release",
     },
     {
-      name: "tea",
+      name: "goog",
+      link: "https://www.reddit.com/u/gordram",
       role: "Head Artist",
-      quote: "i will murder every axolotl in a 100 km radius",
+      quote: "those are uhh... a lot of channels... you got there.",
     },
     /* {
       name: "Saikage",
@@ -1716,6 +1717,11 @@ const data = {
       quote: "Flip a coin. If heads, I am on vacation. If tails, blame Ery.",
     },
     {
+      name: "tea",
+      role: "Artist",
+      quote: "i will murder every axolotl in a 100 km radius",
+    },
+    {
       name: "D43DALUS",
       role: "Artist",
       quote: "I'm built not born, it's an analytical advantage.",
@@ -1734,12 +1740,7 @@ const data = {
       quote:
         "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
     },
-    {
-      name: "goog",
-      link: "https://www.reddit.com/u/gordram",
-      role: "Artist",
-      quote: "those are uhh... a lot of channels... you got there.",
-    },
+    //goog here
     {
       name: "Zetkut",
       role: "Retired Artist",
