@@ -49,5 +49,6 @@ window.onmousemove = function (e) {
   for (var i = 0; i < tooltips.length; i++) {
     tooltips[i].style.top = y;
     tooltips[i].style.left = x;
+    tooltips[i].style.pointerEvents = "none";
   }
 };
