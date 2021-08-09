@@ -37,6 +37,10 @@ input {
   font-size: 25px;
   color: #a48aba;
 }
+a {
+  font-size: 25px;
+  color: #a48aba;
+}
 .indivStep span {
   display: none;
 }
