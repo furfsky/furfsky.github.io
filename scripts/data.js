@@ -2215,12 +2215,12 @@ const data = {
   ],
   steps: [
     {
-      step: `Download FurfSky Reborn.</span><br><a href="/">Latest version</a> (recommended)<span class="indivStep"> | </span><a href="/downloads/">All versions</a>`,
+      step: `Download FurfSky Reborn.<br><a href="/">Latest version</a> (recommended) | <a href="/downloads/">All versions</a>`,
       type: `Required`,
       title: `How else are you going to use FurfSky Reborn?`,
     },
     {
-      step: `If you haven't done so already, download and install OptiFine for 1.8.9.<br>macOS players: </span><a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Optifine M6</a><span class="indivStep"> | Windows and Linux players: </step><a href="https://optifine.net/adloadx?f=OptiFine_1.8.9_HD_U_M5.jar">OptiFine M5</a>`,
+      step: `If you haven't done so already, download and install OptiFine for 1.8.9.<br>macOS players: <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Optifine M6</a> | Windows and Linux players: <a href="https://optifine.net/adloadx?f=OptiFine_1.8.9_HD_U_M5.jar">OptiFine M5</a>`,
       type: `Required`,
       title: `OptiFine is required to apply textures to non-vanilla items such as the ones you see in Hypixel Skyblock.`,
     },
