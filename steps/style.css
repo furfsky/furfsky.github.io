@@ -36,7 +36,6 @@ input {
 .indivStep {
   font-size: 25px;
   color: #a48aba;
-  pointer-events: none;
 }
 .indivStep span {
   display: none;
