@@ -48,6 +48,7 @@ input {
   padding: 10px;
   background-color: #1c1d31e0;
   font-size: 20px;
+  pointer-events: none;
 }
 #progressBar {
   justify-content: center;
