@@ -44,7 +44,7 @@ function updateBar(index) {
 var tooltips = document.querySelectorAll(".indivStep span");
 
 window.onmousemove = function (e) {
-  var x = e.clientX + "px",
+  var x = (e.clientX + 50) + "px",
     y = e.clientY + "px";
   for (var i = 0; i < tooltips.length; i++) {
     tooltips[i].style.top = y;
