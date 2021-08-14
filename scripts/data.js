@@ -1830,11 +1830,13 @@ const data = {
       role: "Moderator",
       quote: "you miss 100% of the shots you don't take",
     },
+    /*
     {
       name: "Nan",
       role: "Moderator",
       quote: "blub blub 🦈",
     },
+    */
     {
       name: "Suker",
       role: "Moderator",
