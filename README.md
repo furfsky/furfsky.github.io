@@ -16,10 +16,10 @@ Where everything in <http://furfsky.net> (for its pure HTML/CSS/JS framework, at
 
 ~~Other important areas of the repo include:~~
 
-~~- the `files` folder, where the `.zip` files for each version of FurfSky Reborn is stored. Please don't touch that–it's reserved for specific folks to maintain.~~
-~~- the `assets` folder, the home of all the `.png` files the site uses–from logos to tabs to gallery assets.~~
-~~- the `scripts` folder, which houses all `.js` files that bring the FurfSky Reborn website to life.~~
-~~- the `fonts` folder, which prevents the text on the site from rendering in the Trebuchet MS font instead of the Minecraft font.~~
+* ~~the `files` folder, where the `.zip` files for each version of FurfSky Reborn is stored. Please don't touch that–it's reserved for specific folks to maintain.~~
+* ~~the `assets` folder, the home of all the `.png` files the site uses–from logos to tabs to gallery assets.~~
+* ~~the `scripts` folder, which houses all `.js` files that bring the FurfSky Reborn website to life.~~
+* ~~the `fonts` folder, which prevents the text on the site from rendering in the Trebuchet MS font instead of the Minecraft font.~~
 
 ~~All other folders serve to store individual `.html` and `.css` files for each page on the website. The `CNAME` allows <https://furfsky.github.io> to be "translated", so to speak, into <http://furfsky.net>, and the `README.md` file... well, you're reading it right now.~~
 
