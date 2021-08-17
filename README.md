@@ -6,6 +6,8 @@ Where everything in <http://furfsky.net> (for its pure HTML/CSS/JS framework, at
 
 *Sections of this `README.md` file have been marked as outdated as per the framework transition.*
 
+*To learn more about the future furfsky.net framework, see this repo: https://github.com/furfsky/next*
+
 ## Explaining the repo (OUTDATED)
 
 *NOTE: As mentioned earlier, the repository is currently changing frameworks. The information below is solely preserved for archiving how the website worked in the past.*
