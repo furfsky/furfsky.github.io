@@ -2,7 +2,7 @@
 
 Where everything in <http://furfsky.net> (for its pure HTML/CSS/JS framework, at least) takes place.
 
-*The repository is currently undergoing a change in frameworks from HTML/CSS/JS to TSX/SCSS/TS. Please refrain from making contributions of any kind—whether it be a quote submission or a new JavaScript function. We appreciate your understanding and cooperation.*
+*The repository is currently undergoing a change in frameworks from HTML/CSS/JS to TSX/SCSS/TS. Please refrain from making contributions of any kind to this repo at this time—whether it be a quote submission or a new JavaScript function. We appreciate your understanding and cooperation.*
 
 *Sections of this `README.md` file have been marked as outdated as per the framework transition.*
 
