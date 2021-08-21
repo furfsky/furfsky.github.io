@@ -1612,10 +1612,9 @@ const data = {
         "im just now looking up furfsky again on youtube<br>and it made me realize how much i've missed since my last release",
     },
     {
-      name: "goog",
-      link: "https://www.reddit.com/u/gordram",
-      role: "Head Artist",
-      quote: "those are uhh... a lot of channels... you got there.",
+      name: "D43DALUS",
+      role: "Artist",
+      quote: "I'm built not born, it's an analytical advantage.",
     },
     /* {
       name: "Saikage",
@@ -1721,11 +1720,7 @@ const data = {
       role: "Artist",
       quote: "i will murder every axolotl in a 100 km radius",
     },
-    {
-      name: "D43DALUS",
-      role: "Artist",
-      quote: "I'm built not born, it's an analytical advantage.",
-    },
+    //daed here
     {
       name: "Erymanthus",
       link: "https://www.reddit.com/user/RayDeeUx/",
@@ -1740,7 +1735,12 @@ const data = {
       quote:
         "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
     },
-    //goog here
+    {
+      name: "goog",
+      link: "https://www.reddit.com/u/gordram",
+      role: "Head Artist",
+      quote: "those are uhh... a lot of channels... you got there.",
+    },
     {
       name: "Zetkut",
       role: "Retired Artist",
@@ -1830,18 +1830,15 @@ const data = {
       role: "Moderator",
       quote: "you miss 100% of the shots you don't take",
     },
-    /*
     {
       name: "Nan",
       role: "Moderator",
       quote: "blub blub 🦈",
     },
-    */
     {
       name: "Suker",
       role: "Moderator",
-      quote:
-        "the fsr twitter is a place only the<br>highest level of memers can ascend to",
+      quote: "the fsr twitter is a place only the<br>highest level of memers can ascend to",
     },
     {
       name: "NameWasntTaken",
@@ -1850,8 +1847,13 @@ const data = {
     },
     {
       name: "InfinityRing",
-      role: "Helper",
+      role: "Moderator",
       quote: "Trash at Bedwars.",
+    },
+    {
+      name: "ruder",
+      role: "Moderator",
+      quote: "I eat my cereal with tears instead of milk",
     },
     {
       name: "SausageDog359",
