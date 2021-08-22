@@ -1613,7 +1613,7 @@ const data = {
     },
     {
       name: "D43DALUS",
-      role: "Artist",
+      role: "Head Artist",
       quote: "I'm built not born, it's an analytical advantage.",
     },
     /* {
@@ -1837,7 +1837,7 @@ const data = {
     },
     {
       name: "Suker",
-      role: "Moderator",
+      role: "Retired Moderator",
       quote: "the fsr twitter is a place only the<br>highest level of memers can ascend to",
     },
     {
