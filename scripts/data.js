@@ -1586,7 +1586,7 @@ const data = {
     "Trial Artist": "#6a5d82",
     "Retired Artist": "#8d7cad",
     Admin: "#4b8b3b",
-    "Artist & Website Maintainer": "#26b1f3",
+    "Artist & Website Dpt.": "#26b1f3",
     Moderator: "#17d44a",
     Helper: "#3498db",
     "Retired Moderator": "#0d7f2c",
