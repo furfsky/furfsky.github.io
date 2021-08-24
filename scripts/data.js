@@ -1586,7 +1586,7 @@ const data = {
     "Trial Artist": "#6a5d82",
     "Retired Artist": "#8d7cad",
     Admin: "#4b8b3b",
-    "Artist & Website Maintainer": "#67dadd",
+    "Artist & Website Maintainer": "#26b1f3",
     Moderator: "#17d44a",
     Helper: "#3498db",
     "Retired Moderator": "#0d7f2c",
@@ -1722,11 +1722,10 @@ const data = {
     },
     //daed here
     {
-      name: "Erymanthus",
+      name: "<span style='color:#3acccc;'>Erymanthus</span>",
       link: "https://www.reddit.com/user/RayDeeUx/",
-      role: "Artist & Website Maintainer",
-      quote:
-        "hey, you could pour soup in my lap<br>and i'll probably apologize to you!",
+      role: "Artist & Website Dpt.",
+      quote: "hey, you could pour soup in my lap<br>and i'll probably apologize to you!",
     },
     {
       name: "Smolegit",
@@ -1773,9 +1772,9 @@ const data = {
       quote: "Chroma HUD/UIs hurts my soul",
     },
     {
-      name: "FoxScript",
+      name: "<span style='color:#ffffff;'>Fox</span><span style='color:#ff6000;'>Script</span>",
       link: "https://www.youtube.com/watch?v=AvmnYLBSnh0",
-      role: "Artist",
+      role: "Artist & Website Dpt.",
       quote: "<code>[placeholder credit text]</code>",
     },
     {
