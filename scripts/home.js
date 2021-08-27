@@ -1,3 +1,4 @@
+/*
 (() => {
   let entry =
     data.header.subtitle[
@@ -27,6 +28,7 @@
   else if (!(document.getElementById("headerSubtitle").innerHTML.includes("Holt"))) {
     document.getElementById("logo").src = "assets/logos/logo.gif";
   }
+  */
   let full = document.getElementById("fullLink");
   let overlay = document.getElementById("overlayLink");
   let overlayPlus = document.getElementById("overlayPlusLink");
