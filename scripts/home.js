@@ -49,7 +49,7 @@
     OK, fine, you called our bluff. Now quit poking around here and go back to finding some funny little quote to screenshot.
   `);
 })();
-
+/*
 var tooltips = document.querySelectorAll('.theBiggestAndPhattestPhuckingDisclaimerInHumanHistory span');
 
 window.onmousemove = function (e) {
@@ -68,3 +68,4 @@ const toggleDisclaimer = (event) => {
 }
 
 window.addEventListener("keyup", toggleDisclaimer);
+*/
