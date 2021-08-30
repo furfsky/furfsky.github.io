@@ -1773,7 +1773,7 @@ const data = {
     },
     {
       name: "<span style='color:#ffffff;'>Fox</span><span style='color:#ff6000;'>Script</span>",
-      link: "https://www.youtube.com/watch?v=AvmnYLBSnh0",
+      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       role: "Artist & Website Dpt.",
       quote: "<code>[placeholder credit text]</code>",
     },
