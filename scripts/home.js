@@ -28,7 +28,6 @@
   else if (!(document.getElementById("headerSubtitle").innerHTML.includes("Holt"))) {
     document.getElementById("logo").src = "assets/logos/logo.gif";
   }
-  */
   let full = document.getElementById("fullLink");
   let overlay = document.getElementById("overlayLink");
   let overlayPlus = document.getElementById("overlayPlusLink");
@@ -43,13 +42,12 @@
 
   console.log(`
     Hi.
-    
+
     Alt+F4 for a free Necron's Handle. C'mon, we know you want it.
 
     OK, fine, you called our bluff. Now quit poking around here and go back to finding some funny little quote to screenshot.
   `);
 })();
-/*
 var tooltips = document.querySelectorAll('.theBiggestAndPhattestPhuckingDisclaimerInHumanHistory span');
 
 window.onmousemove = function (e) {

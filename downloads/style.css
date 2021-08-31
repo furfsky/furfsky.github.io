@@ -36,7 +36,7 @@ header {
 .downloadButtons {
   text-align: center;
 }
-.downloadButton {
+.downloadButtonLink {
   transition: all 200ms ease-out;
   font-size: 25px;
   color: #f6cb75;
@@ -49,13 +49,13 @@ header {
   border: 5px solid #c0713f;
   /* border: 5px solid #662e96; */
 }
-.downloadButton:hover {
+.downloadButtonLink:hover {
   transform: scale(1.25);
   color: #d48af1;
   background: #444a71;
   border: 5px solid #683d8d;
 }
-.downloadButton > a {
+.downloadButtonLink > a {
   color: inherit;
   text-decoration: none;
 }
