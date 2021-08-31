@@ -164,16 +164,11 @@ svg:hover {
     display: block;
     font-family: "Minecraft", sans-serif;
     position: fixed;
-    overflow: hidden;
     width: 35%;
     padding: 1rem;
     background-color: var(--furf-background-dark);
     color: var(--furf-gold);
     font-size: 1.8rem;
-}
-
-body {
-    overflow: hidden;
 }
 
 :root {
@@ -184,4 +179,51 @@ body {
     --furf-violet-dark: #683d8d;
     --furf-background: #444a71;
     --furf-background-dark: #1c1d31e0;
+}
+
+/* mobile */
+@media only screen and (max-device-width: 480px){
+    .header__wrapper {
+        padding: 0;
+        gap: 5rem;
+    }
+
+    #logo {
+        width: 30rem;
+        margin-top: 16rem;
+    }
+
+    .downloadButtonLink > button {
+        font-size: 1.8rem;
+    }
+
+    nav ul li a img {
+        height: 3rem;
+    }
+
+    #headerSubtitle {
+        font-size: 1.8rem;
+    }
+
+    .logo-subtitle__wrapper > #headerSubtitle span {
+        display: block;
+        line-height: 2.8rem;
+        text-align: center;
+    }
+
+    .downloadButtons {
+        margin: 0 1.8rem 1.8rem 1.8rem;
+    }
+
+    .socials {
+        display: flex;
+        position: inherit;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    svg {
+        width: 3rem;
+    }
 }
