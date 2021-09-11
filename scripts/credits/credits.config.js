@@ -28,8 +28,7 @@ export const credits = [
     name: "SoshJam",
     link: "https://hypixel.net/members/1196292/",
     role: "Retired Artist",
-    quote:
-      "you want me to have a dinky little 5x5 image for a legendary item?",
+    quote: "you want me to have a dinky little 5x5 image for a legendary item?",
   },
   {
     name: "iDevil4Hell/Thanatos",
@@ -126,7 +125,8 @@ export const credits = [
     name: "<span style='color:#3acccc;'>Erymanthus</span>",
     link: "https://www.reddit.com/user/RayDeeUx/",
     role: "Artist & Website Dpt.",
-    quote: "hey, you could pour soup in my lap<br>and i'll probably apologize to you!",
+    quote:
+      "hey, you could pour soup in my lap<br>and i'll probably apologize to you!",
   },
   {
     name: "Smolegit",
@@ -183,6 +183,12 @@ export const credits = [
     quote: "wat is fur",
   },
   {
+    name: "Arcri",
+    link: "https://youtube.com/arcri",
+    role: "Trial Artist",
+    quote: "just guy being dude",
+  },
+  {
     name: "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>voxal</span>",
     link: "https://thoughtscape.vercel.app/",
     role: "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>Website Developer</span>",
@@ -237,7 +243,8 @@ export const credits = [
   {
     name: "Suker",
     role: "Retired Moderator",
-    quote: "the fsr twitter is a place only the<br>highest level of memers can ascend to",
+    quote:
+      "the fsr twitter is a place only the<br>highest level of memers can ascend to",
   },
   {
     name: "NameWasntTaken",
@@ -350,16 +357,16 @@ export const credits = [
 ];
 
 export const creditsRoles = {
-  "Manager": "#ffa500",
+  Manager: "#ffa500",
   "Head Artist": "#d776ff",
   "Original FurfSky+ Creator (+ current artist)": "#c041ff",
-  "Artist": "#b19cd9",
+  Artist: "#b19cd9",
   "Trial Artist": "#6a5d82",
   "Retired Artist": "#8d7cad",
-  "Admin": "#4b8b3b",
+  Admin: "#4b8b3b",
   "Artist & Website Dpt.": "#26b1f3",
-  "Moderator": "#17d44a",
-  "Helper": "#3498db",
+  Moderator: "#17d44a",
+  Helper: "#3498db",
   "Retired Moderator": "#0d7f2c",
   "Event Helper": "#554dca",
   "Website Developer": "#ffff00",
