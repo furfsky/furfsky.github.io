@@ -86,7 +86,7 @@ img {
     justify-content: stretch;
     width: 100%;
     max-width: 70rem;
-    flex: 1;
+    flex: 0.5;
 }
 
 .downloadButtonLink {
