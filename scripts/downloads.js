@@ -1,7 +1,10 @@
+import { downloads } from "./downloads/downloads.js";
+
 (() => {
   let container = document.getElementById("downloadContainer");
 
-  data.downloads.forEach((download) => {
+  downloads.forEach((download) => {
+    console.log(download)
     let text = document.createElement("h2");
     let wrapper = document.createElement("section");
     let FLButton = document.createElement("div");
