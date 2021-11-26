@@ -1,5 +1,11 @@
 export const downloads = [
   {
+    version: "v1.4.2",
+    name: "(Not) So Set In Stone",
+    fileFull: "/files/v1.4.2/§2§lFurf§b§lSky §5§lReborn §8§lFL§8§l[§71.4.2§8§l].zip",
+    fileOverlay: "files/v1.4.2/§2§lFurf§b§lSky §5§lReborn §8§lOV §8§l[§71.4.2§8§l].zip"
+  },
+  {
     version: "v1.4.1",
     name: "Rosetta's Wares",
     fileFull: "/files/v1.4.1/§r§lFurfSky §6§lReborn §8§lFL §8§l[§71.4.1§8§l].zip",
