@@ -6,8 +6,8 @@
     let addonButton = document.createElement("div");
     let addonButtonTwo = document.createElement("div");
     text.className = "downloadText";
-    addonButton.className = "downloadButton";
-    addonButtonTwo.className = "downloadButton";
+    addonButton.className = "downloadButtonLink";
+    addonButtonTwo.className = "downloadButtonLink";
     text.innerHTML = `${addon.name}`;
     if (addon.title)
     text.innerHTML += ` <span class="addonTitle">[${addon.shortSuffix ? addon.shortSuffix : `!`}]<span>${addon.title}</span></span>`;

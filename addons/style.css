@@ -16,16 +16,15 @@ header {
   image-rendering: crisp-edges;
 }
 #headerSubtitle {
-  position: absolute;
-  top: 76.25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: block;
   font-family: "Minecraft";
-  margin: 0;
-  color: #a48aba;
-}
-#headerSubtitle > h1{
+  padding: 0.5em;
   color: #fbcc6c;
+  background:#1c1d31;
+  text-align: center;
+}
+#headerSubtitle > h3 {
+  color: #d48af1;
 }
 #downloadContainer {
   background: #1c1d31;

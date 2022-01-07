@@ -14,7 +14,7 @@ import { downloads } from "./downloads/downloads.js";
     text.innerHTML = `${download.version} ${
       download.name ? `- ${download.name}` : ""
     }`;
-    FLButton.className = "downloadButton";
+    FLButton.className = "downloadButtonLink";
     if (download.fileFull)
       if (download.version == "FurfSky+ v1.0 to v1.7.1")
         FLButton.innerHTML = `<a href="${download.fileFull.toString()}" target="_blank">${
@@ -24,12 +24,12 @@ import { downloads } from "./downloads/downloads.js";
         FLButton.innerHTML = `<a href="${download.fileFull.toString()}" download>${
           download.version
         } Full</a>`;
-    OVButton.className = "downloadButton";
+    OVButton.className = "downloadButtonLink";
     if (download.fileOverlay)
       OVButton.innerHTML = `<a href="${download.fileOverlay.toString()}" download>${
         download.version
       } Overlay</a>`;
-    OVPButton.className = "downloadButton";
+    OVPButton.className = "downloadButtonLink";
     if (download.fileOverlayPlus)
       OVPButton.innerHTML = `<a href="${download.fileOverlayPlus.toString()}" download>${
         download.version
