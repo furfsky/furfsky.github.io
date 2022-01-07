@@ -138,7 +138,7 @@ export const credits = [
   {
     name: "goog",
     link: "https://www.reddit.com/u/gordram",
-    role: "Head Artist",
+    role: "Artist",
     quote: "those are uhh... a lot of channels... you got there.",
   },
   {
@@ -232,12 +232,12 @@ export const credits = [
   },
   {
     name: "Gonk",
-    role: "Moderator",
+    role: "Admin",
     quote: "you miss 100% of the shots you don't take",
   },
   {
     name: "Nan",
-    role: "Moderator",
+    role: "Retired Moderator",
     quote: "blub blub 🦈",
   },
   {
