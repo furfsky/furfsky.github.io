@@ -2320,7 +2320,7 @@ const data = {
     {
       name: "[FL] Replace gold bars",
       shortSuffix: `MOD UI`,
-      title: `Affects textures for mod UIs only, including those for SBA and Apec.<br>Vanilla hotbar still retains golden texture.`,
+      title: `Affects textures for mod UIs only, including those for SBA and Apec.<br>Vanilla experience bar still retains golden texture.`,
       shorterName: "Classic bars",
       fileLink: "/files/addons/§r§lFS§6§lR §8 - §8§l[§7Classic FSR bars§8§l].zip",
     },
@@ -2330,6 +2330,20 @@ const data = {
       title: `For the rare 1.16.5 Fabric player who wants FurfSky textures on 1.16.5 for some reason.<br>Not intended for most FSR users until further notice.`,
       shorterName: "Skyblocker UI",
       fileLink: "/files/addons/§r§lFS§6§lR §8 - §8§l[§7Skyblocker UI (1.16.5)§8§l].zip",
+    },
+    {
+      name: "[FL] HyCord by DeDiamondPro",
+      shortSuffix: `MOD UI`,
+      title: `One of our CIT Monkeys got bored. Affects the textures from DeDiamondPro's HyCord mod.`,
+      shorterName: "Hycord UI",
+      fileLink: "/files/addons/§r§lFS§6§lR §8 - §8§l[§7HyCord UI§8§l].zip",
+    },
+    {
+      name: "[FL] Lunar Client textures",
+      shortSuffix: `LUNAR + MOD UI`,
+      title: `Because for whatever reason, changing Lunar Client's textures is possible. Affects Lunar Client's home screen, as well as textures from Lunar Client's version of SkyblockAddons.`,
+      shorterName: "Lunar Client UI",
+      fileLink: "/files/addons/§r§lFS§6§lR §8 - §8§l[§7Lunar Client§8§l].zip",
     },
   ],
 };
