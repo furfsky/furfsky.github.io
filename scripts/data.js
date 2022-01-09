@@ -1949,6 +1949,34 @@ const data = {
   ],
   faq: [
     {
+      name: `FAQ - General Use`,
+      id: "general",
+      note: `<a href="#items">Click here to go to the item textures section.</a> | <a href="#mods">Click here to go to the mod UIs section.</a>`,
+      items: [
+        {
+          question: `What's required to use FurfSky?`,
+          answer: `For time's sake, you should be on Minecraft 1.8.9. Use OptiFine M6 if you're on macOS/OS X, otherwise use OptiFine M5.<br>
+            Additionally, NotEnoughUpdates by Moulberry is required if you want to use custom skull helmet textures.`,
+          related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a> | <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M5.jar">Get OptiFine M5 here.</a> | <a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
+        },
+        {
+          question: `Are pack version numbers related to the Minecraft version they can be used on?`,
+          answer: `Absolutely not. All FurfSky Reborn/FurfSky+ releases support Minecraft 1.8.9.<br>
+            Pack version numbers serve to distinguish which versions were released more recently,<br>
+            and which versions inctroduced which textures.`,
+          related: ``,
+        },
+        {
+          question: `I prefer playing on newer versions of Minecraft. What do I do?`,
+          answer: `The easiest solution is to adapt to the limitations of Minecraft 1.8.9,<br>
+            as most mods related to Hypixel Skyblock support only this version of Minecraft.<br>
+            However, the pack can work up to Minecraft 1.12.2 with almost no user intervention.<br>
+            If you want to use FurfSky Reborn in Minecraft 1.13 and above, do so at your own risk.`,
+          related: ``,
+        },
+      ],
+    },
+    {
       name: `FAQ - Item Textures`,
       id: "items",
       note: `Note: Most frequent solutions include switching from Badlion/Lunar to Forge
@@ -1957,8 +1985,8 @@ const data = {
         {
           question: `Glass panes are displaying as "null" in-game, what do I do?`,
           photo: `https://cdn.discordapp.com/attachments/728977460737081454/853011732129775686/what_the_fudge_imgur.png`,
-          answer: `Update OptiFine to M6.`,
-          related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a>`,
+          answer: `Update OptiFine to M6 (macOS/OS X players) or M5 (Windows/Linux).`,
+          related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a> | <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M5.jar">Get OptiFine M5 here.</a>`,
         },
         {
           question: `Textures aren't showing up properly when I hold them, what do I do?`,
@@ -2032,16 +2060,16 @@ const data = {
         {
           question: `Why does my game crash when using OptiFine M5?`,
           photo: ``,
-          answer: `Make sure you're using the latest versions of Patcher and OptiFine.
+          answer: `Make sure you're using the latest versions of Patcher and OptiFine.<br>
             Additionally, if you would like to retain 1.7 animations, use Old Animations from Sk1er LLC.`,
-          related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">OptiFine M6,</a> <a href="https://static.sk1er.club/repo/mods/patcher/1.5.1/1.8.9/Patcher-1.5.1%20(1.8.9).jar">Patcher 1.5.1,</a> <a href="https://sk1er.club/beta">and Sk1er LLC's Old Animations [optional].</a>`,
+          related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">OptiFine M6,</a> <a href="https://sk1er.club/mods/patcher">Patcher,</a> <a href="https://sk1er.club/beta">and Sk1er LLC's Old Animations [optional].</a>`,
         },
         {
           question: `Your textures for skulls aren't showing up, what do I do?`,
           photo: ``,
-          answer: `Our custom skull textures are only available through Moulberry's NEU. Please install that mod.
-            Also, update OptiFine to M6 just in case.`,
-          related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a> <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a>`,
+          answer: `Our custom skull textures are only available through Moulberry's NEU. Please install that mod.<br>
+            Also, update OptiFine to M6 (macOS/OS X) or M5 (Windows/Linux) just in case.`,
+          related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a> | <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a> | <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M5.jar">Get OptiFine M5 here.</a>`,
         },
       ],
     },
@@ -2064,8 +2092,10 @@ const data = {
         },
         {
           question: `<i>[Skytils, SkyblockCatia (SBC), and Skyblock Extras (SBE)]</i> - How do I revert to the old <code>rarity.png</code> shape?`,
-          photo: `  https://cdn.discordapp.com/attachments/728977460737081454/853058627333914684/unknown.png`,
-          answer: `Please unzip your copy of FurfSky Reborn if you haven't done so already.
+          photo: `  https://cdn.discordapp.com/attachments/728977460737081454/929760237248970882/unknown.png`,
+          answer: `For Skytils: enter the <code>/st</code> command, then search for the term "item rarity".<br>
+            FurfSky Reborn uses the "custom" rarity shape in Skytils, so switch to whatever other options you'd like.<br>
+            For SBC and SBE: Please unzip your copy of FurfSky Reborn if you haven't done so already.<br>
             Then navigate to the respective directory for the mod whose rarity shapes you want to delete.
             Delete them as necessary.`,
           related: `<a href="https://github.com/Skytils/SkytilsMod/releases">Skytils</a> | <a href="https://www.curseforge.com/minecraft/mc-mods/skyblockcatia/files">SBC</a> | <a href="https://sbewebsite.appspot.com/">SBE</a>`,
@@ -2073,7 +2103,8 @@ const data = {
         {
           question: `<i>[SkyblockPersonalized (SBP)]</i> - Why is my font color in <code>/sbp</code>... weird?`,
           photo: `  https://cdn.discordapp.com/attachments/785025965226459176/821112316664741888/Screen_Shot_2021-03-15_at_3.png`,
-          answer: `Please use the mod's <i>Dark Theme</i> in <code>/sbp</code> as seen above.`,
+          answer: `Please update your copy of SBP, as the mod no longer uses themes.`,
+          related: `<a href="https://discord.com/channels/779549891890118683/779550146861203477">SBP's #releases channel</a>`,
         },
         {
           question: `<i>[SBP]</i> - What happened to the background of my player/characterin <code>/sbp</code> and why do the corners seem scuffed?<br>(Also, why do some of my GUI elements seem off?)`,
@@ -2084,7 +2115,7 @@ const data = {
         {
           question: `<i>[NotEnoughUpdates (NEU)]</i> - Why is the text incredibly dark in NEU's custom Skyblock menus?`,
           photo: `  https://cdn.discordapp.com/attachments/785025965226459176/821121294501543986/Screen_Shot_2021-03-15_at_4.png`,
-          answer: `Please type <code>/neu improved</code> in chat and change the background and button styles exactly as shown above.
+          answer: `Please type <code>/neu improved</code> in chat and change the background and button styles exactly as shown above.<br>
             If the text isn't gold after you make this change, please ping Erymanthus for more help.`,
           related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
         },
@@ -2100,8 +2131,7 @@ const data = {
         {
           question: `<i>[SkyblockHUD (SBHUD)]</i> - Why are some textures for UI elements blank and/or missing in v1.13 of SBHUD?<br>(Also, more SBHUD v1.13 questions when?)`,
           photo: ``,
-          answer: `SBHUD v1.13 is still in beta. Patience is key. As of now, everything in v1.13 of SBHUD should be fine
-            (with a few rendering bugs in dungeons, but that's not on us).`,
+          answer: `SBHUD v1.13 is still in beta. However, FurfSky Reborn should have everything from SBHUD up to date as of FSR's v1.4.2 release.`,
           related: `<a href="https://discord.com/channels/516977525906341928/794648295255310366">Obtain SBHUD by obtaining one the roles under the "Perks" webhook here.</a>`,
         },
         {
@@ -2117,9 +2147,8 @@ const data = {
           lacked any credit for the original source (in <code>warning.ogg</code>'s case, which was taken from
           a Daniel Simion on SoundBible.com) or violated Microsoft's copyright policies
           (in <code>chime.ogg</code>'s case, which was Windows 7's shutdown sound effect verbatim).
-          Whether or not SBE's <code>.ogg</code> files change after v2.0.0 (which, evidently, has not happened yet)
-          or after the timestamp of this message is not anyone's concern, and whether you choose to restore
-          SBE's original sound effects is a choice you make at your own risk.`,
+          Whether or not SBE's <code>.ogg</code> files change after v2.0.0 (which, evidently, has not happened yet), and
+          whether you choose to restore SBE's original sound effects is a choice you make at your own risk.`,
           related: `<a href="https://soundbible.com/2182-Ice-Cubes-Glass.html"><code>warning.ogg</code> source</a> | <a href="https://creativecommons.org/licenses/by/3.0/">Human-readable Creative Commons 3.0 (CC 3.0) license</a> | <a href="https://creativecommons.org/licenses/by/3.0/legalcode">Legal mumbo jumbo version of CC 3.0</a><br><a href="https://www.microsoft.com/en-us/legal/copyright/permissions">Microsoft's copyright policy</a> | <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks">Microsoft's Trademark and Brand Guidelines</a>`,
         },
       ],
