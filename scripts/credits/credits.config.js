@@ -159,11 +159,6 @@ export const credits = [
     quote:
       "petition to remove the liver dragger's texture<br>from fsr because you should never use it",
   },
-  {
-    name: "GqmeKnight",
-    role: "Artist",
-    quote: "bolly kink cock and ussr sty"
-  },
   /*
   {
     name: "derpium",
@@ -178,14 +173,14 @@ export const credits = [
     quote: "Chroma HUD/UIs hurts my soul",
   },
   {
+    name: "GqmeKnight",
+    role: "Artist",
+    quote: "Sorry! We are just friends."
+  },
+  {
     name: "<span style='color:#ffffff;'>Fox</span><span style='color:#ff6000;'>Script</span>",
     role: "Artist & Website Dpt.",
     quote: "<code>[placeholder credit text]</code>",
-  },
-  {
-    name: "invalid-user",
-    role: "Trial Artist",
-    quote: "How do i animate stuff minecraft."
   },
   {
     name: "Indi",
@@ -197,6 +192,11 @@ export const credits = [
     link: "https://youtube.com/arcri",
     role: "Trial Artist",
     quote: "just guy being dude",
+  },
+  {
+    name: "invalid-user",
+    role: "Trial Artist",
+    quote: "How do i animate stuff minecraft."
   },
   {
     name: "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>voxal</span>",
@@ -253,8 +253,7 @@ export const credits = [
   {
     name: "Suker",
     role: "Retired Moderator",
-    quote:
-      "the fsr twitter is a place only the<br>highest level of memers can ascend to",
+    quote: "the fsr twitter is a place only the<br>highest level of memers can ascend to",
   },
   {
     name: "NameWasntTaken",
@@ -267,7 +266,7 @@ export const credits = [
     quote: "Trash at Bedwars.",
   },
   {
-    name: "ruder",
+    name: "sirLunar",
     role: "Moderator",
     quote: "I eat my cereal with tears instead of milk",
   },
@@ -287,10 +286,9 @@ export const credits = [
     quote: "damn that's hot.",
   },
   {
-    name: "MyPancakes",
+    name: "MyPancakes/Panka",
     role: "Pack Contributor",
-    quote:
-      "sometimes i question why artists that are<br>as good as the people here are making art for mc",
+    quote: "sometimes i question why artists that are<br>as good as the people here are making art for mc",
   },
   {
     name: "TomEngMaster",
@@ -321,8 +319,7 @@ export const credits = [
   {
     name: "nacrt",
     role: "Pack Contributor",
-    quote:
-      "just have it a normal file name,<br>the cancer that is mediafire only makes things worse",
+    quote: "just have it a normal file name,<br>the cancer that is mediafire only makes things worse",
   },
   {
     name: "Shy0",
@@ -335,6 +332,24 @@ export const credits = [
     quote: "imagine playing hypixel on 1.16",
   },
   {
+    name: "Drakoncheto",
+    role: "Pack Contributor",
+    quote: "what does that even mean xd?",
+    /*
+    ok look this guy was legit only here to fix the backpacks issue
+    
+    that was it
+    
+    nothing else they said is remotely funny even when taken out of context 
+    
+    this is our product from the tools and resources we had,
+    and we need to cover every contributor possible before #pack-submissions gets churning
+
+    if you're still reading this you better be voxal or i swear to god i will live in your walls
+    -erymanthus
+    */
+  },
+  {
     name: "Hasnu",
     role: "CIT Monkey",
     quote: "#FSRGangOnTop",
@@ -345,7 +360,7 @@ export const credits = [
     quote: "Stop making bad <code>.json</code> files.",
   },
   {
-    name: "Sigia42",
+    name: "Sigia",
     role: "CIT Monkey",
     quote: "damn, why is aseprite so expensive",
   },
@@ -366,24 +381,40 @@ export const credits = [
   },
 ];
 
+/***
+  
+  now that we have a #pack-submissions channel, we're going to reserve this part
+  for folks who submit stuff that makes it into the pack. don't add names to this section
+  until at least three folks have had their submission(s) added into an FSR release.
+
+  [also don't forget to check credits.js]
+
+  - Erymanthus
+  ***/
+
+export const packSubmissions = [
+  `one`,
+  `two`,
+  `<span style="color:#fbcc6c">and</span> three`,
+];
+
 export const creditsRoles = {
-  Manager: "#ffa500",
-  "Head Artist": "#d776ff",
-  "Original FurfSky+ Creator (+ current artist)": "#c041ff",
-  Artist: "#b19cd9",
-  "Trial Artist": "#6a5d82",
-  "Retired Artist": "#8d7cad",
-  Admin: "#4b8b3b",
-  "Artist & Website Dpt.": "#26b1f3",
-  Moderator: "#17d44a",
-  Helper: "#3498db",
-  "Retired Moderator": "#0d7f2c",
-  "Event Helper": "#554dca",
-  "Website Developer": "#ffff00",
-  "Pack Contributor": "#00b0b0",
-  "CIT Monkey": "#b07f79",
-  "The 3D Render Person": "#ff7d00",
-  "Discord Contributor": "#aa0000",
+  Manager: `#ffa500`,
+  'Head Artist': `#d776ff`,
+  'Original FurfSky+ Creator (+ current artist)': `#c041ff`,
+  Artist: `#b19cd9`,
+  'Trial Artist': `#6a5d82`,
+  'Retired Artist': `#8d7cad`,
+  Admin: `#4b8b3b`,
+  'Artist & Website Dpt.': `#26b1f3`,
+  Moderator: `#17d44a`,
+  Helper: `#3498db`,
+  'Retired Moderator': `#0d7f2c`,
+  'Event Helper': `#554dca`,
+  'Website Developer': `#ffff00`,
+  'Pack Contributor': `#00b0b0`,
+  'CIT Monkey': `#b07f79`,
+  'Discord Contributor': `#aa0000`,
 };
 
 export const testersAssociation = [
