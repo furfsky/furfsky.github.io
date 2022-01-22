@@ -45,6 +45,7 @@ header {
 .itemPhoto {
   width: 25%;
   height: 25%;
+  padding-bottom: 10px;
 }
 .itemRelated {
   margin: 0;
