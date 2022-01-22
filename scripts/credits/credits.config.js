@@ -159,6 +159,11 @@ export const credits = [
     quote:
       "petition to remove the liver dragger's texture<br>from fsr because you should never use it",
   },
+  {
+    name: "GqmeKnight",
+    role: "Artist",
+    quote: "bolly kink cock and ussr sty"
+  },
   /*
   {
     name: "derpium",
@@ -176,6 +181,11 @@ export const credits = [
     name: "<span style='color:#ffffff;'>Fox</span><span style='color:#ff6000;'>Script</span>",
     role: "Artist & Website Dpt.",
     quote: "<code>[placeholder credit text]</code>",
+  },
+  {
+    name: "invalid-user",
+    role: "Trial Artist",
+    quote: "How do i animate stuff minecraft."
   },
   {
     name: "Indi",
