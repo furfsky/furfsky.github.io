@@ -286,10 +286,9 @@ export const credits = [
     quote: "damn that's hot.",
   },
   {
-    name: "MyPancakes",
+    name: "MyPancakes/Panka",
     role: "Pack Contributor",
-    quote:
-      "sometimes i question why artists that are<br>as good as the people here are making art for mc",
+    quote: "sometimes i question why artists that are<br>as good as the people here are making art for mc",
   },
   {
     name: "TomEngMaster",
@@ -320,8 +319,7 @@ export const credits = [
   {
     name: "nacrt",
     role: "Pack Contributor",
-    quote:
-      "just have it a normal file name,<br>the cancer that is mediafire only makes things worse",
+    quote: "just have it a normal file name,<br>the cancer that is mediafire only makes things worse",
   },
   {
     name: "Shy0",
@@ -334,6 +332,24 @@ export const credits = [
     quote: "imagine playing hypixel on 1.16",
   },
   {
+    name: "Drakoncheto",
+    role: "Pack Contributor",
+    quote: "what does that even mean xd?",
+    /*
+    ok look this guy was legit only here to fix the backpacks issue
+    
+    that was it
+    
+    nothing else they said is remotely funny even when taken out of context 
+    
+    this is our product from the tools and resources we had,
+    and we need to cover every contributor possible before #pack-submissions gets churning
+
+    if you're still reading this you better be voxal or i swear to god i will live in your walls
+    -erymanthus
+    */
+  },
+  {
     name: "Hasnu",
     role: "CIT Monkey",
     quote: "#FSRGangOnTop",
@@ -344,7 +360,7 @@ export const credits = [
     quote: "Stop making bad <code>.json</code> files.",
   },
   {
-    name: "Sigia42",
+    name: "Sigia",
     role: "CIT Monkey",
     quote: "damn, why is aseprite so expensive",
   },
@@ -365,24 +381,40 @@ export const credits = [
   },
 ];
 
+/***
+  
+  now that we have a #pack-submissions channel, we're going to reserve this part
+  for folks who submit stuff that makes it into the pack. don't add names to this section
+  until at least three folks have had their submission(s) added into an FSR release.
+
+  [also don't forget to check credits.js]
+
+  - Erymanthus
+  ***/
+
+export const packSubmissions = [
+  `one`,
+  `two`,
+  `<span style="color:#fbcc6c">and</span> three`,
+];
+
 export const creditsRoles = {
-  Manager: "#ffa500",
-  "Head Artist": "#d776ff",
-  "Original FurfSky+ Creator (+ current artist)": "#c041ff",
-  Artist: "#b19cd9",
-  "Trial Artist": "#6a5d82",
-  "Retired Artist": "#8d7cad",
-  Admin: "#4b8b3b",
-  "Artist & Website Dpt.": "#26b1f3",
-  Moderator: "#17d44a",
-  Helper: "#3498db",
-  "Retired Moderator": "#0d7f2c",
-  "Event Helper": "#554dca",
-  "Website Developer": "#ffff00",
-  "Pack Contributor": "#00b0b0",
-  "CIT Monkey": "#b07f79",
-  "The 3D Render Person": "#ff7d00",
-  "Discord Contributor": "#aa0000",
+  Manager: `#ffa500`,
+  'Head Artist': `#d776ff`,
+  'Original FurfSky+ Creator (+ current artist)': `#c041ff`,
+  Artist: `#b19cd9`,
+  'Trial Artist': `#6a5d82`,
+  'Retired Artist': `#8d7cad`,
+  Admin: `#4b8b3b`,
+  'Artist & Website Dpt.': `#26b1f3`,
+  Moderator: `#17d44a`,
+  Helper: `#3498db`,
+  'Retired Moderator': `#0d7f2c`,
+  'Event Helper': `#554dca`,
+  'Website Developer': `#ffff00`,
+  'Pack Contributor': `#00b0b0`,
+  'CIT Monkey': `#b07f79`,
+  'Discord Contributor': `#aa0000`,
 };
 
 export const testersAssociation = [
