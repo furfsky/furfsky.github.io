@@ -159,11 +159,6 @@ export const credits = [
     quote:
       "petition to remove the liver dragger's texture<br>from fsr because you should never use it",
   },
-  {
-    name: "GqmeKnight",
-    role: "Artist",
-    quote: "bolly kink cock and ussr sty"
-  },
   /*
   {
     name: "derpium",
@@ -178,14 +173,14 @@ export const credits = [
     quote: "Chroma HUD/UIs hurts my soul",
   },
   {
+    name: "GqmeKnight",
+    role: "Artist",
+    quote: "Sorry! We are just friends."
+  },
+  {
     name: "<span style='color:#ffffff;'>Fox</span><span style='color:#ff6000;'>Script</span>",
     role: "Artist & Website Dpt.",
     quote: "<code>[placeholder credit text]</code>",
-  },
-  {
-    name: "invalid-user",
-    role: "Trial Artist",
-    quote: "How do i animate stuff minecraft."
   },
   {
     name: "Indi",
@@ -197,6 +192,11 @@ export const credits = [
     link: "https://youtube.com/arcri",
     role: "Trial Artist",
     quote: "just guy being dude",
+  },
+  {
+    name: "invalid-user",
+    role: "Trial Artist",
+    quote: "How do i animate stuff minecraft."
   },
   {
     name: "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>voxal</span>",
@@ -253,8 +253,7 @@ export const credits = [
   {
     name: "Suker",
     role: "Retired Moderator",
-    quote:
-      "the fsr twitter is a place only the<br>highest level of memers can ascend to",
+    quote: "the fsr twitter is a place only the<br>highest level of memers can ascend to",
   },
   {
     name: "NameWasntTaken",
@@ -267,7 +266,7 @@ export const credits = [
     quote: "Trash at Bedwars.",
   },
   {
-    name: "ruder",
+    name: "sirLunar",
     role: "Moderator",
     quote: "I eat my cereal with tears instead of milk",
   },
