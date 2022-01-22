@@ -1963,8 +1963,8 @@ const data = {
           question: `Are pack version numbers related to the Minecraft version they can be used on?`,
           answer: `Absolutely not. All FurfSky Reborn/FurfSky+ releases support Minecraft 1.8.9.<br>
             Pack version numbers serve to distinguish which versions were released more recently,<br>
-            and which versions inctroduced which textures.`,
-          related: ``,
+            and which versions introduced which textures.`,
+          related: `Check out <a href="https://discord.com/channels/771187253937438762/798839602000560129">#changelogs</a> in the Discord server: <a href="https://discord.gg/fsr">discord.gg/fsr</a>`,
         },
         {
           question: `I prefer playing on newer versions of Minecraft. What do I do?`,
@@ -1976,12 +1976,13 @@ const data = {
         },
         {
           question: `Are there other pixel resolutions of FurfSky Reborn besides 16x that are available?`,
-          answer: `No. FurfSky Reborn is only available in 16x resolution.<br>
-            Any higher or lower of a resolution of FurfSky Reborn is the work of individuals<br>
-            who have not been, are not, and will not be affiliated with the FurfSky Reborn team.<br>
-            FurfSky Reborn as a texture pack will always focus on a 16x environment, and any mention of other pixel resolutions<br>
-            for FurfSky Reborn from an FSR team member should be taken as wishful thinking from their end or their attempt at comedy.<br>
-            If you genuinely like your resource packs in other pixel resolutions, your best bet would be to check other texture packs.`,
+          answer: `No. <i>FurfSky Reborn is <u>only</u> available in 16x resolution.</i><br>
+            Any pack that claims to present FSR in a higher or lower of a pixel resolution is the unofficial work of individuals<br>
+            who (in most cases) have not been, are not, and will not be affiliated with the FurfSky Reborn team.<br>
+            <i><u>FurfSky Reborn as a texture pack will always focus on a 16x environment,</u></i> and any mention of<br>
+            presenting FSR in other pixel resolutions from an FSR team member should be interpreted as<br>
+            wishful thinking from their end or their attempt at comedy. If you genuinely prefer texture packs<br>
+            in other pixel resolutions, your best bet would be to check those other texture packs.`,
           related: ``,
         },
       ],
