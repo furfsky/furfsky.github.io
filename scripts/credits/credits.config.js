@@ -175,7 +175,7 @@ export const credits = [
   {
     name: "GqmeKnight",
     role: "Artist",
-    quote: "Sorry! We are just friends."
+    quote: "we should brodcast my battle with the axe wielder tommorow at 5pm"
   },
   {
     name: "<span style='color:#ffffff;'>Fox</span><span style='color:#ff6000;'>Script</span>",
