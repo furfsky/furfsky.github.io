@@ -205,11 +205,6 @@ export const credits = [
   },
   /*
   {
-
-help i'm on mobile and can't delete lines 207 to 211 (inclusive)
--erymanthus
-
-  {
     name: "TempDialga",
     role: "Trial Artist",
     quote: "With great value comes an intermediate degree of price dependent upon the supply"
@@ -367,7 +362,6 @@ help i'm on mobile and can't delete lines 207 to 211 (inclusive)
     */
   },
   {
-// help i'm on mobile i can't delete this line -ery
     name: "zburger",
     role: "Pack Contributor",
     quote: "ew burger ice cream"
@@ -404,8 +398,7 @@ help i'm on mobile and can't delete lines 207 to 211 (inclusive)
   },
 ];
 
-/***
-  
+  /***
   now that we have a #pack-submissions channel, we're going to reserve this part
   for folks who submit stuff that makes it into the pack. don't add names to this section
   until at least three folks have had their submission(s) added into an FSR release.
@@ -416,7 +409,7 @@ help i'm on mobile and can't delete lines 207 to 211 (inclusive)
   ***/
 
 export const packSubmissions = [
-  `one`,
+  `zburger`,
   `two`,
   `<span style="color:#fbcc6c">and</span> three`,
 ];
