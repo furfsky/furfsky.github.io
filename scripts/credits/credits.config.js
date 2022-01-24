@@ -205,10 +205,10 @@ export const credits = [
   },
   /*
   {
-    name: "zburger",
-    role: "Trial Artist",
-    quote: "ew burger ice cream"
-  },
+
+help i'm on mobile and can't delete lines 207 to 211 (inclusive)
+-erymanthus
+
   {
     name: "TempDialga",
     role: "Trial Artist",
@@ -279,7 +279,7 @@ export const credits = [
   },
   {
     name: "InfinityRing",
-    role: "Moderator",
+    role: "Retired Moderator",
     quote: "Trash at Bedwars.",
   },
   {
@@ -365,6 +365,12 @@ export const credits = [
     if you're still reading this you better be voxal or i swear to god i will live in your walls
     -erymanthus
     */
+  },
+  {
+// help i'm on mobile i can't delete this line -ery
+    name: "zburger",
+    role: "Pack Contributor",
+    quote: "ew burger ice cream"
   },
   {
     name: "Hasnu",
