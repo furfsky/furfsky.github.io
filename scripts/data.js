@@ -2168,7 +2168,7 @@ const data = {
   partners: [
     {
       name: `Moulberry's Bush`,
-      photo: `https://cdn.discordapp.com/avatars/211288288055525376/1d9bccd94f1b3bb739689739d77a8ffb.png?size=2048`,
+      photo: `/assets/partners/moulberrys_bush.png`,
       desc: `Home of Moulberry, the maker of the Skyblock mod NEU, but also
         some other helpful mods including Hychat, Insomnia, and HUDCaching.`,
       link: `https://discord.gg/moulberry`,
@@ -2176,7 +2176,7 @@ const data = {
     },
     {
       name: `Danker's Skyblock Mod`,
-      photo: `https://cdn.discordapp.com/attachments/829790281565601899/846434141062823966/dsm.png`,
+      photo: `/assets/partners/dankers_skyblock_mod.png`,
       desc: `Home of Danker's Mod for Hypixel Skyblock, which includes a bunch of
         solvers and other QoL additions to improve your overall Hypixel Skyblock experience.`,
       link: `https://discord.gg/QsEkNQS`,
@@ -2184,7 +2184,7 @@ const data = {
     },
     {
       name: `ZachPlaysAN's Discord`,
-      photo: `https://cdn.discordapp.com/avatars/285270046677139459/a2112e9f9261b60c6ef64c3df2554b40.png?size=2048`,
+      photo: `/assets/partners/zachplaysan.png`,
       desc: `The ZachPlaysAN Community Discord is a place for
       SkyBlock players and channel viewers to come together and talk
       about updates and what they're working on, as well as a way for
@@ -2194,7 +2194,7 @@ const data = {
     },
     {
       name: `Biscuit's Bakery`,
-      photo: `https://cdn.discordapp.com/attachments/829790281565601899/846438002464391209/a_f5cc2a5e89cd5acae89622e47cee5b30.gif`,
+      photo: `/assets/partners/buscuits_bakery.gif`,
       desc: `Home of SkyblockAddons, a mod by Biscuit, which includes
         dozens of useful features to tweak and improve your time on
         Hypixel Skyblock. Also contains support channels for the mod.`,
@@ -2203,7 +2203,7 @@ const data = {
     },
     {
       name: `Apec`,
-      photo: `https://cdn.discordapp.com/attachments/829790281565601899/846435797926412338/apec.gif`,
+      photo: `/assets/partners/apec.gif`,
       desc: `Apec is a Minecraft mod designed to improve the GUI
         to better suit playing Hypixel Skyblock, and overall just makes
         everything look a lot more clean.`,
@@ -2212,7 +2212,7 @@ const data = {
     },
     {
       name: `SkyClient`,
-      photo: `https://media.discordapp.net/attachments/829790281565601899/846438901836415006/skyclient256.gif`,
+      photo: `/assets/partners/skyclient.gif`,
       desc: `What is essentially a fancy modpack, SkyClient makes it
         easy to install mods and texture packs for Skyblock. It also allows
         you to update your mods and packs with one click.`,
@@ -2221,7 +2221,7 @@ const data = {
     },
     {
       name: `Skyblock Overhaul`,
-      photo: `https://cdn.discordapp.com/icons/796144458013081650/caf61c061dbcfe059bcdf04713f8aeaf.png?size=256`,
+      photo: `/assets/partners/skyblock_overhaul.png`,
       desc: `Hypixel Skyblock has a variety of swords, bows and tools.
         The Skyblock Overhaul Revamped pack will include completely overhauled
         textures of the items in Skyblock, and bring life to the textures with
@@ -2231,7 +2231,7 @@ const data = {
     },
     {
       name: `Worlds and Beyond`,
-      photo: `https://cdn.discordapp.com/icons/778919802953662488/a_60b99e313f065301e349a7efcc932cff.png?size=256`,
+      photo: `/assets/partners/worlds_and_beyond.png`,
       desc: `A super clean and cool texture pack for Skyblock with
         tons of animated textures made by none other than Skeletony!`,
       link: `https://discord.gg/TXufEf3QaA`,
@@ -2239,7 +2239,7 @@ const data = {
     },
     {
       name: `Motor's Garage`,
-      photo: `https://cdn.discordapp.com/icons/555131716151410688/16feb203116c92e140ed8fb1dde8e639.png?size=256`,
+      photo: `/assets/partners/motors_garage.png`,
       desc: `A vanilla styled Hypixel Skyblock pack made by Motor.
         Includes textures for almost all items in the game, as well as
         NEU support for Custom Skulls and Mithril Veins.`,
@@ -2248,7 +2248,7 @@ const data = {
     },
     {
       name: `r/HypixelSkyblock`,
-      photo: `https://styles.redditmedia.com/t5_13bsg7/styles/communityIcon_yei06atmmk851.jpg?width=256&s=d4253c34106b0a8c752612fd32117b3d513935e7`,
+      photo: `/assets/partners/reddit.png`,
       desc: `A Reddit fan community dedicated to discussing topics
         related to Hypixel Skyblock. It's considered by many to be
         a less toxic version of the Hypixel Forums, and is well moderated.`,
