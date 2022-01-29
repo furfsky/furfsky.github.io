@@ -203,6 +203,11 @@ export const credits = [
     role: "Trial Artist",
     quote: "🐱"
   },
+  {
+    name: "zburger",
+    role: "Trial Artist",
+    quote: "ew burger ice cream"
+  }, //also fuck you gonk for calling him "zloser"
   /*
   {
     name: "TempDialga",
@@ -360,11 +365,6 @@ export const credits = [
     if you're still reading this you better be voxal or i swear to god i will live in your walls
     -erymanthus
     */
-  },
-  {
-    name: "zburger",
-    role: "Pack Contributor",
-    quote: "ew burger ice cream"
   },
   {
     name: "Hasnu",
