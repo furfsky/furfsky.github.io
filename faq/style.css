@@ -1,3 +1,7 @@
+html {
+  background-color: #1c1d31;
+}
+
 header {
   background: linear-gradient(#00000000 0%, #1c1d31 90%),
     url(/assets/banner.png) no-repeat;
@@ -16,45 +20,55 @@ header {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
+
 #faq {
   background: #1c1d31;
   color: white;
-  font-family: "Minecraft";
+  font-family: 'Minecraft';
   text-align: center;
 }
+
 #faq {
   display: center;
 }
+
 #faq > h1 {
   color: #fbcc6c;
 }
+
 #faq > p {
   color: #a48aba;
 }
+
 .itemQuestion,
 .sectionTitle {
   color: #fbcc6c;
   text-decoration: none;
 }
+
 .itemAnswer,
 .sectionNote {
   color: #a48aba;
   text-decoration: none;
   margin: 0 10em;
 }
+
 .itemPhoto {
   width: 25%;
   height: 25%;
   padding-bottom: 10px;
 }
+
 .itemRelated {
   margin: 0;
   padding: 1em;
 }
+
 .itemRelated > a,
 .sectionNote > a {
   color: #c0713f;
 }
+
 #disclaimer {
   padding: 0.67em 0;
   margin: 0;

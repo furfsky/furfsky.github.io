@@ -2,15 +2,15 @@
 
 Where everything in <http://furfsky.net> (for its HTML/CSS/JS framework, at least) takes place.
 
-*The repository is currently undergoing a change in frameworks from HTML/CSS/JS to Next.js. Please refrain from making contributions of any kind to this repo at this time—whether it be a quote submission or a new JavaScript function. We appreciate your understanding and cooperation.*
+_The repository is currently undergoing a change in frameworks from HTML/CSS/JS to Next.js. Please refrain from making contributions of any kind to this repo at this time—whether it be a quote submission or a new JavaScript function. We appreciate your understanding and cooperation._
 
-*Sections of this `README.md` file have been marked as outdated as per the framework transition.*
+_Sections of this `README.md` file have been marked as outdated as per the framework transition._
 
-*To learn more about the future furfsky.net framework, see this repo: https://github.com/furfsky/next*
+_To learn more about the future furfsky.net framework, see this repo: https://github.com/furfsky/next_
 
 ## Explaining the repo (OUTDATED)
 
-*NOTE: As mentioned earlier, the repository is currently changing frameworks. The information below is solely preserved for archiving how the website worked in the past.*
+_NOTE: As mentioned earlier, the repository is currently changing frameworks. The information below is solely preserved for archiving how the website worked in the past._
 
 This GitHub repo is the backbone for all files necessary for <http://furfsky.net> to provide the best experience possible for you as you learn about the FurfSky Reborn pack. (Granted, we're still missing an SSL certificate as of the commit date of this version of this `README.md` file... but that's beside the point.)
 
@@ -18,16 +18,16 @@ The most probable reason you're here is because of the many commits that happen 
 
 Other important areas of the repo include:
 
-* the `files` folder, where the `.zip` files for each version of FurfSky Reborn is stored. Please don't touch that–it's reserved for specific folks to maintain.
-* the `assets` folder, the home of all the `.png` files the site uses–from logos to tabs to gallery assets.
-* the `scripts` folder, which houses all `.js` files that bring the FurfSky Reborn website to life.
-* the `fonts` folder, which prevents the text on the site from rendering in the Trebuchet MS font instead of the Minecraft font.
+- the `files` folder, where the `.zip` files for each version of FurfSky Reborn is stored. Please don't touch that–it's reserved for specific folks to maintain.
+- the `assets` folder, the home of all the `.png` files the site uses–from logos to tabs to gallery assets.
+- the `scripts` folder, which houses all `.js` files that bring the FurfSky Reborn website to life.
+- the `fonts` folder, which prevents the text on the site from rendering in the Trebuchet MS font instead of the Minecraft font.
 
 All other folders serve to store individual `.html` and `.css` files for each page on the website. The `CNAME` allows <https://furfsky.github.io> to be "translated", so to speak, into <http://furfsky.net>, and the `README.md` file... well, you're reading it right now.
 
 ## Contributing to the repo (OUTDATED)
 
-*NOTE: As mentioned earlier, the repository is currently changing frameworks. The information below is solely preserved for archiving how people could make contributions to the site. Contributions of any form will be ignored until the framework transition is complete.*
+_NOTE: As mentioned earlier, the repository is currently changing frameworks. The information below is solely preserved for archiving how people could make contributions to the site. Contributions of any form will be ignored until the framework transition is complete._
 
 The FurfSky Reborn website is not the dictionary definition of perfect, but its contributors always strive to bring the website closer to perfection. If you want to help out, feel free to do so however you please–a fork, a pull request, a new branch-whatever you feel is necessary. We're flexible.
 

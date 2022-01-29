@@ -1,3 +1,7 @@
+html {
+  background-color: #1c1d31;
+}
+
 header {
   background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(28, 29, 49, 1) 90%),
     url(/assets/banner.png) no-repeat;
@@ -6,15 +10,18 @@ header {
   width: 100%;
   text-align: center;
 }
+
 body {
   display: flex;
   flex-direction: column;
   background: #1c1d31;
 }
+
 #logo {
   image-rendering: crisp-edges;
   height: 100px;
 }
+
 header {
   display: flex;
   flex-direction: column;
@@ -23,31 +30,36 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 header > #headerSubtitle {
-  font-family: "Minecraft", sans-serif;
+  font-family: 'Minecraft', sans-serif;
   color: #fbcc6c;
   margin-top: 52px;
   padding: 0 100px;
   max-width: 1000px;
 }
+
 #credits {
   background: #1c1d31;
   color: white;
-  font-family: "Minecraft", sans-serif;
+  font-family: 'Minecraft', sans-serif;
   text-align: center;
 }
+
 #credits > div {
   display: inline-block;
   margin: 20px;
 }
+
 #credits > div > a {
   color: white;
   text-decoration: none;
 }
+
 #noQuoteCredits {
   background: #1c1d31;
   color: white;
-  font-family: "Minecraft", sans-serif;
+  font-family: 'Minecraft', sans-serif;
   text-align: center;
   margin: 20px;
 }

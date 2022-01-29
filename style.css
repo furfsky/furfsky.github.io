@@ -1,229 +1,230 @@
+:root {
+  --furf-gold: #fbcc6c;
+  --furf-orange: #c87333;
+  --furf-violet-light: #d48af1;
+  --furf-violet: #c65df0;
+  --furf-violet-dark: #683d8d;
+  --furf-background: #444a71;
+  --furf-background-dark: #1c1d31e0;
+}
+
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
+  background-color: #1c1d31;
 }
 
 body {
-    font-family: "Minecraft", sans-serif;
+  font-family: 'Minecraft', sans-serif;
 }
 
 p {
-    margin: 0;
-    color: inherit;
+  margin: 0;
+  color: inherit;
 }
 
 body::after {
-    content: '';
-    background: linear-gradient(#00000000 0%, #1c1d31 90%),
+  content: '';
+  background: linear-gradient(#00000000 0%, #1c1d31 90%),
     url(assets/banner.svg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: fixed;
-    top: -8rem;
-    bottom: 0;
-    left: -8rem;
-    right: -8rem;
-    z-index: -1;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: -8rem;
+  bottom: 0;
+  left: -8rem;
+  right: -8rem;
+  z-index: -1;
 }
 
 header {
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0 100px;
-    align-items: center;
-    justify-content: center;
-    gap: 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
 }
 
 .logo-subtitle__wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 4.5rem;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    justify-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
 }
 
 .logo-subtitle__wrapper > #headerSubtitle span {
-    display: block;
-    line-height: 6.4rem;
-    text-align: center;
+  display: block;
+  line-height: 6.4rem;
+  text-align: center;
 }
 
 #logo {
-    width: 50rem;
+  width: 50rem;
 }
 
 #headerSubtitle {
-    margin: 0;
-    color: var(--furf-gold);
-    font-size: 2.8rem;
+  margin: 0;
+  color: var(--furf-gold);
+  font-size: 2.8rem;
 }
 
 img {
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    image-rendering: crisp-edges;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  image-rendering: crisp-edges;
 }
 
 .downloadButtons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2.5rem;
-    flex-direction: row;
-    align-items: center;
-    justify-content: stretch;
-    width: 100%;
-    max-width: 70rem;
-    flex: 0.5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: stretch;
+  width: 100%;
+  max-width: 70rem;
+  flex: 0.5;
 }
 
 .downloadButtonLink {
-    font-size: 0;
-    text-decoration: none;
-    flex: 1;
+  font-size: 0;
+  text-decoration: none;
+  flex: 1;
 }
 
 .downloadButtonLink > button {
-    white-space: nowrap;
-    display: flex;
-    min-width: 26rem;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.1s ease-out;
-    font-size: 2.5rem;
-    color: var(--furf-gold);
-    background: var(--furf-background);
-    padding: 1rem 1.5rem;
-    text-align: center;
-    border: 0.5rem solid var(--furf-orange);
-    cursor: pointer;
+  white-space: nowrap;
+  display: flex;
+  min-width: 26rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s ease-out;
+  font-size: 2.5rem;
+  color: var(--furf-gold);
+  background: var(--furf-background);
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border: 0.5rem solid var(--furf-orange);
+  cursor: pointer;
 }
 
 .downloadButtonLink > button {
-    padding: 1.6rem 3.2rem 1.8rem;
-    background: #2C354D;
-    border: 4px solid #000000;
-    box-shadow: inset -0.8rem -0.8rem 0 #14182E, inset 0.8rem 0.8rem 0 #404973;
+  padding: 1.6rem 3.2rem 1.8rem;
+  background: #2c354d;
+  border: 4px solid #000000;
+  box-shadow: inset -0.8rem -0.8rem 0 #14182e, inset 0.8rem 0.8rem 0 #404973;
 }
 
 .downloadButtonLink:hover > button {
-    color: #FFFFA0;
-    background: #2C354D;
-    border: 4px solid #FFA654;
+  color: #ffffa0;
+  background: #2c354d;
+  border: 4px solid #ffa654;
 }
 
 .socials {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 2.5rem;
-    display: flex;
-    flex-direction: row;
-    gap: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
 }
 
 .socials > a {
-    color: #ffffff00;
+  color: #ffffff00;
 }
 
 svg {
-    fill: var(--furf-gold);
-    transition: 200ms;
-    width: 5rem;
+  fill: var(--furf-gold);
+  transition: 200ms;
+  width: 5rem;
 }
 
 svg:hover {
-    fill: var(--furf-orange);
+  fill: var(--furf-orange);
 }
 
 .theBiggestAndPhattestPhuckingDisclaimerInHumanHistory {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .theBiggestAndPhattestPhuckingDisclaimerInHumanHistory span {
-    display: none;
-    font-size: 1.8rem;
+  display: none;
+  font-size: 1.8rem;
 }
 
 .theBiggestAndPhattestPhuckingDisclaimerInHumanHistory:hover span {
-    display: block;
-    font-family: "Minecraft", sans-serif;
-    position: fixed;
-    width: 35%;
-    padding: 1rem;
-    background-color: var(--furf-background-dark);
-    color: var(--furf-gold);
-    font-size: 1.8rem;
-}
-
-:root {
-    --furf-gold: #fbcc6c;
-    --furf-orange: #c87333;
-    --furf-violet-light: #d48af1;
-    --furf-violet: #c65df0;
-    --furf-violet-dark: #683d8d;
-    --furf-background: #444a71;
-    --furf-background-dark: #1c1d31e0;
+  display: block;
+  font-family: 'Minecraft', sans-serif;
+  position: fixed;
+  width: 35%;
+  padding: 1rem;
+  background-color: var(--furf-background-dark);
+  color: var(--furf-gold);
+  font-size: 1.8rem;
 }
 
 /* mobile */
-@media only screen and (max-device-width: 480px){
-    .header__wrapper {
-        padding: 0;
-        gap: 5rem;
-    }
+@media only screen and (max-device-width: 480px) {
+  .header__wrapper {
+    padding: 0;
+    gap: 5rem;
+  }
 
-    #logo {
-        width: 30rem;
-        margin-top: 16rem;
-    }
+  #logo {
+    width: 30rem;
+    margin-top: 16rem;
+  }
 
-    .downloadButtonLink > button {
-        font-size: 1.8rem;
-    }
+  .downloadButtonLink > button {
+    font-size: 1.8rem;
+  }
 
-    nav ul li a img {
-        height: 3rem;
-    }
+  nav ul li a img {
+    height: 3rem;
+  }
 
-    #headerSubtitle {
-        font-size: 1.8rem;
-    }
+  #headerSubtitle {
+    font-size: 1.8rem;
+  }
 
-    .logo-subtitle__wrapper > #headerSubtitle span {
-        display: block;
-        line-height: 2.8rem;
-        text-align: center;
-    }
+  .logo-subtitle__wrapper > #headerSubtitle span {
+    display: block;
+    line-height: 2.8rem;
+    text-align: center;
+  }
 
-    .downloadButtons {
-        margin: 0 1.8rem 1.8rem 1.8rem;
-    }
+  .downloadButtons {
+    margin: 0 1.8rem 1.8rem 1.8rem;
+  }
 
-    .socials {
-        display: flex;
-        position: inherit;
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-    }
+  .socials {
+    display: flex;
+    position: inherit;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
 
-    svg {
-        width: 3rem;
-    }
+  svg {
+    width: 3rem;
+  }
 }
