@@ -1951,13 +1951,13 @@ const data = {
     {
       name: `FAQ - General Use`,
       id: 'general',
-      note: `<a href="#items">Click here to go to the item textures section.</a> | <a href="#mods">Click here to go to the mod UIs section.</a>`,
+      note: `<a href="#items">Click here to go to the item textures section.</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#mods">Click here to go to the mod UIs section.</a>`,
       items: [
         {
           question: `What's required to use FurfSky?`,
           answer: `For time's sake, you should be on Minecraft 1.8.9. Use OptiFine M6 if you're on macOS/OS X, otherwise use OptiFine M5.<br>
             Additionally, NotEnoughUpdates by Moulberry is required if you want to use custom skull helmet textures.`,
-          related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a> | <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M5.jar">Get OptiFine M5 here.</a> | <a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
+          related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M5.jar">Get OptiFine M5 here.</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
         },
         {
           question: `Are pack version numbers related to the Minecraft version they can be used on?`,
@@ -1995,13 +1995,13 @@ const data = {
       items: [
         {
           question: `Glass panes are displaying as "null" in-game, what do I do?`,
-          photo: `https://cdn.discordapp.com/attachments/728977460737081454/853011732129775686/what_the_fudge_imgur.png`,
+          photo: `/assets/faq/faq_1.png`,
           answer: `Update OptiFine to M6 (macOS/OS X players) or M5 (Windows/Linux).`,
           related: `<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a> | <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M5.jar">Get OptiFine M5 here.</a>`,
         },
         {
           question: `Textures aren't showing up properly when I hold them, what do I do?`,
-          photo: `https://cdn.discordapp.com/attachments/728977460737081454/853013636729536602/vOhsHbJ.png`,
+          photo: `/assets/faq/faq_2.png`,
           answer: `
           <ul>
             <li>Make sure Custom Item textures is enabled in your Video Settings.<br>Here is the settings path: <code>Video Settings > Quality > Custom Items: ON</code></li>
@@ -2063,7 +2063,7 @@ const data = {
         },
         {
           question: `Why aren't the Mithril Vein block textures showing up?`,
-          photo: `https://cdn.discordapp.com/attachments/821151183070298174/839725667645784104/Screen_Shot_2021-05-06_at_12.48.55.759_AM_Eastern_Daylight_Time.png`,
+          photo: `/assets/faq/faq_3.png`,
           answer: `Make sure you're using the latest version of NEU.
             Additionally, the option in the above image <i>must</i> be toggled on, and your <code>Connected Textures</code> option in OptiFine's settings <i>must</i> be set to <code>Fast</code>.`,
           related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
@@ -2080,7 +2080,7 @@ const data = {
           photo: ``,
           answer: `Our custom skull textures are only available through Moulberry's NEU. Please install that mod.<br>
             Also, update OptiFine to M6 (macOS/OS X) or M5 (Windows/Linux) just in case.`,
-          related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a> | <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a> | <a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M5.jar">Get OptiFine M5 here.</a>`,
+          related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre1.jar">Get OptiFine M6 here.</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M5.jar">Get OptiFine M5 here.</a>`,
         },
       ],
     },
@@ -2094,7 +2094,7 @@ const data = {
       items: [
         {
           question: `<i>[Apec]</i> - How do I swap between the Apec bar styles?`,
-          photo: `  https://cdn.discordapp.com/attachments/728977460737081454/853051096926519316/Untitled_drawing375.png`,
+          photo: `/assets/faq/faq_4.png`,
           answer: `Navigate to your resource packs folder (or open it via in-game) and unzip the texture pack if it's still in <code>.zip</code> form.
           Then navigate to <code>/assets/apec/gui/</code> and you will see not two, but four .png files (much like the photos above).
           Rename the files as per the files names in the photo <i>above</i> the gray line <u>for gold bars</u>,
@@ -2103,17 +2103,17 @@ const data = {
         },
         {
           question: `<i>[Skytils, SkyblockCatia (SBC), and Skyblock Extras (SBE)]</i> - How do I revert to the old <code>rarity.png</code> shape?`,
-          photo: `  https://cdn.discordapp.com/attachments/728977460737081454/929760237248970882/unknown.png`,
+          photo: `/assets/faq/faq_5.png`,
           answer: `For Skytils: enter the <code>/st</code> command, then search for the term "item rarity".<br>
             FurfSky Reborn uses the "custom" rarity shape in Skytils, so switch to whatever other options you'd like.<br>
             For SBC and SBE: Please unzip your copy of FurfSky Reborn if you haven't done so already.<br>
             Then navigate to the respective directory for the mod whose rarity shapes you want to delete.
             Delete them as necessary.`,
-          related: `<a href="https://github.com/Skytils/SkytilsMod/releases">Skytils</a> | <a href="https://www.curseforge.com/minecraft/mc-mods/skyblockcatia/files">SBC</a> | <a href="https://sbewebsite.appspot.com/">SBE</a>`,
+          related: `<a href="https://github.com/Skytils/SkytilsMod/releases">Skytils</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.curseforge.com/minecraft/mc-mods/skyblockcatia/files">SBC</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://sbewebsite.appspot.com/">SBE</a>`,
         },
         {
           question: `<i>[SkyblockPersonalized (SBP)]</i> - Why is my font color in <code>/sbp</code>... weird?`,
-          photo: `  https://cdn.discordapp.com/attachments/785025965226459176/821112316664741888/Screen_Shot_2021-03-15_at_3.png`,
+          photo: `/assets/faq/faq_6.png`,
           answer: `Please update your copy of SBP, as the mod no longer uses themes.`,
           related: `<a href="https://discord.com/channels/779549891890118683/779550146861203477">SBP's #releases channel</a>`,
         },
@@ -2125,16 +2125,16 @@ const data = {
         },
         {
           question: `<i>[NotEnoughUpdates (NEU)]</i> - Why is the text incredibly dark in NEU's custom Skyblock menus?`,
-          photo: `  https://cdn.discordapp.com/attachments/785025965226459176/821121294501543986/Screen_Shot_2021-03-15_at_4.png`,
+          photo: `/assets/faq/faq_7.png`,
           answer: `Please type <code>/neu improved</code> in chat and change the background and button styles exactly as shown above.<br>
             If the text isn't gold after you make this change, please ping Erymanthus for more help.`,
           related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
         },
         {
           question: `<i>[SkyblockAddons (SBA)]</i> - How do I turn on the pack's custom defense icon for SBA?`,
-          photo: `https://cdn.discordapp.com/attachments/785025965226459176/821122320839606323/Screen_Shot_2021-03-03_at_1.png`,
+          photo: `/assets/faq/faq_8.png`,
           answer: `Type <code>/sba</code> in chat and then type in "van" or "defen" into the search bar.
-            click the little ⚙️ of the first setting that shows up, which leads to the menu seen above.
+            click the little gear (⚙️) of the first setting that shows up, which leads to the menu seen above.
             Make sure the switch is <u>exactly</u> as follows.
             <i><u>Flip that switch on first before you start overthinking these steps.<br>Please. Save both yourself and us some time.</u></i>`,
           related: `<a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.6.0/SkyblockAddons-1.6.0-for-MC-1.8.9.jar">SBA direct download (v1.6)</a>`,
@@ -2160,7 +2160,7 @@ const data = {
           (in <code>chime.ogg</code>'s case, which was Windows 7's shutdown sound effect verbatim).
           Whether or not SBE's <code>.ogg</code> files change after v2.0.0 (which, evidently, has not happened yet), and
           whether you choose to restore SBE's original sound effects is a choice you make at your own risk.`,
-          related: `<a href="https://soundbible.com/2182-Ice-Cubes-Glass.html"><code>warning.ogg</code> source</a> | <a href="https://creativecommons.org/licenses/by/3.0/">Human-readable Creative Commons 3.0 (CC 3.0) license</a> | <a href="https://creativecommons.org/licenses/by/3.0/legalcode">Legal mumbo jumbo version of CC 3.0</a><br><a href="https://www.microsoft.com/en-us/legal/copyright/permissions">Microsoft's copyright policy</a> | <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks">Microsoft's Trademark and Brand Guidelines</a>`,
+          related: `<a href="https://soundbible.com/2182-Ice-Cubes-Glass.html"><code>warning.ogg</code> source</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://creativecommons.org/licenses/by/3.0/">Human-readable Creative Commons 3.0 (CC 3.0) license</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://creativecommons.org/licenses/by/3.0/legalcode">Legal mumbo jumbo version of CC 3.0</a><br><a href="https://www.microsoft.com/en-us/legal/copyright/permissions">Microsoft's copyright policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks">Microsoft's Trademark and Brand Guidelines</a>`,
         },
       ],
     },
