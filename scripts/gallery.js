@@ -6,7 +6,7 @@ const tabs = {
   talismans: '/assets/gallery/talismans/talismans.png',
   reforges: '/assets/gallery/reforges/reforges.png',
   misc: '/assets/gallery/misc/misc.png',
-  changelog: '/assets/gallery/changelogs/1.3.2/1.3.2.gif',
+  // changelog: '/assets/gallery/changelogs/1.3.2/1.3.2.gif',
 };
 
 const switchTab = (tabName) => {
