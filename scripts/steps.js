@@ -37,6 +37,9 @@ function updateBar(index) {
     document
       .getElementById(`theActualBar`)
       .setAttribute(`value`, (index / 8) * 100);
+    for (let j = index; j > 0; j--) {
+      document.getElementById(`checkbox${j}`).checked = true;
+    }
     for (let j = 1; j < 9; j++) {
       if (document.getElementById(`checkbox${j}`).checked === true) {
         document
@@ -46,6 +49,10 @@ function updateBar(index) {
     }
   } else if (index < 9) {
     document.getElementById(`theActualBar`).setAttribute(`value`, 0);
+    for (let j = index + 1; j < 9; j++) {
+      document.getElementById(`checkbox${j}`).checked = false;
+      console.log(j);
+    }
     for (let j = 1; j < 9; j++) {
       if (document.getElementById(`checkbox${j}`).checked === true) {
         document
