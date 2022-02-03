@@ -30,14 +30,29 @@
 })();
 
 function updateBar(index) {
-  document.getElementById(`checkbox${index}`).setAttribute(`disabled`, true);
-  document.getElementById(`checkbox${index}`).setAttribute(`checked`, true);
-  document
-    .getElementById(`theActualBar`)
-    .setAttribute(`value`, (index / 8) * 100);
-  for (let j = index; j === 1; j--) {
-    document.getElementById(`checkbox${j}`).setAttribute(`disabled`, true);
-    document.getElementById(`checkbox${j}`).setAttribute(`checked`, true);
+  if (
+    document.getElementById(`checkbox${index}`).checked === true &&
+    index < 9
+  ) {
+    document
+      .getElementById(`theActualBar`)
+      .setAttribute(`value`, (index / 8) * 100);
+    for (let j = 1; j < 9; j++) {
+      if (document.getElementById(`checkbox${j}`).checked === true) {
+        document
+          .getElementById(`theActualBar`)
+          .setAttribute(`value`, (j / 8) * 100);
+      }
+    }
+  } else if (index < 9) {
+    document.getElementById(`theActualBar`).setAttribute(`value`, 0);
+    for (let j = 1; j < 9; j++) {
+      if (document.getElementById(`checkbox${j}`).checked === true) {
+        document
+          .getElementById(`theActualBar`)
+          .setAttribute(`value`, (j / 8) * 100);
+      }
+    }
   }
 }
 
