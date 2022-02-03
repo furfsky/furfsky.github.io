@@ -1,7 +1,12 @@
+html {
+  background-color: #1c1d31;
+}
+
 h1 {
   padding: 1.25em 0;
   margin: 0;
 }
+
 header {
   background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(28, 29, 49, 1) 90%),
     url(/assets/banner.png) no-repeat;
@@ -10,6 +15,7 @@ header {
   width: 100%;
   text-align: center;
 }
+
 #logo {
   position: absolute;
   width: 25em;
@@ -19,31 +25,38 @@ header {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
+
 #steps {
   background: #1c1d31;
   color: #fbcc6c;
-  font-family: "Minecraft";
+  font-family: 'Minecraft';
   text-align: center;
 }
+
 #steps > h1 {
   display: inline-block;
   vertical-align: center;
 }
+
 input {
   width: 2.5em;
   height: 25px;
 }
+
 .indivStep {
   font-size: 25px;
   color: #a48aba;
 }
+
 a {
   font-size: 25px;
   color: #fbcc6c;
 }
+
 .indivStep span {
   display: none;
 }
+
 .indivStep:hover span {
   display: block;
   position: fixed;
@@ -53,6 +66,7 @@ a {
   background-color: #1c1d31e0;
   font-size: 20px;
 }
+
 #progressBar {
   justify-content: center;
   align-items: flex-end;
@@ -60,17 +74,21 @@ a {
   display: flex;
   background: #1c1d31;
 }
+
 #progressBar > progress {
   width: 50%;
   border-radius: 0%;
   background: #683d8d;
 }
+
 progress::-webkit-progress-bar {
   background: #683d8d;
 }
+
 progress::-webkit-progress-value {
   background: #fbcc6c;
 }
+
 progress::-moz-progress-bar {
   background: #fbcc6c;
 }

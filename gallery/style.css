@@ -1,3 +1,7 @@
+html {
+  background-color: #1c1d31;
+}
+
 header {
   background: linear-gradient(#00000000 0%, #1c1d31 90%),
     url(/assets/banner.png) no-repeat;
@@ -6,15 +10,18 @@ header {
   width: 100%;
   text-align: center;
 }
+
 section {
   background: #1c1d31;
 }
+
 #tabby {
   background: #1c1d31;
   align-items: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 20px;
   width: 75em;
   /* Yeah this makes it not pixelated */
   image-rendering: -moz-crisp-edges;
@@ -33,15 +40,17 @@ section {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
+
 header > #headerSubtitle {
   position: absolute;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Minecraft";
+  font-family: 'Minecraft';
   margin: 0;
   color: #fbcc6c;
 }
+
 area {
   cursor: pointer;
 }

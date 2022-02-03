@@ -1,14 +1,14 @@
 const tabs = {
-  armor: "/assets/gallery/armor/armor.png",
-  swords: "/assets/gallery/swords/swords.png",
-  bows: "/assets/gallery/bows/bows.png",
-  tools: "/assets/gallery/tools/tools.png",
-  talismans: "/assets/gallery/talismans/talismans.png",
-  reforges: "/assets/gallery/reforges/reforges.png",
-  misc: "/assets/gallery/misc/misc.png",
+  swords: '/assets/gallery/swords.png',
+  armor: '/assets/gallery/armor.png',
+  bows: '/assets/gallery/bows.gif',
+  tools: '/assets/gallery/tools.png',
+  talismans: '/assets/gallery/talismans.png',
+  reforges: '/assets/gallery/reforges.png',
+  misc: '/assets/gallery/misc.png',
 };
 
 const switchTab = (tabName) => {
-  const tabby = document.getElementById("tabby");
+  const tabby = document.getElementById('tabby');
   tabby.src = tabs[tabName];
 };

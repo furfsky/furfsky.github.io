@@ -1,21 +1,27 @@
-import { credits, packSubmissions, creditsRoles, testersAssociation, problematicFolks } from './credits.config.js';
+import {
+  credits,
+  packSubmissions,
+  creditsRoles,
+  testersAssociation,
+  problematicFolks,
+} from './credits.config.js';
 
 (() => {
-  let container = document.getElementById("credits");
+  let container = document.getElementById('credits');
   credits.forEach((credit) => {
-    let wrapper = document.createElement("div");
+    let wrapper = document.createElement('div');
     wrapper.innerHTML = `
-  <a ${credit.link ? `href="${credit.link}"` : ""} 
+  <a ${credit.link ? `href="${credit.link}"` : ''} 
   class="credit"
   ${
-      creditsRoles[credit.role]
+    creditsRoles[credit.role]
       ? `style="color:${creditsRoles[credit.role]}"`
-      : ""
+      : ''
   }
   target="_blank"
   >
     <br>
-    <h3 style="text-decoration: ${credit.link ? "underline" : "none"};">${
+    <h3 style="text-decoration: ${credit.link ? 'underline' : 'none'};">${
       credit.name
     }</h3>
     ${credit.role}
@@ -28,8 +34,8 @@ import { credits, packSubmissions, creditsRoles, testersAssociation, problematic
   });
 })();
 (() => {
-  let conTwoner = document.getElementById("noQuoteCredits");
-  let otherWrap = document.createElement("div");
+  let conTwoner = document.getElementById('noQuoteCredits');
+  let otherWrap = document.createElement('div');
   /***
   
   now that we have a #pack-submissions channel, we're going to reserve this part
@@ -51,7 +57,7 @@ import { credits, packSubmissions, creditsRoles, testersAssociation, problematic
   // });
   // packSubmissionsStr = packSubmissionsStr.slice(0, -2); //removes that trailing comma
   // otherWrap.innerHTML += packSubmissionsStr + `<span style="color:#fbcc6c"> for helping out by making textures during their free time.<br>`;
-  
+
   otherWrap.innerHTML += `<span style="color:#fbcc6c">Special thanks to </span>`;
   let testersAssocStr = `<span style="color:#ff5098">`;
   testersAssociation.forEach((quotelessPerson) => {

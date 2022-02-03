@@ -1,3 +1,7 @@
+html {
+  background-color: #1c1d31;
+}
+
 header {
   background: linear-gradient(#00000000 0%, #1c1d31 90%),
     url(/assets/banner.png) no-repeat;
@@ -16,26 +20,30 @@ header {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
+
 #headerSubtitle {
   display: block;
-  font-family: "Minecraft";
+  font-family: 'Minecraft';
   padding: 0.5em;
   color: #fbcc6c;
-  background:#1c1d31;
+  background: #1c1d31;
   text-align: center;
 }
 
 #headerSubtitle > h3 {
   color: #d48af1;
 }
+
 #downloadContainer {
   background: #1c1d31;
   color: white;
-  font-family: "Minecraft";
+  font-family: 'Minecraft';
 }
+
 .downloadButtons {
   text-align: center;
 }
+
 .downloadButtonLink {
   transition: all 200ms ease-out;
   font-size: 25px;
@@ -49,16 +57,19 @@ header {
   border: 5px solid #c0713f;
   /* border: 5px solid #662e96; */
 }
+
 .downloadButtonLink:hover {
   transform: scale(1.25);
   color: #d48af1;
   background: #444a71;
   border: 5px solid #683d8d;
 }
+
 .downloadButtonLink > a {
   color: inherit;
   text-decoration: none;
 }
+
 .downloadText {
   text-align: center;
   margin: 0;
