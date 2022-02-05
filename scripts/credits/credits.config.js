@@ -120,14 +120,6 @@ export const credits = [
     role: 'Artist',
     quote: 'i will murder every axolotl in a 100 km radius',
   },
-  //daed here
-  {
-    name: "<span style='color:#3acccc;'>Erymanthus</span>",
-    link: 'https://www.reddit.com/user/RayDeeUx/',
-    role: 'Artist & Website Dpt.',
-    quote:
-      "hey, you could pour soup in my lap<br>and i'll probably apologize to you!",
-  },
   {
     name: 'Smolegit',
     link: 'https://twitter.com/smolegit1',
@@ -176,6 +168,12 @@ export const credits = [
     name: 'GqmeKnight',
     role: 'Artist',
     quote: 'we should broadcast my battle with the axe wielder tommorow at 5pm',
+  },
+  {
+    name: 'Erymanthus',
+    role: 'Retired Artist & Website Dpt.',
+    quote:
+      "hey, you could pour soup in my lap<br>and i'll probably apologize to you!",
   },
   {
     name: "<span style='color:#ffffff;'>Fox</span><span style='color:#ff6000;'>Script</span>",
@@ -412,7 +410,7 @@ export const credits = [
   ***/
 
 export const packSubmissions = [
-  `zburger`,
+  `one`,
   `two`,
   `<span style="color:#fbcc6c">and</span> three`,
 ];
@@ -422,13 +420,14 @@ export const creditsRoles = {
   'Head Artist': `#d776ff`,
   'Original FurfSky+ Creator (+ current artist)': `#c041ff`,
   Artist: `#b19cd9`,
-  'Trial Artist': `#6a5d82`,
   'Retired Artist': `#8d7cad`,
+  'Trial Artist': `#6a5d82`,
   Admin: `#4b8b3b`,
   'Artist & Website Dpt.': `#26b1f3`,
+  'Retired Artist & Website Dpt.': `#3882e4`,
   Moderator: `#17d44a`,
-  Helper: `#3498db`,
   'Retired Moderator': `#0d7f2c`,
+  Helper: `#3498db`,
   'Event Helper': `#554dca`,
   'Website Developer': `#ffff00`,
   'Pack Contributor': `#00b0b0`,
