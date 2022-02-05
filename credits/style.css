@@ -63,3 +63,7 @@ header > #headerSubtitle {
   text-align: center;
   margin: 20px;
 }
+
+a {
+  color: #fbcc6c;
+}
