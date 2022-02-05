@@ -221,7 +221,7 @@ const data = {
   //       `do not do /stuck<br>worst mistake of my life`,
   //       `"[iphone] was boring"<br>-Infinity`,
   //       `thanks to all the whitespace voxal added to the quotes database, it grew by 400+ lines and is now 10x harder to navigate on github mobile<br>-Erymanthus`,
-  //       `White trash kingdom with an ocean view<br><br><small>(This is presumably a song lyric, ping Erymanthus if this should be removed)</small>`,
+  //       `White trash kingdom with an ocean view<br><br><small>(This is presumably a song lyric)</small>`,
   //       `When given the choice between committing a crime or going to WalMart, I chose to commit a crime.<br>-Daedalus`,
   //       `the burning child had sunglasses.`,
   //       `daedalus dropkicks people while flying through the air at 70kmph`,
@@ -461,8 +461,7 @@ const data = {
   //       `My grandfather picks up quartz and valuable onyx jewels. Send 60 dozen quart jars and 12 black pans.`,
   //       `<span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#pack-faq</span>`,
   //       `<span tabindex='-1' role='button' style='border-radius: 3px;padding: 0 2px;font-weight: 500;color: #7289da;background: rgba(114,137,218,.1);position: relative;'>#questions-and-support</span>`,
-  //       `You can't edit this text!`,
-  //       `<span style="color: #67DADD;">erymanthus</span>`,
+  //       `You can't edit this text!`,,
   //       `1 in 7.5 Trillion!`,
   //       `The creator of neu is an asshole and put a rickroll [in neu's storage menu].<br>instead, enjoy this gif of a cat.<br>-moulberry`,
   //       `Just Enough Textures`,
@@ -1641,8 +1640,7 @@ const data = {
         {
           question: `<i>[NotEnoughUpdates (NEU)]</i> - Why is the text incredibly dark in NEU's custom Skyblock menus?`,
           photo: `/assets/faq/faq_7.png`,
-          answer: `Please type <code>/neu improved</code> in chat and change the background and button styles exactly as shown above.<br>
-            If the text isn't gold after you make this change, please ping Erymanthus for more help.`,
+          answer: `Please type <code>/neu improved</code> in chat and change the background and button styles exactly as shown above.`,
           related: `<a href="https://discord.com/channels/516977525906341928/693586404256645231">Get NEU's latest version here.</a>`,
         },
         {
