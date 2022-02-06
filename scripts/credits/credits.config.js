@@ -210,11 +210,6 @@ export const credits = [
     quote: 'reeee',
   },
   {
-    name: 'NameWasntTaken',
-    role: 'Moderator',
-    quote: 'help why is it so dark',
-  },
-  {
     name: 'sirLunar',
     role: 'Moderator',
     quote: 'I eat my cereal with tears instead of milk',
@@ -228,6 +223,11 @@ export const credits = [
     name: 'InfinityRing',
     role: 'Retired Moderator',
     quote: 'Trash at Bedwars.',
+  },
+  {
+    name: 'NameWasntTaken',
+    role: 'Retired Moderator',
+    quote: 'help why is it so dark',
   },
   {
     name: 'Nan',
