@@ -6,6 +6,13 @@ import {
   problematicFolks,
 } from './credits.config.js';
 
+function twemojiUpdate() {
+  twemoji.parse(document.body, {
+    folder: 'svg',
+    ext: '.svg',
+  });
+}
+
 (() => {
   let container = document.getElementById('credits');
   credits.forEach((credit) => {
@@ -74,4 +81,5 @@ import {
   problematicFolksStr += `</span><span style="color:#fbcc6c"> for their previous work on the pack and/or the FurfSky Reborn Discord server.</span>`;
   otherWrap.innerHTML += problematicFolksStr;
   conTwoner.appendChild(otherWrap);
+  twemojiUpdate();
 })();
