@@ -361,7 +361,7 @@ export const creditsRoles = {
   'Head Artist': `#d776ff`,
   'Original FurfSky+ Creator (+ current artist)': `#c041ff`,
   Artist: `#b19cd9`,
-  'Retired Artist': `#8d7cad`,
+  'Retired Artist': `#bbabdb`,
   'Trial Artist': `#6a5d82`,
   Admin: `#4b8b3b`,
   'Artist & Website Dpt.': `#26b1f3`,
