@@ -31,7 +31,7 @@ export const credits = [
     quote: 'you want me to have a dinky little 5x5 image for a legendary item?',
   },
   {
-    name: 'iDevil4Hell/Thanatos',
+    name: 'Thanatos',
     link: 'https://twitter.com/xThanatos6',
     role: 'Artist',
     quote: 'Try not to cringe! [FSR Edition] (Gone wrong, absolutely failed)',
