@@ -1,12 +1,8 @@
-# furfsky.github.io (undergoing framework changes)
+# furfsky.github.io (archived)
 
 Where everything in <http://furfsky.net> (for its HTML/CSS/JS framework, at least) takes place.
 
-_The repository is currently undergoing a change in frameworks from HTML/CSS/JS to Next.js. Please refrain from making contributions of any kind to this repo at this time—whether it be a quote submission or a new JavaScript function. We appreciate your understanding and cooperation._
-
-_Sections of this `README.md` file have been marked as outdated as per the framework transition._
-
-_To learn more about the future furfsky.net framework, see this repo: https://github.com/furfsky/next_
+_This website is now outdated. The new version is at https://github.com/furfsky/next_
 
 ## Explaining the repo (OUTDATED)
 
